@@ -1,0 +1,19 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>通告</title>
+</head>
+<body>
+	<volist name = "data" id = "vo">
+		<p><{$vo.title}></p><br /><br />
+		<p><{$vo.content}></p><br /> <br />
+		<hr>
+	</volist>
+    <form action="__URL__/do_show" method="post" name="myForm">
+        通告名称：<input type="text" name="title" value="" /><br /><br />
+        __APP__<br /><br />
+        __URL__<br /><br />
+        通告内容：<textarea name="content"></textarea><br /><br />
+        <input type="submit" name="submit" value="提交" />
+    </form>
+</body>
+</html>
