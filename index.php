@@ -1,16 +1,14 @@
 <?php
-	//1、定义应用名称：Home
-<<<<<<< HEAD
+	//1闅嗗瀯闇茬瘬鑴皳鑴▌鑴剻鑴欐病椴佽劃鎷㈡綖Home
+
 	define('APP_NAME', 'Application');
-	//2、定义应用路径
+	//2闅嗗瀯闇茬瘬鑴皳鑴▌鑴剻鑴楄矾鎴湶
 	define('APP_PATH', './Application/');
-=======
-	define('APP_NAME', 'Home');
-	//2、定义应用路径
-	define('APP_PATH', './Home/');
->>>>>>> 10670ab0be54d41e6df1e14dd1f81c5a3b004c42
-	//3、开启DEBUG调试模式
+
+	
+
+	//3闅嗗瀯椹撮檵鑴濅箞DEBUG纰屾鑴㈣劖鑴涙嫝鑴㈤檰
 	define('APP_DEBUG',true);
-	//4、应用核心文件
+	//4闅嗗瀯鑴▌鑴剻娼炶劊鑴ㄨ剾鑴﹁剾褰曢晛
 	require "./ThinkPHP/ThinkPHP.php";
 ?>

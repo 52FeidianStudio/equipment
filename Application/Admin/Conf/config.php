@@ -1,17 +1,19 @@
 <?php
 return array(
-	//修改左定界符
+	//脨脼赂脛脳贸露篓陆莽路没
 	'TMPL_L_DELIM' => '<{',
-	//修改右定界符
+	//脨脼赂脛脫脪露篓陆莽路没
 	'TMPL_R_DELIM' => '}>',
-	'DB_TYPE' => 'mysql',//设置数据库类型
-	'DB_HOST' => 'localhost',//设置主机名
-	'DB_NAME' => 'zky',//设置数据库名
-	'DB_USER' => 'root',//设置用户名
-	'DB_PWD' => '',//设置密码
-	'DB_PORT' =>'3306', //设置端口号
-	'DB_PREFIX' => 'tp_',//设置表前缀*/
-	//'DB_DSN' => 'mysql://root:@localhost:3306/zky',//如果两种方式同时存在，则以DSN为优先
+	'DB_TYPE' => 'mysql',//脡猫脰脙脢媒戮脻驴芒脌脿脨脥
+	'DB_HOST' => 'localhost',//脡猫脰脙脰梅禄煤脙没
+	'DB_NAME' => 'zky',//脡猫脰脙脢媒戮脻驴芒脙没
+	'DB_USER' => 'root',//脡猫脰脙脫脙禄搂脙没
+	'DB_PWD' => '',//脡猫脰脙脙脺脗毛
+	'DB_PORT' =>'3306', //脡猫脰脙露脣驴脷潞脜
+	'DB_PREFIX' => 'tp_',//脡猫脰脙卤铆脟掳脳潞*/
+	//'DB_DSN' => 'mysql://root:@localhost:3306/zky',//脠莽鹿没脕陆脰脰路陆脢陆脥卢脢卤麓忙脭脷拢卢脭貌脪脭DSN脦陋脫脜脧脠
 	'SHOW_PAGE_TRACE' => true,
+	'TMPL_PARSE_STRING'  => array(
+     '__PUBLIC__' => __ROOT__.'/Uploads',),
 );
 ?>
