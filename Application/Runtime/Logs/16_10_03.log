@@ -1,0 +1,6 @@
+[ 2016-10-03T12:57:26+08:00 ] ::1 /zky/admin.php/Admin/Equipment/update/id/%3C%7Bvo.id%7D%3E
+ERR: 非法操作:update
+
+[ 2016-10-03T13:21:22+08:00 ] ::1 /zky/admin.php/Admin/Equipment/do_update
+ERR: 非法操作:do_update
+

@@ -1,9 +1,9 @@
 <?php
 	namespace Home\Controller;
 	use Think\Controller;
-	class FileController extends Controller{
+	class EquipmentController extends Controller{
 		public function index(){
-			$n = M('File');
+			$n = M('Equipment');
 			$arr = $n -> select();
 			$this -> assign('data',$arr);
 			$this -> display();

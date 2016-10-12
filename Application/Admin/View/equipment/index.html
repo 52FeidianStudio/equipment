@@ -8,5 +8,27 @@
 	<!-- 实验仪器模块
 	功能：展示所有的实验仪器和添加实验仪器，以及对实验仪器参数的修改，删除
 	 -->
+
+	<!-- 方案一：一次更改所有的记录 -->
+	
+	<volist name = "data" id = "vo">
+		仪器编号：<{$vo.id}> <br><br>
+		仪器中文名称：<{$vo.ecname}><br><br>
+		仪器英文名称：<{$vo.eename}><br><br>
+		仪器型号：<{$vo.etype}><br><br>
+		仪器生产厂家中文名称：<{$vo.ecmanufactor}><br><br>
+		仪器生产厂家英文名称：<{$vo.eemanufactor}><br><br>
+		仪器出厂年月：<{$vo.eoutdate}><br><br>
+		仪器出厂编号：<{$vo.eoutid}><br><br>
+		仪器购买时间：<{$vo.ebuydate}><br><br>
+		仪器价格：<{$vo.eprice}><br><br>
+		仪器放置地点：<{$vo.elocation}><br><br>
+		<a href="__URL__/update/id/<{$vo.id}>">修改</a>
+		<a href="__URL__/delete/id/<{$vo.id}>">删除</a>
+		<hr>
+	</volist>
+	
+	<!-- 方案二：每条记录后米都加上修改的操作 -->
+
 </body>
 </html>

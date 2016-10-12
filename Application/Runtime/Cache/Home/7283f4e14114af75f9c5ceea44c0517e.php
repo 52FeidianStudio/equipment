@@ -5,15 +5,12 @@
 	<title>文件</title>
 </head>
 <body>
-	<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p><?php echo ($vo["filename"]); ?></p><br /><br />
-		<p><{$vo.address>}</p><br /><br />
-		<p><{$vo.filedate>}</p><br /><br /><?php endforeach; endif; else: echo "" ;endif; ?>
-	<form action="/zky/index.php/Home/File/do_show" enctype="multipart/form-data" method="post" >
-		<p>上传文件</p>
-		/zky/index.php/Home/File<br /><br />
-		/zky/index.php
-		<input type="file" name = "file">
-		<input type="submit" value = "提交">
-	</form>
+	
+	<!-- 普通用户（学生文件模块），直接copy  admin里面的，
+	功能是：展示所有的通知
+	还没改 -->
+
+
+	<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><a href="/zky/Public<?php echo ($vo["address"]); ?>"><p><?php echo ($vo["realname"]); ?>　　<?php echo ($vo["date"]); ?></p></a><?php endforeach; endif; else: echo "" ;endif; ?>
 </body>
 </html>

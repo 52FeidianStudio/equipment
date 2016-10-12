@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>查看消息详情</title>
+</head>
+<body>
+	<h2>问题梗概：<{$data2}>　已经有<{$data3}>人关注<a href="__URL__\add\id\<{$data4}>">回复</a></h2>
+	<volist name = "data" id = "vo">
+		<p><{$vo.userid}>回复：<{$vo.content}>　　　　回复时间：<{$vo.date}></p>
+	<hr>
+	</volist>
+	<{$show}>
+</body>
+</html>
