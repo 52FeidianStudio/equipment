@@ -1,5 +1,5 @@
 <?php
-	namespace Home\Controller;
+	namespace Admin\Controller;
 	use Think\Controller;
 	class InformController extends Controller{
 		public function index(){

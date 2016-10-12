@@ -1,5 +1,5 @@
 <?php
-	namespace Home\Controller;
+	namespace Admin\Controller;
 	use Think\Controller;
 	class FileController extends Controller{
 		public function index(){

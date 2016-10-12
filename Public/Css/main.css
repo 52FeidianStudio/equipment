@@ -1,0 +1,45 @@
+			#left{
+				border: 1px solid #CEE1FD;
+				float: left;
+				width: 30%;
+			}
+			.left_a:link{
+				display: block;
+				width: 100%;
+				height: 60px;
+				text-decoration: none;
+				color: black;
+			}
+			.left_a:hover{
+				display: block;
+				width: 100%;
+				height: 60px;
+				text-decoration: none;
+				color: orange;
+				background: 
+			}
+			#book{
+			}
+			#book h1{
+				font-family:"Times New Roman",Georgia,Sans-serif;
+				color: #DB8400;
+			}
+			#relational_a{
+			}
+			#relational_a h2{
+				font-family: "Times New Roman",Georgia,Sans-serif;
+				color: #DB8400;
+			}
+			#right{
+			 	width: 65%;
+				float: left;
+			 	margin-left:10px; 
+			}
+			#js{
+				width:60%;
+				height:250px;
+				float:left;
+			}
+			#r_message{
+				clear:both;
+			}

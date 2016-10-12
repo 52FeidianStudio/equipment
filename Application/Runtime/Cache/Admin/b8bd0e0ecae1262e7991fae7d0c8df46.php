@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html>
 	<head>
 		<title>后台管理</title>
@@ -15,9 +15,7 @@
 
  	<div><!-- 后台的数据 -->
  		<p>Hello world!</p>
- 	<volist name = "data" id = "vo">
- 		<p></p>
- 	</volist>
+ 	<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p></p><?php endforeach; endif; else: echo "" ;endif; ?>
  	</div>
  </body>
- </html> 
+ </html>
