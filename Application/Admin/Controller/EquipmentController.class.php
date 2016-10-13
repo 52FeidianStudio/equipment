@@ -17,6 +17,7 @@
 			$upload-> exts = array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
 			$upload -> rootPath = './uploads/';//设置上传根目录
 			$upload -> savePath = './Equipment/'; //设置文件上传子目录
+			$upload->saveName = 'time';
 			$info = $upload -> upload();
 			if(!$info){
 				//上传错误提示信息
