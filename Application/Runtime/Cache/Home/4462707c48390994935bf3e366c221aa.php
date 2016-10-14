@@ -11,34 +11,7 @@
 		<link rel="stylesheet" href="./zhihu-css.css" />
 		<link rel="stylesheet" type='text/css' href="/equipment/Public/Css/main.css" />
 		<link rel="stylesheet" href="/equipment/Public/Css/public.css" />
-		<script language =javascript >
- 			var curIndex=0;
- 			//时间间隔 单位毫秒
- 			var timeInterval=1000;
- 			var arr=new Array();
- 			arr[0]="/equipment/Public/Pic/top.jpg";
- 			arr[1]="/equipment/Public/Pic/lab.jpg";
- 			arr[2]="/equipment/Public/Pic/Login.png";
-			arr[3]="/equipment/Public/Pic/phone.jpg";
- 			arr[4]="/equipment/Public/Pic/aite.jpg";
-			arr[5]="/equipment/Public/Pic/top.jpg";
-			arr[6]="/equipment/Public/Pic/top.jpg";
- 			setInterval(changeImg,timeInterval);
- 			function changeImg()
-			{
-   				var obj=document.getElementById("obj");
- 				if (curIndex==arr.length-1) 
-    			{
-        			curIndex=0;
-   				}
-    			else
-    			{
-        			curIndex+=1;
-    			}
-    			obj.src=arr[curIndex];
-			}
-		</script>
-
+		<script src="/equipment/Public/Js/public.js"></script>
 	</head>
 	<body>
 		<div id='navi'>
@@ -51,9 +24,7 @@
 				<a href="#" class="navi_a">讨论区</a>
 				<a href="#" class="navi_a">关于我们</a>
 				<b>	　　　　　　　　　　　　　　　</b>
-				<b style='line-height:60px;'>欢迎</b>
-				<span style='line-height:60px;'>ctc {$v.username}</span>
-				<a href="#@" style=''>退出</a>
+				<span id='na_log' >欢迎<?php echo ($SESSION[username]); ?></span>
 			</div>
 		</div>
 		<div id='header'>

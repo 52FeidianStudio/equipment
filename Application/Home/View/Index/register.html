@@ -44,7 +44,7 @@
 	<!--HEADER-->
     				<div class="header">
     <!--TITLE--> 		<h1>登录</h1><!--END TITLE-->
-    <!--DESCRIPTION--> 	<span>登录请填写用户名和密码 </span><!--END DESCRIPTION-->
+    <!--DESCRIPTION--> 	<span>登录请填写用户名、密码和确认密码 </span><!--END DESCRIPTION-->
     				</div>
     <!--END HEADER-->
 	

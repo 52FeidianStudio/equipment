@@ -20,6 +20,9 @@
 				height: 60px;
 				opacity:0.4;
 			}
+			#na_log{
+				line-height: 60px;
+			}
 			 .navi_a:link{
 				text-decoration: none;
 				display: block;

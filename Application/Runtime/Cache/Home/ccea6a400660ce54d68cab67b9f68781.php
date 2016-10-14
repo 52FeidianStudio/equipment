@@ -12,7 +12,6 @@
 		<link rel="stylesheet" type="text/css" href="/equipment/Public/Css/login.css" />
 		<link rel="stylesheet" href="/equipment/Public/Css/public.css" />
 		<script>
-			$
 		</script>
 	</head>
 	<body>

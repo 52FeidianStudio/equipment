@@ -10,6 +10,9 @@
 				text-decoration: none;
 				color: black;
 			}
+			#na_log{
+				line-height: 60px;
+			}
 			.left_a:hover{
 				display: block;
 				width: 100%;
