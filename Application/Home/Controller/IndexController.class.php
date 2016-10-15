@@ -3,11 +3,14 @@
 namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
-    public function index(){
+    public function main(){
     	$n = M('User');
     	$n -> add();
     	$arr = $n->select();
     	$this -> assign('data',$arr);
 		$this->display();
+    }
+    public function about_us(){
+    	$this -> display();
     }
 }

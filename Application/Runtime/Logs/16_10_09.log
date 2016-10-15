@@ -1,9 +1,0 @@
-[ 2016-10-09T15:27:19+08:00 ] ::1 /zky/index.php/Home/Message/index.html
-ERR: 模板不存在:./Application/Home/View/Message/index.html
-
-[ 2016-10-09T16:18:04+08:00 ] ::1 /zky/index.php/Home/Message/do_see/id/1
-ERR: Think\Model:getFeild方法不存在！
-
-[ 2016-10-09T17:29:45+08:00 ] ::1 /zky/index.php/Home/Message/add
-ERR: 非法操作:add
-

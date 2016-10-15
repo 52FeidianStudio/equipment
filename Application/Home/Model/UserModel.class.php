@@ -1,4 +1,6 @@
 <?php 
+	namespace Home\Model;
+	use Think\Model;
 	class UserModel extends Model{
 		//进行自动验证的功能
 		protected $_validate = array(

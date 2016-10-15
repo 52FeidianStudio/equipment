@@ -18,7 +18,7 @@
 	<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><a href="" name = "mya" onclick = "hahaha()"><p><?php echo ($vo["title"]); ?></a>　　<?php echo ($vo["date"]); ?></p>
         <!-- 点击它发生一个事件，窗口弹出显示通知 -->
 		<hr><?php endforeach; endif; else: echo "" ;endif; ?>
-    <form action="/zky/admin.php/Admin/Inform/do_show" method="post" name="myForm">
+    <form action="/zky/index.php/Admin/Inform/do_show" method="post" name="myForm">
         通告名称：<input type="text" name="title" value="" /><br /><br />
         通告内容：<textarea name="content"></textarea><br /><br />
         <input type="submit" name="submit" value="提交" />

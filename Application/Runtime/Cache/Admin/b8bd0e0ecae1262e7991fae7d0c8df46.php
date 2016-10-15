@@ -8,8 +8,8 @@
 		<meta name="Copyright" content="网站版权" /> 
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
-		<link rel="stylesheet" type='text/css' href="/equipment/Uploads/Css/admin.css" />
-		<script type="text/javascript" src="/equipment/Uploads/Js/jquery1.js"></script>
+		<link rel="stylesheet" type='text/css' href="/zky/Uploads/Css/admin.css" />
+		<script type="text/javascript" src="/zky/Uploads/Js/jquery1.js"></script>
 		<script type="text/javascript">
 	$(document).ready(
 			function() {
