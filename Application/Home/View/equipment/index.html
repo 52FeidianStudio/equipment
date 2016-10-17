@@ -9,6 +9,7 @@
 	功能：展示所有的实验仪器和添加实验仪器，以及对实验仪器参数的修改，删除
 	 -->
 	<volist name = "data" id = "vo">
+		<a href="__PUBLIC__<{$vo.imagicaddress}>" target = "_blank"><img src="__PUBLIC__<{$vo.imagicaddress}>" class = "pic"/> <br><br></a>
 		仪器编号：<{$vo.id}> <br><br>
 		仪器中文名称：<{$vo.ename}><br><br>
 		仪器英文名称：<{$vo.eename}><br><br>

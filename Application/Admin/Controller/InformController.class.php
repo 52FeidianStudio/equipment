@@ -13,7 +13,7 @@
 			//如果用户是教师
 			$n = M('Information');
 			$n -> Create();  //创建数据对象
-			$n -> date = date("Y-m-d h:i:s");
+			$n -> date = date("Y-m-d");
 			$n -> userid = 1;
 			$result  = $n -> add(); //写入数据库，并且返回result的值进行判断
 			$this -> redirect('Inform/index','','0','页面跳转中'); // 进行重定向操作，返回到主页
