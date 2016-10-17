@@ -42,7 +42,7 @@
 			</div>
 			<div class="div3">
 				<li><a class="a" href="javascript:void(0);"
-					onClick="openurl('videoQuery.html');">首页链接</a></li>
+					onClick="openurl('/equipment/index.php/Admin/Index/index_link.html');">首页链接</a></li>
 			</div>
 			<div class="div2">
 				<div class="spgl"></div>
@@ -51,7 +51,7 @@
 			<div class="div3">
 				<ul>
 					<li><a class="a" href="javascript:void(0);"
-						onClick="openurl('documentQuery.html');">所有新闻</a></li>
+						onClick="openurl('/equipment/index.php/Admin/Index/news.html');">所有新闻</a></li>
 				</ul>
 			</div>
 			<div class="div2">
@@ -61,7 +61,7 @@
 			<div class="div3">
 				<ul>
 					<li><a class="a" href="javascript:void(0);"
-						onClick="openurl('classQuery.html');">仪器信息</a></li>
+						onClick="openurl('/equipment/index.php/Admin/Index/equipment.html');">仪器信息</a></li>
 						
 				</ul>
 			</div>
@@ -72,7 +72,7 @@
 			<div class="div3">
 				<ul>
 					<li><a class="a" href="javascript:void(0);"
-						onClick="openurl('studentQuery.html');">学生管理</a></li>
+						onClick="openurl('/equipment/index.php/Admin/Index/regulation.html');">制度文件</a></li>
 				</ul>
 			</div>
 			
@@ -84,9 +84,7 @@
 
 				<ul>
 					<li><a class="a" href="javascript:void(0);"
-						onClick="openurl('deletecomment.html');">评价删除</a></li>
-					<li><a class="a" href="javascript:void(0);"
-						onClick="openurl('useredit.html');">用户禁言</a></li>
+						onClick="openurl('/equipment/index.php/Admin/Index/doucument.html');">文档信息</a></li>
 				</ul>
 
 			</div>
@@ -97,9 +95,9 @@
 			<div class="div3">
 				<ul>
 					<li><a class="a" href="javascript:void(0);"
-						onClick="openurl('afficheQuery.html');">评价删除</a></li>
+						onClick="openurl('/equipment/index.php/Admin/Index/conmmunication.html');">评价删除</a></li>
 					<li><a class="a" href="javascript:void(0);"
-						onClick="openurl('afficheAdd.html');">用户禁言</a></li>
+						onClick="openurl('/equipment/index.php/Admin/Index/user.html');">用户禁言</a></li>
 				</ul>
 			</div>
 			<a class="a1" href="login.html"><div class="div2">
