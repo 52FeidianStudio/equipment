@@ -48,6 +48,7 @@
        } */
        tr{
         width: 100%;
+        border-bottom: #ccc 0px dotted;
        }
        #contant{
         width: 70%;

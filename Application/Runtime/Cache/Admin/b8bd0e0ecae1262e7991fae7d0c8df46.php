@@ -8,20 +8,20 @@
 		<meta name="Copyright" content="网站版权" /> 
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
-		<link rel="stylesheet" type='text/css' href="/zky/Uploads/Css/admin.css" />
-		<script type="text/javascript" src="/zky/Uploads/Js/jquery1.js"></script>
+		<link rel="stylesheet" type='text/css' href="/equipment/Uploads/Css/admin.css" />
+		<script type="text/javascript" src="/equipment/Uploads/Js/jquery1.js"></script>
 		<script type="text/javascript">
-	$(document).ready(
+			$(document).ready(
 			function() {
 				$(".div2").click(
 						function() {
 							$(this).next("div").slideToggle("").siblings(".div3:visible")/*.slideUp("slow")*/;
 						});
-			});
-	function openurl(url) {
-		var rframe = parent.document.getElementById("rightFrame");
-		rframe.src = url;
-	}
+				});
+				function openurl(url) {
+			var rframe = parent.document.getElementById("rightFrame");
+			rframe.src = url;
+		}
 </script>
  </head>
  <body>
@@ -37,67 +37,67 @@
 	<div class="left">
 		<div class="div1">
            <div class="div2">
-				<div class="spgl"></div>
+				<div class="div4"></div>
 				首页管理
 			</div>
 			<div class="div3">
-				<li><a class="a" href="javascript:/zky/index.php/Admin/Index/admin;"
-					onClick="openurl('/zky/index.php/Admin/Index/index_link.html');">首页链接</a></li>
+				<li><a class="a" href="javascript:/equipment/index.php/Admin/Index/admin;"
+					onClick="openurl('/equipment/index.php/Admin/Index/index_link.html');">首页链接</a></li>
 			</div>
 			<div class="div2">
-				<div class="spgl"></div>
+				<div class="div4"></div>
 				新闻通知管理
 			</div>
 			<div class="div3">
 				<ul>
-					<li><a class="a" href="javascript:/zky/index.php/Admin/Inform/news;"
-						onClick="openurl('/zky/index.php/Admin/Index/news.html');">所有新闻</a></li>
+					<li><a class="a" href="javascript:/equipment/index.php/Admin/Inform/news;"
+						onClick="openurl('/equipment/index.php/Admin/Index/news.html');">所有新闻</a></li>
 				</ul>
 			</div>
 			<div class="div2">
-				<div class="spgl"></div>
+				<div class="div4"></div>
 				仪器管理
 			</div>
 			<div class="div3">
 				<ul>
-					<li><a class="a" href="javascript:/zky/index.php/Admin/Equipment/equipment;"
-						onClick="openurl('/zky/index.php/Admin/Equipment/equipment');">仪器信息</a></li>
+					<li><a class="a" href="javascript:/equipment/index.php/Admin/Equipment/equipment;"
+						onClick="openurl('/equipment/index.php/Admin/Equipment/equipment');">仪器信息</a></li>
 						
 				</ul>
 			</div>
 			<div class="div2">
-				<div class="yhgl"></div>
+				<div class="div4"></div>
 				制度管理
 			</div>
 			<div class="div3">
 				<ul>
-					<li><a class="a" href="javascript:/zky/index.php/Admin/Regulation/regulation;"
-						onClick="openurl('/zky/index.php/Admin/Regulation/regulation');">制度文件</a></li>
+					<li><a class="a" href="javascript:/equipment/index.php/Admin/Regulation/regulation;"
+						onClick="openurl('/equipment/index.php/Admin/Regulation/regulation');">制度文件</a></li>
 				</ul>
 			</div>
 			
 			<div class="div2">
-				<div class="gggl"></div>
+				<div class="div4"></div>
 				文档管理
 			</div>
 			<div class="div3">
 
 				<ul>
-					<li><a class="a" href="javascript:/zky/index.php/Admin/File/doucument;"
-						onClick="openurl('/zky/index.php/Admin/File/doucument');">文档信息</a></li>
+					<li><a class="a" href="javascript:/equipment/index.php/Admin/File/doucument;"
+						onClick="openurl('/equipment/index.php/Admin/File/doucument');">文档信息</a></li>
 				</ul>
 
 			</div>
 			<div class="div2">
-				<div class="pjgl"></div>
+				<div class="div4"></div>
 				讨论区管理
 			</div>
 			<div class="div3">
 				<ul>
 					<li><a class="a" href="javascript:void(0);"
-						onClick="openurl('/zky/index.php/Admin/Index/conmmunication.html');">评价删除</a></li>
+						onClick="openurl('/equipment/index.php/Admin/Index/conmmunication.html');">评价删除</a></li>
 					<li><a class="a" href="javascript:void(0);"
-						onClick="openurl('/zky/index.php/Admin/Index/user.html');">用户禁言</a></li>
+						onClick="openurl('/equipment/index.php/Admin/Index/user.html');">用户禁言</a></li>
 				</ul>
 			</div>
 			<a class="a1" href="login.html"><div class="div2">

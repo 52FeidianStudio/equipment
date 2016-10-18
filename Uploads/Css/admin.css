@@ -25,7 +25,7 @@ body {
 	height: 77px;
 	text-align: center;
 	color: #72d0eb;
-	background-color: #72d0eb;
+	background-color: #2a3542;
 }
 .top_link{
 	height: 77px;
@@ -48,7 +48,7 @@ body {
 	color: #fff;
 	font-size: 20px;
 	text-align: center;
-	background-color: #2a3542;
+	background-color: #72d0eb;
 }
 
 .right {
@@ -90,73 +90,16 @@ body {
 	position: relative;
 	border-bottom: #ccc 0px dotted;
 }
-
-.spgl {
-	position: absolute;
-	height: 20px;
-	width: 20px;
-	left: 40px;
-	top: 10px;
-	background: url(images/1.png);
-}
-
-.yhgl {
-	position: absolute;
-	height: 20px;
-	width: 20px;
-	left: 40px;
-	top: 10px;
-	background: url(images/4.png);
-}
-
-.gggl {
-	position: absolute;
-	height: 20px;
-	width: 20px;
-	left: 40px;
-	top: 10px;
-	background: url(images/4.png);
-}
-
-.zlgl {
-	position: absolute;
-	height: 20px;
-	width: 20px;
-	left: 40px;
-	top: 10px;
-	background: url(images/4.png);
-}
-
-.pjgl {
-	position: absolute;
-	height: 20px;
-	width: 20px;
-	left: 40px;
-	top: 10px;
-	background: url(images/4.png);
-}
-
-.tcht {
-	position: absolute;
-	height: 20px;
-	width: 20px;
-	left: 40px;
-	top: 10px;
-	background: url(images/2.png);
-}
-
 .div3 {
 	display: none;
 	cursor: pointer;
 	color: #fff;
 	font-size: 15px;
 }
-
 .div3 ul {
 	margin: 0;
 	padding: 0;
 }
-
 .div3 li {
 	height: 30px;
 	line-height: 30px;
@@ -165,13 +108,18 @@ body {
 	text-align: center;
 	color: #fff;
 }
-
+.div4 {
+	position: absolute;
+	height: 20px;
+	width: 20px;
+	left: 40px;
+	top: 10px;
+}
 .a {
 	text-decoration: none;
 	color: #fff;
 	font-size: 15px;
 }
-
 .a1 {
 	text-decoration: none;
 	color: #000000;

@@ -8,53 +8,65 @@
 				font-family: sans-serif;
 			}
 			#navi{
-				position: fixed;
-				top: 0;
-				left: 0;
-				z-index: 1030;	
 				width: 100%;
 				border-radius: 0;
-				background: #fff;
 				text-decoration: none;
 				outline: none;
-				height: 60px;
-				opacity:0.4;
+				height: 47px;
 			}
-			#na_log{
-				line-height: 60px;
+			#navi .contain{
+				background:  #0F941A;
+				height: 47px;
+				border-radius: 3px;
 			}
 			 .navi_a:link{
+			 	border-radius: 3px;
 				text-decoration: none;
 				display: block;
-				line-height: 60px;
+				line-height: 45px;
 				width: 9%;
+				background:  #0F941A;
 				float: left;
 				text-align: center;
-				color: black;
+				color: #F2F1E8;
+				font-weight: 100px;
 			} 
+			.navi_a:visited{
+				border-radius: 3px;
+				text-decoration: none;
+				display: block;
+				line-height: 45px;
+				width: 9%;
+				background:  #0F941A;
+				float: left;
+				text-align: center;
+				color: #F2F1E8;
+				font-weight: 100px;
+			} 	
 			.navi_a:hover {
+				border: 1px solid  #0F941A;
+				border-radius: 3px;
 				text-decoration: none;
 				display: block;
-				line-height: 60px;
+				line-height: 45px;
 				width: 9%;
 				float: left;
 				text-align: center;
-				color: white;
-				background: black ;
+				color:  #0F941A;
+				background:  #F2F1E8;
 			}
-			.navi_a:visited {
-				text-decoration: none;
-				display: block;
-				line-height: 60px;
-				width: 9%;
-				float: left;
-				text-align: center;
-				color: red;
-				background: black ;
+			#na_log{
+				width:75px;
+				height: 47px;
+				float: right ;
+				line-height:47px;
+				position: relative;
+				top: 0px;
+				left: -200px;
 			}
 			#header{
 				overflow:hidden;
-				height: 180px;
+				height: 187px;
 			}
 			#main{
 				background: white;

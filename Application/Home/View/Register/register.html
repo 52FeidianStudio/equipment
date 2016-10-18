@@ -20,7 +20,7 @@
 	</head>
 	<body>
 		<div id='header'>
-			<div class="contain">
+			<div class="contain" >
 				<img src="__PUBLIC__/Pic/top.jpg" alt="" style="width:100%;" />
 			</div>
 		</div>
@@ -33,11 +33,12 @@
 				<a href="__APP__/Home/File/document" class="navi_a">文档下载</a>
 				<a href="__APP__/Home/Message/conmunication" class="navi_a">讨论区</a>
 				<a href="__APP__/Home/Index/about_us" class="navi_a">关于我们</a>
-				<b>	　　　　　　　　　　　　　</b>
-				<b style='line-height:60px;'>欢迎</b>
-
-				<span style='line-height:60px;'><{$}></span>
-				<a href="#@" style=''>退出</a>
+				<b>	　　　　　　　　　　　　　　</b>
+				<div id='na_log'>
+					<span>欢迎</span>
+					<span ><{$Think.session.username}></span>
+					<a href="__APP__/Home/Login/login_out" style=''>退出</a>
+				</div>
 			</div>
 		</div>
 		
