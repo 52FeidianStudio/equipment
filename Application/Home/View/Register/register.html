@@ -11,7 +11,11 @@
 		<link rel="stylesheet" href="__PUBLIC__/Css/public.css" />
 		<link rel="stylesheet" href="__PUBLIC__/Css/register.css" />
 		<script>
-
+			$(function(){
+				$('input[name="username"]').blur(function(){
+					alert(1);
+				});
+			});
 		</script>
 	</head>
 	<body>
@@ -22,13 +26,13 @@
 		</div>
 		<div id='navi'>
 			<div class="contain">
-				<a href="#" class="navi_a">首页</a>
-				<a href="#" class="navi_a">新闻通知</a>
-				<a href="#" class="navi_a">仪器介绍</a>
-				<a href="#" class="navi_a">规章制度</a>
-				<a href="#" class="navi_a">文档下载</a>
-				<a href="#" class="navi_a">讨论区</a>
-				<a href="#" class="navi_a">关于我们</a>
+				<a href="__APP__/Home/Index/main" class="navi_a">首页</a>
+				<a href="__APP__/Home/Inform/news" class="navi_a">新闻通知</a>
+				<a href="__APP__/Home/Equipment/equipment" class="navi_a">仪器介绍</a>
+				<a href="__APP__/Home/Regulation/regulation" class="navi_a">规章制度</a>
+				<a href="__APP__/Home/File/document" class="navi_a">文档下载</a>
+				<a href="__APP__/Home/Message/conmunication" class="navi_a">讨论区</a>
+				<a href="__APP__/Home/Index/about_us" class="navi_a">关于我们</a>
 				<b>	　　　　　　　　　　　　　</b>
 				<b style='line-height:60px;'>欢迎</b>
 
@@ -39,7 +43,7 @@
 		
 		<div id='main'>
 			<div class="contain">
-			    <form name="login-form" class="login-form" action="__URL__/dolog" method="post">
+			    <form name="login-form" class="login-form" action="__URL__/do_register" method="post">
 
 	<!--HEADER-->
     				<div class="header">
@@ -50,11 +54,11 @@
 	
 	<!--CONTENT-->
     				<div class="content">
-	<!--USERNAME-->  	<input name="username" type="text" class="input username" value="Username" onfocus="this.value=''" />
+	<!--USERNAME-->  	<input name="username" type="text" class="input username" />
 	<!--END USERNAME-->
-    <!--PASSWORD-->  	<input name="password" type="password" class="input password" value="Password" onfocus="this.value=''" />
+    <!--PASSWORD-->  	<input name="password" type="password" class="input password"  />
     <!--END PASSWORD-->	
-    <!-- REPAAWORD -->					<input name="repassword" type="password" class="input repassword" value="Repassword" onfocus="this.value=''" />
+    <!-- REPAAWORD -->	<input name="repassword" type="password" class="input repassword"/>
     <!-- END REPASSWORD -->
     				</div>
     <!--END CONTENT-->
@@ -75,7 +79,7 @@
 				<p class="footer_p">邮政编码：xxxxxx</p>
 				<p class="footer_p">联系电话：xxxxxxx xxxxxxxxxx xxxxxxxxxxxx</p>
 				<hr />
-				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="@#">管理</a></p>
+				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="__APP__/Admin/Index/admin">管理</a></p>
 			</div>
 		</div>
 	</body>

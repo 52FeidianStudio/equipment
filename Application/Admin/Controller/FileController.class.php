@@ -2,7 +2,13 @@
 	namespace Admin\Controller;
 	use Think\Controller;
 	class FileController extends Controller{
-		public function index(){
+		public function _initialize(){
+          if(!isset($_SESSION['username']) || $_SESSION['username'] == ''){
+          	$this -> redirect("Login/index");
+          }
+      	}
+      	//由原来的index改为doucument
+		public function doucument(){
 			$n = M('File');
 			$count = $n -> count();
 			$Page = new\Think\Page($count,10);// 每页显示的记录数
@@ -14,6 +20,9 @@
         	$this -> assign("data",$arr);
         	$this -> assign('show',$show);
         	$this -> display();
+		}
+		public function add_file(){
+			$this -> display();
 		}
 		public function do_show(){
 			$Me = M('file');
@@ -41,7 +50,7 @@
 			$last = $Me -> add();
 
 			if($last){
-				$this -> redirect('File/index','','0','上传成功'); // 进行重定向操作，返回到主页
+				$this -> redirect('File/doucument','','3','上传成功'); // 进行重定向操作，返回到主页
 			}
 		}
 		public function delete(){
@@ -50,7 +59,7 @@
 			$result = $n -> where("id = $where") -> delete();
 			if($result){
 				//用js写一个事件，直接实现交互的效果
-				$this -> redirect('File/index','','0','删除成功');
+				$this -> redirect('File/doucument','','0','删除成功');
 			}else{
 				$this -> error("删除失败");
 			}

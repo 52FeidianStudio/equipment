@@ -2,17 +2,19 @@
 	namespace Home\Controller;
 	use Think\Controller;
 	class RegisterController extends Controller{
-		public function index(){
+		public function register(){
 			$this -> display();
 		}
 		public function do_register(){
 			$n = D("User");
 			$username = $_POST['username'];
 			$password = $_POST['password'];
-			$upassword = $_POST['upassword'];
+			$repassword = $_POST['repassword'];
+			var_dump($_POST);
+			exit;
 			$data1['username'] = $username;
-			$data1['isTeacher'] = $_POST['isTeacher'];
-			if($password == $password){
+			$data1['isTeacher'] = 0;
+			if($repassword == $password){
 				$result1 = $n -> where($data1) -> count();
 				if(!$result1){
 					$data['username'] = $username;
@@ -30,6 +32,17 @@
 				}
 			}else{
 				//$this -> error("两次输入的密码不一致，请重新输入！");
+			}
+		}
+		public function checkName(){
+			$username = $_GET['username'];
+			$n = M('User');
+			$where['username'] = $username;
+			$count = $n -> where($where) -> count();
+			if($count){
+				echo '可以注册';
+			}else{
+				echo '用户名已经存在';
 			}
 		}
 	}

@@ -41,8 +41,8 @@
 				首页管理
 			</div>
 			<div class="div3">
-				<li><a class="a" href="javascript:void(0);"
-					onClick="openurl('/equipment/index.php/Admin/Index/index_link.html');">首页链接</a></li>
+				<li><a class="a" href="javascript:/zky/index.php/Admin/Index/admin;"
+					onClick="openurl('/zky/index.php/Admin/Index/index_link.html');">首页链接</a></li>
 			</div>
 			<div class="div2">
 				<div class="spgl"></div>
@@ -50,8 +50,8 @@
 			</div>
 			<div class="div3">
 				<ul>
-					<li><a class="a" href="javascript:void(0);"
-						onClick="openurl('/equipment/index.php/Admin/Index/news.html');">所有新闻</a></li>
+					<li><a class="a" href="javascript:/zky/index.php/Admin/Inform/news;"
+						onClick="openurl('/zky/index.php/Admin/Index/news.html');">所有新闻</a></li>
 				</ul>
 			</div>
 			<div class="div2">
@@ -60,8 +60,8 @@
 			</div>
 			<div class="div3">
 				<ul>
-					<li><a class="a" href="javascript:void(0);"
-						onClick="openurl('/equipment/index.php/Admin/Index/equipment.html');">仪器信息</a></li>
+					<li><a class="a" href="javascript:/zky/index.php/Admin/Equipment/equipment;"
+						onClick="openurl('/zky/index.php/Admin/Equipment/equipment');">仪器信息</a></li>
 						
 				</ul>
 			</div>
@@ -71,8 +71,8 @@
 			</div>
 			<div class="div3">
 				<ul>
-					<li><a class="a" href="javascript:void(0);"
-						onClick="openurl('/equipment/index.php/Admin/Index/regulation.html');">制度文件</a></li>
+					<li><a class="a" href="javascript:/zky/index.php/Admin/Regulation/regulation;"
+						onClick="openurl('/zky/index.php/Admin/Regulation/regulation');">制度文件</a></li>
 				</ul>
 			</div>
 			
@@ -83,8 +83,8 @@
 			<div class="div3">
 
 				<ul>
-					<li><a class="a" href="javascript:void(0);"
-						onClick="openurl('/equipment/index.php/Admin/Index/doucument.html');">文档信息</a></li>
+					<li><a class="a" href="javascript:/zky/index.php/Admin/File/doucument;"
+						onClick="openurl('/zky/index.php/Admin/File/doucument');">文档信息</a></li>
 				</ul>
 
 			</div>
@@ -95,9 +95,9 @@
 			<div class="div3">
 				<ul>
 					<li><a class="a" href="javascript:void(0);"
-						onClick="openurl('/equipment/index.php/Admin/Index/conmmunication.html');">评价删除</a></li>
+						onClick="openurl('/zky/index.php/Admin/Index/conmmunication.html');">评价删除</a></li>
 					<li><a class="a" href="javascript:void(0);"
-						onClick="openurl('/equipment/index.php/Admin/Index/user.html');">用户禁言</a></li>
+						onClick="openurl('/zky/index.php/Admin/Index/user.html');">用户禁言</a></li>
 				</ul>
 			</div>
 			<a class="a1" href="login.html"><div class="div2">

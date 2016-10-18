@@ -24,7 +24,7 @@
 				<a href="/zky/index.php/Home/Message/conmunication" class="navi_a">讨论区</a>
 				<a href="/zky/index.php/Home/Index/about_us" class="navi_a">关于我们</a>
 				<b>	　　　　　　　　　　　　　　　</b>
-				<span id='na_log' >欢迎<?php echo ($SESSION[username]); ?></span>
+				<span id='na_log' >欢迎<?php echo (session('username')); ?></span>
 			</div>
 		</div>
 		<div id='header'>

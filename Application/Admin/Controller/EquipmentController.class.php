@@ -2,6 +2,11 @@
 	namespace Admin\Controller;
 	use Think\Controller;
 	class EquipmentController extends Controller{
+		public function _initialize(){
+          if(!isset($_SESSION['username']) || $_SESSION['username'] == ''){
+          	$this -> redirect("Login/index");
+          }
+      	}
 		public function index(){
 			$n = M('Equipment');
 			$arr = $n -> select();

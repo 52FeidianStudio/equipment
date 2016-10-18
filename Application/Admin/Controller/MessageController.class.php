@@ -1,5 +1,5 @@
 <?php 
-	namespace Home\Controller;
+	namespace Admin\Controller;
 	use Think\Controller;
 	class MessageController extends Controller{
 		public function _initialize(){
@@ -50,7 +50,7 @@
 			$data['date'] = date("Y-m-d H:i:s"); // 记录当前的时间
 			$data['content'] = $_POST['content'];
 			$data['messageid'] = $where;
-			$data['userid'] = $_SESSION['id'];
+			$data['userid'] = $_SESSION['username'];
 			//$data['userid'] = "11";
 			$result  = $n -> add($data); //写入数据库，并且返回result的值进行判断
 			if($result){
@@ -60,24 +60,36 @@
 				$this -> error("好像哪里出了问题");
 			}
 		}
+		public function do_deleteanswer(){
+			$where = $_GET['id'];
+			$n = M("Answer");
+			$result = $n -> where("id = $where") -> delete();
+			$this -> success("删除成功！");
+		}
 		public function add_message(){
 			$this -> display();
 		}
 		public function do_addmessage(){
 			$n = D("Message");
 			$n -> Create();
-			$n -> date = date("Y-m-d H:i:s");
-			/*
-				$n -> userid = $_SESSION['id'];
-			*/
-			//$n -> userid = 1;
+			$n -> date = time("Y-m-d H-i-s");
 			$n -> userid = $_SESSION['id'];
+			//$n -> userid = 1;
 			$result = $n -> add();
+			//$m -> userid = $_SESSION['id'];
 			if($result){
 				$this -> redirect("Message/conmunication");
 			}else{
 				$this -> error("发布留言失败");
 			}
 		}
+		public function do_delete(){
+			$n = M("Message");
+			$m = M("Answer");
+			$where = $_GET['id'];
+			$result1 = $n -> where("id = $where") -> delete();
+			$result2 = $m -> where("messageid = $where") -> delete();
+			$this -> redirect("Message/conmunication");
+ 		}
 	}
  ?>

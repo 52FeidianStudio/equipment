@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html>
+	<head>
+		<title>讨论区</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	</head>
+	<body>
+		<h2>问题梗概：<{$find['title']}></h2>
+		<h3>已经有<{$count}>人关注　　　<{$find['user']['name']}>于<{$find['date']}>发布</h3>
+		<p>详细内容：<{$find['content']}></p>
+		<p><a href="__URL__/add_answer/id/<{$find['id']}>">回复</a></p>
+		<volist name = "data" id = "vo">
+			<p><{$vo.user.name}>：<{$vo.content}>　　　　回复时间：<{$vo.date}>　<a href="__URL__/do_deleteanswer/id/<{$vo.id}>">删除回复</a></p>
+			<hr>
+		</volist>
+			<{$show}>
+	</body>
+</html>

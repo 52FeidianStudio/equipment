@@ -9,13 +9,16 @@
 			$n = M("User");
 			$username = $_POST['username'];
 			$password = $_POST['password'];
-			$count = $n -> where("username = $username") -> find();
+			$count = $n -> where("username = $username") -> count();
 			if($count){
 				$result = $n -> where("username = $username") -> getField("isTeacher");
 				if($result){
 					$result1 = $n -> where("username = $username") -> getField('password');
 					if($result1 == $password){
-						$this -> redirect("Index/index");
+						$name = $n -> where("username = $username") -> getField('name');
+						$_SESSION['username'] = $name;
+						$_SESSION['id'] = $n -> where("username = $username") -> getField('id');
+						$this -> redirect("Index/admin");
 					}else{
 						$this -> error("密码不正确！");
 					}

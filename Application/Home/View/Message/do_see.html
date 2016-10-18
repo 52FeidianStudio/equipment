@@ -30,8 +30,8 @@
 				<a href="__APP__/Home/Index/about_us" class="navi_a">关于我们</a>
 				<b>	　　　　　　　　　　　　　　　</b>
 				<b style='line-height:60px;'>欢迎</b>
-				<span style='line-height:60px;'>ctc {$v.username}</span>
-				<a href="#@" style=''>退出</a>
+				<span style='line-height:60px;'><{$Think.session.username}></span>
+				<a href="__APP__/Home/Login/login_out" style=''>退出</a>
 			</div>
 			</div>
 		</div>
@@ -40,11 +40,11 @@
 				<div id="main_navi">
 						<a href="__APP__/Home/Index/main">首页</a>---><a href="__APP__/Home/Message/conmunication">讨论区</a>--->查看详情
 							<h2>问题梗概：<{$find['title']}></h2>
-							<h3>已经有<{$count}>人关注　　　<{$find['user']['username']}>于<{$find['date']}>发布</h3>
+							<h3>已经有<{$count}>人关注　　　<{$find['user']['name']}>于<{$find['date']}>发布</h3>
 							<p>详细内容：<{$find['content']}></p>
 							<p><a href="__URL__/add_answer/id/<{$find['id']}>">回复</a></p>
 						<volist name = "data" id = "vo">
-							<p><{$vo.user.username}>：<{$vo.content}>　　　　回复时间：<{$vo.date}></p>
+							<p><{$vo.user.name}>：<{$vo.content}>　　　　回复时间：<{$vo.date}></p>
 						<hr>
 						</volist>
 						<{$show}>

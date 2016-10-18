@@ -30,8 +30,8 @@
 				<a href="/zky/index.php/Home/Index/about_us" class="navi_a">关于我们</a>
 				<b>	　　　　　　　　　　　　　　　</b>
 				<b style='line-height:60px;'>欢迎</b>
-				<span style='line-height:60px;'>ctc {$v.username}</span>
-				<a href="#@" style=''>退出</a>
+				<span style='line-height:60px;'><?php echo (session('username')); ?></span>
+				<a href="/zky/index.php/Home/Login/login_out" style=''>退出</a>
 			</div>
 			</div>
 		</div>
@@ -40,10 +40,10 @@
 				<div id="main_navi">
 						<a href="/zky/index.php/Home/Index/main">首页</a>---><a href="/zky/index.php/Home/Message/conmunication">讨论区</a>--->查看详情
 							<h2>问题梗概：<?php echo ($find['title']); ?></h2>
-							<h3>已经有<?php echo ($count); ?>人关注　　　<?php echo ($find['user']['username']); ?>于<?php echo ($find['date']); ?>发布</h3>
+							<h3>已经有<?php echo ($count); ?>人关注　　　<?php echo ($find['user']['name']); ?>于<?php echo ($find['date']); ?>发布</h3>
 							<p>详细内容：<?php echo ($find['content']); ?></p>
 							<p><a href="/zky/index.php/Home/Message/add_answer/id/<?php echo ($find['id']); ?>">回复</a></p>
-						<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p><?php echo ($vo["user"]["username"]); ?>：<?php echo ($vo["content"]); ?>　　　　回复时间：<?php echo ($vo["date"]); ?></p>
+						<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p><?php echo ($vo["user"]["name"]); ?>：<?php echo ($vo["content"]); ?>　　　　回复时间：<?php echo ($vo["date"]); ?></p>
 						<hr><?php endforeach; endif; else: echo "" ;endif; ?>
 						<?php echo ($show); ?>
 				</div>
@@ -55,7 +55,7 @@
 				<p class="footer_p">邮政编码：xxxxxx</p>
 				<p class="footer_p">联系电话：xxxxxxx xxxxxxxxxx xxxxxxxxxxxx</p>
 				<hr />
-				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="">管理</a></p>
+				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="/zky/index.php/Admin/Index/admin">管理</a></p>
 			</div>
 		</div>
 	</body>

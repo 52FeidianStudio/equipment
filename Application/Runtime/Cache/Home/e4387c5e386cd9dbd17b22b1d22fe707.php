@@ -30,8 +30,8 @@
 				<a href="/zky/index.php/Home/Index/about_us" class="navi_a">关于我们</a>
 				<b>	　　　　　　　　　　　　　　　</b>
 				<b style='line-height:60px;'>欢迎</b>
-				<span style='line-height:60px;'>ctc {$v.username}</span>
-				<a href="#@" style=''>退出</a>
+				<span style='line-height:60px;'><?php echo (session('username')); ?></span>
+				<a href="/zky/index.php/Home/Login/login_out" style=''>退出</a>
 			</div>
 			</div>
 		</div>

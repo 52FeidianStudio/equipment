@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>留言界面</title>
+</head>
+<body>
+	<a href="__URL__/add_message">添加留言</a>
+	<volist name = "data" id = "vo">
+		<p><{$vo.title}>　　　　　　　　<a href="__URL__/do_see/id/<{$vo.id}>">查看详情</a>　　<a href="__URL__/do_delete/id/<{$vo.id}>">删除</a></p>
+		<hr>
+	</volist>
+</body>
+</html>

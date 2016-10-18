@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
     <title></title>
@@ -81,7 +81,7 @@
 </head>
 <body>
 <table >
-    <font color="#777777"><strong>用户名称：文档信息</strong></font>
+    <font color="#777777"><strong>用户名称：仪器设备</strong></font>
     <a href="studentdetail.html">小强</a>
     <div class='panel'>
         <thead>

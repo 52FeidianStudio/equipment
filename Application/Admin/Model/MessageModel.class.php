@@ -1,5 +1,5 @@
 <?php 
-	namespace Home\Model;
+	namespace Admin\Model;
 	use Think\Model\RelationModel;
 	class MessageModel extends RelationModel{
 		protected $_link = array(

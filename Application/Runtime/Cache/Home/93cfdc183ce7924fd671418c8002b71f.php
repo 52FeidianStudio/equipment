@@ -26,12 +26,12 @@
 				<a href="/zky/index.php/Home/Equipment/equipment" class="navi_a">仪器介绍</a>
 				<a href="/zky/index.php/Home/Regulation/regulation" class="navi_a">规章制度</a>
 				<a href="/zky/index.php/Home/File/document" class="navi_a">文档下载</a>
-				<a href="/zky/index.php/Home/Message/communication" class="navi_a">讨论区</a>
+				<a href="/zky/index.php/Home/Message/conmunication" class="navi_a">讨论区</a>
 				<a href="/zky/index.php/Home/Index/about_us" class="navi_a">关于我们</a>
 				<b>	　　　　　　　　　　　　　　　</b>
 				<b style='line-height:60px;'>欢迎</b>
-				<span style='line-height:60px;'>ctc {$v.username}</span>
-				<a href="#@" style=''>退出</a>
+				<span style='line-height:60px;'><?php echo (session('username')); ?></span>
+				<a href="/zky/index.php/Home/Login/login_out" style=''>退出</a>
 			</div>
 			</div>
 		</div>
@@ -56,7 +56,7 @@
 				<p class="footer_p">邮政编码：xxxxxx</p>
 				<p class="footer_p">联系电话：xxxxxxx xxxxxxxxxx xxxxxxxxxxxx</p>
 				<hr />
-				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="">管理</a></p>
+				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="/zky/index.php/Admin/Index/admin">管理</a></p>
 			</div>
 		</div>
 	</body>

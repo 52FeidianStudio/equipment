@@ -2,7 +2,13 @@
 	namespace Admin\Controller;
 	use Think\Controller;
 	class InformController extends Controller{
-		public function index(){
+		public function _initialize(){
+          if(!isset($_SESSION['username']) || $_SESSION['username'] == ''){
+          	$this -> redirect("Login/index");
+          }
+      	}
+      	//由原来的index改成news
+		public function news(){
 			$n = M("Information");
 			$arr = $n -> select();
 			$this -> assign('data',$arr);
@@ -24,6 +30,7 @@
 			$where = $_GET['id'];
 			$arr = $n -> where("id = $where") -> find();
 			$this -> assign("data",$arr);
+			$this -> display();
 		}
 	}
 ?>

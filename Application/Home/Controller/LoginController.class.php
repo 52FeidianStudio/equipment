@@ -15,7 +15,10 @@
 				if(!$result){
 					$result1 = $n -> where("username = $username") -> getField('password');
 					if($result1 == $password){
-						$this -> redirect("Index/index");
+						$name = $n -> where("username = $username") -> getField('name');
+						$_SESSION['username'] = $name;
+						$_SESSION['id'] = $n -> where("username = $username") -> getField('id');
+						$this -> redirect("Message/conmunication");
 					}else{
 						$this -> error("密码不正确！");
 					}
@@ -26,6 +29,14 @@
 				$this -> error("用户不存在");
 			}
 			
+		}
+		public function login_out(){
+			$_SESSION = array();
+			if(isset($_COOKIE['session_name()'])){
+				setcookie(session_name(),'',time()-1,'/');
+			}
+			session_destroy();
+			$this -> redirect("Index/main");
 		}
 	}
  ?>

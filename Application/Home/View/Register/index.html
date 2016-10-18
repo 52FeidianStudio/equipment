@@ -3,14 +3,42 @@
 <head>
 	<meta charset="UTF-8">
 	<title>普通用户注册界面</title>
+	<script>
+		$(function(){
+			var error = new Array();
+			//检查用户名是否符合要求
+			$('input[name="username"]').blur(function(){
+				var username = $(this).val();
+				$.get('__URL__/checkName',{'username':username},function(data){
+					if(data == "用户名已经存在"){
+						error['username'] = 1;
+						$('input[name="username"]').after('<p id = "message">用户名已经注册过</p>');
+					}else{
+						error['username'] = 0;
+						$(#id).remove();
+					}
+				});
+			});
+			//检查第一次输入的密码是否为空
+			
+			//提交表单
+			$('img.register').click(function(){
+				if(error['username'] == 1){
+					return false;
+				}else{
+					$('form[name="myForm"]').submit();
+				}
+			});
+		});
+	</script>
 </head>
 <body>
 	<!-- 设想：用Ajax实现用户边写边进行判断 -->
 
-	<form action="__URL__/do_register" method = "post">
-		用户名：<input type="text" name = "username"> <br><br>
-		密　　码：<input type="password" name = "password"> <br><br>
-		确认密码：<input type="password" name = "upassword"> <br><br>
+	<form action="__URL__/do_register" method = "post" name = "myForm">
+		用户名：<input type="text" name = "username" /> <br><br>
+		密　　码：<input type="password" name = "password" /> <br><br>
+		确认密码：<input type="password" name = "upassword" /> <br><br>
 		<input type="text" name = "isTeacher" value = 0 hidden>
 		<input type="submit" value = "注册">
 		<input type="reset" value = "重填">
