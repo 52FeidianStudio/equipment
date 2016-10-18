@@ -19,6 +19,7 @@
 						$_SESSION['username'] = $name;
 						$_SESSION['id'] = $n -> where("username = $username") -> getField('id');
 						$_SESSION['isTeacher'] = 0;
+						$_SESSION['say'] = $n -> where("username = $username") -> getField('say');
 						$this -> redirect("Message/conmunication");
 					}else{
 						$this -> error("密码不正确！");

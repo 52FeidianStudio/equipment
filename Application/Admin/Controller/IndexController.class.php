@@ -18,4 +18,10 @@
         public function admin(){
         	$this->display();
         }
+        public function admin_list(){
+            $n = M("User");
+            $arr = $n -> where("isTeacher = 1") -> select();
+            $this -> assign("data",$arr);
+            $this -> display();
+        }
 }

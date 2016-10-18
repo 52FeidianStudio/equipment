@@ -30,8 +30,9 @@
 				<b>	　　　　　　　　　　　　　　</b>
 				<div id='na_log'>
 					<span>欢迎</span>
-					<span ><?php echo (session('username')); ?></span>
-					<a href="/zky/index.php/Home/Login/login_out" style=''>退出</a>
+					<?php if(($_SESSION['username']) == ""): ?><span><a href="/zky/index.php/Home/Login/index">登录</a></span>
+					<?php else: ?>	<SPAN><?php echo (session('username')); ?></SPAN>
+						<a href="/zky/index.php/Home/Login/login_out" style=''>退出</a><?php endif; ?>
 				</div>
 			</div>
 		</div>

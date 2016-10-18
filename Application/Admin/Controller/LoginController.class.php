@@ -36,7 +36,7 @@
 				setcookie(session_name(),'',time()-1,'/');
 			}
 			session_destroy();
-			$this -> redirect("Index/main");
+			$this -> redirect("__APP__/Home/Index/main");
 		}
 	}
  ?>

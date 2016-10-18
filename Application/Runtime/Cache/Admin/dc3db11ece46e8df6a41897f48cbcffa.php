@@ -65,7 +65,6 @@
        #buttom button{
         margin:0 5% 5px ;
        }
-        
 
         @media (max-width: 980px) {
             /* Enable use of floated navbar text */
@@ -76,54 +75,45 @@
             }
         }
 
-
     </style>
 </head>
 <body>
-<table >
-    <font color="#777777"><strong>用户名称：文档信息</strong></font>
-    <a href="studentdetail.html">小强</a>
-    <div class='panel'>
-        <thead>
-            <!-- <div id='p_header'>
-            <tr>
-                                <th>序号</th>
-                    <th>链接名称</th>
-                    <th>上传日期</th>
-                    <th>管理菜单</th>
+    <font color="#777777"><strong>管理员：<?php echo (session('username')); ?></strong></font>
+    <table>
+        <div class='panel'>
+            <div id='p_body'>
+                <tr>
+                    <td>上传文件</td>
                 </tr>
-            </div> -->
-        </thead>
-        <div id='p_body'>
-            <?php if(is_array($data)): $k = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><tr>
-                    <td><?php echo ($k); ?></td>
-                    <td><a href="/zky/Uploads<?php echo ($vo["address"]); ?>"><?php echo ($vo["realname"]); ?></a></td>
-                    <td> <a href="/zky/index.php/Admin/File/delete/id/<?php echo ($vo["id"]); ?>"><button type="submit">删除</button></a></td>
+                <tr>
+                    <td><form action="/zky/index.php/Admin/File/do_show" enctype="multipart/form-data" method="post" ></td>
+                    <td id = "lalala"><input type="file" name = "file"></td> 
+                    <td></td>
+                    <td></td>            
+                    <div id="buttom" >
+                        <td><button type = "submit" value = "提交">添加</button></form></td>
+                    </div>
                 </tr>
-        <!-- 用户点击删除，添加一个事件 ====是否删除此文件 --><?php endforeach; endif; else: echo "" ;endif; ?>
-                <?php echo ($show); ?>
-            <!--<tr>
-		        <td>1</td>
-                <td id='contant'>复仇者联盟</td>
-                <td>www.ahfoia.com</td>
-                <td> <button type="submit">删除</button></a></td>
-                <td> <button type="submit">修改</button></a></td>
-            </tr>
-		    <tr>
-		        <td>2</td>
-                <td id='contant'>北大教授讲座</td>
-                <td>www.ahfoia.com</td>
-                <td> <a href="/zky/index.php/Admin/File/delete/id/<?php echo ($vo["id"]); ?>"><button type="submit">删除</button></a></td>
-                <td> <a href=""><button type="submit">修改</button></a></td>
-            </tr>
-              -->
+            </div>
         </div>
-        
-    </div>
-    <div id="buttom" >
-            <a href="/zky/index.php/Admin/File/add_file"><button>添加</button></a>
-    </div>
-</table>
-    
+    <table>
+    </table>
+    <table >
+        <div class='panel'>
+            <div id='p_body'>
+                <?php if(is_array($data)): $k = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><tr>
+                        <td><?php echo ($k); ?></td>
+                        <td><a href="/zky/Uploads<?php echo ($vo["address"]); ?>" target = "_blank"><?php echo ($vo["realname"]); ?></a></td>
+                        <td> <a href="/zky/index.php/Admin/File/delete/id/<?php echo ($vo["id"]); ?>"><button type="submit">删除</button></a></td>
+                    </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><?php echo ($show); ?></td>
+                </tr>   
+            </div>
+        </div>
+    </table>
 </body>
 </html>

@@ -31,8 +31,9 @@
 				<b>	　　　　　　　　　　　　　　</b>
 				<div id='na_log'>
 					<span>欢迎</span>
-					<span ><?php echo (session('username')); ?></span>
-					<a href="/zky/index.php/Home/Login/login_out" style=''>退出</a>
+					<?php if(($_SESSION['username']) == ""): ?><span><a href="/zky/index.php/Home/Login/index">登录</a></span>
+					<?php else: ?>	<SPAN><?php echo (session('username')); ?></SPAN>
+						<a href="/zky/index.php/Home/Login/login_out" style=''>退出</a><?php endif; ?>
 				</div>
 			</div>
 		</div>
@@ -43,7 +44,8 @@
 							<h2>问题梗概：<?php echo ($find['title']); ?></h2>
 							<h3>已经有<?php echo ($count); ?>人关注　　　<?php echo ($find['user']['name']); ?>于<?php echo ($find['date']); ?>发布</h3>
 							<p>详细内容：<?php echo ($find['content']); ?></p>
-							<p><a href="/zky/index.php/Home/Message/add_answer/id/<?php echo ($find['id']); ?>">回复</a></p>
+							<?php if(($user) == "0"): ?><p><a href="/zky/index.php/Home/Message/add_answer/id/<?php echo ($find['id']); ?>">回复</a></p>
+								<?php else: ?> <span>您已经被管理员禁言</span><?php endif; ?>
 						<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p><?php echo ($vo["user"]["name"]); ?>：<?php echo ($vo["content"]); ?>　　　　回复时间：<?php echo ($vo["date"]); ?></p>
 						<hr><?php endforeach; endif; else: echo "" ;endif; ?>
 						<?php echo ($show); ?>

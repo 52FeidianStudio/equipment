@@ -31,8 +31,9 @@
 				<b>	　　　　　　　　　　　　　　</b>
 				<div id='na_log'>
 					<span>欢迎</span>
-					<span ><?php echo (session('username')); ?></span>
-					<a href="/zky/index.php/Home/Login/login_out" style=''>退出</a>
+					<?php if(($_SESSION['username']) == ""): ?><span><a href="/zky/index.php/Home/Login/index">登录</a></span>
+					<?php else: ?>	<SPAN><?php echo (session('username')); ?></SPAN>
+						<a href="/zky/index.php/Home/Login/login_out" style=''>退出</a><?php endif; ?>
 				</div>
 			</div>
 		</div>
@@ -40,10 +41,11 @@
 			<div class="contain">
 				<div id="main_navi">
 						<a href="/zky/index.php/Home/Index/main">首页</a>---><a href="/zky/index.php/Home/Message/conmunication">讨论区</a>---> <a href="/zky/index.php/Home/Message/do_see"><?php echo ($data["title"]); ?></a> --> 回复
-						<form action="/zky/index.php/Home/Message/do_addanswer/id/<?php echo ($data["id"]); ?>/address/<?php echo ($address); ?>" method = "post" id = "myForm">
-							<textarea name="content" id = "content"></textarea><br /><br />
-					        <input type="submit" name="submit" value="提交">
-					    </form>
+						<?php if(($user) == "0"): ?><form action="/zky/index.php/Home/Message/do_addanswer/id/<?php echo ($data["id"]); ?>/address/<?php echo ($address); ?>" method = "post" id = "myForm">
+										<textarea name="content" id = "content"></textarea><br /><br />
+								        <input type="submit" name="submit" value="提交">
+								    </form>
+								<?php else: ?> <br /><span>您已经被管理员禁言</span><?php endif; ?>
 				</div>
 			</div>
 		</div>

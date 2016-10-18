@@ -82,8 +82,8 @@
 </head>
 <body>
 <table >
-    <font color="#777777"><strong>用户名称：</strong></font>
-    <a href="studentdetail.html">小强</a>
+    <font color="#777777"><strong>管理员：<?php echo (session('username')); ?></strong></font>
+    <!-- <a href="studentdetail.html"></a> -->
     <div class='panel'>
         <thead>
             <!-- <div id='p_header'>

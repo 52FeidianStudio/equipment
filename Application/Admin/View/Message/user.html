@@ -80,33 +80,57 @@
     </style>
 </head>
 <body>
-<table >
-    <font color="#777777"><strong>用户名称：文档信息</strong></font>
-    <a href="studentdetail.html">小强</a>
-    <div class='panel'>
-        <thead>
-            <!-- <div id='p_header'>
-            <tr>
-                                <th>序号</th>
-                    <th>链接名称</th>
-                    <th>上传日期</th>
-                    <th>管理菜单</th>
+    <table>
+        <div class='panel'>
+            <div id='p_body'>
+                <tr>
+                    <td>
+                        <font color="#777777"><strong>用户名称</strong></font>
+                    </td>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        <eq name = "count" value = "$count1">
+                            <a href="__URL__/unsetall"><button>取消全员禁言</button></a>
+                        <else /><a href="__URL__/setall"><button>全员禁言</button></a>
+                        </eq>
+                    </td>
                 </tr>
-            </div> -->
-        </thead>
-        <div id='p_body'>
-            <form action="__URL__/do_show" enctype="multipart/form-data" method="post" >
-                <p>上传文件</p>
-                <input type="file" name = "file">
-                <div id="buttom" >
-                        <button type = "submit" value = "提交">添加</button>
-                </div>
-            </form>
+            </div>
         </div>
-        
-    </div>
-    
-</table>
-    
+    </table>
+    <table>
+        <div class='panel'>
+            <div id='p_body'>
+                <volist name = "data" id = "vo">
+                        <eq name="vo['say']" value="0">
+                            <tr>
+                                <td><{$vo.username}></td>
+                                <td><{$vo.name}></td>
+                                <td><a href="__URL__/studenttail/id/<{$vo.id}>"><button>详细信息</button></a></td>
+                                <td><a href="__URL__/set/id/<{$vo.id}>"><button>禁言</button></a></td>
+                            </tr>
+                        </eq>
+                </volist>
+            </div>
+        </div>
+    </table>
+    <table >
+        <div class='panel'>
+            <div id='p_body'>
+                <volist name = "data" id = "vo">
+                        <eq name="vo['say']" value="1">
+                            <tr>
+                                <td><{$vo.username}></td>
+                                <td><{$vo.name}></td>
+                                <td><a href="__URL__/studenttail/id/<{$vo.id}>"><button>详细信息</button></a></td>
+                                <td><a href="__URL__/un_set/id/<{$vo.id}>"><button>取消禁言</button></a></td>
+                            </tr>
+                        </eq>
+                </volist>
+            </div>
+        </div>
+    </table>
 </body>
 </html>

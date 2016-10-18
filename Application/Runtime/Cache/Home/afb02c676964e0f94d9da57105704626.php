@@ -31,8 +31,9 @@
 				<b>	　　　　　　　　　　　　　　</b>
 				<div id='na_log'>
 					<span>欢迎</span>
-					<span ><?php echo (session('username')); ?></span>
-					<a href="/zky/index.php/Home/Login/login_out" style=''>退出</a>
+					<?php if(($_SESSION['username']) == ""): ?><span><a href="/zky/index.php/Home/Login/index">登录</a></span>
+					<?php else: ?>	<SPAN><?php echo (session('username')); ?></SPAN>
+						<a href="/zky/index.php/Home/Login/login_out" style=''>退出</a><?php endif; ?>
 				</div>
 			</div>
 		</div>
@@ -40,7 +41,8 @@
 			<div class="contain">
 				<div id="main_navi">
 						<a href="/zky/index.php/Home/Index/main">首页</a>--->讨论区 <br />
-							<a href="/zky/index.php/Home/Message/add_message">添加留言</a>
+						   	<?php if(($user) == "0"): ?><a href="/zky/index.php/Home/Message/add_message">添加留言</a>
+								<?php else: ?> <span>您已经被管理员禁言</span><?php endif; ?>
 							<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p><?php echo ($vo["title"]); ?>　　　　　　　　<a href="/zky/index.php/Home/Message/do_see/id/<?php echo ($vo["id"]); ?>">查看详情</a></p>
 								<hr><?php endforeach; endif; else: echo "" ;endif; ?>
 				</div>

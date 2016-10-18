@@ -30,8 +30,8 @@
 			<h3>后台管理系统</h3>
 		</div>
 		<div class="top_link">
-			<a href="admin_list.html" target="mainCont" title="Ghost">
-				管理员：Ghost</a> 
+			<a href="/zky/index.php/Admin/Index/admin_list" target="mainCont" title="Ghost">
+				管理员：<?php echo (session('username')); ?></a> 
 		</div>
 	</div>
 	<div class="left">
@@ -42,7 +42,7 @@
 			</div>
 			<div class="div3">
 				<li><a class="a" href="javascript:/zky/index.php/Admin/Index/admin;"
-					onClick="openurl('/zky/index.php/Admin/Index/index_link.html');">首页链接</a></li>
+					onClick="openurl('/zky/index.php/Admin/Index/index_link');">首页链接</a></li>
 			</div>
 			<div class="div2">
 				<div class="div4"></div>
@@ -51,7 +51,7 @@
 			<div class="div3">
 				<ul>
 					<li><a class="a" href="javascript:/zky/index.php/Admin/Inform/news;"
-						onClick="openurl('/zky/index.php/Admin/Index/news.html');">所有新闻</a></li>
+						onClick="openurl('/zky/index.php/Admin/Inform/news');">所有新闻</a></li>
 				</ul>
 			</div>
 			<div class="div2">
@@ -95,12 +95,20 @@
 			<div class="div3">
 				<ul>
 					<li><a class="a" href="javascript:void(0);"
-						onClick="openurl('/zky/index.php/Admin/Index/conmmunication.html');">评价删除</a></li>
+						onClick="openurl('/zky/index.php/Admin/Message/conmmunication');">留言管理</a></li>
 					<li><a class="a" href="javascript:void(0);"
-						onClick="openurl('/zky/index.php/Admin/Index/user.html');">用户禁言</a></li>
+						onClick="openurl('/zky/index.php/Admin/Message/user');">用户禁言</a></li>
 				</ul>
 			</div>
-			<a class="a1" href="login.html"><div class="div2">
+			<div class="div2">
+				<div class="div4"></div>
+				管理员信息
+			</div>
+			<div class="div3">
+				<li><a class="a" href="javascript:/zky/index.php/Admin/Index/admin;"
+					onClick="openurl('/zky/index.php/Admin/Index/admin_list');">查看管理员</a></li>
+			</div>
+			<a class="a1" href="/zky/index.php/Admin/Login/login_out"><div class="div2">
 					<div class="tcht"></div>
 					退出后台
 				</div></a>

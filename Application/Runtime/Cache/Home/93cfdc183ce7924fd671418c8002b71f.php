@@ -31,8 +31,9 @@
 				<b>	　　　　　　　　　　　　　　</b>
 				<div id='na_log'>
 					<span>欢迎</span>
-					<span ><?php echo (session('username')); ?></span>
-					<a href="/zky/index.php/Home/Login/login_out" style=''>退出</a>
+					<?php if(($_SESSION['username']) == ""): ?><span><a href="/zky/index.php/Home/Login/index">登录</a></span>
+					<?php else: ?>	<SPAN><?php echo (session('username')); ?></SPAN>
+						<a href="/zky/index.php/Home/Login/login_out" style=''>退出</a><?php endif; ?>
 				</div>
 			</div>
 		</div>
@@ -40,14 +41,15 @@
 			<div class="contain">
 				<div id="main_navi">
 						<a href="/zky/index.php/Home/Index/main">首页</a>---><a href="/zky/index.php/Home/Message/conmunication">讨论区</a>--->发布留言
-						<form action="/zky/index.php/Home/Message/do_addmessage" method = "post" id = "myForm">
-							留言主题：<input type="text" name = "title"> <br><br>
-							<!-- 此处应该限制一下输入文本框的长度 -->
-							<textarea name="content" id = "content"></textarea><br /><br />
-					        <input type="submit" name="submit" value="发布">
-					        <input type="reset" value = "取消">
-					        <!-- 添加一个事件，当点击其时，弹出对话框，是否放弃发布留言？是，关闭新打开的标签页，否，回到本界面 -->
-					    </form>
+						<?php if(($user) == "0"): ?><form action="/zky/index.php/Home/Message/do_addmessage" method = "post" id = "myForm">
+									留言主题：<input type="text" name = "title"> <br><br>
+									<!-- 此处应该限制一下输入文本框的长度 -->
+									<textarea name="content" id = "content"></textarea><br /><br />
+							        <input type="submit" name="submit" value="发布">
+							        <input type="reset" value = "取消">
+							        <!-- 添加一个事件，当点击其时，弹出对话框，是否放弃发布留言？是，关闭新打开的标签页，否，回到本界面 -->
+							    </form>
+								<?php else: ?> <br /><span>您已经被管理员禁言</span><?php endif; ?>
 				</div>
 			</div>
 		</div>

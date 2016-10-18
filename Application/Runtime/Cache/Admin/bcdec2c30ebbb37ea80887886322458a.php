@@ -113,7 +113,7 @@
         
     </div>
     <div id="buttom" >
-            <a href=""><button>添加</button></a>
+            <a href="/zky/index.php/Admin/Equipment/add"><button>添加</button></a>
         </div>
 </table>
     
