@@ -1,7 +1,7 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html>
 	<head>
-		<title>讨论区</title>
+		<title>新闻中心</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta http-equiv="Content-Language" content="zh-CN" />
 		<meta name="Author" content="网页作者" /> 
@@ -9,7 +9,7 @@
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
 		<link rel="stylesheet" href="./zhihu-css.css" />
-		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/main.css" />
+		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/news.css" />
 		<link rel="stylesheet" href="/zky/Public/Css/public.css" />
 		<script></script>
 	</head>
@@ -38,11 +38,52 @@
 		</div>
 		<div id='main'>
 			<div class="contain">
-				<div id="main_navi">
-						<a href="/zky/index.php/Home/Index/main">首页</a>--->讨论区 <br />
-							<a href="/zky/index.php/Home/Message/add_message">添加留言</a>
-							<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p><?php echo ($vo["title"]); ?>　　　　　　　　<a href="/zky/index.php/Home/Message/do_see/id/<?php echo ($vo["id"]); ?>">查看详情</a></p>
-								<hr><?php endforeach; endif; else: echo "" ;endif; ?>
+				<div id="showlist">
+					<div id="main_navi">
+						<a href="/zky/index.php/Home/Index/main">首页</a>---> <a href="/zky/index.php/Home/Inform/news">新闻通知</a>--><?php echo ($data["title"]); ?>
+					</div>
+					<h2>最新消息</h2>
+					<div id="list">
+						<h2><?php echo ($data["title"]); ?></h2>
+						<p><?php echo ($data["content"]); ?></p>
+						<p><?php echo ($data["date"]); ?></p>
+						<!--<a href="" class="news_list">
+							<P>1</P>
+						</a>
+						<a href="" class="news_list">
+							<P>2</P>
+						</a>
+						<a href="" class="news_list">
+							<P>3</P>
+						</a>
+						<a href="" class="news_list">
+							<P>4</P>
+						</a>
+						<a href="" class="news_list">
+							<P>5</P>
+						</a>
+						<a href="" class="news_list">
+							<P>6</P>
+						</a>
+						<a href="" class="news_list">
+							<P>7</P>
+						</a>
+						<a href="" class="news_list">
+							<P>8</P>
+						</a>
+						<a href="" class="news_list">
+							<P>9</P>
+						</a>
+						<a href="" class="news_list">
+							<P>10</P>
+						</a>
+						<a href="" class="news_list">
+							<P>11</P>
+						</a>
+						<a href="" class="news_list">
+							<P>12</P>
+						</a>-->
+					</div>
 				</div>
 			</div>
 		</div>

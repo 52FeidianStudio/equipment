@@ -39,10 +39,11 @@
 		<div id='main'>
 			<div class="contain">
 				<div id="main_navi">
-						<a href="/zky/index.php/Home/Index/main">首页</a>--->讨论区 <br />
-							<a href="/zky/index.php/Home/Message/add_message">添加留言</a>
-							<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p><?php echo ($vo["title"]); ?>　　　　　　　　<a href="/zky/index.php/Home/Message/do_see/id/<?php echo ($vo["id"]); ?>">查看详情</a></p>
-								<hr><?php endforeach; endif; else: echo "" ;endif; ?>
+						<a href="/zky/index.php/Home/Index/main">首页</a>---><a href="/zky/index.php/Home/Message/conmunication">讨论区</a>---> <a href="/zky/index.php/Home/Message/do_see"><?php echo ($data["title"]); ?></a> --> 回复
+						<form action="/zky/index.php/Home/Message/do_addanswer/id/<?php echo ($data["id"]); ?>/address/<?php echo ($address); ?>" method = "post" id = "myForm">
+							<textarea name="content" id = "content"></textarea><br /><br />
+					        <input type="submit" name="submit" value="提交">
+					    </form>
 				</div>
 			</div>
 		</div>

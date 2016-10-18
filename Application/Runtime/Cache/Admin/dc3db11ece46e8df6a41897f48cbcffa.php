@@ -122,7 +122,7 @@
     </div>
     <div id="buttom" >
             <a href="/zky/index.php/Admin/File/add_file"><button>添加</button></a>
-        </div>
+    </div>
 </table>
     
 </body>

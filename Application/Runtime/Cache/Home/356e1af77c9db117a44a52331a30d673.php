@@ -9,8 +9,8 @@
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
 		<link rel="stylesheet" href="./zhihu-css.css" />
-		<link rel="stylesheet" href="/equipment/Public/Css/public.css" />
-		<link rel="stylesheet" type='text/css' href="/equipment/Public/Css/equipiment.css" />
+		<link rel="stylesheet" href="/zky/Public/Css/public.css" />
+		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/equipiment.css" />
 		<script type="text/javascript"> 
   			window.onload = function () 
  			{ 
@@ -38,14 +38,14 @@
   				 } 
    //延迟加载图片，演示的时候，使用本地图片
    //上线后请改为二级域名提供的图片地址 
-   				document.getElementById("second").src = "/equipment/Public/Pic/lab.jpg";
+   				document.getElementById("second").src = "/zky/Public/Pic/lab.jpg";
    //使用图片宽660，高550 
-   				document.getElementById("third").src = "/equipment/Public/Pic/phone.jpg"; 
-   				document.getElementById("four").src = "/equipment/Public/Pic/aite.jpg";
-   				document.getElementById("third").src = "/equipment/Public/Pic/login.png"; 
-   				document.getElementById("four").src = "/equipment/Public/Pic/top.jpg";
-   				document.getElementById("third").src = "/equipment/Public/Pic/lab.jpg"; 
-   				document.getElementById("four").src = "/equipment/Public/Pic/phone.jpg";
+   				document.getElementById("third").src = "/zky/Public/Pic/phone.jpg"; 
+   				document.getElementById("four").src = "/zky/Public/Pic/aite.jpg";
+   				document.getElementById("third").src = "/zky/Public/Pic/login.png"; 
+   				document.getElementById("four").src = "/zky/Public/Pic/top.jpg";
+   				document.getElementById("third").src = "/zky/Public/Pic/lab.jpg"; 
+   				document.getElementById("four").src = "/zky/Public/Pic/phone.jpg";
   			} 
   			function turn(value) { 
    				if (value != null) 
@@ -68,30 +68,35 @@
 	<body>
 		<div id='header'>
 			<div class="contain" >
-				<img src="/equipment/Public/Pic/top.jpg" alt="" style="width:100%;" />
+				<img src="/zky/Public/Pic/top.jpg" alt="" style="width:100%;" />
 			</div>
 		</div>
 		<div id='navi'>
 			<div class="contain">
-				<a href="/equipment/index.php/Home/Index/main" class="navi_a">首页</a>
-				<a href="/equipment/index.php/Home/Inform/news" class="navi_a">新闻通知</a>
-				<a href="/equipment/index.php/Home/Equipment/equipment" class="navi_a">仪器介绍</a>
-				<a href="/equipment/index.php/Home/Regulation/regulation" class="navi_a">规章制度</a>
-				<a href="/equipment/index.php/Home/File/document" class="navi_a">文档下载</a>
-				<a href="/equipment/index.php/Home/Message/conmunication" class="navi_a">讨论区</a>
-				<a href="/equipment/index.php/Home/Index/about_us" class="navi_a">关于我们</a>
+				<a href="/zky/index.php/Home/Index/main" class="navi_a">首页</a>
+				<a href="/zky/index.php/Home/Inform/news" class="navi_a">新闻通知</a>
+				<a href="/zky/index.php/Home/Equipment/equipment" class="navi_a">仪器介绍</a>
+				<a href="/zky/index.php/Home/Regulation/regulation" class="navi_a">规章制度</a>
+				<a href="/zky/index.php/Home/File/document" class="navi_a">文档下载</a>
+				<a href="/zky/index.php/Home/Message/conmunication" class="navi_a">讨论区</a>
+				<a href="/zky/index.php/Home/Index/about_us" class="navi_a">关于我们</a>
 				<b>	　　　　　　　　　　　　　　</b>
 				<div id='na_log'>
 					<span>欢迎</span>
-					<span ><?php echo (session('username')); ?></span>
-					<a href="/equipment/index.php/Home/Login/login_out" style=''>退出</a>
+					<?php if(<?php echo (session('username')); ?> == ' '){
+							echo  <span><a href="/zky/index.php/Home/Login/index">登录</a></span>;
+							
+						}else{
+							echo <?php echo (session('username')); ?>;
+							echo <a href="/zky/index.php/Home/Login/login_out" style=''>退出</a>;
+						} ?>
 				</div>
 			</div>
 		</div>
 		<div id='main'>
 			<div class="contain">
 				<div id="main_navi">
-						<a href="/equipment/index.php/Home/Index/main">首页</a>--->仪器介绍
+						<a href="/zky/index.php/Home/Index/main">首页</a>--->仪器介绍
 				</div>
 				<div>
 					<div id='list_nav'>
@@ -108,7 +113,7 @@
 						</ul>
 					</div>
 					<div id='picshow'>
-							<a target="_blank" href="#"><img src="/equipment/Public/Pic/top.jpg" /></a> 
+							<a target="_blank" href="#"><img src="/zky/Public/Pic/top.jpg" /></a> 
    							<a target="_blank" href="#"><img id="second" /></a> 
    							<a target="_blank" href="#"><img id="third" /></a> 
    							<a target="_blank" href="#"><img id="four" /></a> 
@@ -126,7 +131,7 @@
 				<p class="footer_p">邮政编码：xxxxxx</p>
 				<p class="footer_p">联系电话：xxxxxxx xxxxxxxxxx xxxxxxxxxxxx</p>
 				<hr />
-				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="/equipment/index.php/Admin/Index/admin">管理</a></p>
+				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="/zky/index.php/Admin/Index/admin">管理</a></p>
 			</div>
 		</div>
 	</body>

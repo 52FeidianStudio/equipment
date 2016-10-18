@@ -15,7 +15,7 @@
 	</head>
 	<body>
 		<div id='header'>
-			<div class="contain">
+			<div class="contain" >
 				<img src="/zky/Public/Pic/top.jpg" alt="" style="width:100%;" />
 			</div>
 		</div>
@@ -28,11 +28,12 @@
 				<a href="/zky/index.php/Home/File/document" class="navi_a">文档下载</a>
 				<a href="/zky/index.php/Home/Message/conmunication" class="navi_a">讨论区</a>
 				<a href="/zky/index.php/Home/Index/about_us" class="navi_a">关于我们</a>
-				<b>	　　　　　　　　　　　　　　　</b>
-				<b style='line-height:60px;'>欢迎</b>
-				<span style='line-height:60px;'><?php echo (session('username')); ?></span>
-				<a href="/zky/index.php/Home/Login/login_out" style=''>退出</a>
-			</div>
+				<b>	　　　　　　　　　　　　　　</b>
+				<div id='na_log'>
+					<span>欢迎</span>
+					<span ><?php echo (session('username')); ?></span>
+					<a href="/zky/index.php/Home/Login/login_out" style=''>退出</a>
+				</div>
 			</div>
 		</div>
 		<div id='main'>
