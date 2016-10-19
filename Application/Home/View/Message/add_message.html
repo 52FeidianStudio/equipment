@@ -30,8 +30,10 @@
 				<a href="__APP__/Home/Index/about_us" class="navi_a">关于我们</a>
 				<div id='na_log'>
 					<span>欢迎</span>
-					<span ><{$Think.session.username}></span>
-					<a href="__APP__/Home/Login/login_out" style=''>退出</a>
+					<eq name="Think.session.username" value=""><span><a href="__APP__/Home/Login/index">登录</a></span>
+					<else />	<SPAN><{$Think.session.username}></SPAN>
+						<a href="__APP__/Home/Login/login_out" style=''>退出</a>
+					</eq>
 				</div>
 			</div>
 		</div>
@@ -39,14 +41,17 @@
 			<div class="contain">
 				<div id="main_navi">
 						<a href="__APP__/Home/Index/main">首页</a>---><a href="__APP__/Home/Message/conmunication">讨论区</a>--->发布留言
-						<form action="__URL__/do_addmessage" method = "post" id = "myForm">
-							留言主题：<input type="text" name = "title"> <br><br>
-							<!-- 此处应该限制一下输入文本框的长度 -->
-							<textarea name="content" id = "content"></textarea><br /><br />
-					        <input type="submit" name="submit" value="发布">
-					        <input type="reset" value = "取消">
-					        <!-- 添加一个事件，当点击其时，弹出对话框，是否放弃发布留言？是，关闭新打开的标签页，否，回到本界面 -->
-					    </form>
+						<eq name = "user" value = "0">
+								<form action="__URL__/do_addmessage" method = "post" id = "myForm">
+									留言主题：<input type="text" name = "title"> <br><br>
+									<!-- 此处应该限制一下输入文本框的长度 -->
+									<textarea name="content" id = "content"></textarea><br /><br />
+							        <input type="submit" name="submit" value="发布">
+							        <input type="reset" value = "取消">
+							        <!-- 添加一个事件，当点击其时，弹出对话框，是否放弃发布留言？是，关闭新打开的标签页，否，回到本界面 -->
+							    </form>
+								<else /> <br /><span>您已经被管理员禁言</span>
+						</eq>
 				</div>
 			</div>
 		</div>

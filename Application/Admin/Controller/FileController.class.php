@@ -11,18 +11,15 @@
 		public function doucument(){
 			$n = M('File');
 			$count = $n -> count();
-			$Page = new\Think\Page($count,10);// 每页显示的记录数
+			$Page = new\Think\Page($count,20);// 每页显示的记录数
         	$Page->setConfig('header','个文件');
         	$Page->setConfig('next','下一页');
         	$Page->setConfig('prev','上一页');
       	  	$show = $Page -> show();//返回分页信息
-      		$arr = $n -> limit($Page->firstRow.','.$Page->listRows) -> select();
+      		$arr = $n -> limit($Page->firstRow.','.$Page->listRows) -> order("id") -> select();
         	$this -> assign("data",$arr);
         	$this -> assign('show',$show);
         	$this -> display();
-		}
-		public function add_file(){
-			$this -> display();
 		}
 		public function do_show(){
 			$Me = M('file');
@@ -42,7 +39,7 @@
 				//上传错误提示信息
 				$this -> error($upload->getError());
 			}
-			$Me -> userid = "1";
+			$Me -> userid = $_SESSION['id'];
 			$Me -> date = date("Y-m-d H:i:s");
 			$Me -> filename = $info['file']['savename'];//记录文件的上传路径
 			$Me -> address =$info['file']['savepath'].$info['file']['savename'];
@@ -51,6 +48,8 @@
 
 			if($last){
 				$this -> redirect('File/doucument','','3','上传成功'); // 进行重定向操作，返回到主页
+			}else{
+				$this -> error("上传失败！");
 			}
 		}
 		public function delete(){

@@ -64,7 +64,11 @@
 				background:  #F2F1E8;
 			}
 			#na_log{
+<<<<<<< HEAD
 				width:200px;
+=======
+				width:150px;
+>>>>>>> 274ac434af9ae2df88a3dd434229a99d0342b82f
 				height: 47px;
 				float: right ;
 				line-height:47px;

@@ -30,10 +30,9 @@
 			}
 			$n -> imagicname = $info['file']['savename'];//记录文件的上传路径
 			$n -> imagicaddress =$info['file']['savepath'].$info['file']['savename'];
-			$n -> eblong = date("Y-m-d h:i:s");
+			$n -> eblong = date("Y-m-d H:i:s");
 			$last = $n -> add();
-			var_dump($last);
-			var_dump($info);
+			exit;
 			if($last){
 				$this -> redirect('File/index','','0','上传成功'); // 进行重定向操作，返回到主页
 			}
@@ -67,6 +66,9 @@
 			}else{
 				$this -> error("修改失败");
 			}
+		}
+		public function add(){
+			$this -> display();
 		}
 	}
 ?>

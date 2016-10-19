@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title></title>
@@ -80,42 +80,48 @@
     </style>
 </head>
 <body>
-<table >
-    <font color="#777777"><strong>用户名称：用户</strong></font>
-    <a href="studentdetail.html">小强</a>
-    <div class='panel'>
-        <thead>
-            <!-- <div id='p_header'>
-            <tr>
-                                <th>序号</th>
-                    <th>链接名称</th>
-                    <th>上传日期</th>
-                    <th>管理菜单</th>
-                </tr>
-            </div> -->
-        </thead>
-        <div id='p_body'>
-            <tr>
-		        <td>1</td>
-                <td id='contant'>复仇者联盟</td>
-                <td>www.ahfoia.com</td>
-                <td> <button type="submit">删除</button></a></td>
-                <td> <button type="submit">修改</button></a></td>
-            </tr>
-		    <tr>
-		        <td>2</td>
-                <td id='contant'>北大教授讲座</td>
-                <td>www.ahfoia.com</td>
-                <td> <button type="submit">删除</button></a></td>
-                <td> <button type="submit">修改</button></a></td>
-            </tr>
-        </div>
-        
-    </div>
-    <div id="buttom" >
-            <a href=""><button>添加</button></a>
-        </div>
-</table>
-    
+        <font color="#777777"><strong>用户名称：<{$user.name}></strong></font> <br>
+        <font color="#777777"><strong>用户状态：
+            <eq name = "user['say']" value = "1">禁言</eq>
+            <eq name = "user['say']" value = "0">正常</eq>
+        </strong></font>
+        <br><font color="#777777"><strong>发布的主题 共<{$countmessage}>条主题</strong></font> <br>
+        <table >
+            <div class='panel'>
+                <div id='p_body'>
+                        <tr>
+                            <td>留言主题</td>
+                            <td>留言内容</td>
+                            <td>留言时间</td>
+                        </tr>
+                    <volist name = "message" id = "vo">
+                        <tr>
+                            <td><a href="__APP__/Admin/Message/do_see/id/<{$vo.message.id}>"><{$vo.title}></a></td>
+                            <td><{$vo.content}></td>
+                            <td><{$vo.date}></td>
+                        </tr>
+                    </volist>
+                </div>
+            </div>
+        </table>
+        <br><font color="#777777"><strong>他的回复 共<{$countanswer}>条回复</strong></font> <br>
+        <table >
+            <div class='panel'>
+                <div id='p_body'>
+                        <tr>
+                            <td>留言主题</td>
+                            <td>回复内容</td>
+                            <td>回复时间</td>
+                        </tr>
+                    <volist name = "answer" id = "vo">
+                        <tr>
+                            <td><a href="__APP__/Admin/Message/do_see/id/<{$vo.message.id}>"><{$vo.message.title}></a></td>
+                            <td><{$vo.content}></td>
+                            <td><{$vo.date}></td>
+                        </tr>
+                    </volist>
+                </div>
+            </div>
+        </table>
 </body>
 </html>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
     <title></title>
@@ -80,33 +80,41 @@
     </style>
 </head>
 <body>
-<table >
-    <font color="#777777"><strong>用户名称：文档信息</strong></font>
-    <a href="studentdetail.html">小强</a>
-    <div class='panel'>
-        <thead>
-            <!-- <div id='p_header'>
-            <tr>
-                                <th>序号</th>
-                    <th>链接名称</th>
-                    <th>上传日期</th>
-                    <th>管理菜单</th>
-                </tr>
-            </div> -->
-        </thead>
-        <div id='p_body'>
-            <form action="__URL__/do_show" enctype="multipart/form-data" method="post" >
-                <p>上传文件</p>
-                <input type="file" name = "file">
-                <div id="buttom" >
-                        <button type = "submit" value = "提交">添加</button>
-                </div>
-            </form>
+     <table>
+        <div class='panel'>
+            <div id='p_body'>
+                <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+                        <td><?php echo (session('name')); ?></td>
+                        <td><?php echo (session('username')); ?></td>
+                        <td><a href="/zky/index.php/Admin/Message/studenttail/id/<?php echo ($vo["id"]); ?>"><button>详细信息</button></a></td>
+                        <td><a href="/zky/index.php/Admin/Index/pass_update"><button>修改密码</button></a></td>
+                    </tr>
+                
+            </div>
         </div>
-        
-    </div>
-    
-</table>
-    
+    </table>
+    <table>
+        <div class='panel'>
+            <div id='p_body'>
+                    <tr>
+                        <td>工号</td>
+                        <td>用户名</td>
+                        <td></td>
+                    </tr>
+            </div>
+        </div>
+    </table>
+    <table>
+        <div class='panel'>
+            <div id='p_body'>
+                <volist name = "data" id = "vo">
+                    <tr>
+                        <td><?php echo ($vo["username"]); ?></td>
+                        <td><?php echo ($vo["name"]); ?></td>
+                        <td><a href="/zky/index.php/Admin/Message/studenttail/id/<?php echo ($vo["id"]); ?>"><button>详细信息</button></a></td>
+                    </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+            </div>
+        </div>
+    </table>
 </body>
 </html>

@@ -18,6 +18,9 @@
 						$name = $n -> where("username = $username") -> getField('name');
 						$_SESSION['username'] = $name;
 						$_SESSION['id'] = $n -> where("username = $username") -> getField('id');
+						$_SESSION['name'] = $n -> where("username = $username") -> getField('username');
+						$_SESSION['isTeacher'] = 1;
+						$_SESSION['password'] = $password;
 						$this -> redirect("Index/admin");
 					}else{
 						$this -> error("密码不正确！");
@@ -28,7 +31,14 @@
 			}else{
 				$this -> error("用户不存在");
 			}
-			
+		}
+		public function login_out(){
+			$_SESSION = array();
+			if(isset($_COOKIE['session_name()'])){
+				setcookie(session_name(),'',time()-1,'/');
+			}
+			session_destroy();
+			$this -> redirect("__APP__/Home/Index/main");
 		}
 	}
  ?>

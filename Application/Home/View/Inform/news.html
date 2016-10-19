@@ -29,8 +29,10 @@
 				<a href="__APP__/Home/Index/about_us" class="navi_a">关于我们</a>
 				<div id='na_log'>
 					<span>欢迎</span>
-					<span ><{$Think.session.username}></span>
-					<a href="__APP__/Home/Login/login_out" style=''>退出</a>
+					<eq name="Think.session.username" value=""><span><a href="__APP__/Home/Login/index">登录</a></span>
+					<else />	<SPAN><{$Think.session.username}></SPAN>
+						<a href="__APP__/Home/Login/login_out" style=''>退出</a>
+					</eq>
 				</div>
 			</div>
 		</div>

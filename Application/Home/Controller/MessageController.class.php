@@ -6,6 +6,10 @@
           if(!isset($_SESSION['username']) || $_SESSION['username'] == ''){
           	$this -> redirect("Login/index");
           }
+          //获取用户当前的状态
+			$m = M("User");
+			$user = $m -> where("id = $_SESSION[id] ") -> getField("say");
+			$this -> assign("user",$user);
       	}
 		public function conmunication(){
 			$n = M("Message");

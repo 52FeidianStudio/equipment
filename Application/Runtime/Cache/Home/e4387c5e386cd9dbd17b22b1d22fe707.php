@@ -16,11 +16,16 @@
 	<body>
 		<div id='header'>
 			<div class="contain" >
+<<<<<<< HEAD
 				<img src="/equipment/Public/Pic/top.jpg" alt="" style="width:100%;" />
+=======
+				<img src="/zky/Public/Pic/top.jpg" alt="" style="width:100%;" />
+>>>>>>> 274ac434af9ae2df88a3dd434229a99d0342b82f
 			</div>
 		</div>
 		<div id='navi'>
 			<div class="contain">
+<<<<<<< HEAD
 				<a href="/equipment/index.php/Home/Index/main" class="navi_a">首页</a>
 				<a href="/equipment/index.php/Home/Inform/news" class="navi_a">新闻通知</a>
 				<a href="/equipment/index.php/Home/Equipment/equipment" class="navi_a">仪器介绍</a>
@@ -32,6 +37,21 @@
 					<span>欢迎</span>
 					<span ><?php echo (session('username')); ?></span>
 					<a href="/equipment/index.php/Home/Login/login_out" style=''>退出</a>
+=======
+				<a href="/zky/index.php/Home/Index/main" class="navi_a">首页</a>
+				<a href="/zky/index.php/Home/Inform/news" class="navi_a">新闻通知</a>
+				<a href="/zky/index.php/Home/Equipment/equipment" class="navi_a">仪器介绍</a>
+				<a href="/zky/index.php/Home/Regulation/regulation" class="navi_a">规章制度</a>
+				<a href="/zky/index.php/Home/File/document" class="navi_a">文档下载</a>
+				<a href="/zky/index.php/Home/Message/conmunication" class="navi_a">讨论区</a>
+				<a href="/zky/index.php/Home/Index/about_us" class="navi_a">关于我们</a>
+				<b>	　　　　　　　　　　　　　　</b>
+				<div id='na_log'>
+					<span>欢迎</span>
+					<?php if(($_SESSION['username']) == ""): ?><span><a href="/zky/index.php/Home/Login/index">登录</a></span>
+					<?php else: ?>	<SPAN><?php echo (session('username')); ?></SPAN>
+						<a href="/zky/index.php/Home/Login/login_out" style=''>退出</a><?php endif; ?>
+>>>>>>> 274ac434af9ae2df88a3dd434229a99d0342b82f
 				</div>
 			</div>
 		</div>

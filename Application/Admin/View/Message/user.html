@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title></title>
@@ -80,42 +80,57 @@
     </style>
 </head>
 <body>
-<table >
-    <font color="#777777"><strong>用户名称：评价管理</strong></font>
-    <a href="studentdetail.html">小强</a>
-    <div class='panel'>
-        <thead>
-            <!-- <div id='p_header'>
-            <tr>
-                                <th>序号</th>
-                    <th>链接名称</th>
-                    <th>上传日期</th>
-                    <th>管理菜单</th>
+    <table>
+        <div class='panel'>
+            <div id='p_body'>
+                <tr>
+                    <td>
+                        <font color="#777777"><strong>用户名称</strong></font>
+                    </td>
+                    <td>
+                        
+                    </td>
+                    <td>
+                        <eq name = "count" value = "$count1">
+                            <a href="__URL__/unsetall"><button>取消全员禁言</button></a>
+                        <else /><a href="__URL__/setall"><button>全员禁言</button></a>
+                        </eq>
+                    </td>
                 </tr>
-            </div> -->
-        </thead>
-        <div id='p_body'>
-            <tr>
-		        <td>1</td>
-                <td id='contant'>复仇者联盟</td>
-                <td>www.ahfoia.com</td>
-                <td> <button type="submit">删除</button></a></td>
-                <td> <button type="submit">修改</button></a></td>
-            </tr>
-		    <tr>
-		        <td>2</td>
-                <td id='contant'>北大教授讲座</td>
-                <td>www.ahfoia.com</td>
-                <td> <button type="submit">删除</button></a></td>
-                <td> <button type="submit">修改</button></a></td>
-            </tr>
+            </div>
         </div>
-        
-    </div>
-    <div id="buttom" >
-            <a href=""><button>添加</button></a>
+    </table>
+    <table>
+        <div class='panel'>
+            <div id='p_body'>
+                <volist name = "data" id = "vo">
+                        <eq name="vo['say']" value="0">
+                            <tr>
+                                <td><{$vo.username}></td>
+                                <td><{$vo.name}></td>
+                                <td><a href="__URL__/studenttail/id/<{$vo.id}>"><button>详细信息</button></a></td>
+                                <td><a href="__URL__/set/id/<{$vo.id}>"><button>禁言</button></a></td>
+                            </tr>
+                        </eq>
+                </volist>
+            </div>
         </div>
-</table>
-    
+    </table>
+    <table >
+        <div class='panel'>
+            <div id='p_body'>
+                <volist name = "data" id = "vo">
+                        <eq name="vo['say']" value="1">
+                            <tr>
+                                <td><{$vo.username}></td>
+                                <td><{$vo.name}></td>
+                                <td><a href="__URL__/studenttail/id/<{$vo.id}>"><button>详细信息</button></a></td>
+                                <td><a href="__URL__/un_set/id/<{$vo.id}>"><button>取消禁言</button></a></td>
+                            </tr>
+                        </eq>
+                </volist>
+            </div>
+        </div>
+    </table>
 </body>
 </html>

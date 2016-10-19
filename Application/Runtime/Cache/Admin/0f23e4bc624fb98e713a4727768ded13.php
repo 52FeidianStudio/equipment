@@ -80,42 +80,70 @@
     </style>
 </head>
 <body>
-<table >
-    <font color="#777777"><strong>用户名称：</strong></font>
-    <a href="studentdetail.html">小强</a>
-    <div class='panel'>
-        <thead>
-            <!-- <div id='p_header'>
-            <tr>
-                                <th>序号</th>
-                    <th>链接名称</th>
-                    <th>上传日期</th>
-                    <th>管理菜单</th>
+	<font color="#777777"><strong>管理员：<?php echo (session('username')); ?></strong></font>
+    <table>
+        <div class='panel'>
+            <div id='p_body'>
+                <tr>
+                    <td>主题：</td>
+                    <td><?php echo ($find['title']); ?></td>
                 </tr>
-            </div> -->
-        </thead>
-        <div id='p_body'>
-            <tr>
-		        <td>1</td>
-                <td id='contant'>复仇者联盟</td>
-                <td>www.ahfoia.com</td>
-                <td> <button type="submit">删除</button></a></td>
-                <td> <button type="submit">修改</button></a></td>
-            </tr>
-		    <tr>
-		        <td>2</td>
-                <td id='contant'>北大教授讲座</td>
-                <td>www.ahfoia.com</td>
-                <td> <button type="submit">删除</button></a></td>
-                <td> <button type="submit">修改</button></a></td>
-            </tr>
+			</div>
+		</div>     
+	</table>           
+    <table>
+        <div class='panel'>
+            <div id='p_body'>
+                <tr>
+                   <td>详细内容：</td>
+                   <td><?php echo ($find['content']); ?></td>
+                </tr>
+            </div>
         </div>
-        
-    </div>
-    <div id="buttom" >
-            <a href=""><button>添加</button></a>
+	</table>  
+	<table>
+        <div class='panel'>
+            <div id='p_body'>
+                <tr>
+                    <td><?php echo ($find['user']['name']); ?>　　于<?php echo ($find['date']); ?>发布</td>
+                    <td>已经有<?php echo ($count); ?>人关注</td>
+                </tr>
+            </div>
+		</div>
+	</table>
+	<table>
+		<tr>
+			<td>添加回复</td>
+		</tr>
+		<tr>
+			<td>
+				<form action="/zky/index.php/Admin/Message/do_addanswer/id/<?php echo ($find['id']); ?>" method = "post">
+					<textarea name="content" id = "content" value = "回复他/她"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td><button type = "submit">回复</button></form></td>
+		</tr>
+	</table>
+	<table>
+        <div class='panel'>
+            <div id='p_body'>
+                <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+						<td><?php echo ($vo["user"]["name"]); ?>：</td>
+						<td><?php echo ($vo["content"]); ?></td>　　　　
+						<td></td>
+						<td></td>
+						<td><?php echo ($vo["date"]); ?></td>　
+						<td><a href="/zky/index.php/Admin/Message/do_deleteanswer/id/<?php echo ($vo["id"]); ?>"><button>删除</button></a></td>
+					</tr><?php endforeach; endif; else: echo "" ;endif; ?>
+				<tr>
+					<td><?php echo ($show); ?></td>
+				</tr>
+            </div>
         </div>
-</table>
-    
+    </table>
 </body>
 </html>

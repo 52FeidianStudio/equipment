@@ -80,42 +80,36 @@
     </style>
 </head>
 <body>
-<table >
-    <font color="#777777"><strong>用户名称：用户</strong></font>
-    <a href="studentdetail.html">小强</a>
-    <div class='panel'>
-        <thead>
-            <!-- <div id='p_header'>
-            <tr>
-                                <th>序号</th>
-                    <th>链接名称</th>
-                    <th>上传日期</th>
-                    <th>管理菜单</th>
-                </tr>
-            </div> -->
-        </thead>
-        <div id='p_body'>
-            <tr>
-		        <td>1</td>
-                <td id='contant'>复仇者联盟</td>
-                <td>www.ahfoia.com</td>
-                <td> <button type="submit">删除</button></a></td>
-                <td> <button type="submit">修改</button></a></td>
-            </tr>
-		    <tr>
-		        <td>2</td>
-                <td id='contant'>北大教授讲座</td>
-                <td>www.ahfoia.com</td>
-                <td> <button type="submit">删除</button></a></td>
-                <td> <button type="submit">修改</button></a></td>
-            </tr>
+    <table>
+        <div class='panel'>
+            <div id='p_body'>
+                <volist name = "data" id = "vo">
+                    <tr>
+                        <td>账　号：</td>
+                        <td><{$Think.session.name}></td>
+                    </tr>
+                    <tr>
+                        <td>用户名：</td>
+                        <td><{$Think.session.username}></td>
+                    </tr>
+                    <tr>
+                        <td>请输入更改之后的密码：</td>
+                        <td><form action="__URL__/dopass_update" method = "post"><input type="text" name = "password"></td>
+                    </tr>
+                    <tr>
+                        <td>请重新输入密码：</td>
+                        <td><input type="text" name = "repassword"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button type = "submit">提交</button></td>
+                        <td><button type = "reset">重置</button></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+            </div>
         </div>
-        
-    </div>
-    <div id="buttom" >
-            <a href=""><button>添加</button></a>
-        </div>
-</table>
-    
+    </table>
 </body>
 </html>
