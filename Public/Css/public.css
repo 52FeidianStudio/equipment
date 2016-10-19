@@ -2,9 +2,17 @@
 				padding: 0;
 				margin: 0;
 			}
+			body  {
+			background: #fff;
+			margin: 0; /* 最好将 body 元素的边距和填充设置为 0 以覆盖不同的浏览器默认值 */
+			padding: 0;
+			text-align: left; /* 在 IE 5* 浏览器中，这会将容器居中。文本随后将在 #container 选择器中设置为默认左对齐 */
+			font-size: 100%;
+			font-family: Verdana, Arial, Helvetica, sans-serif;
+			}
 			.contain{
 				margin: 0 auto;
-				width: 65%;
+				width: 960px;
 				font-family: sans-serif;
 			}
 			#navi{
@@ -56,22 +64,64 @@
 				background:  #F2F1E8;
 			}
 			#na_log{
-				width:75px;
+				width:200px;
 				height: 47px;
 				float: right ;
 				line-height:47px;
-				position: relative;
-				top: 0px;
-				left: -200px;
+			}
+			#na_log a:link,#na_log a:hover,#na_log a:visited{
+				text-decoration: none;
+				text-shadow: 0 0 1px #999, 
+             	1px 1px 1px #888;
+             	color: #004080;
+			}
+			#na_log a:hover{
+				color:black;
 			}
 			#header{
 				overflow:hidden;
-				height: 187px;
+				height: 173px;
+			}
+			#header img{
+				height: 210px;
+				width:100%;
 			}
 			#main{
 				background: white;
 			}
+			#main h2{
+				clear: both;
+			}
+			#main_navi a:link,#main_navi a:hover,#main_navi a:visited,#main_navi span{
+				text-decoration: none;
+				display: block;
+				float: left;
+				color: #566F89;
+ 				text-shadow: 1px 1px 0 #E4F1FF;
+			}
+			#main_navi a:hover{
+				color:orange;
+			}
 			#footer{
 				height: 100px;
 				clear: both;
+			}
+			#footer .contain{
+				border-radius: 3px;
+				background: #E9EFFE;
+			}
+			.footer_p{
+				font-family: 100px;
+				font-family: ;
+				font-size: 13px; ;
+				color:#004080;
+			}
+			#footer a:link,#footer a:hover,#footer a:visited{
+				text-decoration: none;
+				text-shadow: 0 0 1px #999, 
+             	1px 1px 1px #888;
+             	color: #004080;
+			}
+			#footer a:hover{
+				color:black;
 			}

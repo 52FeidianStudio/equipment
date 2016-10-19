@@ -28,7 +28,6 @@
 				<a href="/equipment/index.php/Home/File/document" class="navi_a">文档下载</a>
 				<a href="/equipment/index.php/Home/Message/conmunication" class="navi_a">讨论区</a>
 				<a href="/equipment/index.php/Home/Index/about_us" class="navi_a">关于我们</a>
-				<b>	　　　　　　　　　　　　　　</b>
 				<div id='na_log'>
 					<span>欢迎</span>
 					<span ><?php echo (session('username')); ?></span>
@@ -42,7 +41,12 @@
 						<a href="/equipment/index.php/Home/Index/main">首页</a>--->规章制度
 				</div>
 				<div id="r_list">
-					
+					<div id="list">
+						<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "暂时没有通知" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><a href="/equipment/index.php/Home/Regulation/showitems/id/<?php echo ($vo["id"]); ?>" class="news_list">
+									<p><span><?php echo ($vo["title"]); ?></span>　　　　<t><?php echo ($vo["date"]); ?></t></p>
+									<br />
+								</a><?php endforeach; endif; else: echo "暂时没有通知" ;endif; ?>
+					</div>
 				</div>
 			</div>
 		</div>

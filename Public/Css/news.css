@@ -1,4 +1,24 @@
 .news_list{
-				text-decoration: none;
-				height: 50px;
+	text-decoration: none;
+	height: 50px;
 			}
+#list a:link,#list a:hover,#list a:visited{
+	text-decoration: none;
+	color:#666;
+	display: block;
+	width: 100%;
+	border-bottom: 1px dashed #eaeaea;
+	height: 40px;
+	line-height: 40px;
+}
+#list a:hover{
+	color: #333;
+}
+#list span{
+
+
+}
+#list t{
+	display: block;
+	float: right;
+}

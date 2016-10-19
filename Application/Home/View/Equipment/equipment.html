@@ -11,59 +11,8 @@
 		<link rel="stylesheet" href="./zhihu-css.css" />
 		<link rel="stylesheet" href="__PUBLIC__/Css/public.css" />
 		<link rel="stylesheet" type='text/css' href="__PUBLIC__/Css/equipiment.css" />
-		<script type="text/javascript"> 
-  			window.onload = function () 
- 			{ 
-   				flag = 0; 
-  				 obj1 = document.getElementById("picshow"); 
-  				 obj2 = document.getElementsByTagName("li"); 
-  				 obj2[0].style.backgroundColor = "#666666";
-  				 //默认被选中颜色 
-   				time = setInterval("turn();", 5000); 
-  				 obj1.onmouseover = function () { 
-  				  clearInterval(time); 
-   					} 
-   				obj1.onmouseout = function () { 
-   					 time = setInterval("turn();", 6000); 
-  					 } 
- 
-   				for (var num = 0; num < obj2.length; num++) { 
-    				obj2[num].onmouseover = function () { 
-     					turn(this.innerHTML); 
-     					clearInterval(time); 
-   					 } 
-    				obj2[num].onmouseout = function () { 
-     					time = setInterval("turn();", 6000); 
-    				} 
-  				 } 
-   //延迟加载图片，演示的时候，使用本地图片
-   //上线后请改为二级域名提供的图片地址 
-   				document.getElementById("second").src = "__PUBLIC__/Pic/lab.jpg";
-   //使用图片宽660，高550 
-   				document.getElementById("third").src = "__PUBLIC__/Pic/phone.jpg"; 
-   				document.getElementById("four").src = "__PUBLIC__/Pic/aite.jpg";
-   				document.getElementById("third").src = "__PUBLIC__/Pic/login.png"; 
-   				document.getElementById("four").src = "__PUBLIC__/Pic/top.jpg";
-   				document.getElementById("third").src = "__PUBLIC__/Pic/lab.jpg"; 
-   				document.getElementById("four").src = "__PUBLIC__/Pic/phone.jpg";
-  			} 
-  			function turn(value) { 
-   				if (value != null) 
-   					{ 
-    					flag = value - 2; 
-   					} 
-   				if (flag < obj2.length - 1) 
-   					flag++; 
-   				else 
-    				flag = 0; 
-   				obj1.style.top = flag * (-550) + "px"; 
-   				for (var j = 0; j < obj2.length; j++) 
-   				{ 
-    				obj2[j].style.backgroundColor = "#ffffff"; 
-   				} 
-   				obj2[flag].style.backgroundColor = "#666666"; 
-  			} 
- </script> 
+		<script src="__PUBLIC__/Js/equipment.js"></script>
+
 	</head>
 	<body>
 		<div id='header'>
@@ -80,7 +29,6 @@
 				<a href="__APP__/Home/File/document" class="navi_a">文档下载</a>
 				<a href="__APP__/Home/Message/conmunication" class="navi_a">讨论区</a>
 				<a href="__APP__/Home/Index/about_us" class="navi_a">关于我们</a>
-				<b>	　　　　　　　　　　　　　　</b>
 				<div id='na_log'>
 					<span>欢迎</span>
 					<span ><{$Think.session.username}></span>
@@ -90,34 +38,28 @@
 		</div>
 		<div id='main'>
 			<div class="contain">
-				<div id="main_navi">
-						<a href="__APP__/Home/Index/main">首页</a>--->仪器介绍
-				</div>
-				<div>
-					<div id='list_nav'>
-						<ul>
-							<!-- 1-8指代实验仪器的八种分类 -->
-							<li><a href="">1</a></li>
-							<li><a href="">2</a></li>
-							<li><a href="">3</a></li>
-							<li><a href="">4</a></li>
-							<li><a href="">5</a></li>
-							<li><a href="">6</a></li>
-							<li><a href="">7</a></li>
-							<li><a href="">8</a></li>
-						</ul>
-					</div>
-					<div id='picshow'>
-							<a target="_blank" href="#"><img src="__PUBLIC__/Pic/top.jpg" /></a> 
-   							<a target="_blank" href="#"><img id="second" /></a> 
-   							<a target="_blank" href="#"><img id="third" /></a> 
-   							<a target="_blank" href="#"><img id="four" /></a> 
-   							<a target="_blank" href="#"><img id="five" /></a>
-   							<a target="_blank" href="#"><img id="six" /></a>
-   							<a target="_blank" href="#"><img id="seven" /></a>
-   							<a target="_blank" href="#"><img id="eight" /></a>
-					</div>
-				</div>
+				 <div id="slide">
+        <a id="btnLeft" href="javascript:void(0);" >1</a>
+        <a id="btnRight" href="javascript:void(0);" >2</a>
+        <!--when change next image:style="left: -(n-1)*800px;"-->
+        <ul>
+            <li><img src="__PUBLIC__/Pic/top.jpg" alt="" /></li>
+            <li><img src="__PUBLIC__/Pic/lab.jpg" alt="" /></li>
+            <li><img src="__PUBLIC__/Pic/Login.png" alt="" /></li>
+            <li><img src="__PUBLIC__/Pic/phone.jpg" alt="" /></li>
+            <li><img src="__PUBLIC__/Pic/aite.jpg" alt="" /></li>
+            <li><img src="_PUBLIC__/Pic/top.jpg" alt="" /></li>
+          
+        </ul>
+        <div id="ico" class="ico">    
+            <a class="active" href="javascript:void(0);"></a>
+            <a href="javascript:void(0);"></a>
+            <a href="javascript:void(0);"></a>
+            <a href="javascript:void(0);"></a>
+            <a href="javascript:void(0);"></a>
+            <a href="javascript:void(0);"></a>
+        </div>
+    </div>
 			</div>
 		</div>
 		<div id='footer'>

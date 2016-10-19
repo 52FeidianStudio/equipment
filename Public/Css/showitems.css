@@ -1,0 +1,8 @@
+#list h3{
+   text-align: center;
+   border-bottom: 1px solid #eaeaea;
+}
+#list p{
+	text-indent:30px;
+	border-bottom: 1px dashed #eaeaea;
+}

@@ -1,25 +1,36 @@
 			#left{
-				border: 1px solid #CEE1FD;
 				float: left;
-				width: 30%;
-			}
-			.left_a:link{
-				display: block;
-				width: 100%;
-				height: 60px;
-				text-decoration: none;
-				color: black;
-			}
-			
-			.left_a:hover{
-				display: block;
-				width: 100%;
-				height: 60px;
-				text-decoration: none;
-				color: orange;
-				background: 
+				height: 400px;
+				border-radius: 5px;
+				border: 1px solid #2a8ba7;
+				margin-top: 5px;
+				
 			}
 			#book{
+
+				margin-top: 5px;
+				border-radius: 5px;
+			}
+			#book a:link,#book a:visited{
+				margin:0 auto;
+				text-align: left;
+				text-decoration: none;
+				text-indent: 15px;
+				display: block;
+				width: 100%;
+				height: 25px;
+				text-decoration: none;
+				color: black;
+				font-size: 1em;
+				margin-right:2px; 
+				border-bottom: 1px dashed #eaeaea;
+			}
+			#book a:hover{
+				display: block;
+				width: 100%;
+				height: 25px;
+				text-decoration: none;
+				color: orange;
 			}
 			#book h1{
 				font-family:"Times New Roman",Georgia,Sans-serif;
@@ -31,16 +42,28 @@
 				font-family: "Times New Roman",Georgia,Sans-serif;
 				color: #DB8400;
 			}
+			#relational_a h4{
+				font-family: "Times New Roman",Georgia,Sans-serif;
+				text-indent: 5px;
+			}
 			#right{
-			 	width: 65%;
+			 	width: 68%;
 				float: left;
-			 	margin-left:10px; 
+				margin-left: 5px;
+				margin-top: 5px;
 			}
 			#js{
-				width:60%;
-				height:250px;
-				float:left;
+				width:100%;
+				height:200px;
 			}
+
 			#r_message{
 				clear:both;
+				text-align: left;
+			}
+			#r_message p{
+				text-indent: 30px;
+			}
+			#r_message span{
+				font-family:verdana;
 			}
