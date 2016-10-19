@@ -81,42 +81,57 @@
     </style>
 </head>
 <body>
-<table >
-    <font color="#777777"><strong>用户名称：新闻</strong></font>
-    <a href="studentdetail.html">小强</a>
-    <div class='panel'>
-        <thead>
-            <!-- <div id='p_header'>
-            <tr>
-                                <th>序号</th>
-                    <th>链接名称</th>
-                    <th>上传日期</th>
-                    <th>管理菜单</th>
+    <font color="#777777"><strong>用户名称：</strong></font>
+    <a href="/zky/index.php/Admin/Index/studentdetail"><?php echo (session('username')); ?></a>
+    <table >
+        <div class='panel'>
+            <thead>
+            </thead>
+            <div id='p_body'>
+                <tr>
+                    <td>写通知</td>
                 </tr>
-            </div> -->
-        </thead>
-        <div id='p_body'>
-            <tr>
-		        <td>1</td>
-                <td id='contant'>复仇者联盟</td>
-                <td>www.ahfoia.com</td>
-                <td> <button type="submit">删除</button></a></td>
-                <td> <button type="submit">修改</button></a></td>
-            </tr>
-		    <tr>
-		        <td>2</td>
-                <td id='contant'>北大教授讲座</td>
-                <td>www.ahfoia.com</td>
-                <td> <button type="submit">删除</button></a></td>
-                <td> <button type="submit">修改</button></a></td>
-            </tr>
+                <tr>
+                    <!-- 使用Ajax判断输入是否合法 -->
+                    <td><form action="/zky/index.php/Admin/Inform/do_show" method="post" name="myForm">通知名称：</td>
+                    <td><input type="text" name="title" value="" /></td>
+                </tr>
+                <tr>
+                    <td>通告内容：</td>
+                    <td><textarea name="content"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><div id="buttom" ><button type="submit"value="提交" />提交</button></div></form></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </div>
         </div>
-        
-    </div>
-    <div id="buttom" >
-            <a href=""><button>添加</button></a>
+    </table>
+    <table >
+        <div class='panel'>
+            <thead>
+                <!-- <div id='p_header'>
+                <tr>
+                                    <th>序号</th>
+                        <th>链接名称</th>
+                        <th>上传日期</th>
+                        <th>管理菜单</th>
+                    </tr>
+                </div> -->
+            </thead>
+            <div id='p_body'>
+                <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+        		        <td><a href="/zky/index.php/Admin/Inform/showitems/id/<?php echo ($vo["id"]); ?>"><?php echo ($vo["title"]); ?></a></td>
+                        <td><?php echo ($vo["date"]); ?></td>
+                        <td><a href="/zky/index.php/Admin/Inform/do_delete/id/<?php echo ($vo["id"]); ?>"><button>删除</button></a></td>
+                    </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+            </div>
         </div>
-</table>
+    </table>
     
 </body>
 </html>

@@ -31,7 +31,7 @@
 		</div>
 		<div class="top_link">
 			<a href="/zky/index.php/Admin/Index/admin_list" target="mainCont" title="Ghost">
-				管理员：<?php echo (session('username')); ?></a> 
+				管理员：<?php echo (session('username')); ?></a>
 		</div>
 	</div>
 	<div class="left">

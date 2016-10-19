@@ -24,4 +24,31 @@
             $this -> assign("data",$arr);
             $this -> display();
         }
+        public function pass_update(){
+            $this -> display();
+        }
+        public function dopass_update(){
+            $where = $_POST['id'];//将其作为用户看不到的表单中的一项
+            $pass = $_POST['password'];
+            $repass = $_POST['repassword'];
+            if($pass != $repass){
+                $abc = "两次输入的密码不一致";
+                return $abc;
+            }
+            if($_SESSION["password"] == $pass){
+                $abc = "您没有更改密码";
+                return $abc;
+            }else{
+                $n = M("User");
+                $n -> password = $pass;
+                $result = $n -> where($where)-> save();
+                if($result){
+                    $abc = "更改成功！";
+                    return $abc;
+                }else{
+                    $abc = "更改失败！";
+                    return $abc;
+                }
+            }
+        }
 }

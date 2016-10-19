@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
     <title></title>
@@ -80,42 +80,34 @@
     </style>
 </head>
 <body>
-    <font color="#777777"><strong>用户名称：</strong></font>
-    <a href="__APP__/Admin/Index/studentdetail"><{$Think.session.username}></a>
     <table>
         <div class='panel'>
             <div id='p_body'>
-                <tr>
-                    <td>上传文件</td>
-                </tr>
-                <tr>
-                    <td><form action="__URL__/do_show" enctype="multipart/form-data" method="post" ></td>
-                    <td id = "lalala"><input type="file" name = "file"></td> 
-                    <td></td>
-                    <td></td>            
-                    <div id="buttom" >
-                        <td><button type = "submit">添加</button></form></td>
-                    </div>
-                </tr>
-            </div>
-        </div>
-    <table>
-    <table >
-        <div class='panel'>
-            <div id='p_body'>
-                <volist name = "data" id = "vo" key ="k">
+                <volist name = "data" id = "vo">
                     <tr>
-                        <td><{$k}></td>
-                        <td><a href="__PUBLIC__<{$vo.address}>" target = "_blank"><{$vo.realname}></a></td>
-                        <td> <a href="__URL__/delete/id/<{$vo.id}>"><button type="submit">删除</button></a></td>
+                        <td>账　号：</td>
+                        <td><?php echo (session('name')); ?></td>
                     </tr>
-                </volist>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><{$show}></td>
-                </tr>   
+                    <tr>
+                        <td>用户名：</td>
+                        <td><?php echo (session('username')); ?></td>
+                    </tr>
+                    <tr>
+                        <td>请输入更改之后的密码：</td>
+                        <td><form action="/zky/index.php/Admin/Index/dopass_update" method = "post"><input type="text" name = "password"></td>
+                    </tr>
+                    <tr>
+                        <td>请重新输入密码：</td>
+                        <td><input type="text" name = "repassword"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button type = "submit">提交</button></td>
+                        <td><button type = "reset">重置</button></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
             </div>
         </div>
     </table>

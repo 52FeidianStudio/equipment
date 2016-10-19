@@ -18,7 +18,9 @@
 						$name = $n -> where("username = $username") -> getField('name');
 						$_SESSION['username'] = $name;
 						$_SESSION['id'] = $n -> where("username = $username") -> getField('id');
+						$_SESSION['name'] = $n -> where("username = $username") -> getField('username');
 						$_SESSION['isTeacher'] = 1;
+						$_SESSION['password'] = $password;
 						$this -> redirect("Index/admin");
 					}else{
 						$this -> error("密码不正确！");

@@ -3,7 +3,7 @@
 	use Think\Controller;
 	class MessageController extends Controller{
 		public function _initialize(){
-          if(!isset($_SESSION['username']) || $_SESSION['username'] == '' || $_SESSION['isTeacher'] == 1){
+          if(!isset($_SESSION['username']) || $_SESSION['username'] == ''){
           	$this -> redirect("Login/index");
           }
           //获取用户当前的状态

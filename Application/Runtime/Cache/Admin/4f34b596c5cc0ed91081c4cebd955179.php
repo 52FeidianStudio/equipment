@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
     <title></title>
@@ -48,6 +48,7 @@
        } */
        tr{
         width: 100%;
+        border-bottom: #ccc 0px dotted
        }
        #contant{
         width: 70%;
@@ -81,41 +82,26 @@
 </head>
 <body>
     <font color="#777777"><strong>用户名称：</strong></font>
-    <a href="__APP__/Admin/Index/studentdetail"><{$Think.session.username}></a>
-    <table>
-        <div class='panel'>
-            <div id='p_body'>
-                <tr>
-                    <td>上传文件</td>
-                </tr>
-                <tr>
-                    <td><form action="__URL__/do_show" enctype="multipart/form-data" method="post" ></td>
-                    <td id = "lalala"><input type="file" name = "file"></td> 
-                    <td></td>
-                    <td></td>            
-                    <div id="buttom" >
-                        <td><button type = "submit">添加</button></form></td>
-                    </div>
-                </tr>
-            </div>
-        </div>
-    <table>
+    <a href="/zky/index.php/Admin/Index/studentdetail"><?php echo (session('username')); ?></a>
     <table >
         <div class='panel'>
+            <thead>
+            </thead>
             <div id='p_body'>
-                <volist name = "data" id = "vo" key ="k">
-                    <tr>
-                        <td><{$k}></td>
-                        <td><a href="__PUBLIC__<{$vo.address}>" target = "_blank"><{$vo.realname}></a></td>
-                        <td> <a href="__URL__/delete/id/<{$vo.id}>"><button type="submit">删除</button></a></td>
-                    </tr>
-                </volist>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><{$show}></td>
-                </tr>   
+                    <td><h2><?php echo ($data["title"]); ?></h2></td>
+                </tr>
+                <tr>
+                    <td><?php echo ($data["content"]); ?></td>
+                </tr>
+                <tr>
+                	<td></td>
+                	<td></td>
+                	<td><p><?php echo ($data["date"]); ?></p></td>
+                </tr>
+                <tr>
+                    <td><a href="/zky/index.php/Admin/Inform/news"><div id="buttom" ><button>返回</button></div></a></form></td>
+                </tr>
             </div>
         </div>
     </table>

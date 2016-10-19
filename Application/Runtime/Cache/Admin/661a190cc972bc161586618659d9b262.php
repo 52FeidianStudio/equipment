@@ -80,6 +80,19 @@
     </style>
 </head>
 <body>
+     <table>
+        <div class='panel'>
+            <div id='p_body'>
+                <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+                        <td><?php echo (session('name')); ?></td>
+                        <td><?php echo (session('username')); ?></td>
+                        <td><a href="/zky/index.php/Admin/Message/studenttail/id/<?php echo ($vo["id"]); ?>"><button>详细信息</button></a></td>
+                        <td><a href="/zky/index.php/Admin/Index/pass_update"><button>修改密码</button></a></td>
+                    </tr>
+                
+            </div>
+        </div>
+    </table>
     <table>
         <div class='panel'>
             <div id='p_body'>
@@ -94,7 +107,8 @@
     <table>
         <div class='panel'>
             <div id='p_body'>
-                <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+                <volist name = "data" id = "vo">
+                    <tr>
                         <td><?php echo ($vo["username"]); ?></td>
                         <td><?php echo ($vo["name"]); ?></td>
                         <td><a href="/zky/index.php/Admin/Message/studenttail/id/<?php echo ($vo["id"]); ?>"><button>详细信息</button></a></td>

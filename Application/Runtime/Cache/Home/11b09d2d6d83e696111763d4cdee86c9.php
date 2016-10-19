@@ -43,7 +43,23 @@
 						<a href="/zky/index.php/Home/Index/main">首页</a>--->规章制度
 				</div>
 				<div id="r_list">
-					
+					<table >
+				        <div class='panel'>
+				            <div id='p_body'>
+				                <?php if(is_array($data)): $k = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><tr>
+				                    	<tr></tr>
+				                        <td><?php echo ($k); ?></td>
+				                        <td><a href="/zky/Uploads/<?php echo ($vo["address"]); ?>" target = "_blank"><?php echo ($vo["realname"]); ?></a><td>
+				                    </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+				                <tr>
+				                    <td></td>
+				                    <td></td>
+				                    <td></td>
+				                    <td><?php echo ($show); ?></td>
+				                </tr>   
+				            </div>
+				        </div>
+				    </table>
 				</div>
 			</div>
 		</div>

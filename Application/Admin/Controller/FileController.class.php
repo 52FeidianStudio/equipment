@@ -39,7 +39,7 @@
 				//上传错误提示信息
 				$this -> error($upload->getError());
 			}
-			$Me -> userid = "1";
+			$Me -> userid = $_SESSION['id'];
 			$Me -> date = date("Y-m-d H:i:s");
 			$Me -> filename = $info['file']['savename'];//记录文件的上传路径
 			$Me -> address =$info['file']['savepath'].$info['file']['savename'];
@@ -48,6 +48,8 @@
 
 			if($last){
 				$this -> redirect('File/doucument','','3','上传成功'); // 进行重定向操作，返回到主页
+			}else{
+				$this -> error("上传失败！");
 			}
 		}
 		public function delete(){

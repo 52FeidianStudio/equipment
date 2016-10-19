@@ -80,6 +80,20 @@
     </style>
 </head>
 <body>
+     <table>
+        <div class='panel'>
+            <div id='p_body'>
+                <volist name = "data" id = "vo">
+                    <tr>
+                        <td><{$Think.session.name}></td>
+                        <td><{$Think.session.username}></td>
+                        <td><a href="__APP__/Admin/Message/studenttail/id/<{$vo.id}>"><button>详细信息</button></a></td>
+                        <td><a href="__URL__/pass_update"><button>修改密码</button></a></td>
+                    </tr>
+                
+            </div>
+        </div>
+    </table>
     <table>
         <div class='panel'>
             <div id='p_body'>

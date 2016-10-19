@@ -44,7 +44,25 @@
 						<a href="__APP__/Home/Index/main">首页</a>--->规章制度
 				</div>
 				<div id="r_list">
-					
+					<table >
+				        <div class='panel'>
+				            <div id='p_body'>
+				                <volist name = "data" id = "vo" key ="k">
+				                    <tr>
+				                    	<tr></tr>
+				                        <td><{$k}></td>
+				                        <td><a href="__ROOT__/Uploads/<{$vo.address}>" target = "_blank"><{$vo.realname}></a><td>
+				                    </tr>
+				                </volist>
+				                <tr>
+				                    <td></td>
+				                    <td></td>
+				                    <td></td>
+				                    <td><{$show}></td>
+				                </tr>   
+				            </div>
+				        </div>
+				    </table>
 				</div>
 			</div>
 		</div>
