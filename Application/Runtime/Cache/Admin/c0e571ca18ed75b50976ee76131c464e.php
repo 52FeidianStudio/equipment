@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
     <title></title>
@@ -85,61 +85,61 @@
 </head>
 <body>
     <font color="#777777"><strong>用户名称：</strong></font>
-    <a href="__APP__/Admin/Message/studenttdetail"><{$Think.session.username}></a>
+    <a href="/zky/index.php/Admin/Message/studenttdetail"><?php echo (session('username')); ?></a>
         <table>
             <div class="panel">
                 <thead>
                 </thead>
 		
-				<form action="__URL__/do_update" method = "post">
-					<input type="text" name = "id" value = "<{$vo.id}>" hidden>
+				<form action="/zky/index.php/Admin/Equipment/do_update" method = "post">
+					<input type="text" name = "id" value = "<?php echo ($vo["id"]); ?>" hidden>
 	                <div id='p_body'>
 	                    <tr>
-	                        <td><a href="__PUBLIC__<{$vo.imagicaddress}>" target = "_blank"><img src="__PUBLIC__<{$vo.imagicaddress}>" class = "pic"/></a></td>
+	                        <td><a href="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" target = "_blank"><img src="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" class = "pic"/></a></td>
 	                    </tr>
 	                    <tr>
 	                        <td>仪器编号：</td>
-	                        <td><input type="text" name = "eid" value = "<{$vo.eid}>"></td>
+	                        <td><input type="text" name = "eid" value = "<?php echo ($vo["eid"]); ?>"></td>
 	                    </tr>
 	                    <tr>
 	                        <td>仪器中文名称：</td>
-	                        <td><input type="text" name = "ecname" value = "<{$vo.ecname}>"></td>
+	                        <td><input type="text" name = "ecname" value = "<?php echo ($vo["ecname"]); ?>"></td>
 	                    </tr>
 	                    <tr>
 	                        <td>仪器英文名称：</td>
-	                        <td><input type="text" name = "eename" value = "<{$vo.eename}>"></td>
+	                        <td><input type="text" name = "eename" value = "<?php echo ($vo["eename"]); ?>"></td>
 	                    </tr>
 	                    <tr>
 	                        <td>仪器型号：</td>
-	                        <td><input type="text" name = "etype" value = "<{$vo.etype}>"></td>
+	                        <td><input type="text" name = "etype" value = "<?php echo ($vo["etype"]); ?>"></td>
 	                    </tr>
 	                    <tr>
 	                        <td>仪器生产厂家中文名称：</td>
-	                        <td><input type="text" name = "ecmanufactor" value = "<{$vo.ecmanufactor}>"></td>
+	                        <td><input type="text" name = "ecmanufactor" value = "<?php echo ($vo["ecmanufactor"]); ?>"></td>
 	                    </tr>
 	                    <tr>
 	                        <td>仪器生产厂家英文名称：</td>
-	                        <td><input type="text" name = "eemanufactor" value = "<{$vo.eemanufactor}>"></td>
+	                        <td><input type="text" name = "eemanufactor" value = "<?php echo ($vo["eemanufactor"]); ?>"></td>
 	                    </tr>
 	                    <tr>
 	                        <td>仪器出厂年月：</td>
-	                        <td><input type="text" name = "eoutdate" value = "<{$vo.eoutdate}>"></td>
+	                        <td><input type="text" name = "eoutdate" value = "<?php echo ($vo["eoutdate"]); ?>"></td>
 	                    </tr>
 	                    <tr>
 	                        <td>仪器出厂编号：</td>
-	                        <td><input type="text" name = "eoutid" value = "<{$vo.eoutid}>"></td>
+	                        <td><input type="text" name = "eoutid" value = "<?php echo ($vo["eoutid"]); ?>"></td>
 	                    </tr>
 	                    <tr>
 	                        <td>仪器购买时间：</td>
-	                        <td><input type="text" name = "ebuydate" value = "<{$vo.ebuydate}>"></td>
+	                        <td><input type="text" name = "ebuydate" value = "<?php echo ($vo["ebuydate"]); ?>"></td>
 	                    </tr>
 	                    <tr>
 	                        <td>仪器价格：</td>
-	                        <td><input type="text" name = "eprice" value = "<{$vo.eprice}>"></td>
+	                        <td><input type="text" name = "eprice" value = "<?php echo ($vo["eprice"]); ?>"></td>
 	                    </tr>
 	                    <tr>
 	                        <td>仪器放置地点：</td>
-	                        <td><input type="text" name = "elocation" value = "<{$vo.elocation}>"></td>
+	                        <td><input type="text" name = "elocation" value = "<?php echo ($vo["elocation"]); ?>"></td>
 	                    </tr>
 	                    <tr>
 	                        <td><button type = "submit">提交</button></td>

@@ -28,7 +28,6 @@
 				<a href="/zky/index.php/Home/File/document" class="navi_a">文档下载</a>
 				<a href="/zky/index.php/Home/Message/conmunication" class="navi_a">讨论区</a>
 				<a href="/zky/index.php/Home/Index/about_us" class="navi_a">关于我们</a>
-				<b>	　　　　　　　　　　　　　　</b>
 				<div id='na_log'>
 					<span>欢迎</span>
 					<?php if(($_SESSION['username']) == ""): ?><span><a href="/zky/index.php/Home/Login/index">登录</a></span>

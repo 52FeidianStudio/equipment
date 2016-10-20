@@ -7,7 +7,7 @@
           	$this -> redirect("Login/index");
           }
       	}
-		public function index(){
+		public function equipment(){
 			$n = M('Equipment');
 			$arr = $n -> select();
 			$this -> assign('data',$arr);
@@ -34,7 +34,7 @@
 			$last = $n -> add();
 			exit;
 			if($last){
-				$this -> redirect('File/index','','0','上传成功'); // 进行重定向操作，返回到主页
+				$this -> redirect('Equipment/equipment','','0','上传成功'); // 进行重定向操作，返回到主页
 			}
 		}
 		public function delete(){
@@ -56,13 +56,10 @@
 		}
 		public function do_update(){
 			$n = M('Equipment');
-			var_dump($_POST);
 			$do = $_POST['id'];
-			echo "$do";
 			$result = $n -> where("id = $do") -> data($_POST) -> save();
-			var_dump($result);
 			if($result){
-				$this -> success("修改成功");
+				$this -> redirect("Equipment/equipment");
 			}else{
 				$this -> error("修改失败");
 			}

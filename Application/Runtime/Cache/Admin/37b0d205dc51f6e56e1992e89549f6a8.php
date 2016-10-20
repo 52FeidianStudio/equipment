@@ -80,43 +80,84 @@
     </style>
 </head>
 <body>
-<table >
-    <font color="#777777"><strong>用户名称：仪器设备</strong></font>
-    <a href="studentdetail.html">小强</a>
-    <div class='panel'>
-        <thead>
-            <!-- <div id='p_header'>
-            <tr>
-                                <th>序号</th>
-                    <th>链接名称</th>
-                    <th>上传日期</th>
-                    <th>管理菜单</th>
-                </tr>
-            </div> -->
-        </thead>
-        <div id='p_body'>
-            <tr>
-		       <form action="/zky/index.php/Admin/Equipment/do_add" method="post" enctype="multipart/form-data" name="myForm">
-				  	仪器图片：<input type="file" name = "file"><br><br>
-					仪器编号：<input type="text" name = "eid"> <br><br>
-					仪器中文名称：<input type="text" name = "ecname"><br><br>
-					仪器英文名称：<input type="text" name = "eename"><br><br>
-					仪器型号：<input type="text" name = "etype"><br><br>
-					仪器生产厂家中文名称：<input type="text" name = "ecmanufactor"><br><br>
-					仪器生产厂家英文名称：<input type="text" name = "eemanufactor"><br><br>
-					仪器出厂年月：<input type="text" name = "eoutdate"><br><br>
-					仪器出厂编号：<input type="text" name = "eoutid"><br><br>
-					仪器购买时间：<input type="text" name = "ebuydate"><br><br>
-					仪器价格：<input type="text" name = "eprice"><br><br>
-					仪器放置地点：<input type="text" name = "elocation"><br><br>
-					<div id="buttom" >
-				           <button type = "submit" value ="添加">添加</button>
-				           <button type="reset" value = "重置">重置</button>
-				    </div>
-				</form>
-            </tr>
-        </div>
-    </div>
-</table>
+    <font color="#777777"><strong>用户名称：</strong></font>
+    <a href="/zky/index.php/Admin/Message/studenttdetail"><?php echo (session('username')); ?></a>
+    <table>
+            <div class="panel">
+                <thead>
+                <!-- <div id='p_header'>
+                <tr>
+                                    <th>序号</th>
+                        <th>链接名称</th>
+                        <th>上传日期</th>
+                        <th>管理菜单</th>
+                    </tr>
+                </div> -->
+                </thead>
+                <div id='p_body'>
+                    <form action="/zky/index.php/Admin/Equipment/do_add" method="post" enctype="multipart/form-data" name="myForm">
+                        <tr>
+                            <td>仪器分类</td>
+                            <td><!-- 选择一个下拉表 --></td>
+                        </tr>
+                        <tr>
+                            <td>仪器图片：</td>
+                            <td><input type="file" name = "file"></td>
+                        </tr>
+                        <tr>
+                            <td>仪器编号：</td>
+                            <td><input type="text" name = "eid"> </td>
+                        </tr>
+                        <tr>
+                            <td>仪器中文名称：</td>
+                            <td><input type="text" name = "ecname"></td>
+                        </tr>
+                        <tr>
+                            <td>仪器英文名称：：</td>
+                            <td><input type="text" name = "eename"></td>
+                        </tr>
+                        <tr>
+                            <td>仪器型号：</td>
+                            <td><input type="text" name = "etype"></td>
+                        </tr>
+                        <tr>
+                            <td>仪器生产厂家中文名称：</td>
+                            <td><input type="text" name = "ecmanufactor"></td>
+                        </tr>
+                        <tr>
+                            <td>仪器生产厂家英文名称：</td>
+                            <td><input type="text" name = "eemanufactor"></td>
+                        </tr>
+                        <tr>
+                            <td>仪器出厂年月：</td>
+                            <td><input type="text" name = "eoutdate"></td>
+                        </tr>
+                        <tr>
+                            <td>仪器出厂编号：</td>
+                            <td><input type="text" name = "eoutid"></td>
+                        </tr>
+                        <tr>
+                            <td>仪器购买时间：</td>
+                            <td><input type="text" name = "ebuydate"></td>
+                        </tr>
+                        <tr>
+                            <td>仪器价格：</td>
+                            <td><input type="text" name = "eprice"></td>
+                        </tr>
+                        <tr>
+                            <td>仪器放置地点：</td>
+                            <td><input type="text" name = "elocation"></td>
+                        </tr>
+                        <tr>
+                            <div id="buttom" >
+                               <button type = "submit" value ="添加">添加</button>
+                               <button type="reset" value = "重置">重置</button>
+                            </div>
+                        </tr>
+                        
+                    </form>
+                </div>
+            </div>
+    </table>
 </body>
 </html>

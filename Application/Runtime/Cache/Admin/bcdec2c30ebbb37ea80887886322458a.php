@@ -75,47 +75,88 @@
                 padding-right: 5px;
             }
         }
-
+        .pic{
+            width: 50%;
+            height: 100%;
+            text-align: center;
+        }
 
     </style>
 </head>
 <body>
-<table >
-    <font color="#777777"><strong>用户名称：仪器设备</strong></font>
-    <a href="studentdetail.html">小强</a>
-    <div class='panel'>
-        <thead>
-            <!-- <div id='p_header'>
-            <tr>
-                                <th>序号</th>
-                    <th>链接名称</th>
-                    <th>上传日期</th>
-                    <th>管理菜单</th>
-                </tr>
-            </div> -->
-        </thead>
-        <div id='p_body'>
-            <tr>
-		        <td>1</td>
-                <td id='contant'>复仇者联盟</td>
-                <td>www.ahfoia.com</td>
-                <td> <button type="submit">删除</button></a></td>
-                <td> <button type="submit">修改</button></a></td>
-            </tr>
-		    <tr>
-		        <td>2</td>
-                <td id='contant'>北大教授讲座</td>
-                <td>www.ahfoia.com</td>
-                <td> <button type="submit">删除</button></a></td>
-                <td> <button type="submit">修改</button></a></td>
-            </tr>
+    <font color="#777777"><strong>用户名称：</strong></font>
+    <a href="/zky/index.php/Admin/Message/studenttdetail"><?php echo (session('username')); ?></a>
+    <table >
+        <div id="buttom" >
+                <a href="/zky/index.php/Admin/Equipment/add"><button>添加</button></a>
         </div>
-        
-    </div>
-    <div id="buttom" >
-            <a href="/zky/index.php/Admin/Equipment/add"><button>添加</button></a>
-        </div>
-</table>
-    
+    </table>
+    <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><table>
+            <div class="panel">
+                <thead>
+                <!-- <div id='p_header'>
+                <tr>
+                                    <th>序号</th>
+                        <th>链接名称</th>
+                        <th>上传日期</th>
+                        <th>管理菜单</th>
+                    </tr>
+                </div> -->
+                </thead>
+                <div id='p_body'>
+                    <tr>
+                        <td><a href="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" target = "_blank"><img src="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" class = "pic"/></a></td>
+                    </tr>
+                    <tr>
+                        <td>仪器编号：</td>
+                        <td><?php echo ($vo["id"]); ?></td>
+                    </tr>
+                    <tr>
+                        <td>仪器中文名称：</td>
+                        <td><?php echo ($vo["ecname"]); ?></td>
+                    </tr>
+                    <tr>
+                        <td>仪器英文名称：</td>
+                        <td><?php echo ($vo["eename"]); ?></td>
+                    </tr>
+                    <tr>
+                        <td>仪器型号：</td>
+                        <td><?php echo ($vo["etype"]); ?></td>
+                    </tr>
+                    <tr>
+                        <td>仪器生产厂家中文名称：</td>
+                        <td><?php echo ($vo["ecmanufactor"]); ?></td>
+                    </tr>
+                    <tr>
+                        <td>仪器生产厂家英文名称：</td>
+                        <td><?php echo ($vo["eemanufactor"]); ?></td>
+                    </tr>
+                    <tr>
+                        <td>仪器出厂年月：</td>
+                        <td><?php echo ($vo["eoutdate"]); ?></td>
+                    </tr>
+                    <tr>
+                        <td>仪器出厂编号：</td>
+                        <td><?php echo ($vo["eoutid"]); ?></td>
+                    </tr>
+                    <tr>
+                        <td>仪器购买时间：</td>
+                        <td><?php echo ($vo["ebuydate"]); ?></td>
+                    </tr>
+                    <tr>
+                        <td>仪器价格：</td>
+                        <td><?php echo ($vo["eprice"]); ?></td>
+                    </tr>
+                    <tr>
+                        <td>仪器放置地点：</td>
+                        <td><?php echo ($vo["elocation"]); ?></td>
+                    </tr>
+                    <tr>
+                        <td><a href="/zky/index.php/Admin/Equipment/update/id/<?php echo ($vo["id"]); ?>"><button>修改</button></a></td>
+                        <td><a href="/zky/index.php/Admin/Equipment/delete/id/<?php echo ($vo["id"]); ?>"><button>删除</button></a></td>
+                    </tr>
+                </div>
+            </div>
+        </table><?php endforeach; endif; else: echo "" ;endif; ?>
 </body>
 </html>

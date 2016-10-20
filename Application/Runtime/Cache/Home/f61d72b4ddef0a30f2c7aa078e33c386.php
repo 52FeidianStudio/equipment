@@ -1,17 +1,22 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html>
 	<head>
-		<title>文档下载</title>
+		<title>注册</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta http-equiv="Content-Language" content="zh-CN" />
 		<meta name="Author" content="网页作者" /> 
 		<meta name="Copyright" content="网站版权" /> 
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
-		<link rel="stylesheet" href="./zhihu-css.css" />
-		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/main.css" />
 		<link rel="stylesheet" href="/zky/Public/Css/public.css" />
-		<script></script>
+		<link rel="stylesheet" href="/zky/Public/Css/register.css" />
+		<script>
+			$(function(){
+				$('input[name="username"]').blur(function(){
+					alert(1);
+				});
+			});
+		</script>
 	</head>
 	<body>
 		<div id='header'>
@@ -36,21 +41,37 @@
 				</div>
 			</div>
 		</div>
+		
 		<div id='main'>
 			<div class="contain">
-				<div id="main_navi">
-						<a href="/zky/index.php/Home/Index/main">首页</a>--->文档下载
-				</div>
-				<div id="d_list">
-					<h4>相关文件下载：</h4>
-					<ul>
-						<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li>
-								<a href="/zky/Uploads<?php echo ($vo["address"]); ?>"><p><?php echo ($vo["realname"]); ?>　　<?php echo ($vo["date"]); ?></p></a><br />
-							</li><?php endforeach; endif; else: echo "" ;endif; ?>
-						
-					</ul>
-					<?php echo ($show); ?>
-				</div>
+			    <form name="login-form" class="login-form" action="/zky/index.php/Home/Register/do_register" method="post">
+
+	<!--HEADER-->
+    				<div class="header">
+    <!--TITLE--> 		<h1>登录</h1><!--END TITLE-->
+    <!--DESCRIPTION--> 	<span>登录请填写用户名、密码和确认密码 </span><!--END DESCRIPTION-->
+    				</div>
+    <!--END HEADER-->
+	
+	<!--CONTENT-->
+    				<div class="content">
+	<!--USERNAME-->  	<input name="username" type="text" class="input username" />
+	<!--END USERNAME-->
+    <!--PASSWORD-->  	<input name="password" type="password" class="input password"  />
+    <!--END PASSWORD-->	
+    <!-- REPAAWORD -->	<input name="repassword" type="password" class="input repassword"/>
+    <!-- END REPASSWORD -->
+    				</div>
+    <!--END CONTENT-->
+    
+    <!--FOOTER-->
+    				<div class="footer">
+    <!--LOGIN BUTTON--> 	<input type="submit" name="submit" value="注册" class="button" /><!--END LOGIN BUTTON-->
+    				</div>
+    <!--END FOOTER-->
+
+				</form>
+<!--END LOGIN FORM-->
 			</div>
 		</div>
 		<div id='footer'>
@@ -59,7 +80,7 @@
 				<p class="footer_p">邮政编码：xxxxxx</p>
 				<p class="footer_p">联系电话：xxxxxxx xxxxxxxxxx xxxxxxxxxxxx</p>
 				<hr />
-				<<p class="footer_p">@xxxxxxxxxxxxxx  <a href="/zky/index.php/Admin/Index/admin">管理</a></p>
+				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="/zky/index.php/Admin/Index/admin">管理</a></p>
 			</div>
 		</div>
 	</body>

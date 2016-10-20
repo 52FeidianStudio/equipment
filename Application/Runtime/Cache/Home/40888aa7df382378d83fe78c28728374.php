@@ -20,15 +20,6 @@
 		</div>
 		<div id='navi'>
 			<div class="contain">
-<<<<<<< HEAD
-				<a href="/equipment/index.php/Home/Index/main" class="navi_a">首页</a>
-				<a href="/equipment/index.php/Home/Inform/news" class="navi_a">新闻通知</a>
-				<a href="/equipment/index.php/Home/Equipment/equipment" class="navi_a">仪器介绍</a>
-				<a href="/equipment/index.php/Home/Regulation/regulation" class="navi_a">规章制度</a>
-				<a href="/equipment/index.php/Home/File/document" class="navi_a">文档下载</a>
-				<a href="/equipment/index.php/Home/Message/conmunication" class="navi_a">讨论区</a>
-				<a href="/equipment/index.php/Home/Index/about_us" class="navi_a">关于我们</a>
-=======
 				<a href="/zky/index.php/Home/Index/main" class="navi_a">首页</a>
 				<a href="/zky/index.php/Home/Inform/news" class="navi_a">新闻通知</a>
 				<a href="/zky/index.php/Home/Equipment/equipment" class="navi_a">仪器介绍</a>
@@ -36,8 +27,6 @@
 				<a href="/zky/index.php/Home/File/document" class="navi_a">文档下载</a>
 				<a href="/zky/index.php/Home/Message/conmunication" class="navi_a">讨论区</a>
 				<a href="/zky/index.php/Home/Index/about_us" class="navi_a">关于我们</a>
-				<b>	　　　　　　　　　　　　　　</b>
->>>>>>> 274ac434af9ae2df88a3dd434229a99d0342b82f
 				<div id='na_log'>
 					<span>欢迎</span>
 					<?php if(($_SESSION['username']) == ""): ?><span><a href="/zky/index.php/Home/Login/index">登录</a></span>

@@ -9,40 +9,18 @@
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
 		<link rel="stylesheet" href="./zhihu-css.css" />
-<<<<<<< HEAD
-		<link rel="stylesheet" type='text/css' href="/equipment/Public/Css/showitems.css" />
-		<link rel="stylesheet" href="/equipment/Public/Css/public.css" />
-=======
-		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/news.css" />
+		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/showitems.css" />
 		<link rel="stylesheet" href="/zky/Public/Css/public.css" />
->>>>>>> 274ac434af9ae2df88a3dd434229a99d0342b82f
 		<script></script>
 	</head>
 	<body>
 		<div id='header'>
 			<div class="contain" >
-<<<<<<< HEAD
-				<img src="/equipment/Public/Pic/top.jpg" alt=""  />
-=======
-				<img src="/zky/Public/Pic/top.jpg" alt="" style="width:100%;" />
->>>>>>> 274ac434af9ae2df88a3dd434229a99d0342b82f
+				<img src="/zky/Public/Pic/top.jpg" alt=""  />
 			</div>
 		</div>
 		<div id='navi'>
 			<div class="contain">
-<<<<<<< HEAD
-				<a href="/equipment/index.php/Home/Index/main" class="navi_a">首页</a>
-				<a href="/equipment/index.php/Home/Inform/news" class="navi_a">新闻通知</a>
-				<a href="/equipment/index.php/Home/Equipment/equipment" class="navi_a">仪器介绍</a>
-				<a href="/equipment/index.php/Home/Regulation/regulation" class="navi_a">规章制度</a>
-				<a href="/equipment/index.php/Home/File/document" class="navi_a">文档下载</a>
-				<a href="/equipment/index.php/Home/Message/conmunication" class="navi_a">讨论区</a>
-				<a href="/equipment/index.php/Home/Index/about_us" class="navi_a">关于我们</a>
-				<div id='na_log'>
-					<span>欢迎</span>
-					<span ><?php echo (session('username')); ?></span>
-					<a href="/equipment/index.php/Home/Login/login_out" style=''>退出</a>
-=======
 				<a href="/zky/index.php/Home/Index/main" class="navi_a">首页</a>
 				<a href="/zky/index.php/Home/Inform/news" class="navi_a">新闻通知</a>
 				<a href="/zky/index.php/Home/Equipment/equipment" class="navi_a">仪器介绍</a>
@@ -50,13 +28,11 @@
 				<a href="/zky/index.php/Home/File/document" class="navi_a">文档下载</a>
 				<a href="/zky/index.php/Home/Message/conmunication" class="navi_a">讨论区</a>
 				<a href="/zky/index.php/Home/Index/about_us" class="navi_a">关于我们</a>
-				<b>	　　　　　　　　　　　　　　</b>
 				<div id='na_log'>
 					<span>欢迎</span>
 					<?php if(($_SESSION['username']) == ""): ?><span><a href="/zky/index.php/Home/Login/index">登录</a></span>
 					<?php else: ?>	<SPAN><?php echo (session('username')); ?></SPAN>
 						<a href="/zky/index.php/Home/Login/login_out" style=''>退出</a><?php endif; ?>
->>>>>>> 274ac434af9ae2df88a3dd434229a99d0342b82f
 				</div>
 			</div>
 		</div>
@@ -64,9 +40,8 @@
 			<div class="contain">
 				<div id="showlist">
 					<div id="main_navi">
-<<<<<<< HEAD
-						<a href="/equipment/index.php/Home/Index/main">
-							首页</a><span>---> </span><a href="/equipment/index.php/Home/Inform/news">新闻通知</a>
+						<a href="/zky/index.php/Home/Index/main">
+							首页</a><span>---> </span><a href="/zky/index.php/Home/Inform/news">新闻通知</a>
 						<span>--><?php echo ($data["title"]); ?></span>
 					</div>
 					<h2>最新消息</h2>
@@ -76,51 +51,6 @@
 						<p><?php echo ($data["content"]); ?></p>
 						<br />
 						<p><?php echo ($data["date"]); ?></p>
-=======
-						<a href="/zky/index.php/Home/Index/main">首页</a>---> <a href="/zky/index.php/Home/Inform/news">新闻通知</a>--><?php echo ($data["title"]); ?>
-					</div>
-					<h2>最新消息</h2>
-					<div id="list">
-						<h2><?php echo ($data["title"]); ?></h2>
-						<p><?php echo ($data["content"]); ?></p>
-						<p><?php echo ($data["date"]); ?></p>
-						<!--<a href="" class="news_list">
-							<P>1</P>
-						</a>
-						<a href="" class="news_list">
-							<P>2</P>
-						</a>
-						<a href="" class="news_list">
-							<P>3</P>
-						</a>
-						<a href="" class="news_list">
-							<P>4</P>
-						</a>
-						<a href="" class="news_list">
-							<P>5</P>
-						</a>
-						<a href="" class="news_list">
-							<P>6</P>
-						</a>
-						<a href="" class="news_list">
-							<P>7</P>
-						</a>
-						<a href="" class="news_list">
-							<P>8</P>
-						</a>
-						<a href="" class="news_list">
-							<P>9</P>
-						</a>
-						<a href="" class="news_list">
-							<P>10</P>
-						</a>
-						<a href="" class="news_list">
-							<P>11</P>
-						</a>
-						<a href="" class="news_list">
-							<P>12</P>
-						</a>-->
->>>>>>> 274ac434af9ae2df88a3dd434229a99d0342b82f
 					</div>
 				</div>
 			</div>
@@ -131,11 +61,7 @@
 				<p class="footer_p">邮政编码：xxxxxx</p>
 				<p class="footer_p">联系电话：xxxxxxx xxxxxxxxxx xxxxxxxxxxxx</p>
 				<hr />
-<<<<<<< HEAD
-				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="/equipment/index.php/Admin/Index/admin">管理</a></p>
-=======
 				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="/zky/index.php/Admin/Index/admin">管理</a></p>
->>>>>>> 274ac434af9ae2df88a3dd434229a99d0342b82f
 			</div>
 		</div>
 	</body>
