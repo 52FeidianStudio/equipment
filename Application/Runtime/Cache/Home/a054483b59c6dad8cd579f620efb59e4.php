@@ -8,7 +8,6 @@
 		<meta name="Copyright" content="网站版权" /> 
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
-		<link rel="stylesheet" href="./zhihu-css.css" />
 		<link rel="stylesheet" type='text/css' href="/equipment/Public/Css/news.css" />
 		<link rel="stylesheet" href="/equipment/Public/Css/public.css" />
 		<script type="text/javascript" src="/equipment/Public/Js//jquery-1.8.3.min.js"></script>
@@ -67,7 +66,8 @@
 					<h2 >最新消息</h2>
 					<div id="list">
 						<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "暂时没有通知" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><a href="/equipment/index.php/Home/Inform/showitems/id/<?php echo ($vo["id"]); ?>" class="news_list">
-									<p><span><?php echo ($vo["title"]); ?></span>　　　　<t>　　<?php echo ($vo["date"]); ?></t></p>
+									<p><?php echo ($vo["title"]); ?>
+										<span><?php echo ($vo["date"]); ?></span></p>
 									<br />
 									<!--<p><?php echo ($vo["content"]); ?>/equipment/index.php/Home/Inform/showitems/id/<?php echo ($vo["id"]); ?></p><br /> <br />-->
 								</a><?php endforeach; endif; else: echo "暂时没有通知" ;endif; ?>
@@ -77,9 +77,8 @@
 		</div>
 		<div id='footer'>
 			<div class="contain">
-				<p class="footer_p">通讯地址：xxxxxxxxxxxxxxxxx</p>
-				<p class="footer_p">邮政编码：xxxxxx</p>
-				<p class="footer_p">联系电话：xxxxxxx xxxxxxxxxx xxxxxxxxxxxx</p>
+				<p class="footer_p">通讯地址：华中农业大学主楼东附楼二楼</p>
+				<p class="footer_p">邮政编码：430070</p>
 				<hr />
 				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="/equipment/index.php/Admin/Index/admin">管理</a></p>
 			</div>

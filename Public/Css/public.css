@@ -31,7 +31,7 @@
 			 	border-radius: 3px;
 				text-decoration: none;
 				display: block;
-				line-height: 45px;
+				line-height: 47px;
 				width: 9%;
 				background:  #0F941A;
 				float: left;
@@ -43,7 +43,7 @@
 				border-radius: 3px;
 				text-decoration: none;
 				display: block;
-				line-height: 45px;
+				line-height: 47px;
 				width: 9%;
 				background:  #0F941A;
 				float: left;
@@ -52,11 +52,10 @@
 				font-weight: 100px;
 			} 	
 			.navi_a:hover {
-				border: 1px solid  #0F941A;
 				border-radius: 3px;
 				text-decoration: none;
 				display: block;
-				line-height: 45px;
+				line-height: 47px;
 				width: 9%;
 				float: left;
 				text-align: center;

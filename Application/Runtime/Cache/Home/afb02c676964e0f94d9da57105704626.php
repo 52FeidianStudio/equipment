@@ -1,13 +1,14 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html>
 	<head>
-		<title>关于我们</title>
+		<title>讨论区</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta http-equiv="Content-Language" content="zh-CN" />
 		<meta name="Author" content="网页作者" /> 
 		<meta name="Copyright" content="网站版权" /> 
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
+		<link rel="stylesheet" type='text/css' href="/equipment/Public/Css/main.css" />
 		<link rel="stylesheet" href="/equipment/Public/Css/public.css" />
 		<script type="text/javascript" src="/equipment/Public/Js//jquery-1.8.3.min.js"></script>
 		<script src="/equipment/Public/Js/public.js"></script>
@@ -59,28 +60,12 @@
 		<div id='main'>
 			<div class="contain">
 				<div id="main_navi">
-						&nbsp;<a href="/equipment/index.php/Home/Index/main">首页</a><span>--->关于我们</span>
+						<a href="/equipment/index.php/Home/Index/main">首页</a>--->讨论区 <br />
+						   	<?php if(($user) == "0"): ?><a href="/equipment/index.php/Home/Message/add_message">添加留言</a>
+								<?php else: ?> <span>您已经被管理员禁言</span><?php endif; ?>
+							<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p><?php echo ($vo["title"]); ?>　　　　　　　　<a href="/equipment/index.php/Home/Message/do_see/id/<?php echo ($vo["id"]); ?>">查看详情</a></p>
+								<hr><?php endforeach; endif; else: echo "" ;endif; ?>
 				</div>
-				<h3>联系我们：</h3>
-				<ul id='address'>
-					<li>联系地址:
-							华中农业大学主楼东附楼二楼
-						
-					</li>
-					<li>联系人：李凤凤</li><li>邮编：43xxxx</li>
-				</ul>
-				<ul id='teloffice'>
-					<li>植科院公共平台目前的组织管理结构如下</li>
-					<li>
-						<p><span>平台主任 </span> 张椿雨 </p>
-						<p>职责</p>
-						
-						<p><span>平台副主任</span>王学奎</p>
-						<p>职责</p>
-						<p><span>平台管理办公室主任</span>李凤凤</p>
-						<p>
-						职责：仪器设备使用和维护，维持平台顺利运行和发展，提高平台技术水平</p></li>
-				</ul>
 			</div>
 		</div>
 		<div id='footer'>
