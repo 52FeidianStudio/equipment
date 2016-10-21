@@ -37,6 +37,7 @@
 				color: #DB8400;
 			}
 			#relational_a{
+				font-size: 15px;
 			}
 			#relational_a h2{
 				font-family: "Times New Roman",Georgia,Sans-serif;
@@ -63,7 +64,11 @@
 			}
 			#r_message p{
 				text-indent: 30px;
+				font-size: 20px;
+				line-height: 33px;
+				word-spacing: 40px;
 			}
 			#r_message span{
 				font-family:verdana;
+				font-size: 25px;
 			}

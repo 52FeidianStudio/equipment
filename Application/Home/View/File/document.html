@@ -11,9 +11,31 @@
 		<link rel="stylesheet" href="./zhihu-css.css" />
 		<link rel="stylesheet" type='text/css' href="__PUBLIC__/Css/main.css" />
 		<link rel="stylesheet" href="__PUBLIC__/Css/public.css" />
-		<script></script>
+		<script type="text/javascript" src="__PUBLIC__/Js//jquery-1.8.3.min.js"></script>
+		<script src="__PUBLIC__/Js/public.js"></script>
 	</head>
 	<body>
+		<!-- 这里是登录弹出窗口 -->
+		 <div id="LoginBox">
+        <div class="row1">
+            登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="l_closeBtn">×</a>
+        </div>
+        <div class="row">
+            用户名: <span class="inputBox">
+                <input type="text" id="l_txtName" placeholder="账号/邮箱" />
+            </span><a href="javascript:void(0)" title="提示" class="warning" id="l_warn">*</a>
+        </div>
+        <div class="row">
+            密&nbsp;&nbsp;&nbsp;&nbsp;码: <span class="inputBox">
+                <input type="text" id="l_txtPwd" placeholder="密码" />
+            </span><a href="javascript:void(0)" title="提示" class="warning" id="l_warn2">*</a>
+        </div>
+        <div class="row">
+            <a href="#" id="l_loginbtn">登录</a>
+        </div>
+    </div>
+		
+		<!-- 结束登陆弹出窗口 -->
 		<div id='header'>
 			<div class="contain" >
 				<img src="__PUBLIC__/Pic/top.jpg" alt="" style="width:100%;" />
@@ -30,7 +52,7 @@
 				<a href="__APP__/Home/Index/about_us" class="navi_a">关于我们</a>
 				<div id='na_log'>
 					<span>欢迎</span>
-					<eq name="Think.session.username" value=""><span><a href="__APP__/Home/Login/index">登录</a></span>
+					<eq name="Think.session.username" value=""><span><a href="#" id='login'>登录</a></span>
 					<else />	<SPAN><{$Think.session.username}></SPAN>
 						<a href="__APP__/Home/Login/login_out" style=''>退出</a>
 					</eq>
@@ -40,19 +62,20 @@
 		<div id='main'>
 			<div class="contain">
 				<div id="main_navi">
-						<a href="__APP__/Home/Index/main">首页</a>--->文档下载
+						&nbsp;<a href="__APP__/Home/Index/main">首页</a><span>--->文档下载</span>
 				</div>
 				<div id="d_list">
 					<h4>相关文件下载：</h4>
 					<ul>
 						<volist name = "data" id = "vo">
 							<li>
-								<a href="__ROOT__/Uploads<{$vo.address}>"><p><{$vo.realname}>　　<{$vo.date}></p></a><br />
+								<a href="__ROOT__/Uploads<{$vo.address}>">
+									<p><{$vo.realname}>　　<{$vo.date}></p></a><br />
 							</li>
 						</volist>
 						
 					</ul>
-					<{$show}>
+							<{$show}>
 				</div>
 			</div>
 		</div>
@@ -62,7 +85,7 @@
 				<p class="footer_p">邮政编码：xxxxxx</p>
 				<p class="footer_p">联系电话：xxxxxxx xxxxxxxxxx xxxxxxxxxxxx</p>
 				<hr />
-				<<p class="footer_p">@xxxxxxxxxxxxxx  <a href="__APP__/Admin/Index/admin">管理</a></p>
+				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="__APP__/Admin/Index/admin">管理</a></p>
 			</div>
 		</div>
 	</body>
