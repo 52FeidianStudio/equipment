@@ -67,8 +67,12 @@
 							<h3>已经有<{$count}>人关注　　　<{$find['user']['name']}>于<{$find['date']}>发布</h3>
 							<p>详细内容：<{$find['content']}></p>
 							<eq name = "user" value = "0">
-								<p><a href="__URL__/add_answer/id/<{$find['id']}>">回复</a></p>
-								<else /> <span>您已经被管理员禁言</span>
+								<p><a href="__URL__/add_answer/id/<{$find['id']}>">回复</a></p><br />
+								<else /> 
+									<eq name = "user" value = "">
+										<p><span>您还没有登录，登录之后才可以添加回复</span></p><br />
+										<else /> <span>您已经被管理员禁言</span><br />
+									</eq>
 							</eq>
 						<volist name = "data" id = "vo">
 							<p><{$vo.user.name}>：<{$vo.content}>　　　　回复时间：<{$vo.date}></p>

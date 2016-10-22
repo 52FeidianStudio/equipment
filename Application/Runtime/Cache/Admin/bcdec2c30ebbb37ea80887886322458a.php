@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
     <title></title>
@@ -85,14 +85,13 @@
 </head>
 <body>
     <font color="#777777"><strong>用户名称：</strong></font>
-    <a href="__APP__/Admin/Message/studenttdetail"><{$Think.session.username}></a>
+    <a href="/zky/index.php/Admin/Message/studenttdetail"><?php echo (session('username')); ?></a>
     <table >
         <div id="buttom" >
-                <a href="__URL__/add"><button>添加</button></a>
+                <a href="/zky/index.php/Admin/Equipment/add"><button>添加</button></a>
         </div>
     </table>
-    <volist name = "data" id = "vo">
-        <table>
+    <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><table>
             <div class="panel">
                 <thead>
                 <!-- <div id='p_header'>
@@ -106,66 +105,65 @@
                 </thead>
                 <div id='p_body'>
                     <tr>
-                        <td><a href="__PUBLIC__<{$vo.imagicaddress}>" target = "_blank"><img src="__PUBLIC__<{$vo.imagicaddress}>" class = "pic"/></a></td>
+                        <td><a href="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" target = "_blank"><img src="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" class = "pic"/></a></td>
                     </tr>
                     <tr>
                         <td>仪器编号：</td>
-                        <td><{$vo.id}></td>
+                        <td><?php echo ($vo["id"]); ?></td>
                     </tr>
                     <tr>
                         <td>仪器中文名称：</td>
-                        <td><{$vo.ecname}></td>
+                        <td><?php echo ($vo["ecname"]); ?></td>
                     </tr>
                     <tr>
                         <td>仪器英文名称：</td>
-                        <td><{$vo.eename}></td>
+                        <td><?php echo ($vo["eename"]); ?></td>
                     </tr>
                     <tr>
                         <td>仪器型号：</td>
-                        <td><{$vo.etype}></td>
+                        <td><?php echo ($vo["etype"]); ?></td>
                     </tr>
                     <tr>
                         <td>仪器生产厂家中文名称：</td>
-                        <td><{$vo.ecmanufactor}></td>
+                        <td><?php echo ($vo["ecmanufactor"]); ?></td>
                     </tr>
                     <tr>
                         <td>仪器生产厂家英文名称：</td>
-                        <td><{$vo.eemanufactor}></td>
+                        <td><?php echo ($vo["eemanufactor"]); ?></td>
                     </tr>
                     <tr>
                         <td>仪器出厂年月：</td>
-                        <td><{$vo.eoutdate}></td>
+                        <td><?php echo ($vo["eoutdate"]); ?></td>
                     </tr>
                     <tr>
                         <td>仪器出厂编号：</td>
-                        <td><{$vo.eoutid}></td>
+                        <td><?php echo ($vo["eoutid"]); ?></td>
                     </tr>
                     <tr>
                         <td>仪器购买时间：</td>
-                        <td><{$vo.ebuydate}></td>
+                        <td><?php echo ($vo["ebuydate"]); ?></td>
                     </tr>
                     <tr>
                         <td>仪器价格：</td>
-                        <td><{$vo.eprice}></td>
+                        <td><?php echo ($vo["eprice"]); ?></td>
                     </tr>
                     <tr>
                         <td>仪器放置地点：</td>
-                        <td><{$vo.elocation}></td>
+                        <td><?php echo ($vo["elocation"]); ?></td>
                     </tr>
                     <tr>
-                        <td><a href="__URL__/update/id/<{$vo.id}>"><button>修改</button></a></td>
-                        <td><a href="__URL__/delete/id/<{$vo.id}>"><button>删除</button></a></td>
+                        <td><a href="/zky/index.php/Admin/Equipment/update/id/<?php echo ($vo["id"]); ?>"><button>修改</button></a></td>
+                        <td><a href="/zky/index.php/Admin/Equipment/delete/id/<?php echo ($vo["id"]); ?>"><button>删除</button></a></td>
                     </tr>
                 </div>
             </div>
             <tr>
                 <td>
-                    <form action="__URL__/additems">
+                    <form action="/zky/index.php/Admin/Equipment/additems">
                         
                     </form>
                 </td>
             </tr>
-        </table>
-    </volist>
+        </table><?php endforeach; endif; else: echo "" ;endif; ?>
 </body>
 </html>

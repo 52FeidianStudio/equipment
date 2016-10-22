@@ -97,6 +97,20 @@
 	                    <tr>
 	                        <td><a href="__PUBLIC__<{$vo.imagicaddress}>" target = "_blank"><img src="__PUBLIC__<{$vo.imagicaddress}>" class = "pic"/></a></td>
 	                    </tr>
+                      <tr>
+                        <td>仪器分类</td>
+                        <td><!-- 选择一个下拉表 -->
+                            <select name="class">
+                              <option value="volvo">质谱仪器</option>
+                              <option value="saab">色谱仪器</option>
+                              <option value="fiat">光谱仪器</option>
+                              <option value="audi">生化分离分析仪器</option>
+                              <option value="audi">显微镜及图像仪</option>
+                              <option value="audi">品质分析仪器</option>
+                              <option value="audi">其他</option>
+                            </select>
+                        </td>
+                      </tr>
 	                    <tr>
 	                        <td>仪器编号：</td>
 	                        <td><input type="text" name = "eid" value = "<{$vo.eid}>"></td>

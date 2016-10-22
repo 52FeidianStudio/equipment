@@ -9,7 +9,7 @@
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
 		<link rel="stylesheet" href="./zhihu-css.css" />
-		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/news.css" />
+		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/showitems.css" />
 		<link rel="stylesheet" href="/zky/Public/Css/public.css" />
 		<script type="text/javascript" src="/zky/Public/Js//jquery-1.8.3.min.js"></script>
 		<script src="/zky/Public/Js/public.js"></script>
@@ -38,7 +38,7 @@
 		<!-- 结束登陆弹出窗口 -->
 		<div id='header'>
 			<div class="contain" >
-				<img src="/zky/Public/Pic/top.jpg" alt="" style="width:100%;" />
+				<img src="/zky/Public/Pic/top.jpg" alt=""  />
 			</div>
 		</div>
 		<div id='navi'>
@@ -62,15 +62,17 @@
 			<div class="contain">
 				<div id="showlist">
 					<div id="main_navi">
-						&nbsp;<a href="/zky/index.php/Home/Index/main">首页</a><span>--->新闻通知</span>
+						<a href="/zky/index.php/Home/Index/main">
+							首页</a><span>---> </span><a href="/zky/index.php/Home/Inform/news">新闻通知</a>
+						<span>--><?php echo ($data["title"]); ?></span>
 					</div>
-					<h2 >最新消息</h2>
+					<h2>最新消息</h2>
 					<div id="list">
-						<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "暂时没有通知" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><a href="/zky/index.php/Home/Inform/showitems/id/<?php echo ($vo["id"]); ?>" class="news_list">
-									<p><span><?php echo ($vo["title"]); ?></span>　　　　<t>　　<?php echo ($vo["date"]); ?></t></p>
-									<br />
-									<!--<p><?php echo ($vo["content"]); ?>/zky/index.php/Home/Inform/showitems/id/<?php echo ($vo["id"]); ?></p><br /> <br />-->
-								</a><?php endforeach; endif; else: echo "暂时没有通知" ;endif; ?>
+						<h3><?php echo ($data["title"]); ?></h3>
+						<br /><br />
+						<p><?php echo ($data["content"]); ?></p>
+						<br />
+						<p><?php echo ($data["date"]); ?></p>
 					</div>
 				</div>
 			</div>

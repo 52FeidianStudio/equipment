@@ -1,5 +1,17 @@
 //登录function
   $(function ($) {
+  		//登录AJAX提示判断
+			    $.post('__APP__/Home/Login/do_login', {
+					username:$("#txtName").val(),
+					password:$("#txtPwd").val(),
+				},function(text){
+					if(text=="pass"){
+						// alert('pass')
+						window.location.href="__APP__/Home/Index/main";
+					}else{
+						$("#suggest").html(text);
+					}
+				});
 		//弹出登录
 		$("#login").hover(function () {
 			$(this).stop().animate({

@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html>
 	<head>
 		<title>登录</title>
@@ -9,37 +9,37 @@
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
 		<link rel="stylesheet" href="./zhihu-css.css" />
-		<load href='__PUBLIC__/Css/login.css'/>
-		<link rel="stylesheet" href="__PUBLIC__/Css/public.css" />
+		<link rel="stylesheet" type="text/css" href="/zky/Public/Css/login.css" />
+		<link rel="stylesheet" href="/zky/Public/Css/public.css" />
 		<script>
 		</script>
 	</head>
 	<body>
 		<div id='header'>
 			<div class="contain" >
-				<img src="__PUBLIC__/Pic/top.jpg" alt="" style="width:100%;" />
+				<img src="/zky/Public/Pic/top.jpg" alt="" style="width:100%;" />
 			</div>
 		</div>
 		<div id='navi'>
 			<div class="contain">
-				<a href="__APP__/Home/Index/main" class="navi_a">首页</a>
-				<a href="__APP__/Home/Inform/news" class="navi_a">新闻通知</a>
-				<a href="__APP__/Home/Equipment/equipment" class="navi_a">仪器介绍</a>
-				<a href="__APP__/Home/Regulation/regulation" class="navi_a">规章制度</a>
-				<a href="__APP__/Home/File/document" class="navi_a">文档下载</a>
-				<a href="__APP__/Home/Message/conmunication" class="navi_a">讨论区</a>
-				<a href="__APP__/Home/Index/about_us" class="navi_a">关于我们</a>
+				<a href="/zky/index.php/Home/Index/main" class="navi_a">首页</a>
+				<a href="/zky/index.php/Home/Inform/news" class="navi_a">新闻通知</a>
+				<a href="/zky/index.php/Home/Equipment/equipment" class="navi_a">仪器介绍</a>
+				<a href="/zky/index.php/Home/Regulation/regulation" class="navi_a">规章制度</a>
+				<a href="/zky/index.php/Home/File/document" class="navi_a">文档下载</a>
+				<a href="/zky/index.php/Home/Message/conmunication" class="navi_a">讨论区</a>
+				<a href="/zky/index.php/Home/Index/about_us" class="navi_a">关于我们</a>
 				<div id='na_log'>
 					<span>欢迎</span>
-					<span ><{$Think.session.username}></span>
-					<a href="__APP__/Home/Login/login_out" style=''>退出</a>
+					<span ><?php echo (session('username')); ?></span>
+					<a href="/zky/index.php/Home/Login/login_out" style=''>退出</a>
 				</div>
 			</div>
 		</div>
 		
 		<div id='main'>
 			<div class="contain">
-				<form name="login-form" class="login-form" action="__URL__/do_login" method="post">
+				<form name="login-form" class="login-form" action="/zky/index.php/Home/Login/do_login" method="post">
 
 	<!--HEADER-->
     				<div class="header">

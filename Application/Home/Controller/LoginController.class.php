@@ -9,28 +9,30 @@
 			$n = M("User");
 			$username = $_POST['username'];
 			$password = $_POST['password'];
-			$count = $n -> where("username = $username") -> find();
-			if($count){
-				//$result = $n -> where("username = $username") -> getField("isTeacher");
-				//if(!$result){
-					$result1 = $n -> where("username = $username") -> getField('password');
-					if($result1 == $password){
+		    $data=null;
+		    if($username==""){
+		        $data="你还没有输入帐号！";
+		    }else if($password==""){
+		        $data="你还没有输入密码！";
+		    }else{
+		        $count = $n -> where("username = $username") -> find();
+		        if($count){
+		        	$result1 = $n -> where("username = $username") -> getField('password');
+		        	if($result1 == $password){
 						$name = $n -> where("username = $username") -> getField('name');
-						$_SESSION['username'] = $name;
+		                $_SESSION['username'] = $name;
 						$_SESSION['id'] = $n -> where("username = $username") -> getField('id');
 						$_SESSION['isTeacher'] = 0;
 						$_SESSION['say'] = $n -> where("username = $username") -> getField('say');
-						$this -> redirect("Message/conmunication");
-					}else{
-						$this -> error("密码不正确！");
-					}
-				//}else{
-					//$this -> error("您不是普通用户！");
-				//}
-			}else{
-				$this -> error("用户不存在");
-			}
-			
+		                $data="pass";
+		            }else{
+		                $data="密码不正确！";
+		            }
+		        }else{
+		        	$data = "用户不存在！";
+		        }
+		        $this->ajaxReturn($data);     
+		    }	
 		}
 		public function login_out(){
 			$_SESSION = array();
