@@ -8,10 +8,9 @@
 		<meta name="Copyright" content="网站版权" /> 
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
-		<link rel="stylesheet" href="./zhihu-css.css" />
-		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/main.css" />
 		<link rel="stylesheet" href="/zky/Public/Css/public.css" />
-		<script type="text/javascript" src="/zky/Public/Js//jquery-1.8.3.min.js"></script>
+		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/documents.css" />
+		<script type="text/javascript" src="/zky/Public/Js/jquery-1.8.3.min.js"></script>
 		<script src="/zky/Public/Js/public.js"></script>
 	</head>
 	<body>
@@ -64,23 +63,21 @@
 						&nbsp;<a href="/zky/index.php/Home/Index/main">首页</a><span>--->文档下载</span>
 				</div>
 				<div id="d_list">
-					<h4>相关文件下载：</h4>
+					<h2>相关文件下载：</h2>
 					<ul>
 						<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li>
 								<a href="/zky/Uploads<?php echo ($vo["address"]); ?>">
-									<p><?php echo ($vo["realname"]); ?>　　<?php echo ($vo["date"]); ?></p></a><br />
+									<p><?php echo ($vo["realname"]); ?>　　<span><?php echo ($vo["date"]); ?></span></p></a><br />
 							</li><?php endforeach; endif; else: echo "" ;endif; ?>
-						
 					</ul>
-							<?php echo ($show); ?>
+							<span id='subscpt'><?php echo ($show); ?></span>
 				</div>
 			</div>
 		</div>
 		<div id='footer'>
 			<div class="contain">
-				<p class="footer_p">通讯地址：xxxxxxxxxxxxxxxxx</p>
-				<p class="footer_p">邮政编码：xxxxxx</p>
-				<p class="footer_p">联系电话：xxxxxxx xxxxxxxxxx xxxxxxxxxxxx</p>
+				<p class="footer_p">通讯地址：华中农业大学主楼东附楼二楼</p>
+				<p class="footer_p">邮政编码：430070</p>
 				<hr />
 				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="/zky/index.php/Admin/Index/admin">管理</a></p>
 			</div>

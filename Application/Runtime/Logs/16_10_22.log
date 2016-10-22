@@ -4507,3 +4507,249 @@ SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.026806s ]
 SQL: SELECT `say` FROM `tp_user` WHERE ( id = 6  ) LIMIT 1   [ RunTime:0.000738s ]
 ERR: 非法操作:__app__
 
+[ 2016-10-22T23:23:37+08:00 ] ::1 /zky/index.php/Home/Index/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001793s ]
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:23:38+08:00 ] ::1 /zky/index.php/Home/Message/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.011806s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\zky\Application\Home\Controller\MessageController.class.php 第 8 行.
+SQL: SELECT `say` FROM `tp_user` WHERE ( id =   ) LIMIT 1   [ RunTime:0.000183s ]
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `say` FROM `tp_user` WHERE ( id =   ) LIMIT 1  
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:23:41+08:00 ] ::1 /zky/index.php/Home/Message/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001096s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.014708s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\zky\Application\Home\Controller\MessageController.class.php 第 8 行.
+SQL: SELECT `say` FROM `tp_user` WHERE ( id =   ) LIMIT 1   [ RunTime:0.000177s ]
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `say` FROM `tp_user` WHERE ( id =   ) LIMIT 1  
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:23:42+08:00 ] ::1 /zky/index.php/Home/Message/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001529s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.018217s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\zky\Application\Home\Controller\MessageController.class.php 第 8 行.
+SQL: SELECT `say` FROM `tp_user` WHERE ( id =   ) LIMIT 1   [ RunTime:0.000178s ]
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `say` FROM `tp_user` WHERE ( id =   ) LIMIT 1  
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:23:44+08:00 ] ::1 /zky/index.php/Home/Message/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001942s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.012072s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\zky\Application\Home\Controller\MessageController.class.php 第 8 行.
+SQL: SELECT `say` FROM `tp_user` WHERE ( id =   ) LIMIT 1   [ RunTime:0.000232s ]
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `say` FROM `tp_user` WHERE ( id =   ) LIMIT 1  
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:23:45+08:00 ] ::1 /zky/index.php/Home/Message/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001713s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.011490s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\zky\Application\Home\Controller\MessageController.class.php 第 8 行.
+SQL: SELECT `say` FROM `tp_user` WHERE ( id =   ) LIMIT 1   [ RunTime:0.000135s ]
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `say` FROM `tp_user` WHERE ( id =   ) LIMIT 1  
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:23:46+08:00 ] ::1 /zky/index.php/Home/Message/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.009100s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\zky\Application\Home\Controller\MessageController.class.php 第 8 行.
+SQL: SELECT `say` FROM `tp_user` WHERE ( id =   ) LIMIT 1   [ RunTime:0.000295s ]
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `say` FROM `tp_user` WHERE ( id =   ) LIMIT 1  
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:23:47+08:00 ] ::1 /zky/index.php/Home/Message/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007283s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\zky\Application\Home\Controller\MessageController.class.php 第 8 行.
+SQL: SELECT `say` FROM `tp_user` WHERE ( id =   ) LIMIT 1   [ RunTime:0.000255s ]
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `say` FROM `tp_user` WHERE ( id =   ) LIMIT 1  
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:23:49+08:00 ] ::1 /zky/index.php/Home/Regulation/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:23:49+08:00 ] ::1 /zky/index.php/Home/File/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:23:50+08:00 ] ::1 /zky/index.php/Home/Regulation/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001668s ]
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:23:50+08:00 ] ::1 /zky/index.php/Home/Equipment/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003420s ]
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:23:51+08:00 ] ::1 /zky/index.php/Home/Inform/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001795s ]
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:23:51+08:00 ] ::1 /zky/index.php/Home/Index/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001808s ]
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:23:52+08:00 ] ::1 /zky/index.php/Home/Inform/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001716s ]
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:23:54+08:00 ] ::1 /zky/index.php/Home/Equipment/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:23:55+08:00 ] ::1 /zky/index.php/Home/Equipment/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001747s ]
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:23:56+08:00 ] ::1 /zky/index.php/Home/Equipment/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:23:57+08:00 ] ::1 /zky/index.php/Home/Regulation/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:23:58+08:00 ] ::1 /zky/index.php/Home/File/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:23:59+08:00 ] ::1 /zky/index.php/Home/Message/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003513s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.012124s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\zky\Application\Home\Controller\MessageController.class.php 第 8 行.
+SQL: SELECT `say` FROM `tp_user` WHERE ( id =   ) LIMIT 1   [ RunTime:0.000182s ]
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `say` FROM `tp_user` WHERE ( id =   ) LIMIT 1  
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:24:16+08:00 ] ::1 /zky/index.php/Home/Index/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001833s ]
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:24:19+08:00 ] ::1 /zky/index.php/Home/Index/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001764s ]
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:24:20+08:00 ] ::1 /zky/index.php/Home/Message/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006768s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\zky\Application\Home\Controller\MessageController.class.php 第 8 行.
+SQL: SELECT `say` FROM `tp_user` WHERE ( id =   ) LIMIT 1   [ RunTime:0.000171s ]
+ERR: 1064:Erreur de syntaxe près de ') LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `say` FROM `tp_user` WHERE ( id =   ) LIMIT 1  
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:24:21+08:00 ] ::1 /zky/index.php/Home/File/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:24:29+08:00 ] ::1 /zky/index.php/Home/Login/zhihu-css.css
+ERR: 非法操作:zhihu-css.css
+
+[ 2016-10-22T23:24:40+08:00 ] ::1 /zky/index.php/Home/Login/zhihu-css.css
+ERR: 非法操作:zhihu-css.css
+
+[ 2016-10-22T23:24:42+08:00 ] ::1 /zky/index.php/Home/Message/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.010796s ]
+SQL: SELECT `say` FROM `tp_user` WHERE ( id = 6  ) LIMIT 1   [ RunTime:0.000296s ]
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:24:45+08:00 ] ::1 /zky/index.php/Home/Message/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.016917s ]
+SQL: SELECT `say` FROM `tp_user` WHERE ( id = 6  ) LIMIT 1   [ RunTime:0.002278s ]
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:24:46+08:00 ] ::1 /zky/index.php/Home/Message/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.009227s ]
+SQL: SELECT `say` FROM `tp_user` WHERE ( id = 6  ) LIMIT 1   [ RunTime:0.000474s ]
+ERR: 非法操作:__app__
+
+[ 2016-10-22T23:25:05+08:00 ] ::1 /zky/index.php/Home/Message/__APP__/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002165s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.017013s ]
+SQL: SELECT `say` FROM `tp_user` WHERE ( id = 6  ) LIMIT 1   [ RunTime:0.000306s ]
+ERR: 非法操作:__app__
+

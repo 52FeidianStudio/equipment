@@ -106,16 +106,16 @@
 						<div id='relational_a'>
 						<h2>　相关链接</h2>
 						<h4>学院内链接：</h4>
-						<a href="http://cpst.hzau.edu.cn/" class="left_a">华中农业大学植物科学技术学院</a>
+						<a href="http://cpst.hzau.edu.cn/" target="_blank" class="left_a">华中农业大学植物科学技术学院</a>
 						<h4>校内链接：</h4>
-						<a href="http://www.hzau.edu.cn/2014/ch/" class="left_a">华中农业大学</a>
+						<a href="http://www.hzau.edu.cn/2014/ch/"target="_blank" class="left_a">华中农业大学</a>
 						<a href="#" class="left_a">华中农业大学大型仪器设备管理系统</a>
-						<a href="http://lib.hzau.edu.cn/" class="left_a">华中农业大学图书馆</a>
+						<a href="http://lib.hzau.edu.cn/"target="_blank" class="left_a">华中农业大学图书馆</a>
 						<h4>校外链接：</h4>
-						<a href="http://www.dxy.cn/bbs/index.html" class="left_a">丁香园论坛</a>
-						<a href="http://muchong.com/bbs/" class="left_a">小木虫论坛</a>
-						<a href="http://www.gfjl.org/forum.php?fromuid=10080" class="left_a">计量论坛</a>
-						<a href="http://www.instrument.com.cn/" class="left_a">仪器信息网</a>
+						<a href="http://www.dxy.cn/bbs/index.html"target="_blank" class="left_a">丁香园论坛</a>
+						<a href="http://muchong.com/bbs/"target="_blank" class="left_a">小木虫论坛</a>
+						<a href="http://www.gfjl.org/forum.php?fromuid=10080"target="_blank" class="left_a">计量论坛</a>
+						<a href="http://www.instrument.com.cn/"target="_blank" class="left_a">仪器信息网</a>
 						<h4></h4>
 						</div>
 					</div>

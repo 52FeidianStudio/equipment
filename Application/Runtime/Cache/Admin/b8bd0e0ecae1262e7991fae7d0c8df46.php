@@ -8,8 +8,13 @@
 		<meta name="Copyright" content="网站版权" /> 
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
+<<<<<<< HEAD
 		<link rel="stylesheet" type='text/css' href="/zky/Uploads/Css/admin.css" />
 		<script type="text/javascript" src="/zky/Uploads/Js/jquery1.js"></script>
+=======
+		<link rel="stylesheet" type='text/css' href="/equipment/Uploads/Css/admin.css" />
+		<script type="text/javascript" src="/equipment/Uploads/Js/jquery1.js"></script>
+>>>>>>> e95e39b6935d717c333ed3594bed491f1f9a8955
 		<script type="text/javascript">
 			$(document).ready(
 			function() {
@@ -30,7 +35,11 @@
 			<h3>后台管理系统</h3>
 		</div>
 		<div class="top_link">
+<<<<<<< HEAD
 			<a href="/zky/index.php/Admin/Index/admin_list" target="mainCont" title="Ghost">
+=======
+			<a href="/equipment/index.php/Admin/Index/admin_list" target="mainCont" title="Ghost">
+>>>>>>> e95e39b6935d717c333ed3594bed491f1f9a8955
 				管理员：<?php echo (session('username')); ?></a>
 		</div>
 	</div>
@@ -41,8 +50,13 @@
 				首页管理
 			</div>
 			<div class="div3">
+<<<<<<< HEAD
 				<li><a class="a" href="javascript:/zky/index.php/Admin/Index/admin;"
 					onClick="openurl('/zky/index.php/Admin/Index/index_link');">首页链接</a></li>
+=======
+				<li><a class="a" href="javascript:/equipment/index.php/Admin/Index/admin;"
+					onClick="openurl('/equipment/index.php/Admin/Index/index_link');">首页链接</a></li>
+>>>>>>> e95e39b6935d717c333ed3594bed491f1f9a8955
 			</div>
 			<div class="div2">
 				<div class="div4"></div>
@@ -50,8 +64,13 @@
 			</div>
 			<div class="div3">
 				<ul>
+<<<<<<< HEAD
 					<li><a class="a" href="javascript:/zky/index.php/Admin/Inform/news;"
 						onClick="openurl('/zky/index.php/Admin/Inform/news');">所有新闻</a></li>
+=======
+					<li><a class="a" href="javascript:/equipment/index.php/Admin/Inform/news;"
+						onClick="openurl('/equipment/index.php/Admin/Inform/news');">所有新闻</a></li>
+>>>>>>> e95e39b6935d717c333ed3594bed491f1f9a8955
 				</ul>
 			</div>
 			<div class="div2">
@@ -60,8 +79,13 @@
 			</div>
 			<div class="div3">
 				<ul>
+<<<<<<< HEAD
 					<li><a class="a" href="javascript:/zky/index.php/Admin/Equipment/equipment;"
 						onClick="openurl('/zky/index.php/Admin/Equipment/equipment');">仪器信息</a></li>
+=======
+					<li><a class="a" href="javascript:/equipment/index.php/Admin/Equipment/equipment;"
+						onClick="openurl('/equipment/index.php/Admin/Equipment/equipment');">仪器信息</a></li>
+>>>>>>> e95e39b6935d717c333ed3594bed491f1f9a8955
 						
 				</ul>
 			</div>
@@ -71,8 +95,13 @@
 			</div>
 			<div class="div3">
 				<ul>
+<<<<<<< HEAD
 					<li><a class="a" href="javascript:/zky/index.php/Admin/Regulation/regulation;"
 						onClick="openurl('/zky/index.php/Admin/Regulation/regulation');">制度文件</a></li>
+=======
+					<li><a class="a" href="javascript:/equipment/index.php/Admin/Regulation/regulation;"
+						onClick="openurl('/equipment/index.php/Admin/Regulation/regulation');">制度文件</a></li>
+>>>>>>> e95e39b6935d717c333ed3594bed491f1f9a8955
 				</ul>
 			</div>
 			
@@ -83,8 +112,13 @@
 			<div class="div3">
 
 				<ul>
+<<<<<<< HEAD
 					<li><a class="a" href="javascript:/zky/index.php/Admin/File/doucument;"
 						onClick="openurl('/zky/index.php/Admin/File/doucument');">文档信息</a></li>
+=======
+					<li><a class="a" href="javascript:/equipment/index.php/Admin/File/doucument;"
+						onClick="openurl('/equipment/index.php/Admin/File/doucument');">文档信息</a></li>
+>>>>>>> e95e39b6935d717c333ed3594bed491f1f9a8955
 				</ul>
 
 			</div>
@@ -95,9 +129,15 @@
 			<div class="div3">
 				<ul>
 					<li><a class="a" href="javascript:void(0);"
+<<<<<<< HEAD
 						onClick="openurl('/zky/index.php/Admin/Message/conmmunication');">留言管理</a></li>
 					<li><a class="a" href="javascript:void(0);"
 						onClick="openurl('/zky/index.php/Admin/Message/user');">用户禁言</a></li>
+=======
+						onClick="openurl('/equipment/index.php/Admin/Message/conmmunication');">留言管理</a></li>
+					<li><a class="a" href="javascript:void(0);"
+						onClick="openurl('/equipment/index.php/Admin/Message/user');">用户禁言</a></li>
+>>>>>>> e95e39b6935d717c333ed3594bed491f1f9a8955
 				</ul>
 			</div>
 			<div class="div2">
@@ -105,10 +145,17 @@
 				管理员信息
 			</div>
 			<div class="div3">
+<<<<<<< HEAD
 				<li><a class="a" href="javascript:/zky/index.php/Admin/Index/admin;"
 					onClick="openurl('/zky/index.php/Admin/Index/admin_list');">查看管理员</a></li>
 			</div>
 			<a class="a1" href="/zky/index.php/Admin/Login/login_out"><div class="div2">
+=======
+				<li><a class="a" href="javascript:/equipment/index.php/Admin/Index/admin;"
+					onClick="openurl('/equipment/index.php/Admin/Index/admin_list');">查看管理员</a></li>
+			</div>
+			<a class="a1" href="/equipment/index.php/Admin/Login/login_out"><div class="div2">
+>>>>>>> e95e39b6935d717c333ed3594bed491f1f9a8955
 					<div class="tcht"></div>
 					退出后台
 				</div></a>

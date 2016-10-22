@@ -8,7 +8,6 @@
 		<meta name="Copyright" content="网站版权" /> 
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
-		<link rel="stylesheet" href="./zhihu-css.css" />
 		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/main.css" />
 		<link rel="stylesheet" href="/zky/Public/Css/public.css" />
 		<script type="text/javascript" src="/zky/Public/Js//jquery-1.8.3.min.js"></script>
@@ -73,9 +72,8 @@
 		</div>
 		<div id='footer'>
 			<div class="contain">
-				<p class="footer_p">通讯地址：xxxxxxxxxxxxxxxxx</p>
-				<p class="footer_p">邮政编码：xxxxxx</p>
-				<p class="footer_p">联系电话：xxxxxxx xxxxxxxxxx xxxxxxxxxxxx</p>
+				<p class="footer_p">通讯地址：华中农业大学主楼东附楼二楼</p>
+				<p class="footer_p">邮政编码：430070</p>
 				<hr />
 				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="/zky/index.php/Admin/Index/admin">管理</a></p>
 			</div>
