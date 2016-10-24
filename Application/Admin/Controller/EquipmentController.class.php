@@ -9,11 +9,16 @@
       	}
 		public function equipment(){
 			$n = D('Equipment');
-			$arr = $n -> relation(true) -> select();
-			var_dump($arr);
-			exit;
-			$this -> assign('data',$arr);
-			$this -> display();
+			$count = $n -> count();
+			$Page = new\Think\Page($count,1);// 每页显示的记录数
+        	$Page->setConfig('header','个文件');
+        	$Page->setConfig('next','下一页');
+        	$Page->setConfig('prev','上一页');
+      	  	$show = $Page -> show();
+      		$arr = $n -> limit($Page->firstRow.','.$Page->listRows) -> order("id") -> relation(true) -> select();
+        	$this -> assign("data",$arr);
+        	$this -> assign('show',$show);
+        	$this -> display();
 		}
 		public function do_add(){
 			$n = M('Equipment');
@@ -40,10 +45,16 @@
 		}
 		public function delete(){
 			$n = M('Equipment');
+			$m = M('Equipmentmanage');
 			$do = $_GET['id'];
 			$result = $n -> where("id = $do") -> delete();
 			if($result){
-				$this -> success("删除成功");
+				$resultq1 = $m -> where("equipmentid = $do") -> delete();
+				if($resultq1){
+					$this -> success("删除成功");
+				}else{
+					$this -> error("删除失败");
+				}
 			}else{
 				$this -> error("删除失败");
 			}
@@ -70,10 +81,15 @@
 			$this -> display();
 		}
 		public function do_addmanagement(){
+			$m = M("Equipment");
 			$n = M("Equipmentmanage");
+			$where = $_GET['id'];
+			$count = $m -> where("id = $where") -> getField("count");
+			$m -> where("id = $where") -> count = $count + 1;
 			$n -> create();
 			$result = $n -> add();
 			if($result){
+				$m -> save();
 				$this -> redirect("Equipment/equipment");
 			}else{
 				$this -> error("添加详细信息失败！");

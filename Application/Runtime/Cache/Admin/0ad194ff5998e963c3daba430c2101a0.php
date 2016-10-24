@@ -85,10 +85,9 @@
     <table>
         <div class = "panel">
             <thead>
-                <?php echo ($data); ?>
             </thead>
             <div id = 'p_body'>
-                <form action="/zky/index.php/Admin/Equipment/do_addmanagement" method = "post">
+                <form action="/zky/index.php/Admin/Equipment/do_addmanagement/id/<?php echo ($data); ?>" method = "post">
                     <tr>
                         <td>添加详细信息</td>
                         <td><input type="text" name = "equipmentid" value = "<?php echo ($data); ?>" hidden></td>
