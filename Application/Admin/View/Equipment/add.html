@@ -159,6 +159,10 @@
                             <td><input type="text" name = "elocation"></td>
                         </tr>
                         <tr>
+                            <td>仪器简介</td>
+                            <td><input type="text" name = "introduction"></td>
+                        </tr>
+                        <tr>
                             <div id="buttom" >
                                <button type = "submit" value ="添加">添加</button>
                                <button type="reset" value = "重置">重置</button>

@@ -8,8 +8,10 @@
           }
       	}
 		public function equipment(){
-			$n = M('Equipment');
-			$arr = $n -> select();
+			$n = D('Equipment');
+			$arr = $n -> relation(true) -> select();
+			var_dump($arr);
+			exit;
 			$this -> assign('data',$arr);
 			$this -> display();
 		}
@@ -61,6 +63,20 @@
 				$this -> redirect("Equipment/equipment");
 			}else{
 				$this -> error("修改失败");
+			}
+		}
+		public function add_management(){
+			$this -> assign("data",$_GET['id']);
+			$this -> display();
+		}
+		public function do_addmanagement(){
+			$n = M("Equipmentmanage");
+			$n -> create();
+			$result = $n -> add();
+			if($result){
+				$this -> redirect("Equipment/equipment");
+			}else{
+				$this -> error("添加详细信息失败！");
 			}
 		}
 		public function add(){

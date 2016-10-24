@@ -109,7 +109,7 @@
                     </tr>
                     <tr>
                         <td>仪器编号：</td>
-                        <td><?php echo ($vo["id"]); ?></td>
+                        <td><?php echo ($vo["eid"]); ?></td>
                     </tr>
                     <tr>
                         <td>仪器中文名称：</td>
@@ -154,6 +154,7 @@
                     <tr>
                         <td><a href="/zky/index.php/Admin/Equipment/update/id/<?php echo ($vo["id"]); ?>"><button>修改</button></a></td>
                         <td><a href="/zky/index.php/Admin/Equipment/delete/id/<?php echo ($vo["id"]); ?>"><button>删除</button></a></td>
+                        <td><a href="/zky/index.php/Admin/Equipment/add_management/id/<?php echo ($vo["id"]); ?>"><button>添加介绍</button></a></td>
                     </tr>
                 </div>
             </div>
