@@ -82,7 +82,11 @@
 </head>
 <body>
     <font color="#777777"><strong>用户名称：</strong></font>
+<<<<<<< HEAD
     <a href="/zky/index.php/Admin/Index/studentdetail"><?php echo (session('username')); ?></a>
+=======
+    <a href="/equipment/index.php/Admin/Index/studentdetail"><?php echo (session('username')); ?></a>
+>>>>>>> 248e30835e15569d8ca7869e1263df3acc9f2911
     <table >
         <div class='panel'>
             <thead>
@@ -93,7 +97,11 @@
                 </tr>
                 <tr>
                     <!-- 使用Ajax判断输入是否合法 -->
+<<<<<<< HEAD
                     <td><form action="/zky/index.php/Admin/Inform/do_show" method="post" name="myForm">通知名称：</td>
+=======
+                    <td><form action="/equipment/index.php/Admin/Inform/do_show" method="post" name="myForm">通知名称：</td>
+>>>>>>> 248e30835e15569d8ca7869e1263df3acc9f2911
                     <td><input type="text" name="title" value="" /></td>
                 </tr>
                 <tr>
@@ -125,9 +133,15 @@
             </thead>
             <div id='p_body'>
                 <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+<<<<<<< HEAD
         		        <td><a href="/zky/index.php/Admin/Inform/showitems/id/<?php echo ($vo["id"]); ?>"><?php echo ($vo["title"]); ?></a></td>
                         <td><?php echo ($vo["date"]); ?></td>
                         <td><a href="/zky/index.php/Admin/Inform/do_delete/id/<?php echo ($vo["id"]); ?>"><button>删除</button></a></td>
+=======
+        		        <td><a href="/equipment/index.php/Admin/Inform/showitems/id/<?php echo ($vo["id"]); ?>"><?php echo ($vo["title"]); ?></a></td>
+                        <td><?php echo ($vo["date"]); ?></td>
+                        <td><a href="/equipment/index.php/Admin/Inform/do_delete/id/<?php echo ($vo["id"]); ?>"><button>删除</button></a></td>
+>>>>>>> 248e30835e15569d8ca7869e1263df3acc9f2911
                     </tr><?php endforeach; endif; else: echo "" ;endif; ?>
             </div>
         </div>

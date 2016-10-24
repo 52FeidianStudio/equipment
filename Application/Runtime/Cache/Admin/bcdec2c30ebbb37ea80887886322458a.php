@@ -158,6 +158,8 @@
                     </tr>
                 </div>
             </div>
+<<<<<<< HEAD
+=======
             <tr>
                 <td>
                     <form action="/zky/index.php/Admin/Equipment/additems">
@@ -165,6 +167,7 @@
                     </form>
                 </td>
             </tr>
+>>>>>>> 665d5852cc7eac237c05fd213c772a45fc562f8d
         </table><?php endforeach; endif; else: echo "" ;endif; ?>
 </body>
 </html>

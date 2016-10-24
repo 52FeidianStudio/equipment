@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>文件</title>
+</head>
+<body>
+
+	<!-- 管理员（教师用户文件页面） 
+	功能是：展示已上传的所有文件和上传文件
+	-->
+
+
+	<volist name = "data" id = "vo">
+		<p><{$vo.filename}></p><br /><br />
+		<p><{$vo.address>}</p><br /><br />
+		<p><{$vo.filedate>}</p><br /><br />
+	</volist>
+	<form action="__URL__/do_show" enctype="multipart/form-data" method="post" >
+		<p>上传文件</p>
+		__URL__<br /><br />
+		__APP__
+		<input type="file" name = "file">
+		<input type="submit" value = "提交">
+	</form>
+</body>
+</html>

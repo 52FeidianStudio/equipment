@@ -97,6 +97,7 @@
 	                    <tr>
 	                        <td><a href="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" target = "_blank"><img src="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" class = "pic"/></a></td>
 	                    </tr>
+<<<<<<< HEAD
                       <tr>
                         <td>仪器分类</td>
                         <td><!-- 选择一个下拉表 -->
@@ -111,6 +112,8 @@
                             </select>
                         </td>
                       </tr>
+=======
+>>>>>>> 248e30835e15569d8ca7869e1263df3acc9f2911
 	                    <tr>
 	                        <td>仪器编号：</td>
 	                        <td><input type="text" name = "eid" value = "<?php echo ($vo["eid"]); ?>"></td>
