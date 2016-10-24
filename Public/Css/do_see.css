@@ -1,0 +1,35 @@
+.hint{
+	display: block;
+	margin: 0 auto;
+	height: 25px;
+	width: 100%;
+	text-align: center;
+	line-height: 40px;
+	color: red;
+	font-size: 25px;
+}
+#show p{
+	text-indent: 20px;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #eaeaea;
+	font-size: 20px;
+	color: #65666D;
+}
+#time{
+	display: block;
+	float: right;
+	margin-right: 20px;
+
+}
+#show a:link,#show a:hover,#show a:visited{
+		
+		text-align: center;
+		text-decoration: none;
+		color: #65666D;
+}
+#show a:hover{
+	color: orange;
+}
