@@ -10,7 +10,7 @@
 		<meta name="description" content="网站描述" />
 		<link rel="stylesheet" type='text/css' href="/equipment/Public/Css/main.css" />
 		<link rel="stylesheet" href="/equipment/Public/Css/public.css" />
-		<script type="text/javascript" src="/equipment/Public/Js//jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="/equipment/Public/Js/jquery-3.1.1.min.js"></script>
 		<script src="/equipment/Public/Js/public.js"></script>
 	</head>
 	<body>
@@ -61,9 +61,11 @@
 			<div class="contain">
 				<div id="main_navi">
 						<a href="/equipment/index.php/Home/Index/main">首页</a>--->讨论区 <br />
-						   	<?php if(($user) == "0"): ?><a href="/equipment/index.php/Home/Message/add_message">添加留言</a>
-								<?php else: ?> <span>您已经被管理员禁言</span><?php endif; ?>
-							<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p><?php echo ($vo["title"]); ?>　　　　　　　　<a href="/equipment/index.php/Home/Message/do_see/id/<?php echo ($vo["id"]); ?>">查看详情</a></p>
+						   	<?php if(($user) == "0"): ?><a href="/equipment/index.php/Home/Message/add_message"><p>添加留言</p></a><br />
+								<?php else: ?> 
+									<?php if(($user) == ""): ?><p><span>您还没有登录，登陆过后可以添加留言</span></p><br />
+										<?php else: ?> <p><span>您已经被管理员禁言</span></p><br /><?php endif; endif; ?>
+							<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p><?php echo ($vo["title"]); ?>　　　　　　　　<a href="/equipment/index.php/Home/Message/do_see/id/<?php echo ($vo["id"]); ?>">查看详情</a>  <?php echo ($vo["date"]); ?></p>
 								<hr><?php endforeach; endif; else: echo "" ;endif; ?>
 				</div>
 			</div>

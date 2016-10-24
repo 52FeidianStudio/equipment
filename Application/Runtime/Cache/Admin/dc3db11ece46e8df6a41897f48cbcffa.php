@@ -86,7 +86,7 @@
                     <td>上传文件</td>
                 </tr>
                 <tr>
-                    <td><form action="/zky/index.php/Admin/File/do_show" enctype="multipart/form-data" method="post" ></td>
+                    <td><form action="/equipment/index.php/Admin/File/do_show" enctype="multipart/form-data" method="post" ></td>
                     <td id = "lalala"><input type="file" name = "file"></td> 
                     <td></td>
                     <td></td>            
@@ -103,8 +103,8 @@
             <div id='p_body'>
                 <?php if(is_array($data)): $k = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><tr>
                         <td><?php echo ($k); ?></td>
-                        <td><a href="/zky/Uploads<?php echo ($vo["address"]); ?>" target = "_blank"><?php echo ($vo["realname"]); ?></a></td>
-                        <td> <a href="/zky/index.php/Admin/File/delete/id/<?php echo ($vo["id"]); ?>"><button type="submit">删除</button></a></td>
+                        <td><a href="/equipment/Uploads<?php echo ($vo["address"]); ?>" target = "_blank"><?php echo ($vo["realname"]); ?></a></td>
+                        <td> <a href="/equipment/index.php/Admin/File/delete/id/<?php echo ($vo["id"]); ?>"><button type="submit">删除</button></a></td>
                     </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                 <tr>
                     <td></td>

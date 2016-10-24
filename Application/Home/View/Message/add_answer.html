@@ -10,7 +10,7 @@
 		<meta name="description" content="网站描述" />
 		<link rel="stylesheet" type='text/css' href="__PUBLIC__/Css/main.css" />
 		<link rel="stylesheet" href="__PUBLIC__/Css/public.css" />
-		<script type="text/javascript" src="__PUBLIC__/Js//jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/Js/jquery-3.1.1.min.js"></script>
 		<script src="__PUBLIC__/Js/public.js"></script>
 	</head>
 	<body>
@@ -61,13 +61,17 @@
 		<div id='main'>
 			<div class="contain">
 				<div id="main_navi">
-						<a href="__APP__/Home/Index/main">首页</a>---><a href="__APP__/Home/Message/conmunication">讨论区</a>---> <a href="__APP__/Home/Message/do_see"><{$data.title}></a> --> 回复
+						<a href="__APP__/Home/Index/main">首页</a>---><a href="__APP__/Home/Message/conmunication">讨论区</a>---> <a href="__APP__/Home/Message/do_see"><{$data.title}></a> --> 回复 <br />
 						<eq name = "user" value = "0">
 									<form action="__URL__/do_addanswer/id/<{$data.id}>/address/<{$address}>" method = "post" id = "myForm">
 										<textarea name="content" id = "content"></textarea><br /><br />
 								        <input type="submit" name="submit" value="提交">
 								    </form>
-								<else /> <br /><span>您已经被管理员禁言</span>
+								<else /> 
+									<eq name = "user" value = "">
+										<p><span>您还没有登录，登录之后才可以发表留言</span></p><br />
+										<else /><span>您已经被管理员禁言</span><br />
+									</eq>
 						</eq>
 				</div>
 			</div>

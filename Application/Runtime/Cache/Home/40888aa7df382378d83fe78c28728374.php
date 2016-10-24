@@ -9,7 +9,7 @@
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
 		<link rel="stylesheet" href="/equipment/Public/Css/public.css" />
-		<script type="text/javascript" src="/equipment/Public/Js//jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="/equipment/Public/Js/jquery-3.1.1.min.js"></script>
 		<script src="/equipment/Public/Js/public.js"></script>
 	</head>
 	<body>

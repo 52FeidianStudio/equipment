@@ -10,7 +10,7 @@
 		<meta name="description" content="网站描述" />
 		<link rel="stylesheet" href="/equipment/Public/Css/public.css" />
 		<link rel="stylesheet" type='text/css' href="/equipment/Public/Css/documents.css" />
-		<script type="text/javascript" src="/equipment/Public/Js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="/equipment/Public/Js/jquery-3.1.1.min.js"></script>
 		<script src="/equipment/Public/Js/public.js"></script>
 	</head>
 	<body>
@@ -76,9 +76,8 @@
 		</div>
 		<div id='footer'>
 			<div class="contain">
-				<p class="footer_p">通讯地址：xxxxxxxxxxxxxxxxx</p>
-				<p class="footer_p">邮政编码：xxxxxx</p>
-				<p class="footer_p">联系电话：xxxxxxx xxxxxxxxxx xxxxxxxxxxxx</p>
+				<p class="footer_p">通讯地址：华中农业大学主楼东附楼二楼</p>
+				<p class="footer_p">邮政编码：430070</p>
 				<hr />
 				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="/equipment/index.php/Admin/Index/admin">管理</a></p>
 			</div>

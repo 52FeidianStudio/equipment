@@ -10,7 +10,7 @@
 		<meta name="description" content="网站描述" />
 		<link rel="stylesheet" type='text/css' href="__PUBLIC__/Css/main.css" />
 		<link rel="stylesheet" href="__PUBLIC__/Css/public.css" />
-		<script type="text/javascript" src="__PUBLIC__/Js//jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/Js/jquery-3.1.1.min.js"></script>
 		<script src="__PUBLIC__/Js/public.js"></script>
 	</head>
 	<body>
@@ -61,7 +61,7 @@
 		<div id='main'>
 			<div class="contain">
 				<div id="main_navi">
-						<a href="__APP__/Home/Index/main">首页</a>---><a href="__APP__/Home/Message/conmunication">讨论区</a>--->发布留言
+						<a href="__APP__/Home/Index/main">首页</a>---><a href="__APP__/Home/Message/conmunication">讨论区</a>--->发布留言<br />
 						<eq name = "user" value = "0">
 								<form action="__URL__/do_addmessage" method = "post" id = "myForm">
 									留言主题：<input type="text" name = "title"> <br><br>
@@ -71,7 +71,11 @@
 							        <input type="reset" value = "取消">
 							        <!-- 添加一个事件，当点击其时，弹出对话框，是否放弃发布留言？是，关闭新打开的标签页，否，回到本界面 -->
 							    </form>
-								<else /> <br /><span>您已经被管理员禁言</span>
+								<else /> 
+									<eq name = "user" value = "">
+										<p><span>您还没有登录，登录后可添加留言</span></p><br />
+										<else /><span>您已经被管理员禁言</span><br />
+									</eq>
 						</eq>
 				</div>
 			</div>

@@ -32,7 +32,6 @@
 			$n -> imagicaddress =$info['file']['savepath'].$info['file']['savename'];
 			$n -> eblong = date("Y-m-d H:i:s");
 			$last = $n -> add();
-			exit;
 			if($last){
 				$this -> redirect('Equipment/equipment','','0','上传成功'); // 进行重定向操作，返回到主页
 			}
@@ -66,6 +65,9 @@
 		}
 		public function add(){
 			$this -> display();
+		}
+		public function additems(){
+			
 		}
 	}
 ?>

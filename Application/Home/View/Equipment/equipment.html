@@ -10,14 +10,43 @@
 		<meta name="description" content="网站描述" />
 		<link rel="stylesheet" href="__PUBLIC__/Css/public.css" />
 		<link rel="stylesheet" type='text/css' href="__PUBLIC__/Css/equipiment.css" />
-		<script src="__PUBLIC__/Js/equipment.js"></script>
-		<script type="text/javascript" src="__PUBLIC__/Js//jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/Js/jquery-1.8.3.min.js"></script>
 		<script src="__PUBLIC__/Js/public.js"></script>
+		<script src="__PUBLIC__/Js/equipment.js"></script>
+		<script>
+		/*	var arr=new Array();
+        	arr[0]="__PUBLIC__/Pic/top.jpg";
+       	    arr[1]="__PUBLIC__/Pic/lab.jpg";
+        	arr[2]="__PUBLIC__/Pic/Login.png";
+        	arr[3]="__PUBLIC__/Pic/phone.jpg";
+        	arr[4]="__PUBLIC__/Pic/aite.jpg";
+        	arr[5]="__PUBLIC__/Pic/top.jpg";
+        	arr[6]="__PUBLIC__/Pic/top.jpg";*/
+        var oDiv = document.getElementById("slide");
+        var oUl = document.getElementsByTagName("ul")[0];
+        var oLi = document.getElementsByTagName("li");
+
+        var speed=2;
+
+        $("ul"[0]).innerHTML+=$("ul"[0]).innerHTML;
+        
+        function move(){
+                if($("ul"[0]).offsetLeft <- oUl.offsetWidth/2){
+                    oUl.style.left ='80';
+                }
+                if(oUl.offsetLeft>0) { 
+                    oUl.style.left = -oUl.offsetWidth/2 + 'px';
+                }
+                    oUl.style.left = oUl.offsetLeft + speed + 'px';   //注意此处的speed
+            } 
+        var timer = setInterval(move, 30); 
+            
+        </script>	
 
 	</head>
 	<body>
 		<!-- 这里是登录弹出窗口 -->
-		 <div id="LoginBox">
+		<div id="LoginBox">
         <div class="row1">
             登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="l_closeBtn">×</a>
         </div>
@@ -32,7 +61,7 @@
             </span><a href="javascript:void(0)" title="提示" class="warning" id="l_warn2">*</a>
         </div>
         <div class="row">
-            <a href="#" id="l_loginbtn">登录</a>
+            <a href="__APP__/Home/Login/do_login" id="l_loginbtn">登录</a>
         </div>
     </div>
 		
@@ -62,28 +91,18 @@
 		</div>
 		<div id='main'>
 			<div class="contain">
-				 <div id="slide">
-        <a id="btnLeft" href="javascript:void(0);" >1</a>
-        <a id="btnRight" href="javascript:void(0);" >2</a>
-        <!--when change next image:style="left: -(n-1)*800px;"-->
-        <ul>
-            <li><img src="__PUBLIC__/Pic/top.jpg" alt="" /></li>
-            <li><img src="__PUBLIC__/Pic/lab.jpg" alt="" /></li>
-            <li><img src="__PUBLIC__/Pic/Login.png" alt="" /></li>
-            <li><img src="__PUBLIC__/Pic/phone.jpg" alt="" /></li>
-            <li><img src="__PUBLIC__/Pic/aite.jpg" alt="" /></li>
-            <li><img src="_PUBLIC__/Pic/top.jpg" alt="" /></li>
-          
-        </ul>
-        <div id="ico" class="ico">    
-            <a class="active" href="javascript:void(0);"></a>
-            <a href="javascript:void(0);"></a>
-            <a href="javascript:void(0);"></a>
-            <a href="javascript:void(0);"></a>
-            <a href="javascript:void(0);"></a>
-            <a href="javascript:void(0);"></a>
-        </div>
-    </div>
+				 <div id="slide" onclick="alert(this.offsetWidth);">
+       
+      <ul onclick="alert(this.offsetWidth);">
+          <li><img src="__PUBLIC__/Pic/top.jpg"  onclick="alert(this.offsetWidth);"alt="" /></li>
+          <li><img src="__PUBLIC__/Pic/top.jpg" alt="" /></li>
+          <li><img src="__PUBLIC__/Pic/Login.png" alt="" /></li>
+          <li><img src="__PUBLIC__/Pic/phone.jpg" alt="" /></li>
+          <li><img src="__PUBLIC__/Pic/aite.jpg" alt="" /></li>
+          <li><img src="__PUBLIC__/Pic/top.jpg" alt="" /></li>
+      </ul>
+      				<!-- <a href=""><img src="__PUBLIC__/Pic/aite.jpg" style="width:100%;height:100%;" alt="" id="obj" /></a> -->
+    			</div>
 			</div>
 		</div>
 		<div id='footer'>

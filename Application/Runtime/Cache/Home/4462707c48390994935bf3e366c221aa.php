@@ -10,7 +10,7 @@
 		<meta name="description" content="网站描述" />
 		<link rel="stylesheet" type='text/css' href="/equipment/Public/Css/main.css" />
 		<link rel="stylesheet" href="/equipment/Public/Css/public.css" />
-		<script type="text/javascript" src="/equipment/Public/Js//jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="/equipment/Public/Js/jquery-1.8.3.min.js"></script>
 		<script src="/equipment/Public/Js/public.js"></script>
 		<script>
 			var arr=new Array();
@@ -21,6 +21,23 @@
         	arr[4]="/equipment/Public/Pic/aite.jpg";
         	arr[5]="/equipment/Public/Pic/top.jpg";
         	arr[6]="/equipment/Public/Pic/top.jpg";
+        	
+
+        	//登录按钮ajax
+        	$("#l_loginbtn").on('click', function () {
+			
+			 $.post('/equipment/index.php/Home/Login/do_login', {
+					username:$("#l_txtName").val(),
+					password:$("#l_txtPwd").val()
+				},function(text){
+					
+					if(text=="pass"){
+						window.location.href="/equipment/index.php/Home/Index/index";
+					}else{
+						$("#suggest").html(text);
+					}
+				});
+		});
 		</script>
 		<script src="/equipment/Public/Js/main.js"></script>
 		
@@ -31,18 +48,21 @@
         <div class="row1">
             登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="l_closeBtn">×</a>
         </div>
+        <span id="suggest"></span>
         <div class="row">
-            用户名: <span class="inputBox">
-                <input type="text" id="l_txtName" placeholder="账号/邮箱" />
-            </span><a href="javascript:void(0)" title="提示" class="warning" id="l_warn">*</a>
+            用户名: 
+            	<span class="inputBox">
+                <input type="text" id="l_txtName" placeholder="账号" />
+            	</span>
         </div>
         <div class="row">
-            密&nbsp;&nbsp;&nbsp;&nbsp;码: <span class="inputBox">
-                <input type="text" id="l_txtPwd" placeholder="密码" />
-            </span><a href="javascript:void(0)" title="提示" class="warning" id="l_warn2">*</a>
+            密&nbsp;&nbsp;&nbsp;&nbsp;码:
+             <span class="inputBox">
+                <input type="password" id="l_txtPwd" placeholder="密码" />
+           	</span>
         </div>
         <div class="row">
-            <a href="#" id="l_loginbtn">登录</a>
+            <a href="javascript:void(0)" id="l_loginbtn">登录</a>
         </div>
     </div>
 		
@@ -55,15 +75,15 @@
         <div class="row">
             用户名: <span class="inputBox">
                 <input type="text" id="r_txtName" placeholder="账号/邮箱" />
-            </span><a href="javascript:void(0)" title="提示" class="warning" id="r_warn">*</a>
+            </span>
         </div>
         <div class="row">
             密&nbsp;&nbsp;&nbsp;&nbsp;码: <span class="inputBox">
-                <input type="text" id="r_txtPwd" placeholder="密码" />
-            </span><a href="javascript:void(0)" title="提示" class="warning" id="r_warn2">*</a>
+                <input type="password" id="r_txtPwd" placeholder="密码" />
+            </span>
         </div>
         <div class="row">
-            <a href="#" id="registerbtn">注册</a>
+            <a href="javascript:void(0)" id="r_loginbtn">注册</a>
         </div>
     </div>
     <!-- 结束注册窗口 -->
@@ -123,7 +143,7 @@
 			</div>
 			<div id='right'>
 					<div id='js'>
-						<img src="1.jpg" style="width:100%;height:100%;" alt="" id="obj" />
+						<img src="/equipment/Public/Pic/aite.jpg" style="width:100%;height:100%;" alt="" id="obj" />
 					</div>
 				<div id='r_message'>
 					<p>
@@ -136,6 +156,7 @@
 					
 				</div></div>
 		</div>
+	</div>	
 		<div id='footer'>
 			<div class="contain">
 				<p class="footer_p">通讯地址：华中农业大学主楼东附楼二楼</p>

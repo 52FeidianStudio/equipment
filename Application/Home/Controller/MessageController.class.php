@@ -3,9 +3,6 @@
 	use Think\Controller;
 	class MessageController extends Controller{
 		public function _initialize(){
-          if(!isset($_SESSION['username']) || $_SESSION['username'] == ''){
-          	$this -> redirect("Login/index");
-          }
           //获取用户当前的状态
 			$m = M("User");
 			$user = $m -> where("id = $_SESSION[id] ") -> getField("say");
@@ -38,6 +35,9 @@
         	$this -> display();
 		}
 		public function add_answer(){
+			if(!isset($_SESSION['username']) || $_SESSION['username'] == ''){
+	          	$this -> redirect("Login/index");
+	        }
 			//打开一个新的页面用来撰写回答
 			$which = $_GET['id'];
 			$address = $_GET['address'];
@@ -47,36 +47,54 @@
 			$this -> assign("address",$address);
 			$this -> display();
 		}
+
+		//进行敏感词汇的过滤
+		public function isSensitive($data){
+			$sensitive = M("Sensitive");
+			$sensitivereplace = "***";
+			$sensitiveall = $sensitive -> select();
+			$sensitivecount = $sensitive -> count();
+			for ($i=0;$i<$sensitivecount;$i++){  
+			    $isSensitive = substr_count($data, $sensitiveall[$i]['content']);  
+			    if($isSensitive>0){
+			    	$data = str_ireplace($sensitiveall[$i]['content'], $sensitivereplace, $data);
+			     }  
+			}
+			return $data;
+		}
+
 		//进行后台数据的添加
 		public function do_addanswer(){
+			$sensitive = M("Sensitive");
 			$n = M("Answer");
 			$where = $_GET['id'];
 			$data['date'] = date("Y-m-d H:i:s"); // 记录当前的时间
-			$data['content'] = $_POST['content'];
+			$data['content'] = self::isSensitive($_POST['content']);
 			$data['messageid'] = $where;
 			$data['userid'] = $_SESSION['id'];
-			//$data['userid'] = "11";
 			$result  = $n -> add($data); //写入数据库，并且返回result的值进行判断
 			if($result){
-				//$this -> redirect("$_GET[address]");
 				$this -> redirect("Message/conmunication");
 			}else{
 				$this -> error("好像哪里出了问题");
 			}
 		}
 		public function add_message(){
+			if(!isset($_SESSION['username']) || $_SESSION['username'] == ''){
+	          	$this -> redirect("Login/index");
+	        }
 			$this -> display();
 		}
 		public function do_addmessage(){
 			$n = D("Message");
-			$n -> Create();
-			$n -> date = date("Y-m-d H:i:s");
-			/*
-				$n -> userid = $_SESSION['id'];
-			*/
-			//$n -> userid = 1;
-			$n -> userid = $_SESSION['id'];
-			$result = $n -> add();
+			$data['title'] = self::isSensitive($_POST['title']);
+			$data['content'] = self::isSensitive($_POST['content']);
+			if($data['title'] == "***" || $data['content'] == "***"){
+				$this -> error("您的留言主题或者留言内容不合适");
+			}
+			$data['date'] = date("Y-m-d H:i:s");
+			$data['userid'] = $_SESSION['id'];
+			$result = $n -> add($data);
 			if($result){
 				$this -> redirect("Message/conmunication");
 			}else{
