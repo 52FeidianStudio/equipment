@@ -185,7 +185,6 @@
                             </td>
                         </tr>
                     <?php } ?>
-                    </PHP>
                 </tr>
             </div>
         </table><?php endforeach; endif; else: echo "" ;endif; ?>

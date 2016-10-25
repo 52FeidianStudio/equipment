@@ -1,38 +1,68 @@
-
-   /*     var oDiv = document.getElementById("slide");
+$(document).ready(function(){
+        var oDiv = document.getElementById("slide");
         var oUl = document.getElementsByTagName("ul")[0];
         var oLi = document.getElementsByTagName("li");
-
-        var speed=2;
-        var x = oDiv.offsetWidth;
-        alert(x);
+        var oDiv2 = document.getElementById("inclu");
+        var oA = oDiv2.getElementsByTagName("a");
+        var speed = -400;
         function move(){
-                if($("ul"[0]).offsetLeft <- oUl.offsetWidth/2){
-                    oUl.style.left ='80';
+                if( oUl.offsetTop < (-oUl.offsetHeight + 800)){
+                    oUl.style.top = 0 + 'px';
                 }
-                if(oUl.offsetLeft>0) { 
-                    oUl.style.left = -oUl.offsetWidth/2 + 'px';
-                }
-                    oUl.style.left = oUl.offsetLeft + speed + 'px';   //注意此处的speed
+                
+                    oUl.style.top = oUl.offsetTop + speed + 'px';   //注意此处的speed
             } 
-        var timer = setInterval(move, 1000); 
-            */     
-       
-        /*var curIndex=0;
-        //时间间隔 单位毫秒
-        var timeInterval=1000;
+        var timer = setInterval(move, 2000); 
+        oDiv.onmouseover=function ()
+        {
+            clearInterval(timer);
+        };
+        oDiv.onmouseout=function ()
+        {
+            timer=setInterval(move, 2000);
+        };
+
         
-        setInterval(changeImg,timeInterval);
-        function changeImg()
-    {
-            var obj=document.getElementById("obj");
-          if (curIndex==arr.length-1) 
-            {
-                curIndex=0;
-            }
-            else
-            {
-                curIndex+=1;
-            }
-            obj.src=arr[curIndex];
-    }*/
+        oA[0].onmouseover=function ()
+        {
+            oUl.style.top = 0 + "px";
+            clearInterval(timer);
+        };
+        oA[1].onmouseover=function ()
+        {
+            oUl.style.top = -400*(1) + "px";
+            clearInterval(timer);
+        };
+        oA[2].onmouseover=function ()
+        {
+            oUl.style.top = -400*(2) + "px";
+            clearInterval(timer);
+        };
+        oA[3].onmouseover=function ()
+        {
+            oUl.style.top = -400*(3) + "px";
+            clearInterval(timer);
+        };
+        oA[4].onmouseover=function ()
+        {
+            oUl.style.top = -400*(4) + "px";
+            clearInterval(timer);
+        };
+        oA[5].onmouseover=function ()
+        {
+            oUl.style.top = -400*(5) + "px";
+            clearInterval(timer);
+        };
+        oA[6].onmouseover=function ()
+        {
+            oUl.style.top = -400*(6) + "px";
+            clearInterval(timer);
+        };
+        oDiv2.onmouseout=function ()
+        {
+            timer=setInterval(move, 2000);
+        };
+  
+  
+});
+      

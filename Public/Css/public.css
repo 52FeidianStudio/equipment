@@ -162,6 +162,7 @@
 			}
 			#main{
 				background: white;
+				height: 650px;
 			}
 			#main h2{
 				clear: both;
@@ -186,10 +187,12 @@
 			#footer{
 				height: 100px;
 				clear: both;
+				color: #566F89;
 			}
 			#footer .contain{
 				border-radius: 3px;
 				background: #E9EFFE;
+
 			}
 			.footer_p{
 				font-family: 100px;

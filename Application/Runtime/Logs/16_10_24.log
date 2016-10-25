@@ -1,3 +1,39 @@
+<<<<<<< HEAD
+[ 2016-10-24T18:59:01+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-10-24T18:59:01+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-10-24T18:59:01+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-24T18:59:01+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-24T18:59:01+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-10-24T18:59:01+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-24T18:59:01+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-24T18:59:01+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-24T18:59:01+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-24T18:59:01+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-24T18:59:01+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-24T18:59:01+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/common.js
+=======
 [ 2016-10-24T15:50:20+08:00 ] ::1 /zky/index.php/Home/Message/__APP__/Home/Login/do_login
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001158s ]
@@ -3185,5 +3221,6 @@ ERR: 非法操作:js
 ERR: 非法操作:js
 
 [ 2016-10-24T23:59:53+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+>>>>>>> 9791eac839f64adf756392352ed8e3292bbf5aca
 ERR: 非法操作:js
 

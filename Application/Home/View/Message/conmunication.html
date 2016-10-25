@@ -8,7 +8,7 @@
 		<meta name="Copyright" content="网站版权" /> 
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
-		<link rel="stylesheet" type='text/css' href="__PUBLIC__/Css/main.css" />
+		<link rel="stylesheet" type='text/css' href="__PUBLIC__/Css/communication.css" />
 		<link rel="stylesheet" href="__PUBLIC__/Css/public.css" />
 		<script type="text/javascript" src="__PUBLIC__/Js/jquery-3.1.1.min.js"></script>
 		<script src="__PUBLIC__/Js/public.js"></script>
@@ -61,19 +61,27 @@
 		<div id='main'>
 			<div class="contain">
 				<div id="main_navi">
-						<a href="__APP__/Home/Index/main">首页</a>--->讨论区 <br />
-						   	<eq name = "user" value = "0">
+						<a href="__APP__/Home/Index/main">首页</a><span>--->讨论区 </span><br />
+						   	
+				</div>
+				<div id="show">
+					<eq name = "user" value = "0">
 								<a href="__URL__/add_message"><p>添加留言</p></a><br />
 								<else /> 
 									<eq name = "user" value = "">
-										<p><span>您还没有登录，登陆过后可以添加留言</span></p><br />
-										<else /> <p><span>您已经被管理员禁言</span></p><br />
+										<p>
+											<span class='hint'>您还没有登录，登陆过后可以添加留言</span>
+										</p><br />
+										<else /> 
+										<p>
+											<span class='hint'>您已经被管理员禁言</span>
+										</p><br />
 									</eq>
 							</eq>
 							<volist name = "data" id = "vo">
-								<p><{$vo.title}>　　　　　　　　<a href="__URL__/do_see/id/<{$vo.id}>">查看详情</a>  <{$vo.date}></p>
-								<hr>
+								<p><{$vo.title}><a href="__URL__/do_see/id/<{$vo.id}>">查看详情</a> <span id='time'> <{$vo.date}></span></p>
 							</volist>
+						<{$show}>
 				</div>
 			</div>
 		</div>

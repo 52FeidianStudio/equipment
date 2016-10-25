@@ -10,8 +10,15 @@
       	}
 		public function conmunication(){
 			$n = M("Message");
-			$arr = $n -> order('id desc') -> select();
-			$this -> assign('data',$arr);
+			$count = $n -> count();
+			$Page = new\Think\Page($count,13);// 每页显示的记录数
+        	$Page->setConfig('header','条留言');
+        	$Page->setConfig('next','下一页');
+        	$Page->setConfig('prev','上一页');
+      	  	$show = $Page -> show();//返回分页信息
+      		$arr = $n -> limit($Page->firstRow.','.$Page->listRows) -> order('id desc') -> select();
+        	$this -> assign("data",$arr);
+        	$this -> assign('show',$show);
 			$this -> display();
 		}
 		public function do_see(){

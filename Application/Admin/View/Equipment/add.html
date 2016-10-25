@@ -100,13 +100,13 @@
                             <td>仪器分类</td>
                             <td><!-- 选择一个下拉表 -->
                                 <select name="class">
-                                    <option value="volvo">质谱仪器</option>
-                                    <option value="saab">色谱仪器</option>
-                                    <option value="fiat">光谱仪器</option>
-                                    <option value="audi">生化分离分析仪器</option>
-                                    <option value="audi">显微镜及图像仪</option>
-                                    <option value="audi">品质分析仪器</option>
-                                    <option value="audi">其他</option>
+                                    <option value= 1>质谱仪器</option>
+                                    <option value= 2>色谱仪器</option>
+                                    <option value= 3>光谱仪器</option>
+                                    <option value= 4>生化分离分析仪器</option>
+                                    <option value= 5>显微镜及图像仪</option>
+                                    <option value= 6>品质分析仪器</option>
+                                    <option value= 7>其他</option>
                                 </select>
                             </td>
                         </tr>

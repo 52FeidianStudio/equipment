@@ -8,8 +8,8 @@
 		<meta name="Copyright" content="网站版权" /> 
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
-		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/main.css" />
 		<link rel="stylesheet" href="/zky/Public/Css/public.css" />
+		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/do_see.css" />
 		<script type="text/javascript" src="/zky/Public/Js/jquery-3.1.1.min.js"></script>
 		<script src="/zky/Public/Js/public.js"></script>
 	</head>
@@ -60,16 +60,18 @@
 		<div id='main'>
 			<div class="contain">
 				<div id="main_navi">
-						<a href="/zky/index.php/Home/Index/main">首页</a>---><a href="/zky/index.php/Home/Message/conmunication">讨论区</a>--->查看详情
-							<h2>问题梗概：<?php echo ($find['title']); ?></h2>
+						&nbsp;<a href="/zky/index.php/Home/Index/main">首页</a><span>---></span><a href="/zky/index.php/Home/Message/conmunication">讨论区</a><span>--->查看详情</span>
+							
+				</div>
+				<div id="show">
+					<h2>问题梗概：<?php echo ($find['title']); ?></h2>
 							<h3>已经有<?php echo ($count); ?>人关注　　　<?php echo ($find['user']['name']); ?>于<?php echo ($find['date']); ?>发布</h3>
 							<p>详细内容：<?php echo ($find['content']); ?></p>
 							<?php if(($user) == "0"): ?><p><a href="/zky/index.php/Home/Message/add_answer/id/<?php echo ($find['id']); ?>">回复</a></p><br />
 								<?php else: ?> 
-									<?php if(($user) == ""): ?><p><span>您还没有登录，登录之后才可以添加回复</span></p><br />
-										<?php else: ?> <span>您已经被管理员禁言</span><br /><?php endif; endif; ?>
-						<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p><?php echo ($vo["user"]["name"]); ?>：<?php echo ($vo["content"]); ?>　　　　回复时间：<?php echo ($vo["date"]); ?></p>
-						<hr><?php endforeach; endif; else: echo "" ;endif; ?>
+									<?php if(($user) == ""): ?><p><span class='hint'>您还没有登录，登录之后才可以添加回复</span></p><br />
+										<?php else: ?> <span class='hint'>您已经被管理员禁言</span><br /><?php endif; endif; ?>
+						<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p><?php echo ($vo["user"]["name"]); ?>：<?php echo ($vo["content"]); ?>　　　　<span id="time">回复时间：<?php echo ($vo["date"]); ?></span></p><?php endforeach; endif; else: echo "" ;endif; ?>
 						<?php echo ($show); ?>
 				</div>
 			</div>

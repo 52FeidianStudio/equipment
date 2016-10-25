@@ -8,7 +8,7 @@
 		<meta name="Copyright" content="网站版权" /> 
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
-		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/main.css" />
+		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/communication.css" />
 		<link rel="stylesheet" href="/zky/Public/Css/public.css" />
 		<script type="text/javascript" src="/zky/Public/Js/jquery-3.1.1.min.js"></script>
 		<script src="/zky/Public/Js/public.js"></script>
@@ -60,13 +60,21 @@
 		<div id='main'>
 			<div class="contain">
 				<div id="main_navi">
-						<a href="/zky/index.php/Home/Index/main">首页</a>--->讨论区 <br />
-						   	<?php if(($user) == "0"): ?><a href="/zky/index.php/Home/Message/add_message"><p>添加留言</p></a><br />
+						<a href="/zky/index.php/Home/Index/main">首页</a><span>--->讨论区 </span><br />
+						   	
+				</div>
+				<div id="show">
+					<?php if(($user) == "0"): ?><a href="/zky/index.php/Home/Message/add_message"><p>添加留言</p></a><br />
 								<?php else: ?> 
-									<?php if(($user) == ""): ?><p><span>您还没有登录，登陆过后可以添加留言</span></p><br />
-										<?php else: ?> <p><span>您已经被管理员禁言</span></p><br /><?php endif; endif; ?>
-							<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p><?php echo ($vo["title"]); ?>　　　　　　　　<a href="/zky/index.php/Home/Message/do_see/id/<?php echo ($vo["id"]); ?>">查看详情</a>  <?php echo ($vo["date"]); ?></p>
-								<hr><?php endforeach; endif; else: echo "" ;endif; ?>
+									<?php if(($user) == ""): ?><p>
+											<span class='hint'>您还没有登录，登陆过后可以添加留言</span>
+										</p><br />
+										<?php else: ?> 
+										<p>
+											<span class='hint'>您已经被管理员禁言</span>
+										</p><br /><?php endif; endif; ?>
+							<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p><?php echo ($vo["title"]); ?><a href="/zky/index.php/Home/Message/do_see/id/<?php echo ($vo["id"]); ?>">查看详情</a> <span id='time'> <?php echo ($vo["date"]); ?></span></p><?php endforeach; endif; else: echo "" ;endif; ?>
+						<?php echo ($show); ?>
 				</div>
 			</div>
 		</div>
