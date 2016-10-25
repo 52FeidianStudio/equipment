@@ -10,7 +10,7 @@
 		<meta name="description" content="网站描述" />
 		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/main.css" />
 		<link rel="stylesheet" href="/zky/Public/Css/public.css" />
-		<script type="text/javascript" src="/zky/Public/Js//jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="/zky/Public/Js/jquery-3.1.1.min.js"></script>
 		<script src="/zky/Public/Js/public.js"></script>
 	</head>
 	<body>
