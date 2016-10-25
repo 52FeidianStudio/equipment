@@ -60,7 +60,8 @@
 		<div id='main'>
 			<div class="contain">
 				<div id="main_navi">
-						<a href="/equipment/index.php/Home/Index/main">首页</a><span>---></span><a href="/equipment/index.php/Home/Message/conmunication">讨论区</a><span>--->查看详情</span>
+						&nbsp;<a href="/equipment/index.php/Home/Index/main">首页</a><span>---></span><a href="/equipment/index.php/Home/Message/conmunication">讨论区</a><span>--->查看详情</span>
+							
 				</div>
 				<div id="show">
 					<h2>问题梗概：<?php echo ($find['title']); ?></h2>
@@ -70,7 +71,7 @@
 								<?php else: ?> 
 									<?php if(($user) == ""): ?><p><span class='hint'>您还没有登录，登录之后才可以添加回复</span></p><br />
 										<?php else: ?> <span class='hint'>您已经被管理员禁言</span><br /><?php endif; endif; ?>
-						<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p><?php echo ($vo["user"]["name"]); ?>：<?php echo ($vo["content"]); ?>　　　　<span id='time'>回复时间：<?php echo ($vo["date"]); ?></span></p><?php endforeach; endif; else: echo "" ;endif; ?>
+						<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p><?php echo ($vo["user"]["name"]); ?>：<?php echo ($vo["content"]); ?>　　　　<span id="time">回复时间：<?php echo ($vo["date"]); ?></span></p><?php endforeach; endif; else: echo "" ;endif; ?>
 						<?php echo ($show); ?>
 				</div>
 			</div>

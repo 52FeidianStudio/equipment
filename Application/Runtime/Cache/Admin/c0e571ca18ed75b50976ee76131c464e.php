@@ -97,6 +97,20 @@
 	                    <tr>
 	                        <td><a href="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" target = "_blank"><img src="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" class = "pic"/></a></td>
 	                    </tr>
+                      <tr>
+                        <td>仪器分类</td>
+                        <td><!-- 选择一个下拉表 -->
+                            <select name="class">
+                              <option value="volvo">质谱仪器</option>
+                              <option value="saab">色谱仪器</option>
+                              <option value="fiat">光谱仪器</option>
+                              <option value="audi">生化分离分析仪器</option>
+                              <option value="audi">显微镜及图像仪</option>
+                              <option value="audi">品质分析仪器</option>
+                              <option value="audi">其他</option>
+                            </select>
+                        </td>
+                      </tr>
 	                    <tr>
 	                        <td>仪器编号：</td>
 	                        <td><input type="text" name = "eid" value = "<?php echo ($vo["eid"]); ?>"></td>
@@ -141,6 +155,10 @@
 	                        <td>仪器放置地点：</td>
 	                        <td><input type="text" name = "elocation" value = "<?php echo ($vo["elocation"]); ?>"></td>
 	                    </tr>
+                      <tr>
+                        <td>仪器简介</td>
+                        <td><input type="text" name = "introduction" value = "<?php echo ($vo["introduction"]); ?>"></td>
+                      </tr>
 	                    <tr>
 	                        <td><button type = "submit">提交</button></td>
 	                        <td><button type = "reset">重置</button></td>

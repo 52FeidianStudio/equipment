@@ -11,29 +11,66 @@
         a {
             text-decoration: none;
         }
+        #sl_na{
+            height: 40px;
+            width: 100%;
+            background:;
+            margin-top: 3px;
+            border:1px solid #2a8ba7;
+            border-radius: 5px;
+        }
+        #inclu{
+            margin: 0 auto;
+            width: 890px;
+        }
+        #inclu a:link,#inclu a:hover,#inclu a:visited{
+            margin-right: 5px;
+            display: block;
+            width: 120px;
+            color: #566F89;
+            font-size: 15px;
+            cursor:pointer;
+            float: left;
+            line-height: 40px;
+            text-align: center;
+            border-radius: 3px;
+
+        }
+        #inclu a:hover{
+            color: #fff;
+            background: #65666D;
+            filter:alpha(opacity=30);  
+            -moz-opacity:0.3;  
+            -khtml-opacity: 0.3;  
+            opacity: 0.3;  
+        }
+        
         #slide {
-            width: 4800px;
+            z-index: 0;
+            width: 800px;
             height: 400px;
             box-shadow: 0px 0px 5px #c1c1c1;
             margin: 20px auto;
             position:relative; 
-            left:80px; 
+            left:0; 
             top:0;
+            overflow: hidden;
         }
         #slide ul {
+            margin: 0 auto;
             position: absolute;
             left: 0px;
             top: 0px;
-            height: 400px;
         }
         #slide ul li {
             width: 800px;
             height: 400px;
             overflow: hidden;
             float: left;
+            cursor:pointer;
         }
         #slide ul li img{
-            width:700px;
+            width:800px;
             height: 100%;
         }
 

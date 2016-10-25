@@ -13,36 +13,6 @@
 		<script type="text/javascript" src="/equipment/Public/Js/jquery-1.8.3.min.js"></script>
 		<script src="/equipment/Public/Js/public.js"></script>
 		<script src="/equipment/Public/Js/equipment.js"></script>
-		<script>
-		/*	var arr=new Array();
-        	arr[0]="/equipment/Public/Pic/top.jpg";
-       	    arr[1]="/equipment/Public/Pic/lab.jpg";
-        	arr[2]="/equipment/Public/Pic/Login.png";
-        	arr[3]="/equipment/Public/Pic/phone.jpg";
-        	arr[4]="/equipment/Public/Pic/aite.jpg";
-        	arr[5]="/equipment/Public/Pic/top.jpg";
-        	arr[6]="/equipment/Public/Pic/top.jpg";*/
-        var oDiv = document.getElementById("slide");
-        var oUl = document.getElementsByTagName("ul")[0];
-        var oLi = document.getElementsByTagName("li");
-
-        var speed=2;
-
-        $("ul"[0]).innerHTML+=$("ul"[0]).innerHTML;
-        
-        function move(){
-                if($("ul"[0]).offsetLeft <- oUl.offsetWidth/2){
-                    oUl.style.left ='80';
-                }
-                if(oUl.offsetLeft>0) { 
-                    oUl.style.left = -oUl.offsetWidth/2 + 'px';
-                }
-                    oUl.style.left = oUl.offsetLeft + speed + 'px';   //注意此处的speed
-            } 
-        var timer = setInterval(move, 30); 
-            
-        </script>	
-
 	</head>
 	<body>
 		<!-- 这里是登录弹出窗口 -->
@@ -90,18 +60,30 @@
 		</div>
 		<div id='main'>
 			<div class="contain">
-				 <div id="slide" onclick="alert(this.offsetWidth);">
-       
-        <!--when change next image:style="left: -(n-1)*800px;"-->
-      <ul onclick="alert(this.offsetWidth);">
-          <li><img src="/equipment/Public/Pic/top.jpg"  onclick="alert(this.offsetWidth);"alt="" /></li>
-          <li><img src="/equipment/Public/Pic/top.jpg" alt="" /></li>
-          <li><img src="/equipment/Public/Pic/Login.png" alt="" /></li>
-          <li><img src="/equipment/Public/Pic/phone.jpg" alt="" /></li>
-          <li><img src="/equipment/Public/Pic/aite.jpg" alt="" /></li>
-          <li><img src="/equipment/Public/Pic/top.jpg" alt="" /></li>
-      </ul>
-      				<!-- <a href=""><img src="/equipment/Public/Pic/aite.jpg" style="width:100%;height:100%;" alt="" id="obj" /></a> -->
+				<div id="main_navi">
+						<a href="/equipment/index.php/Home/Index/main">首页</a><span><span>--->仪器介绍</span> </span><br />
+				</div>
+				<div id='sl_na'>
+					<div id='inclu'>
+					<a href="/equipment/index.php/Home/Index/main" >质谱仪器</a>
+					<a href="/equipment/index.php/Home/Inform/news" >色谱仪器</a>
+					<a href="/equipment/index.php/Home/Equipment/equipment" >光谱仪器</a>
+					<a href="/equipment/index.php/Home/Regulation/regulation" >生化分离分析仪器</a>
+					<a href="/equipment/index.php/Home/File/document" >显微镜及图像仪</a>
+					<a href="/equipment/index.php/Home/Message/conmunication" >品质分析仪器</a>
+					<a href="/equipment/index.php/Home/Index/about_us" >其他</a>
+				</div>
+				</div>
+				 <div id="slide" >
+				      <ul >
+				          <li><img src="/equipment/Public/Pic/top.jpg"  alt="" /></li>
+				          <li><img src="/equipment/Public/Pic/top.jpg" alt="" /></li>
+				          <li><img src="/equipment/Public/Pic/Login.png" alt="" /></li>
+				          <li><img src="/equipment/Public/Pic/phone.jpg" alt="" /></li>
+				          <li><img src="/equipment/Public/Pic/aite.jpg" alt="" /></li>
+				          <li><img src="/equipment/Public/Pic/top.jpg" alt="" /></li>
+				          <li><img src="/equipment/Public/Pic/phone.jpg" alt="" /></li>
+				      </ul>
     			</div>
 			</div>
 		</div>

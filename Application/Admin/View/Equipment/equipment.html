@@ -106,11 +106,16 @@
                 </thead>
                 <div id='p_body'>
                     <tr>
+                        <td><a href="__URL__/update/id/<{$vo.id}>"><button>修改</button></a></td>
+                        <td><a href="__URL__/delete/id/<{$vo.id}>"><button>删除</button></a></td>
+                        <td><a href="__URL__/add_management/id/<{$vo.id}>"><button>添加介绍</button></a></td>
+                    </tr>
+                    <tr>
                         <td><a href="__PUBLIC__<{$vo.imagicaddress}>" target = "_blank"><img src="__PUBLIC__<{$vo.imagicaddress}>" class = "pic"/></a></td>
                     </tr>
                     <tr>
                         <td>仪器编号：</td>
-                        <td><{$vo.id}></td>
+                        <td><{$vo.eid}></td>
                     </tr>
                     <tr>
                         <td>仪器中文名称：</td>
@@ -153,19 +158,51 @@
                         <td><{$vo.elocation}></td>
                     </tr>
                     <tr>
-                        <td><a href="__URL__/update/id/<{$vo.id}>"><button>修改</button></a></td>
-                        <td><a href="__URL__/delete/id/<{$vo.id}>"><button>删除</button></a></td>
+                        <td>仪器简介</td>
+                        <td><{$vo.introduction}></td>
                     </tr>
                 </div>
             </div>
-            <tr>
-                <td>
-                    <form action="__URL__/additems">
-                        
-                    </form>
-                </td>
-            </tr>
+        
+            <div class="panel">
+                <thead>
+                </thead>
+                <div id='p_body'>
+                    <PHP>
+                        for($k = 0; $k < $vo['count'];$k++){
+                    </PHP>
+                        <tr>
+                            <td>仪器特点
+                                <PHP>
+                                    echo $k+1;
+                                </PHP>
+                            </td>
+                            <td>
+                                <PHP>
+                                    echo $vo['management'][$k]['title'];
+                                </PHP>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>特点
+                                <PHP>
+                                    echo $k+1;
+                                </PHP>
+                                详细介绍</td>
+                            <td>
+                                <PHP>
+                                    echo $vo['management'][$k]['content'];
+                                </PHP>
+                            </td>
+                        </tr>
+                    <PHP>
+                        }
+                    </PHP>
+                    </PHP>
+                </tr>
+            </div>
         </table>
     </volist>
+    <{$show}>
 </body>
 </html>

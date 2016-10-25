@@ -9,6 +9,7 @@
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
 		<link rel="stylesheet" href="/equipment/Public/Css/public.css" />
+		<link rel="stylesheet" href="/equipment/Public/Css/about_us.css" />
 		<script type="text/javascript" src="/equipment/Public/Js/jquery-3.1.1.min.js"></script>
 		<script src="/equipment/Public/Js/public.js"></script>
 	</head>
@@ -61,25 +62,24 @@
 				<div id="main_navi">
 						&nbsp;<a href="/equipment/index.php/Home/Index/main">首页</a><span>--->关于我们</span>
 				</div>
-				<h3>联系我们：</h3>
-				<ul id='address'>
-					<li>联系地址:
-							华中农业大学主楼东附楼二楼
+				<h1>联系我们：</h1>
+				<ul id='show'>
+						<h2>植科院公共平台目前的组织管理结构如下</h2>
+						<li><img src="/equipment/Public/pic/na.png" alt="" />　<span class="na">平台主任  张椿雨</span></li>
+						<li><img src="/equipment/Public/pic/job.png" alt="" />　<span class="inf">职责</span></li>
+						<br />
+						<li><img src="/equipment/Public/pic/na.png" alt="" />　<span class="na">平台副主任 王学奎</span> </li>
+						<li><img src="/equipment/Public/pic/job.png" alt="" />　<span class="inf">职责</span></li>
+						<br />
+						<li><img src="/equipment/Public/pic/na.png" alt="" />　<span class="na">平台管理办公室主任 李凤凤</span></li>
+						<li><img src="/equipment/Public/pic/job.png" alt="" />　<span class="inf">职责：仪器设备使用和维护，维持平台顺利运行和发展，提高平台技术水平</span></li>
+						<br /><br /><br />
+						<li class='add'><img src="/equipment/Public/pic/address.png" alt="" />　联系地址:华中农业大学主楼东附楼二楼</li>
+						<li class='add'><img src="/equipment/Public/pic/person.png" alt="" />　联系人：李凤凤</li>
+						<li class='add'><img src="/equipment/Public/pic/zip_code.png" alt="" />　邮编：43xxxx</li>
+
 						
-					</li>
-					<li>联系人：李凤凤</li><li>邮编：43xxxx</li>
-				</ul>
-				<ul id='teloffice'>
-					<li>植科院公共平台目前的组织管理结构如下</li>
-					<li>
-						<p><span>平台主任 </span> 张椿雨 </p>
-						<p>职责</p>
 						
-						<p><span>平台副主任</span>王学奎</p>
-						<p>职责</p>
-						<p><span>平台管理办公室主任</span>李凤凤</p>
-						<p>
-						职责：仪器设备使用和维护，维持平台顺利运行和发展，提高平台技术水平</p></li>
 				</ul>
 			</div>
 		</div>

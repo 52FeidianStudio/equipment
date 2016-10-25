@@ -105,11 +105,16 @@
                 </thead>
                 <div id='p_body'>
                     <tr>
+                        <td><a href="/zky/index.php/Admin/Equipment/update/id/<?php echo ($vo["id"]); ?>"><button>修改</button></a></td>
+                        <td><a href="/zky/index.php/Admin/Equipment/delete/id/<?php echo ($vo["id"]); ?>"><button>删除</button></a></td>
+                        <td><a href="/zky/index.php/Admin/Equipment/add_management/id/<?php echo ($vo["id"]); ?>"><button>添加介绍</button></a></td>
+                    </tr>
+                    <tr>
                         <td><a href="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" target = "_blank"><img src="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" class = "pic"/></a></td>
                     </tr>
                     <tr>
                         <td>仪器编号：</td>
-                        <td><?php echo ($vo["id"]); ?></td>
+                        <td><?php echo ($vo["eid"]); ?></td>
                     </tr>
                     <tr>
                         <td>仪器中文名称：</td>
@@ -152,21 +157,38 @@
                         <td><?php echo ($vo["elocation"]); ?></td>
                     </tr>
                     <tr>
-                        <td><a href="/zky/index.php/Admin/Equipment/update/id/<?php echo ($vo["id"]); ?>"><button>修改</button></a></td>
-                        <td><a href="/zky/index.php/Admin/Equipment/delete/id/<?php echo ($vo["id"]); ?>"><button>删除</button></a></td>
+                        <td>仪器简介</td>
+                        <td><?php echo ($vo["introduction"]); ?></td>
                     </tr>
                 </div>
             </div>
-<<<<<<< HEAD
-=======
-            <tr>
-                <td>
-                    <form action="/zky/index.php/Admin/Equipment/additems">
-                        
-                    </form>
-                </td>
-            </tr>
->>>>>>> 665d5852cc7eac237c05fd213c772a45fc562f8d
+        
+            <div class="panel">
+                <thead>
+                </thead>
+                <div id='p_body'>
+                    <?php for($k = 0; $k < $vo['count'];$k++){ ?>
+                        <tr>
+                            <td>仪器特点
+                                <?php echo $k+1; ?>
+                            </td>
+                            <td>
+                                <?php echo $vo['management'][$k]['title']; ?>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>特点
+                                <?php echo $k+1; ?>
+                                详细介绍</td>
+                            <td>
+                                <?php echo $vo['management'][$k]['content']; ?>
+                            </td>
+                        </tr>
+                    <?php } ?>
+                    </PHP>
+                </tr>
+            </div>
         </table><?php endforeach; endif; else: echo "" ;endif; ?>
+    <?php echo ($show); ?>
 </body>
 </html>

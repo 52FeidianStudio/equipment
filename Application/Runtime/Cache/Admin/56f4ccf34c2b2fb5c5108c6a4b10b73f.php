@@ -91,13 +91,8 @@
                         
                     </td>
                     <td>
-<<<<<<< HEAD
                         <?php if(($count) == $count1): ?><a href="/zky/index.php/Admin/Message/unsetall"><button>取消全员禁言</button></a>
                         <?php else: ?><a href="/zky/index.php/Admin/Message/setall"><button>全员禁言</button></a><?php endif; ?>
-=======
-                        <?php if(($count) == $count1): ?><a href="/equipment/index.php/Admin/Message/unsetall"><button>取消全员禁言</button></a>
-                        <?php else: ?><a href="/equipment/index.php/Admin/Message/setall"><button>全员禁言</button></a><?php endif; ?>
->>>>>>> e95e39b6935d717c333ed3594bed491f1f9a8955
                     </td>
                 </tr>
             </div>
@@ -109,13 +104,8 @@
                 <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if(($vo['say']) == "0"): ?><tr>
                                 <td><?php echo ($vo["username"]); ?></td>
                                 <td><?php echo ($vo["name"]); ?></td>
-<<<<<<< HEAD
                                 <td><a href="/zky/index.php/Admin/Message/studenttail/id/<?php echo ($vo["id"]); ?>"><button>详细信息</button></a></td>
                                 <td><a href="/zky/index.php/Admin/Message/set/id/<?php echo ($vo["id"]); ?>"><button>禁言</button></a></td>
-=======
-                                <td><a href="/equipment/index.php/Admin/Message/studenttail/id/<?php echo ($vo["id"]); ?>"><button>详细信息</button></a></td>
-                                <td><a href="/equipment/index.php/Admin/Message/set/id/<?php echo ($vo["id"]); ?>"><button>禁言</button></a></td>
->>>>>>> e95e39b6935d717c333ed3594bed491f1f9a8955
                             </tr><?php endif; endforeach; endif; else: echo "" ;endif; ?>
             </div>
         </div>
@@ -126,13 +116,8 @@
                 <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if(($vo['say']) == "1"): ?><tr>
                                 <td><?php echo ($vo["username"]); ?></td>
                                 <td><?php echo ($vo["name"]); ?></td>
-<<<<<<< HEAD
                                 <td><a href="/zky/index.php/Admin/Message/studenttail/id/<?php echo ($vo["id"]); ?>"><button>详细信息</button></a></td>
                                 <td><a href="/zky/index.php/Admin/Message/un_set/id/<?php echo ($vo["id"]); ?>"><button>取消禁言</button></a></td>
-=======
-                                <td><a href="/equipment/index.php/Admin/Message/studenttail/id/<?php echo ($vo["id"]); ?>"><button>详细信息</button></a></td>
-                                <td><a href="/equipment/index.php/Admin/Message/un_set/id/<?php echo ($vo["id"]); ?>"><button>取消禁言</button></a></td>
->>>>>>> e95e39b6935d717c333ed3594bed491f1f9a8955
                             </tr><?php endif; endforeach; endif; else: echo "" ;endif; ?>
             </div>
         </div>
