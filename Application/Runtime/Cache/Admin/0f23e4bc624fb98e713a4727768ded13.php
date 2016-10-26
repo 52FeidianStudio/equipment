@@ -117,7 +117,7 @@
 		</tr>
 		<tr>
 			<td>
-				<form action="/zky/index.php/Admin/Message/do_addanswer/id/<?php echo ($find['id']); ?>" method = "post">
+				<form action="/equipment/index.php/Admin/Message/do_addanswer/id/<?php echo ($find['id']); ?>" method = "post">
 					<textarea name="content" id = "content" value = "回复他/她"></textarea>
 			</td>
 		</tr>
@@ -137,7 +137,7 @@
 						<td></td>
 						<td></td>
 						<td><?php echo ($vo["date"]); ?></td>　
-						<td><a href="/zky/index.php/Admin/Message/do_deleteanswer/id/<?php echo ($vo["id"]); ?>"><button>删除</button></a></td>
+						<td><a href="/equipment/index.php/Admin/Message/do_deleteanswer/id/<?php echo ($vo["id"]); ?>"><button>删除</button></a></td>
 					</tr><?php endforeach; endif; else: echo "" ;endif; ?>
 				<tr>
 					<td><?php echo ($show); ?></td>

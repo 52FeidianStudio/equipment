@@ -30,14 +30,17 @@ body {
 .top_link{
 	height: 77px;
 }
-.top_link a{
+.top_link a:link,.top_link a:hover,.top_link a:visited{
 	line-height: 77px;
 	text-decoration: none;
 	display: block;
 	float: right;
 	margin-right: 5%;
+	color: #ddd;
 }
-
+.top_link a:hover{
+	color: orange;
+}
 .left {
 	position: absolute;
 	left: 0px;
@@ -48,9 +51,8 @@ body {
 	color: #fff;
 	font-size: 20px;
 	text-align: center;
-	background-color: #72d0eb;
+	background-color: #2a3542;
 }
-
 .right {
 	position: absolute;
 	left: 200px;
