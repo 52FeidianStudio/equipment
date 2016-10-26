@@ -1,14 +1,14 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html>
 	<head>
-		<title>规章制度</title>
+		<title>新闻中心</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta http-equiv="Content-Language" content="zh-CN" />
 		<meta name="Author" content="网页作者" /> 
 		<meta name="Copyright" content="网站版权" /> 
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
-		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/main.css" />
+		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/showitems.css" />
 		<link rel="stylesheet" href="/zky/Public/Css/public.css" />
 		<script type="text/javascript" src="/zky/Public/Js/jquery-3.1.1.min.js"></script>
 		<script src="/zky/Public/Js/public.js"></script>
@@ -37,7 +37,7 @@
 		<!-- 结束登陆弹出窗口 -->
 		<div id='header'>
 			<div class="contain" >
-				<img src="/zky/Public/Pic/top.jpg" alt="" style="width:100%;" />
+				<img src="/zky/Public/Pic/top.jpg" alt=""  />
 			</div>
 		</div>
 		<div id='navi'>
@@ -59,27 +59,20 @@
 		</div>
 		<div id='main'>
 			<div class="contain">
-				<div id="main_navi">
-						&nbsp;<a href="/zky/index.php/Home/Index/main">首页</a><span>--->规章制度</span>
-				</div>
-				<div id="r_list">
-					<table >
-				        <div class='panel'>
-				            <div id='p_body'>
-				                <?php if(is_array($data)): $k = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><tr>
-				                    	<tr></tr>
-				                        <td><?php echo ($k); ?></td>
-				                        <td><a href="/zky/Uploads/<?php echo ($vo["address"]); ?>" target = "_blank"><?php echo ($vo["realname"]); ?></a><td>
-				                    </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-				                <tr>
-				                    <td></td>
-				                    <td></td>
-				                    <td></td>
-				                    <td><?php echo ($show); ?></td>
-				                </tr>   
-				            </div>
-				        </div>
-				    </table>
+				<div id="showlist">
+					<div id="main_navi">
+						<a href="/zky/index.php/Home/Index/main">
+							首页</a><span>---> </span><a href="/zky/index.php/Home/Inform/news">新闻通知</a>
+						<span>--><?php echo ($data["title"]); ?></span>
+					</div>
+					<h2>最新消息</h2>
+					<div id="list">
+						<h3><?php echo ($data["title"]); ?></h3>
+						<br /><br />
+						<p><?php echo ($data["content"]); ?></p>
+						<br />
+						<p><?php echo ($data["date"]); ?></p>
+					</div>
 				</div>
 			</div>
 		</div>

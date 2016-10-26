@@ -1,15 +1,15 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html>
 	<head>
-		<title>规章制度</title>
+		<title>讨论区</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta http-equiv="Content-Language" content="zh-CN" />
 		<meta name="Author" content="网页作者" /> 
 		<meta name="Copyright" content="网站版权" /> 
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
-		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/main.css" />
 		<link rel="stylesheet" href="/zky/Public/Css/public.css" />
+		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/do_see.css" />
 		<script type="text/javascript" src="/zky/Public/Js/jquery-3.1.1.min.js"></script>
 		<script src="/zky/Public/Js/public.js"></script>
 	</head>
@@ -60,26 +60,19 @@
 		<div id='main'>
 			<div class="contain">
 				<div id="main_navi">
-						&nbsp;<a href="/zky/index.php/Home/Index/main">首页</a><span>--->规章制度</span>
+						&nbsp;<a href="/zky/index.php/Home/Index/main">首页</a><span>---></span><a href="/zky/index.php/Home/Message/conmunication">讨论区</a><span>--->查看详情</span>
+							
 				</div>
-				<div id="r_list">
-					<table >
-				        <div class='panel'>
-				            <div id='p_body'>
-				                <?php if(is_array($data)): $k = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><tr>
-				                    	<tr></tr>
-				                        <td><?php echo ($k); ?></td>
-				                        <td><a href="/zky/Uploads/<?php echo ($vo["address"]); ?>" target = "_blank"><?php echo ($vo["realname"]); ?></a><td>
-				                    </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-				                <tr>
-				                    <td></td>
-				                    <td></td>
-				                    <td></td>
-				                    <td><?php echo ($show); ?></td>
-				                </tr>   
-				            </div>
-				        </div>
-				    </table>
+				<div id="show">
+					<h2>问题梗概：<?php echo ($find['title']); ?></h2>
+							<h3>已经有<?php echo ($count); ?>人关注　　　<?php echo ($find['user']['name']); ?>于<?php echo ($find['date']); ?>发布</h3>
+							<p>详细内容：<?php echo ($find['content']); ?></p>
+							<?php if(($user) == "0"): ?><p><a href="/zky/index.php/Home/Message/add_answer/id/<?php echo ($find['id']); ?>">回复</a></p><br />
+								<?php else: ?> 
+									<?php if(($user) == ""): ?><p><span class='hint'>您还没有登录，登录之后才可以添加回复</span></p><br />
+										<?php else: ?> <span class='hint'>您已经被管理员禁言</span><br /><?php endif; endif; ?>
+						<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p><?php echo ($vo["user"]["name"]); ?>：<?php echo ($vo["content"]); ?>　　　　<span id="time">回复时间：<?php echo ($vo["date"]); ?></span></p><?php endforeach; endif; else: echo "" ;endif; ?>
+						<?php echo ($show); ?>
 				</div>
 			</div>
 		</div>

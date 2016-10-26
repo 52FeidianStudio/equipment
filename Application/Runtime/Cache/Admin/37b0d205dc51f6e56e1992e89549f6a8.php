@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
     <title></title>
@@ -81,7 +81,7 @@
 </head>
 <body>
     <font color="#777777"><strong>用户名称：</strong></font>
-    <a href="__APP__/Admin/Message/studenttdetail"><{$Think.session.username}></a>
+    <a href="/zky/index.php/Admin/Message/studenttdetail"><?php echo (session('username')); ?></a>
     <table>
             <div class="panel">
                 <thead>
@@ -95,7 +95,7 @@
                 </div> -->
                 </thead>
                 <div id='p_body'>
-                    <form action="__URL__/do_add" method="post" enctype="multipart/form-data" name="myForm">
+                    <form action="/zky/index.php/Admin/Equipment/do_add" method="post" enctype="multipart/form-data" name="myForm">
                         <tr>
                             <td>仪器分类</td>
                             <td><!-- 选择一个下拉表 -->

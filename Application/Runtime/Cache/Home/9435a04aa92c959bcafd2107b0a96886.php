@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html>
 	<head>
 		<title>仪器介绍</title>
@@ -9,8 +9,8 @@
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
 		<link rel="stylesheet" href="./zhihu-css.css" />
-		<link rel="stylesheet" href="__PUBLIC__/Css/public.css" />
-		<link rel="stylesheet" type='text/css' href="__PUBLIC__/Css/equipiment.css" />
+		<link rel="stylesheet" href="/zky/Public/Css/public.css" />
+		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/equipiment.css" />
 		<script type="text/javascript"> 
   			window.onload = function () 
  			{ 
@@ -38,14 +38,14 @@
   				 } 
    //延迟加载图片，演示的时候，使用本地图片
    //上线后请改为二级域名提供的图片地址 
-   				document.getElementById("second").src = "__PUBLIC__/Pic/lab.jpg";
+   				document.getElementById("second").src = "/zky/Public/Pic/lab.jpg";
    //使用图片宽660，高550 
-   				document.getElementById("third").src = "__PUBLIC__/Pic/phone.jpg"; 
-   				document.getElementById("four").src = "__PUBLIC__/Pic/aite.jpg";
-   				document.getElementById("third").src = "__PUBLIC__/Pic/login.png"; 
-   				document.getElementById("four").src = "__PUBLIC__/Pic/top.jpg";
-   				document.getElementById("third").src = "__PUBLIC__/Pic/lab.jpg"; 
-   				document.getElementById("four").src = "__PUBLIC__/Pic/phone.jpg";
+   				document.getElementById("third").src = "/zky/Public/Pic/phone.jpg"; 
+   				document.getElementById("four").src = "/zky/Public/Pic/aite.jpg";
+   				document.getElementById("third").src = "/zky/Public/Pic/login.png"; 
+   				document.getElementById("four").src = "/zky/Public/Pic/top.jpg";
+   				document.getElementById("third").src = "/zky/Public/Pic/lab.jpg"; 
+   				document.getElementById("four").src = "/zky/Public/Pic/phone.jpg";
   			} 
   			function turn(value) { 
    				if (value != null) 
@@ -68,7 +68,7 @@
 	<body>
 		<div id='header'>
 			<div class="contain">
-				<img src="__PUBLIC__/Pic/top.jpg" alt="" style="width:100%;" />
+				<img src="/zky/Public/Pic/top.jpg" alt="" style="width:100%;" />
 			</div>
 		</div>
 		<div id='navi'>
@@ -106,7 +106,7 @@
 						</ul>
 					</div>
 					<div id='picshow'>
-							<a target="_blank" href="#"><img src="__PUBLIC__/Pic/top.jpg" /></a> 
+							<a target="_blank" href="#"><img src="/zky/Public/Pic/top.jpg" /></a> 
    							<a target="_blank" href="#"><img id="second" /></a> 
    							<a target="_blank" href="#"><img id="third" /></a> 
    							<a target="_blank" href="#"><img id="four" /></a> 

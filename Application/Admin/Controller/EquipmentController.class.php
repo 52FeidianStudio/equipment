@@ -98,8 +98,5 @@
 		public function add(){
 			$this -> display();
 		}
-		public function additems(){
-			
-		}
 	}
 ?>

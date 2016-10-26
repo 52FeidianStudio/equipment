@@ -1,7 +1,7 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html>
 	<head>
-		<title>规章制度</title>
+		<title>讨论区</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta http-equiv="Content-Language" content="zh-CN" />
 		<meta name="Author" content="网页作者" /> 
@@ -60,26 +60,18 @@
 		<div id='main'>
 			<div class="contain">
 				<div id="main_navi">
-						&nbsp;<a href="/zky/index.php/Home/Index/main">首页</a><span>--->规章制度</span>
-				</div>
-				<div id="r_list">
-					<table >
-				        <div class='panel'>
-				            <div id='p_body'>
-				                <?php if(is_array($data)): $k = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><tr>
-				                    	<tr></tr>
-				                        <td><?php echo ($k); ?></td>
-				                        <td><a href="/zky/Uploads/<?php echo ($vo["address"]); ?>" target = "_blank"><?php echo ($vo["realname"]); ?></a><td>
-				                    </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-				                <tr>
-				                    <td></td>
-				                    <td></td>
-				                    <td></td>
-				                    <td><?php echo ($show); ?></td>
-				                </tr>   
-				            </div>
-				        </div>
-				    </table>
+						<a href="/zky/index.php/Home/Index/main">首页</a>---><a href="/zky/index.php/Home/Message/conmunication">讨论区</a>--->发布留言<br />
+						<?php if(($user) == "0"): ?><form action="/zky/index.php/Home/Message/do_addmessage" method = "post" id = "myForm">
+									留言主题：<input type="text" name = "title"> <br><br>
+									<!-- 此处应该限制一下输入文本框的长度 -->
+									<textarea name="content" id = "content"></textarea><br /><br />
+							        <input type="submit" name="submit" value="发布">
+							        <input type="reset" value = "取消">
+							        <!-- 添加一个事件，当点击其时，弹出对话框，是否放弃发布留言？是，关闭新打开的标签页，否，回到本界面 -->
+							    </form>
+								<?php else: ?> 
+									<?php if(($user) == ""): ?><p><span>您还没有登录，登录后可添加留言</span></p><br />
+										<?php else: ?><span>您已经被管理员禁言</span><br /><?php endif; endif; ?>
 				</div>
 			</div>
 		</div>
