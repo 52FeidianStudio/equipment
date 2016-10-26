@@ -88,49 +88,14 @@
     			</div> -->
     			<volist name = "data" id = "vo">
 	    			<table>
-						<a href="__ROOT__/Uploads<{$vo.imagicaddress}>" target = "_blank"><img src="__ROOT__/Uploads<{$vo.imagicaddress}>" class = "pic"/> <br><br></a>
+						<a href="__ROOT__/Uploads<{$vo.imagicaddress}>" target = "_blank"><img src="__ROOT__/Uploads<{$vo.imagicaddress}>" class = "pic" width = "200" height = "200"/> <br><br></a>
 						仪器编号：<{$vo.id}> <br><br>
-						仪器中文名称：<{$vo.ename}><br><br>
+						仪器中文名称：<{$vo.ecname}><br><br>
 						仪器英文名称：<{$vo.eename}><br><br>
 						仪器型号：<{$vo.etype}><br><br>
-						仪器生产厂家中文名称：<{$vo.ecmanufactor}><br><br>
-						仪器生产厂家英文名称：<{$vo.eemanufactor}><br><br>
-						仪器出厂年月：<{$vo.eoutdate}><br><br>
-						仪器出厂编号：<{$vo.eoutid}><br><br>
-						仪器购买时间：<{$vo.ebuydate}><br><br>
-						仪器价格：<{$vo.eprice}><br><br>
 						仪器放置地点：<{$vo.elocation}><br><br>
+						<a href="__URL__/showitems/id/<{$vo.id}>">详细信息</a>
 						<hr>
-						<PHP>
-	                        for($k = 0; $k < $vo['count'];$k++){
-	                    </PHP>
-	                        <tr>
-	                            <td>仪器特点
-	                                <PHP>
-	                                    echo $k+1;
-	                                </PHP>
-	                            </td>
-	                            <td>
-	                                <PHP>
-	                                    echo $vo['management'][$k]['title'];
-	                                </PHP>
-	                            </td>
-	                        </tr>
-	                        <tr>
-	                            <td>特点
-	                                <PHP>
-	                                    echo $k+1;
-	                                </PHP>
-	                                详细介绍</td>
-	                            <td>
-	                                <PHP>
-	                                    echo $vo['management'][$k]['content'];
-	                                </PHP>
-	                            </td>
-	                        </tr>
-	                    <PHP>
-	                        }
-	                    </PHP>
 	                </table>
                 </volist>
 			</div>

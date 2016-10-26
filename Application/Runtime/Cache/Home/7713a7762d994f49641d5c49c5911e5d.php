@@ -14,21 +14,26 @@
 		<script src="/zky/Public/Js/public.js"></script>
 		<script src="/zky/Public/Js/equipment.js"></script>
 	</head>
+	<style type="text/css">
+		td{
+			width: 5%;
+		}
+	</style>
 	<body>
 		<!-- 这里是登录弹出窗口 -->
 		<div id="LoginBox">
         <div class="row1">
-            登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="l_closeBtn">×</a>
+            登录<a href="javascript:dataid(0)" title="关闭窗口" class="close_btn" id="l_closeBtn">×</a>
         </div>
         <div class="row">
             用户名: <span class="inputBox">
                 <input type="text" id="l_txtName" placeholder="账号/邮箱" />
-            </span><a href="javascript:void(0)" title="提示" class="warning" id="l_warn">*</a>
+            </span><a href="javascript:dataid(0)" title="提示" class="warning" id="l_warn">*</a>
         </div>
         <div class="row">
             密&nbsp;&nbsp;&nbsp;&nbsp;码: <span class="inputBox">
                 <input type="text" id="l_txtPwd" placeholder="密码" />
-            </span><a href="javascript:void(0)" title="提示" class="warning" id="l_warn2">*</a>
+            </span><a href="javascript:dataid(0)" title="提示" class="warning" id="l_warn2">*</a>
         </div>
         <div class="row">
             <a href="/zky/index.php/Home/Login/do_login" id="l_loginbtn">登录</a>
@@ -63,38 +68,126 @@
 				<div id="main_navi">
 						<a href="/zky/index.php/Home/Index/main">首页</a><span><span>--->仪器介绍</span> </span><br />
 				</div>
-				<!-- <div id='sl_na'>
-					<div id='inclu'>
-					<a href="/zky/index.php/Home/Equipment/showclass/id/1" >质谱仪器</a>
-					<a href="/zky/index.php/Home/Equipment/showclass/id/2" >色谱仪器</a>
-					<a href="/zky/index.php/Home/Equipment/showclass/id/3" >光谱仪器</a>
-					<a href="/zky/index.php/Home/Equipment/showclass/id/4" >生化分离分析仪器</a>
-					<a href="/zky/index.php/Home/Equipment/showclass/id/5" >显微镜及图像仪</a>
-					<a href="/zky/index.php/Home/Equipment/showclass/id/6" >品质分析仪器</a>
-					<a href="/zky/index.php/Home/Equipment/showclass/id/7" >其他</a>
-				</div>
-				</div>
-				 <div id="slide" >
-				      <ul >
-				          <li><img src="/zky/Public/Pic/top.jpg"  alt="" /></li>
-				          <li><img src="/zky/Public/Pic/top.jpg" alt="" /></li>
-				          <li><img src="/zky/Public/Pic/Login.png" alt="" /></li>
-				          <li><img src="/zky/Public/Pic/phone.jpg" alt="" /></li>
-				          <li><img src="/zky/Public/Pic/aite.jpg" alt="" /></li>
-				          <li><img src="/zky/Public/Pic/top.jpg" alt="" /></li>
-				          <li><img src="/zky/Public/Pic/phone.jpg" alt="" /></li>
-				      </ul>
-    			</div> -->
-    			<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><table>
-						<a href="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" target = "_blank"><img src="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" class = "pic" width = "200" height = "200"/> <br><br></a>
-						仪器编号：<?php echo ($vo["id"]); ?> <br><br>
-						仪器中文名称：<?php echo ($vo["ecname"]); ?><br><br>
-						仪器英文名称：<?php echo ($vo["eename"]); ?><br><br>
-						仪器型号：<?php echo ($vo["etype"]); ?><br><br>
-						仪器放置地点：<?php echo ($vo["elocation"]); ?><br><br>
-						<a href="/zky/index.php/Home/Equipment/showitems/id/<?php echo ($vo["id"]); ?>">详细信息</a>
+	    			<table>
+						<a href="/zky/Uploads<?php echo ($data["imagicaddress"]); ?>" target = "_blank"><img src="/zky/Uploads<?php echo ($data["imagicaddress"]); ?>" class = "pic" width = "200" height = "200"/> </a>
+						<tr>
+							<td>
+								编号：
+							</td>
+							<td>
+								<?php echo ($data["eid"]); ?>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								中文名称：
+							</td>
+							<td>
+								<?php echo ($data["ecname"]); ?>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								英文名称：
+							</td>
+							<td>
+								<?php echo ($data["eename"]); ?>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								型号：
+							</td>
+							<td>
+								<?php echo ($data["etype"]); ?>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								生产厂家：
+							</td>
+							<td>
+								<?php echo ($data["ecmanufactor"]); ?>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								
+							</td>
+							<td>
+								<?php echo ($data["eemanufactor"]); ?>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								出厂年月：
+							</td>
+							<td>
+								<?php echo ($data["eoutdate"]); ?>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								出厂编号：
+							</td>
+							<td>
+								<?php echo ($data["eoutid"]); ?>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								购买时间：
+							</td>
+							<td>
+								<?php echo ($data["ebuydate"]); ?>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								价格：
+							</td>
+							<td>
+								<?php echo ($data["eprice"]); ?>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								放置地点：
+							</td>
+							<td>
+								<?php echo ($data["elocation"]); ?>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								简介
+							</td>
+							<td>
+								<?php echo ($data["introduction"]); ?>
+							</td>
+						</tr>
 						<hr>
-	                </table><?php endforeach; endif; else: echo "" ;endif; ?>
+						<?php for($k = 0; $k < $data['count'];$k++){ ?>
+	                        <tr>
+	                            <td>特点
+	                                <?php echo $k+1; ?>
+	                            </td>
+	                            <td>
+	                                <?php echo $data['management'][$k]['title']; ?>
+	                            </td>
+	                        </tr>
+	                        <hr>
+	                        <tr>
+	                            <td>特点
+	                                <?php echo $k+1; ?>
+	                                详细介绍</td>
+	                            <td>
+	                                <?php echo $data['management'][$k]['content']; ?>
+	                            </td>
+	                        </tr>
+	                        <hr>
+	                    <?php } ?>
+	                </table>
 			</div>
 		</div>
 		<div id='footer'>
