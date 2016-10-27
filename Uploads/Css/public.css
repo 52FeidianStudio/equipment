@@ -1,0 +1,67 @@
+        body {
+            font-size: 20px;
+            padding-bottom: 40px;
+            background-color:#e9e7ef;
+            text-decoration: none;
+        }
+        .row1{
+            text-align: center;
+            margin-top: 15px;
+        }
+        .row1 a:link,.row1 a:hover,.row1 a:visited{
+            text-decoration: none;
+            color: #2a8ba7;
+        }
+        .row1 a:hover{
+            color: orange;
+        }
+        table{
+            margin:10px 2.5%; 
+            width: 95%;
+            border: 2px solid #2a8ba7;
+            border-radius: 5px;
+        }
+        table span{
+            
+        }
+        .panel{
+            width: 100%;
+            border: none;
+            box-shadow: none;
+            text-align: center;
+        }
+        .panel .con{
+            display: block;
+            width: 250px;
+            height: 300px;
+        }
+        #p_header{
+            padding: 10px 15px;
+            border-bottom: 1px solid transparent;
+            border-top-right-radius: 3px;
+            border-top-left-radius: 3px;
+            border-color: #eff2f7;
+            font-size: 16px;
+            font-weight: 300;
+        }
+     
+       tr{
+        width: 100%;
+       }
+       #contant{
+        width: 70%;
+       }
+       td{
+        padding: 10px;
+       }
+       td button,#buttom button{
+        display: block;
+        width: 75px;
+        float: right;
+        margin-right: 20px;
+        border-radius: 4px;
+       }
+       #buttom button{
+        margin:0 5% 5px ;
+       }
+        

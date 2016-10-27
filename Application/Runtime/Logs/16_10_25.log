@@ -593,6 +593,738 @@ ERR: 非法操作:zhihu-css.css
 [ 2016-10-25T12:49:24+08:00 ] ::1 /zky/index.php/Home/Index/zhihu-css.css
 ERR: 非法操作:zhihu-css.css
 
+<<<<<<< HEAD
+[ 2016-10-25T16:40:52+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:40:52+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:40:52+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:40:52+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:40:52+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:40:52+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:40:52+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:40:52+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:52:37+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:52:37+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:52:37+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:52:37+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:52:37+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:52:37+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:52:37+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:52:37+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:52:37+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:52:37+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:52:37+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:52:40+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:52:40+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:52:40+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:52:40+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:52:40+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:52:40+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:52:40+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:52:40+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:52:40+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:52:40+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:52:40+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:52:40+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:52:41+08:00 ] ::1 /equipment/index.php/Admin/Inform/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:52:41+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:52:41+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:52:41+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:52:41+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:52:41+08:00 ] ::1 /equipment/index.php/Admin/Inform/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:52:41+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:52:41+08:00 ] ::1 /equipment/index.php/Admin/Inform/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:52:41+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:52:41+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:52:41+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:53:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:53:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:53:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:53:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:53:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:53:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:53:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:53:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:54:12+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:54:12+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:54:12+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:54:12+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:54:12+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:54:12+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:54:12+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:54:12+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:54:12+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:54:12+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:54:12+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:54:12+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:35+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:58:35+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:58:35+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:35+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:35+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:35+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:35+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:35+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:35+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:35+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T16:58:39+08:00 ] ::1 /equipment/index.php/Admin/Index/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:00:44+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:00:44+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:00:44+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:00:44+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:00:44+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:00:44+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:00:44+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:00:44+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:00:44+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:00:44+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:00:44+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:00:44+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:07:38+08:00 ] ::1 /equipment/index.php/Admin/Inform/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:07:38+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:07:38+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:07:38+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:07:38+08:00 ] ::1 /equipment/index.php/Admin/Inform/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:07:38+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:07:38+08:00 ] ::1 /equipment/index.php/Admin/Inform/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:07:38+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:07:38+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:07:38+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:07:38+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:07:45+08:00 ] ::1 /equipment/index.php/Admin/Inform/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:07:45+08:00 ] ::1 /equipment/index.php/Admin/Inform/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:07:45+08:00 ] ::1 /equipment/index.php/Admin/Inform/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:07:45+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:07:45+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:07:45+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:07:45+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:07:45+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:07:45+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:07:45+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:07:45+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:07:46+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:07:46+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:07:46+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:07:46+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:07:46+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:07:46+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:07:46+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:07:46+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:07:46+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:07:46+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:07:46+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:07:47+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:08:19+08:00 ] ::1 /equipment/index.php/Admin/Inform/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:08:19+08:00 ] ::1 /equipment/index.php/Admin/Inform/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:08:19+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:08:19+08:00 ] ::1 /equipment/index.php/Admin/Inform/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:08:19+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:08:19+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:08:19+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:08:19+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:08:19+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:08:19+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:08:19+08:00 ] ::1 /equipment/index.php/Admin/Inform/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:11:53+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:11:53+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:11:53+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:11:53+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:11:53+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:11:53+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:11:53+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:11:53+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:11:53+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:11:53+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:11:53+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:11:53+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:12:59+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:12:59+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:12:59+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:12:59+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:12:59+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:12:59+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:12:59+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:12:59+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:13:00+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:13:00+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:13:00+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:13:00+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:13:00+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:13:00+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:13:00+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:13:00+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:13:09+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:13:09+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:13:09+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:13:09+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:13:09+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:13:09+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:13:09+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:13:09+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:13:09+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:13:09+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:13:09+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:13:09+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:13:09+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:13:09+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:13:09+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:13:09+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-10-25T17:13:09+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:13:09+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:13:09+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:13:09+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:13:09+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:13:10+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:13:10+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T17:13:10+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T18:15:23+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-10-25T18:15:23+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-10-25T18:15:23+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T18:15:23+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-25T18:15:23+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-10-25T18:15:23+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T18:15:23+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T18:15:23+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T18:15:23+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T18:15:23+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T18:15:23+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T18:15:24+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-10-25T18:15:24+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-10-25T18:15:24+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-25T18:15:24+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T18:15:24+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T18:15:24+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-10-25T18:15:24+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T18:15:24+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T18:15:24+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T18:15:25+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T18:15:25+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T18:15:25+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-10-25T18:23:58+08:00 ] ::1 /equipment/index.php/Admin/Index/studentdetail
+ERR: 非法操作:studentdetail
+
+[ 2016-10-25T18:33:23+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-10-25T18:33:23+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-10-25T18:33:23+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-10-25T18:33:23+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-10-25T18:33:23+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-10-25T18:33:23+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-10-25T18:33:23+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-10-25T18:33:23+08:00 ] ::1 /equipment/index.php/Admin/Equipment/Js/common.js
+=======
 [ 2016-10-25T12:59:57+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
 ERR: 非法操作:css
 
@@ -2588,5 +3320,6 @@ ERR: 非法操作:js
 ERR: 非法操作:js
 
 [ 2016-10-25T22:41:24+08:00 ] ::1 /zky/index.php/Admin/Message/Js/common.js
+>>>>>>> dac6f615dbbccead10d0f10f99061d515241dd0d
 ERR: 非法操作:js
 
