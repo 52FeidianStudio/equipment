@@ -21,48 +21,49 @@
         	arr[4]="/zky/Public/Pic/aite.jpg";
         	arr[5]="/zky/Public/Pic/top.jpg";
         	arr[6]="/zky/Public/Pic/top.jpg";
-        	
-
-        	//登录按钮ajax
+    		//登录按钮ajax
         	$("#l_loginbtn").on('click', function () {
-			
-			 $.post('/zky/index.php/Home/Login/do_login', {
+			 	$.post("/zky/index.php/Home/Login/do_login", {
 					username:$("#l_txtName").val(),
 					password:$("#l_txtPwd").val()
 				},function(text){
-					
-					if(text=="pass"){
-						window.location.href="/zky/index.php/Home/Index/index";
-					}else{
-						$("#suggest").html(text);
-					}
+					// if(text=="pass"){
+					// 	window.location.href="/zky/index.php/Home/Equipment/equipment";
+					// }else{
+					// 	$("#suggest").html(text);
+					// }
+					alert($("#l_txtName").val());
 				});
-		});
+				$("#suggest").html(1);
+			});
 		</script>
 		<script src="/zky/Public/Js/main.js"></script>
 		
 	</head>
 	<body>
 		<!-- 这里是登录弹出窗口 -->
-		 <div id="LoginBox">
+		<div id="LoginBox">
         <div class="row1">
             登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="l_closeBtn">×</a>
         </div>
-        <span id="suggest"></span>
-        <div class="row">
-            用户名: 
-            	<span class="inputBox">
-                <input type="text" id="l_txtName" placeholder="账号" />
-            	</span>
-        </div>
-        <div class="row">
-            密&nbsp;&nbsp;&nbsp;&nbsp;码:
-             <span class="inputBox">
-                <input type="password" id="l_txtPwd" placeholder="密码" />
-           	</span>
-        </div>
-        <div class="row">
-            <a href="javascript:void(0)" id="l_loginbtn">登录</a>
+        <form >
+	        <span id="suggest"></span>
+	        <div class="row">
+	            用户名: 
+	            	<span class="inputBox">
+	                	<input type="text" id="l_txtName" placeholder="账号" />
+	            	</span>
+	        </div>
+	        <div class="row">
+	            密&nbsp;&nbsp;&nbsp;&nbsp;码:
+	            <span class="inputBox">
+	                <input type="password" id="l_txtPwd" placeholder="密码" />
+	           	</span>
+	        </div>
+	        <div class="row">
+	            <!-- <a href="javascript:void(0)" id="l_loginbtn">登录</a> -->
+	            <button id="l_loginbtn">登录</button>
+        </form>
         </div>
     </div>
 		

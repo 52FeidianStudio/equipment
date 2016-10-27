@@ -1,21 +1,21 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html>
 	<head>
-		<title>新闻中心</title>
+		<title>讨论区</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta http-equiv="Content-Language" content="zh-CN" />
 		<meta name="Author" content="网页作者" /> 
 		<meta name="Copyright" content="网站版权" /> 
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
-		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/news.css" />
+		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/main.css" />
 		<link rel="stylesheet" href="/zky/Public/Css/public.css" />
 		<script type="text/javascript" src="/zky/Public/Js/jquery-3.1.1.min.js"></script>
 		<script src="/zky/Public/Js/public.js"></script>
 	</head>
 	<body>
 		<!-- 这里是登录弹出窗口 -->
-		<div id="LoginBox">
+		 <div id="LoginBox">
         <div class="row1">
             登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="l_closeBtn">×</a>
         </div>
@@ -59,19 +59,15 @@
 		</div>
 		<div id='main'>
 			<div class="contain">
-				<div id="showlist">
-					<div id="main_navi">
-						&nbsp;<a href="/zky/index.php/Home/Index/main">首页</a><span>--->新闻通知</span>
-					</div>
-					<h2 >最新消息</h2>
-					<div id="list">
-						<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "暂时没有通知" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><a href="/zky/index.php/Home/Inform/showitems/id/<?php echo ($vo["id"]); ?>" class="news_list">
-									<p><?php echo ($vo["title"]); ?>
-										<span><?php echo ($vo["date"]); ?></span></p>
-									<br />
-									<!--<p><?php echo ($vo["content"]); ?>/zky/index.php/Home/Inform/showitems/id/<?php echo ($vo["id"]); ?></p><br /> <br />-->
-								</a><?php endforeach; endif; else: echo "暂时没有通知" ;endif; ?>
-					</div>
+				<div id="main_navi">
+						<a href="/zky/index.php/Home/Index/main">首页</a>---><a href="/zky/index.php/Home/Message/conmunication">讨论区</a>---> <a href="/zky/index.php/Home/Message/do_see"><?php echo ($data["title"]); ?></a> --> 回复 <br />
+						<?php if(($user) == "0"): ?><form action="/zky/index.php/Home/Message/do_addanswer/id/<?php echo ($data["id"]); ?>/address/<?php echo ($address); ?>" method = "post" id = "myForm">
+										<textarea name="content" id = "content"></textarea><br /><br />
+								        <input type="submit" name="submit" value="提交">
+								    </form>
+								<?php else: ?> 
+									<?php if(($user) == ""): ?><p><span>您还没有登录，登录之后才可以发表留言</span></p><br />
+										<?php else: ?><span>您已经被管理员禁言</span><br /><?php endif; endif; ?>
 				</div>
 			</div>
 		</div>

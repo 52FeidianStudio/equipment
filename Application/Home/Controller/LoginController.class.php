@@ -9,11 +9,10 @@
 			$n = M("User");
 			$username = $_POST['username'];
 			$password = $_POST['password'];
-		    $data=null;
 		    if($username==""){
-		        $data="你还没有输入帐号！";
+		        $text="你还没有输入帐号！";
 		    }else if($password==""){
-		        $data="你还没有输入密码！";
+		        $text="你还没有输入密码！";
 		    }else{
 		        $count = $n -> where("username = $username") -> find();
 		        if($count){
@@ -24,14 +23,14 @@
 						$_SESSION['id'] = $n -> where("username = $username") -> getField('id');
 						$_SESSION['isTeacher'] = 0;
 						$_SESSION['say'] = $n -> where("username = $username") -> getField('say');
-		                $data="pass";
+		                $text="pass";
 		            }else{
-		                $data="密码不正确！";
+		                $text="密码不正确！";
 		            }
 		        }else{
-		        	$data = "用户不存在！";
+		        	$text = "用户不存在！";
 		        }
-		        $this->ajaxReturn($data);     
+		        $this->ajaxReturn($text);     
 		    }	
 		}
 		public function login_out(){
