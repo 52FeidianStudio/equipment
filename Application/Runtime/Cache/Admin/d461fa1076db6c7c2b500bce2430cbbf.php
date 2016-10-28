@@ -86,7 +86,7 @@
             <td>发布留言</td>
         </tr>
         <tr>
-            <td>留言主题：<form action="/equipment/index.php/Admin/Message/do_addmessage" method = "post"></td>
+            <td>留言主题：<form action="/zky/index.php/Admin/Message/do_addmessage" method = "post"></td>
             <td><input type="text" name = "title"></td>
         </tr>
         <tr>
@@ -110,8 +110,8 @@
                 </tr>
                 <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                         <td><?php echo ($vo["title"]); ?></td>
-                        <td><a href="/equipment/index.php/Admin/Message/do_see/id/<?php echo ($vo["id"]); ?>"><button>详细信息</button></a></td>
-                        <td> <a href="/equipment/index.php/Admin/Message/do_delete/id/<?php echo ($vo["id"]); ?>"><button>删除</button></a></td>
+                        <td><a href="/zky/index.php/Admin/Message/do_see/id/<?php echo ($vo["id"]); ?>"><button>详细信息</button></a></td>
+                        <td> <a href="/zky/index.php/Admin/Message/do_delete/id/<?php echo ($vo["id"]); ?>"><button>删除</button></a></td>
                     </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                 <tr>
                     <td><?php echo ($show); ?></td>

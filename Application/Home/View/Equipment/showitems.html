@@ -13,6 +13,30 @@
 		<script type="text/javascript" src="__PUBLIC__/Js/jquery-1.8.3.min.js"></script>
 		<script src="__PUBLIC__/Js/public.js"></script>
 		<script src="__PUBLIC__/Js/equipment.js"></script>
+		<script>
+			var arr=new Array();
+        	arr[0]="__PUBLIC__/Pic/top.jpg";
+       	    arr[1]="__PUBLIC__/Pic/lab.jpg";
+        	arr[2]="__PUBLIC__/Pic/Login.png";
+        	arr[3]="__PUBLIC__/Pic/phone.jpg";
+        	arr[4]="__PUBLIC__/Pic/aite.jpg";
+        	arr[5]="__PUBLIC__/Pic/top.jpg";
+        	arr[6]="__PUBLIC__/Pic/top.jpg";
+   			// 问题不在于ajax，而是点击按钮之后事件没有被触发
+			// 登录按钮ajax操作
+			function f1(){
+				$.post("__APP__/Home/Login/do_login", {
+					username:$("#l_txtName").val(),
+					password:$("#l_txtPwd").val()
+				},function(text){
+					if(text=="pass"){
+						window.location.href="__APP__/Home/Equipment/showitems";
+					}else{
+						$("#suggest").html(text);
+					}
+				});
+			}
+		</script>
 	</head>
 	<style type="text/css">
 		td{
@@ -36,8 +60,8 @@
             </span><a href="javascript:dataid(0)" title="提示" class="warning" id="l_warn2">*</a>
         </div>
         <div class="row">
-            <a href="__APP__/Home/Login/do_login" id="l_loginbtn">登录</a>
-        </div>
+            	<a href="#" id="l_loginbtn" onclick="f1();">登录</a>
+    	</div>
     </div>
 		
 		<!-- 结束登陆弹出窗口 -->

@@ -15,6 +15,7 @@
 			$("#mask").addClass("mask").fadeIn("slow");
 			$("#LoginBox").fadeIn("slow");
 		});
+
 		
 		//按钮的透明度
 		$("#l_loginbtn").hover(function () {
@@ -34,5 +35,3 @@
 			$("#mask").css({ display: 'none' });
 		});
 	});
-
-  

@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html> 
 <html lang="en"> 
 <head> 
  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
@@ -30,10 +30,10 @@
    } 
    //延迟加载图片，演示的时候，使用本地图片
    //上线后请改为二级域名提供的图片地址 
-   document.getElementById("second").src = "__PUBLIC__/Pic/Login.png"; 
+   document.getElementById("second").src = "/zky/Public/Pic/Login.png"; 
    //使用图片宽660，高550 
-   document.getElementById("third").src = "__PUBLIC__/Pic/phone.jpg"; 
-   document.getElementById("four").src = "__PUBLIC__/Pic/aite.jpg"; 
+   document.getElementById("third").src = "/zky/Public/Pic/phone.jpg"; 
+   document.getElementById("four").src = "/zky/Public/Pic/aite.jpg"; 
   } 
   function turn(value) { 
    if (value != null) 
@@ -104,7 +104,7 @@
 <body> 
  <div id="wrap"> 
   <div id="slider"> 
-   <a target="_blank" href="#"><img src="__PUBLIC__/Pic/top.jpg" /></a> 
+   <a target="_blank" href="#"><img src="/zky/Public/Pic/top.jpg" /></a> 
    <a target="_blank" href="#"><img id="second" /></a> 
    <a target="_blank" href="#"><img id="third" /></a> 
    <a target="_blank" href="#"><img id="four" /></a> 
@@ -118,4 +118,4 @@
   </ul> 
  </div> 
 </body> 
-</html> 
+</html>

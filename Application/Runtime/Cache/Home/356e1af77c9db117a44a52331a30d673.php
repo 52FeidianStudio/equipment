@@ -13,6 +13,30 @@
 		<script type="text/javascript" src="/zky/Public/Js/jquery-1.8.3.min.js"></script>
 		<script src="/zky/Public/Js/public.js"></script>
 		<script src="/zky/Public/Js/equipment.js"></script>
+		<script>
+			var arr=new Array();
+        	arr[0]="/zky/Public/Pic/top.jpg";
+       	    arr[1]="/zky/Public/Pic/lab.jpg";
+        	arr[2]="/zky/Public/Pic/Login.png";
+        	arr[3]="/zky/Public/Pic/phone.jpg";
+        	arr[4]="/zky/Public/Pic/aite.jpg";
+        	arr[5]="/zky/Public/Pic/top.jpg";
+        	arr[6]="/zky/Public/Pic/top.jpg";
+   			// 问题不在于ajax，而是点击按钮之后事件没有被触发
+			// 登录按钮ajax操作
+			function f1(){
+				$.post("/zky/index.php/Home/Login/do_login", {
+					username:$("#l_txtName").val(),
+					password:$("#l_txtPwd").val()
+				},function(text){
+					if(text=="pass"){
+						window.location.href="/zky/index.php/Home/Equipment/equipment";
+					}else{
+						$("#suggest").html(text);
+					}
+				});
+			}
+		</script>
 	</head>
 	<body>
 	<!-- 这里是登录弹出窗口 -->
@@ -31,8 +55,8 @@
             </span><a href="javascript:void(0)" title="提示" class="warning" id="l_warn2">*</a>
         </div>
         <div class="row">
-            <a href="/zky/index.php/Home/Login/do_login" id="l_loginbtn">登录</a>
-        </div>
+            	<a href="#" id="l_loginbtn" onclick="f1();">登录</a>
+    	</div>
     </div>
 		
 		<!-- 结束登陆弹出窗口 -->
