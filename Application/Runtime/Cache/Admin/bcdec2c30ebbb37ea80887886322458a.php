@@ -85,10 +85,10 @@
 </head>
 <body>
     <font color="#777777"><strong>用户名称：</strong></font>
-    <a href="/zky/index.php/Admin/Message/studenttdetail"><?php echo (session('username')); ?></a>
+    <a href="/equipment/index.php/Admin/Message/studenttdetail"><?php echo (session('username')); ?></a>
     <table >
         <div id="buttom" >
-                <a href="/zky/index.php/Admin/Equipment/add"><button>添加</button></a>
+                <a href="/equipment/index.php/Admin/Equipment/add"><button>添加</button></a>
         </div>
     </table>
     <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><table>
@@ -105,12 +105,12 @@
                 </thead>
                 <div id='p_body'>
                     <tr>
-                        <td><a href="/zky/index.php/Admin/Equipment/update/id/<?php echo ($vo["id"]); ?>"><button>修改</button></a></td>
-                        <td><a href="/zky/index.php/Admin/Equipment/delete/id/<?php echo ($vo["id"]); ?>"><button>删除</button></a></td>
-                        <td><a href="/zky/index.php/Admin/Equipment/add_management/id/<?php echo ($vo["id"]); ?>"><button>添加介绍</button></a></td>
+                        <td><a href="/equipment/index.php/Admin/Equipment/update/id/<?php echo ($vo["id"]); ?>"><button>修改</button></a></td>
+                        <td><a href="/equipment/index.php/Admin/Equipment/delete/id/<?php echo ($vo["id"]); ?>"><button>删除</button></a></td>
+                        <td><a href="/equipment/index.php/Admin/Equipment/add_management/id/<?php echo ($vo["id"]); ?>"><button>添加介绍</button></a></td>
                     </tr>
                     <tr>
-                        <td><a href="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" target = "_blank"><img src="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" class = "pic"/></a></td>
+                        <td><a href="/equipment/Uploads<?php echo ($vo["imagicaddress"]); ?>" target = "_blank"><img src="/equipment/Uploads<?php echo ($vo["imagicaddress"]); ?>" class = "pic"/></a></td>
                     </tr>
                     <tr>
                         <td>仪器编号：</td>

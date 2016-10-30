@@ -8,40 +8,40 @@
 		<meta name="Copyright" content="网站版权" /> 
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
-		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/main.css" />
-		<link rel="stylesheet" href="/zky/Public/Css/public.css" />
-		<script type="text/javascript" src="/zky/Public/Js/jquery-3.1.1.min.js"></script>
-		<script src="/zky/Public/Js/public.js"></script>
+		<link rel="stylesheet" type='text/css' href="/equipment/Public/Css/main.css" />
+		<link rel="stylesheet" href="/equipment/Public/Css/public.css" />
+		<script type="text/javascript" src="/equipment/Public/Js/jquery-3.1.1.min.js"></script>
+		<script src="/equipment/Public/Js/public.js"></script>
 		<script>
 			var arr=new Array();
-        	arr[0]="/zky/Public/Pic/top.jpg";
-       	    arr[1]="/zky/Public/Pic/lab.jpg";
-        	arr[2]="/zky/Public/Pic/Login.png";
-        	arr[3]="/zky/Public/Pic/phone.jpg";
-        	arr[4]="/zky/Public/Pic/aite.jpg";
-        	arr[5]="/zky/Public/Pic/top.jpg";
-        	arr[6]="/zky/Public/Pic/top.jpg";
+        	arr[0]="/equipment/Public/Pic/top.jpg";
+       	    arr[1]="/equipment/Public/Pic/lab.jpg";
+        	arr[2]="/equipment/Public/Pic/Login.png";
+        	arr[3]="/equipment/Public/Pic/phone.jpg";
+        	arr[4]="/equipment/Public/Pic/aite.jpg";
+        	arr[5]="/equipment/Public/Pic/top.jpg";
+        	arr[6]="/equipment/Public/Pic/top.jpg";
    			// 问题不在于ajax，而是点击按钮之后事件没有被触发
 			// 登录按钮ajax操作
 			function f1(){
-				$.post("/zky/index.php/Home/Login/do_login", {
+				$.post("/equipment/index.php/Home/Login/do_login", {
 					username:$("#l_txtName").val(),
 					password:$("#l_txtPwd").val()
 				},function(text){
 					if(text=="pass"){
-						window.location.href="/zky/index.php/Home/Regulation/regulation";
+						window.location.href="/equipment/index.php/Home/Regulation/regulation";
 					}else{
 						$("#suggest").html(text);
 					}
 				});
 			}
 			function f2(){
-				$.post("/zky/index.php/Home/Login/do_login", {
+				$.post("/equipment/index.php/Home/Login/do_login", {
 					username:$("#l_txtName").val(),
 					password:$("#l_txtPwd").val()
 				},function(text){
 					if(text=="pass"){
-						window.location.href="/zky/index.php/Admin/Index/admin";
+						window.location.href="/equipment/index.php/Admin/Index/admin";
 					}else{
 						$("#suggest").html(text);
 					}
@@ -73,30 +73,30 @@
 		<!-- 结束登陆弹出窗口 -->
 		<div id='header'>
 			<div class="contain" >
-				<img src="/zky/Public/Pic/top.jpg" alt="" style="width:100%;" />
+				<img src="/equipment/Public/Pic/top.jpg" alt="" style="width:100%;" />
 			</div>
 		</div>
 		<div id='navi'>
 			<div class="contain">
-				<a href="/zky/index.php/Home/Index/main" class="navi_a">首页</a>
-				<a href="/zky/index.php/Home/Inform/news" class="navi_a">新闻通知</a>
-				<a href="/zky/index.php/Home/Equipment/equipment" class="navi_a">仪器介绍</a>
-				<a href="/zky/index.php/Home/Regulation/regulation" class="navi_a">规章制度</a>
-				<a href="/zky/index.php/Home/File/document" class="navi_a">文档下载</a>
-				<a href="/zky/index.php/Home/Message/conmunication" class="navi_a">讨论区</a>
-				<a href="/zky/index.php/Home/Index/about_us" class="navi_a">关于我们</a>
+				<a href="/equipment/index.php/Home/Index/main" class="navi_a">首页</a>
+				<a href="/equipment/index.php/Home/Inform/news" class="navi_a">新闻通知</a>
+				<a href="/equipment/index.php/Home/Equipment/equipment" class="navi_a">仪器介绍</a>
+				<a href="/equipment/index.php/Home/Regulation/regulation" class="navi_a">规章制度</a>
+				<a href="/equipment/index.php/Home/File/document" class="navi_a">文档下载</a>
+				<a href="/equipment/index.php/Home/Message/conmunication" class="navi_a">讨论区</a>
+				<a href="/equipment/index.php/Home/Index/about_us" class="navi_a">关于我们</a>
 				<div id='na_log'>
 					<span>欢迎</span>
 					<?php if(($_SESSION['username']) == ""): ?><span><a href="#" id='login'>登录</a></span>
 					<?php else: ?>	<SPAN><?php echo (session('username')); ?></SPAN>
-						<a href="/zky/index.php/Home/Login/login_out" style=''>退出</a><?php endif; ?>
+						<a href="/equipment/index.php/Home/Login/login_out" style=''>退出</a><?php endif; ?>
 				</div>
 			</div>
 		</div>
 		<div id='main'>
 			<div class="contain">
 				<div id="main_navi">
-						&nbsp;<a href="/zky/index.php/Home/Index/main">首页</a><span>--->规章制度</span>
+						&nbsp;<a href="/equipment/index.php/Home/Index/main">首页</a><span>--->规章制度</span>
 				</div>
 				<div id="r_list">
 					<table >
@@ -105,7 +105,7 @@
 				                <?php if(is_array($data)): $k = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><tr>
 				                    	<tr></tr>
 				                        <td><?php echo ($k); ?></td>
-				                        <td><a href="/zky/Uploads/<?php echo ($vo["address"]); ?>" target = "_blank"><?php echo ($vo["realname"]); ?></a><td>
+				                        <td><a href="/equipment/Uploads/<?php echo ($vo["address"]); ?>" target = "_blank"><?php echo ($vo["realname"]); ?></a><td>
 				                    </tr><?php endforeach; endif; else: echo "" ;endif; ?>
 				                <tr>
 				                    <td></td>
@@ -124,7 +124,7 @@
 				<p class="footer_p">通讯地址：华中农业大学主楼东附楼二楼</p>
 				<p class="footer_p">邮政编码：430070</p>
 				<hr />
-				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="#" id="login" onclick="f2();">管理</a></p>
+				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="/equipment/index.php/Admin/Index/admin" onclick="f2();">管理</a></p>
 			</div>
 		</div>
 	</body>

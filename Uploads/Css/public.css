@@ -1,18 +1,23 @@
+        *{
+            margin: 0;
+            padding: 0;
+            text-align: left;
+        }
         body {
             font-size: 20px;
             padding-bottom: 40px;
             background-color:#e9e7ef;
             text-decoration: none;
         }
-        .row1{
+        .row1,.row{
             text-align: center;
             margin-top: 15px;
         }
-        .row1 a:link,.row1 a:hover,.row1 a:visited{
+        .row1 a:link,.row1 a:hover,.row1 a:visited,.row a:link,.row a:hover,.row a:visited{
             text-decoration: none;
             color: #2a8ba7;
         }
-        .row1 a:hover{
+        .row a:hover,.row1 a:hover{
             color: orange;
         }
         table{
@@ -22,7 +27,16 @@
             border-radius: 5px;
         }
         table span{
-            
+            display: block;
+            background-color:#eee;
+            margin-top: 5px;
+            padding:10px;
+            position:relative;
+            font-family: 'Open Sans', sans-serif;
+            font-size:20px;
+            text-decoration:none;
+            border: solid 1px #2a8ba7;
+            border-radius: 5px;
         }
         .panel{
             width: 100%;
@@ -48,20 +62,27 @@
        tr{
         width: 100%;
        }
-       #contant{
-        width: 70%;
-       }
        td{
-        padding: 10px;
-       }
-       td button,#buttom button{
         display: block;
-        width: 75px;
-        float: right;
-        margin-right: 20px;
-        border-radius: 4px;
+        padding: 10px;
+        background-color:#d4e3e5;
        }
-       #buttom button{
-        margin:0 5% 5px ;
+      
+       button {
+        text-align: center;
+        background: #2981e4;
+        display: inline-block;
+        padding: 5px 10px 6px;
+        color: #fff;
+        float: left;
+        text-decoration: none;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        position: relative;
+        cursor: pointer;
        }
+       button:hover{
+        background-color: #2575cf;
+       }
+      
         

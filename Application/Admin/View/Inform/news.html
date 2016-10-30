@@ -11,22 +11,20 @@
             <font color="#777777"><strong>用户名称：</strong></font>
             <a href="__APP__/Admin/Index/studentdetail"><{$Think.session.username}></a>
     </div>
-    <div class="row2">
+    <div class="row">
             <table >
                 <div class='panel'>
-                    <thead>
-                    </thead>
                     <div id='p_body'>
                         <tr>
                             <td><span>写通知</span></td>
                         </tr>
                         <tr>
                             <!-- 使用Ajax判断输入是否合法 -->
-                            <td><form action="__URL__/do_show" method="post" name="myForm">通知名称：</td>
+                            <td><form action="__URL__/do_show" method="post" name="myForm"><span>通知名称：</span></td>
                             <td><input type="text" name="title" value="" /></td>
                         </tr>
                         <tr>
-                            <td>通告内容:</td>
+                            <td><span>通告内容:</span></td>
                             <td class='con'><textarea name="content"></textarea></td>
                         </tr>
                         <tr>
@@ -34,21 +32,25 @@
                         </tr>
                     </div>
                 </div>
+            </div>
             </table>
         </div>
-        <div class="3">
+        <div class="row">
             <table >
                 <div class='panel'>
-                    </thead>
+                    
                     <div id='p_body'>
                         <volist name = "data" id = "vo">
                 		    <tr>
-                		        <td><a href="__URL__/showitems/id/<{$vo.id}>"><{$vo.title}></a></td>
-                                <td><{$vo.date}></td>
+                		        <td>
+                                    <a href="__URL__/showitems/id/<{$vo.id}>">
+                                    <span><{$vo.title}></span>
+                                    </a>
+                                </td>
+                                <td><span><{$vo.date}></span></td>
                                 <td><a href="__URL__/do_delete/id/<{$vo.id}>"><button>删除</button></a></td>
                             </tr>
                         </volist>
-                    <thead>
                     </div>
                 </div>
             </table>

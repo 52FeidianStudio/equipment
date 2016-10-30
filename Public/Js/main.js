@@ -19,7 +19,7 @@
 
     // 注册function
     $(function ($) {
-        //弹出登录
+        //弹出注册
         $("#register").hover(function () {
             $(this).stop().animate({
                 opacity: '1'
