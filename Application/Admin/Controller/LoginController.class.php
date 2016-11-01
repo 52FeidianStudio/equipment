@@ -21,16 +21,17 @@
 						$_SESSION['name'] = $n -> where("username = $username") -> getField('username');
 						$_SESSION['isTeacher'] = 1;
 						$_SESSION['password'] = $password;
-						$this -> redirect("Index/admin");
+						$text = "pass";
 					}else{
-						$this -> error("密码不正确！");
+						$text = "密码错误！";
 					}
 				}else{
-					$this -> error("您不是管理员用户！");
+					$text = "您不是管理员用户！";
 				}
 			}else{
-				$this -> error("用户不存在");
+				$text = "用户不存在！";
 			}
+			$this -> ajaxReturn($text);
 		}
 		public function login_out(){
 			$_SESSION = array();

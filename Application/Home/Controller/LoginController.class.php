@@ -29,7 +29,7 @@
 		            }
 		        }else{
 		        	$text = "用户不存在！";
-		        }
+		        };
 		        $this->ajaxReturn($text);     
 		    }	
 		}

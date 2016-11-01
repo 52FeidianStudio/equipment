@@ -55,9 +55,11 @@
 		public function delete(){
 			$n = M('File');
 			$where = $_GET['id'];
+			$address = $n -> where("id = $where") -> getField("address");
 			$result = $n -> where("id = $where") -> delete();
 			if($result){
 				//用js写一个事件，直接实现交互的效果
+				unlink($address);
 				$this -> redirect('File/doucument','','0','删除成功');
 			}else{
 				$this -> error("删除失败");

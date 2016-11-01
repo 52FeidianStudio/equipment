@@ -108,5 +108,11 @@
 				$this -> error("发布留言失败");
 			}
 		}
+		// 展示
+		public function aaa(){
+			$n = D("Answer");
+			$arr = $n -> relation(true) -> select();
+			var_dump($arr);
+		}
 	}
  ?>

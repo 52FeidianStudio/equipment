@@ -165,7 +165,7 @@
 			#l_txtName,#r_txtName{height:27px;
 					width:180px;
 					border:none;}
-			#l_txtPwd,#r_txtPwd{height:27px;
+			#l_txtPwd,#r_txtPwd,#re_txtPwd,#c_txtPwd{height:27px;
 					width:180px;
 					border:none;}
 			.inputBox:hover{

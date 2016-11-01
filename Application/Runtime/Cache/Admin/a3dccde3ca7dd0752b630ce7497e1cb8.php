@@ -3,7 +3,7 @@
 <head>
     <title></title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="/equipment/Uploads/Css/public.css" />
+    <link rel="stylesheet" type="text/css" href="/zky/Uploads/Css/public.css" />
 </head>
 <body>
 

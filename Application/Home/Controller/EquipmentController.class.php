@@ -29,5 +29,12 @@
 			$this -> assign("data",$arr);
 			$this -> display();
 		}
+
+		// 展示：
+		public function hahaha(){
+			$n = D("Equipment");
+			$arr = $n -> relation(true) -> select();
+			var_dump($arr);
+		}
 	}
 ?>

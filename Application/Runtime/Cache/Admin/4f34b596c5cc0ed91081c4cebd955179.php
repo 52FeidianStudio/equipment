@@ -48,6 +48,7 @@
        } */
        tr{
         width: 100%;
+        border-bottom: #ccc 0px dotted
        }
        #contant{
         width: 70%;
@@ -80,68 +81,27 @@
     </style>
 </head>
 <body>
-	<font color="#777777"><strong>管理员：<?php echo (session('username')); ?></strong></font>
-    <table>
+    <font color="#777777"><strong>用户名称：</strong></font>
+    <a href="/zky/index.php/Admin/Index/studentdetail"><?php echo (session('username')); ?></a>
+    <table >
         <div class='panel'>
+            <thead>
+            </thead>
             <div id='p_body'>
                 <tr>
-                    <td>主题：</td>
-                    <td><?php echo ($find['title']); ?></td>
+                    <td><h2><?php echo ($data["title"]); ?></h2></td>
                 </tr>
-			</div>
-		</div>     
-	</table>           
-    <table>
-        <div class='panel'>
-            <div id='p_body'>
                 <tr>
-                   <td>详细内容：</td>
-                   <td><?php echo ($find['content']); ?></td>
+                    <td><?php echo ($data["content"]); ?></td>
                 </tr>
-            </div>
-        </div>
-	</table>  
-	<table>
-        <div class='panel'>
-            <div id='p_body'>
                 <tr>
-                    <td><?php echo ($find['user']['name']); ?>　　于<?php echo ($find['date']); ?>发布</td>
-                    <td>已经有<?php echo ($count); ?>人关注</td>
+                	<td></td>
+                	<td></td>
+                	<td><p><?php echo ($data["date"]); ?></p></td>
                 </tr>
-            </div>
-		</div>
-	</table>
-	<table>
-		<tr>
-			<td>添加回复</td>
-		</tr>
-		<tr>
-			<td>
-				<form action="/equipment/index.php/Admin/Message/do_addanswer/id/<?php echo ($find['id']); ?>" method = "post">
-					<textarea name="content" id = "content" value = "回复他/她"></textarea>
-			</td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td><button type = "submit">回复</button></form></td>
-		</tr>
-	</table>
-	<table>
-        <div class='panel'>
-            <div id='p_body'>
-                <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
-						<td><?php echo ($vo["user"]["name"]); ?>：</td>
-						<td><?php echo ($vo["content"]); ?></td>　　　　
-						<td></td>
-						<td></td>
-						<td><?php echo ($vo["date"]); ?></td>　
-						<td><a href="/equipment/index.php/Admin/Message/do_deleteanswer/id/<?php echo ($vo["id"]); ?>"><button>删除</button></a></td>
-					</tr><?php endforeach; endif; else: echo "" ;endif; ?>
-				<tr>
-					<td><?php echo ($show); ?></td>
-				</tr>
+                <tr>
+                    <td><a href="/zky/index.php/Admin/Inform/news"><div id="buttom" ><button>返回</button></div></a></form></td>
+                </tr>
             </div>
         </div>
     </table>
