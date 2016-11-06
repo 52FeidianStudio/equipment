@@ -191,7 +191,7 @@
                                 详细介绍</td>
                             <td>
                                 <PHP>
-                                    echo $vo['management'][$k]['content'];
+                                    echo htmlspecialchars_decode($vo['management'][$k]['content']);
                                 </PHP>
                             </td>
                         </tr>

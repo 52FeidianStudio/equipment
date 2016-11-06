@@ -1545,3 +1545,2263 @@ SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.016701s ]
 NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 13 行.
 NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 17 行.
 
+[ 2016-11-01T20:08:34+08:00 ] ::1 /zky/index.php/Admin/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001744s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.022507s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000353s ]
+SQL: SELECT `isTeacher` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000273s ]
+SQL: SELECT `password` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000387s ]
+SQL: SELECT `name` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000907s ]
+SQL: SELECT `id` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000508s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000319s ]
+
+[ 2016-11-01T20:09:07+08:00 ] ::1 /zky/index.php/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.012962s ]
+SQL: SELECT * FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000396s ]
+SQL: SELECT `password` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000277s ]
+SQL: SELECT `name` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SELECT `id` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: SELECT `say` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000264s ]
+
+[ 2016-11-01T20:09:19+08:00 ] ::1 /zky/index.php/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002130s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.015123s ]
+SQL: SELECT * FROM `tp_user` WHERE ( username = 2015317200401 ) LIMIT 1   [ RunTime:0.000522s ]
+SQL: SELECT `password` FROM `tp_user` WHERE ( username = 2015317200401 ) LIMIT 1   [ RunTime:0.000442s ]
+
+[ 2016-11-01T20:09:19+08:00 ] ::1 /zky/index.php/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001475s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007543s ]
+SQL: SELECT * FROM `tp_user` WHERE ( username = 2015317200401 ) LIMIT 1   [ RunTime:0.000414s ]
+SQL: SELECT `password` FROM `tp_user` WHERE ( username = 2015317200401 ) LIMIT 1   [ RunTime:0.000343s ]
+
+[ 2016-11-01T20:09:20+08:00 ] ::1 /zky/index.php/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.011650s ]
+SQL: SELECT * FROM `tp_user` WHERE ( username = 2015317200401 ) LIMIT 1   [ RunTime:0.000436s ]
+SQL: SELECT `password` FROM `tp_user` WHERE ( username = 2015317200401 ) LIMIT 1   [ RunTime:0.000294s ]
+
+[ 2016-11-01T20:09:27+08:00 ] ::1 /zky/index.php/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001595s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.015248s ]
+SQL: SELECT * FROM `tp_user` WHERE ( username = 2015317200466 ) LIMIT 1   [ RunTime:0.000971s ]
+
+[ 2016-11-01T20:19:01+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001734s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.013833s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 18 行.
+
+[ 2016-11-01T20:20:09+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.014173s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+
+[ 2016-11-01T20:21:38+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.014622s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:21:39+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.011159s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:21:40+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.010578s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:21:40+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006755s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:21:40+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002087s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007256s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:21:40+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007088s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:21:40+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007435s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:21:41+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.011214s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:21:41+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.014390s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:21:41+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007318s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:21:41+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007445s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:21:42+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001725s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.012483s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:21:42+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007709s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:22:14+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001696s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.012599s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:22:15+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001363s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.011546s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:22:15+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001572s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007236s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:22:16+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.020944s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:22:16+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.008215s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:22:16+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006674s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:22:16+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006826s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:22:16+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007904s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:22:17+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.011949s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:23:25+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004656s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.013350s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:23:26+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.012186s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:23:41+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.011872s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:23:41+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.009293s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:23:41+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003162s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007976s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:23:41+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006614s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:23:42+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.012252s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:23:42+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.008045s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:23:42+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007603s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:23:42+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007629s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:23:42+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006948s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:23:42+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.057010s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 46 行.
+
+[ 2016-11-01T20:24:14+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001626s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.015016s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+
+[ 2016-11-01T20:24:14+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006738s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+
+[ 2016-11-01T20:24:14+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002379s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006862s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+
+[ 2016-11-01T20:24:14+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006804s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+
+[ 2016-11-01T20:24:15+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.011523s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+
+[ 2016-11-01T20:24:15+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006776s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+
+[ 2016-11-01T20:24:15+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001351s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006531s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+
+[ 2016-11-01T20:24:15+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006455s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+
+[ 2016-11-01T20:24:15+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007042s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 20 行.
+
+[ 2016-11-01T20:24:38+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.015885s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 18 行.
+
+[ 2016-11-01T20:24:41+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.013956s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 18 行.
+
+[ 2016-11-01T20:28:37+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+
+[ 2016-11-01T20:28:38+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001956s ]
+
+[ 2016-11-01T20:29:26+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.017174s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+
+[ 2016-11-01T20:29:40+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001534s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.014337s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+
+[ 2016-11-01T20:29:58+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.014993s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+
+[ 2016-11-01T20:30:09+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001942s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.018797s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+
+[ 2016-11-01T20:31:11+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002165s ]
+
+[ 2016-11-01T20:32:09+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+
+[ 2016-11-01T20:32:40+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.013963s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+
+[ 2016-11-01T20:33:02+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.013480s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+
+[ 2016-11-01T20:33:11+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001652s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.016390s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+
+[ 2016-11-01T20:33:12+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.013909s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+
+[ 2016-11-01T20:35:12+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001482s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.327970s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+
+[ 2016-11-01T20:36:12+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.014696s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+
+[ 2016-11-01T20:36:13+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.014227s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+
+[ 2016-11-01T20:36:14+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.011674s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+
+[ 2016-11-01T20:36:24+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004193s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.015991s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+
+[ 2016-11-01T20:36:24+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.009726s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+
+[ 2016-11-01T20:36:24+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004144s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.008885s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+
+[ 2016-11-01T20:36:24+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001440s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007910s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+
+[ 2016-11-01T20:36:25+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.011785s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+
+[ 2016-11-01T20:36:25+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.010302s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+
+[ 2016-11-01T20:36:25+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007601s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+
+[ 2016-11-01T20:36:25+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001286s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007502s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+
+[ 2016-11-01T20:36:25+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007798s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+
+[ 2016-11-01T20:36:26+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.013072s ]
+NOTIC: [8] Undefined index: verify D:\wamp\www\zky\Application\Home\Controller\RegisterController.class.php 第 14 行.
+
+[ 2016-11-01T20:37:12+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001845s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.015047s ]
+
+[ 2016-11-01T20:37:19+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.016200s ]
+
+[ 2016-11-01T20:37:20+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002030s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.011254s ]
+
+[ 2016-11-01T20:37:20+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007521s ]
+
+[ 2016-11-01T20:37:21+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.014569s ]
+
+[ 2016-11-01T20:37:21+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007203s ]
+
+[ 2016-11-01T20:37:21+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007315s ]
+
+[ 2016-11-01T20:37:21+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007389s ]
+
+[ 2016-11-01T20:37:22+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.017425s ]
+
+[ 2016-11-01T20:38:20+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002137s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.015902s ]
+
+[ 2016-11-01T20:38:27+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002266s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.014353s ]
+
+[ 2016-11-01T20:38:28+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002091s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.013490s ]
+
+[ 2016-11-01T20:38:49+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001966s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.015679s ]
+
+[ 2016-11-01T20:38:50+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.012705s ]
+
+[ 2016-11-01T20:38:51+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.011750s ]
+
+[ 2016-11-01T20:38:51+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007412s ]
+
+[ 2016-11-01T20:39:45+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.012359s ]
+
+[ 2016-11-01T20:39:53+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.016584s ]
+
+[ 2016-11-01T20:40:14+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001582s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.015571s ]
+
+[ 2016-11-01T20:40:15+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.011428s ]
+
+[ 2016-11-01T20:40:15+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006798s ]
+
+[ 2016-11-01T20:40:15+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007168s ]
+
+[ 2016-11-01T20:40:16+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.011378s ]
+
+[ 2016-11-01T20:40:16+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006754s ]
+
+[ 2016-11-01T20:40:16+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007515s ]
+
+[ 2016-11-01T20:40:43+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.013326s ]
+
+[ 2016-11-01T20:40:44+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.428702s ]
+
+[ 2016-11-01T20:40:44+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.017336s ]
+
+[ 2016-11-01T20:41:42+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.015070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = '' ) AND ( `isTeacher` = 0 ) LIMIT 1   [ RunTime:0.000391s ]
+SQL: INSERT INTO `tp_user` (`username`,`password`,`isTeacher`,`say`,`name`,`time`) VALUES ('','123',0,0,'刘恩东','2016-11-01 20:41:42') [ RunTime:0.003052s ]
+
+[ 2016-11-01T20:43:13+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.016684s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = '2015317200416' ) AND ( `isTeacher` = 0 ) LIMIT 1   [ RunTime:0.000395s ]
+
+[ 2016-11-01T20:43:36+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001889s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.014691s ]
+
+[ 2016-11-01T20:43:44+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001854s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.016287s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( `username` = '2015317200405' ) AND ( `isTeacher` = 0 ) LIMIT 1   [ RunTime:0.000399s ]
+SQL: INSERT INTO `tp_user` (`username`,`password`,`isTeacher`,`say`,`name`,`time`) VALUES ('2015317200405','tangping',0,0,'唐平','2016-11-01 20:43:44') [ RunTime:0.000290s ]
+
+[ 2016-11-01T20:44:00+08:00 ] ::1 /zky/index.php/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002049s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.016322s ]
+SQL: SELECT * FROM `tp_user` WHERE ( username = 2015317200405 ) LIMIT 1   [ RunTime:0.000432s ]
+SQL: SELECT `password` FROM `tp_user` WHERE ( username = 2015317200405 ) LIMIT 1   [ RunTime:0.000318s ]
+SQL: SELECT `name` FROM `tp_user` WHERE ( username = 2015317200405 ) LIMIT 1   [ RunTime:0.000293s ]
+SQL: SELECT `id` FROM `tp_user` WHERE ( username = 2015317200405 ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: SELECT `say` FROM `tp_user` WHERE ( username = 2015317200405 ) LIMIT 1   [ RunTime:0.000285s ]
+
+[ 2016-11-01T20:44:17+08:00 ] ::1 /zky/index.php/Admin/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.016585s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( username = 2015317200405 ) LIMIT 1   [ RunTime:0.000645s ]
+SQL: SELECT `isTeacher` FROM `tp_user` WHERE ( username = 2015317200405 ) LIMIT 1   [ RunTime:0.000393s ]
+
+[ 2016-11-01T20:48:38+08:00 ] ::1 /zky/index.php/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001967s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.014878s ]
+SQL: SELECT * FROM `tp_user` WHERE ( username = 2015317200405 ) LIMIT 1   [ RunTime:0.000412s ]
+SQL: SELECT `password` FROM `tp_user` WHERE ( username = 2015317200405 ) LIMIT 1   [ RunTime:0.000361s ]
+SQL: SELECT `name` FROM `tp_user` WHERE ( username = 2015317200405 ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: SELECT `id` FROM `tp_user` WHERE ( username = 2015317200405 ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SELECT `say` FROM `tp_user` WHERE ( username = 2015317200405 ) LIMIT 1   [ RunTime:0.000307s ]
+
+[ 2016-11-01T20:49:05+08:00 ] ::1 /zky/index.php/Admin/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.014784s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( username = 2015317200405 ) LIMIT 1   [ RunTime:0.000505s ]
+SQL: SELECT `isTeacher` FROM `tp_user` WHERE ( username = 2015317200405 ) LIMIT 1   [ RunTime:0.000413s ]
+
+[ 2016-11-01T20:51:49+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001668s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.016321s ]
+
+[ 2016-11-01T20:51:52+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.012560s ]
+
+[ 2016-11-01T20:52:11+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.013248s ]
+
+[ 2016-11-01T20:52:32+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005380s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.013210s ]
+
+[ 2016-11-01T20:52:34+08:00 ] ::1 /zky/index.php/Home/Register/do_register
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001188s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.013339s ]
+
+[ 2016-11-01T21:00:52+08:00 ] ::1 /zky/index.php/Admin/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.013004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000732s ]
+SQL: SELECT `isTeacher` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000493s ]
+SQL: SELECT `password` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000380s ]
+SQL: SELECT `name` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000393s ]
+SQL: SELECT `id` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000629s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000502s ]
+
+[ 2016-11-01T21:01:01+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:01:01+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:01:01+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:01:01+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:01:01+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:01:01+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:01:01+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:01:01+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:01:01+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:01:01+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:01:01+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:01:01+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:01:26+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:01:26+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:01:26+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:01:26+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:01:26+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:01:26+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:01:26+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:01:26+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:01:26+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:01:26+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:01:26+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:01:26+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:01:43+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:01:43+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:01:43+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:01:43+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:01:43+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:01:43+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:01:43+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:01:43+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:01:43+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:01:43+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:01:43+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:05+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:05+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:02:05+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:05+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:02:05+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:02:05+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:05+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:05+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:05+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:05+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:05+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:29+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:02:29+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:29+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:02:29+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:02:29+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:29+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:29+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:29+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:29+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:29+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:29+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:34+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:34+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:34+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:02:34+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:34+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:34+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:02:34+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:02:34+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:34+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:34+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:34+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:34+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:38+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:38+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:02:38+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:38+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:02:38+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:02:38+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:38+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:38+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:38+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:38+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:38+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:38+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:45+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:45+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:02:45+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:02:45+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:45+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:45+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:45+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:02:45+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:54+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:02:54+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:02:54+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:02:54+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:54+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:54+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:54+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:54+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:54+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:55+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:55+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:55+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:59+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:02:59+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:02:59+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:59+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:59+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:02:59+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:59+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:59+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:59+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:59+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:59+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:02:59+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:38+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:38+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:38+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:03:38+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:38+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:03:38+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:03:38+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:38+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:38+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:38+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:38+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:41+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:03:41+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:03:41+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:41+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:41+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:41+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:41+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:03:41+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:41+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:41+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:41+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:41+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:58+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:03:58+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:03:58+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:03:58+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:58+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:58+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:58+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:58+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:58+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:58+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:58+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:03:58+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:04:00+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:04:00+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:04:00+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:04:00+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:04:00+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:04:00+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:04:00+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:04:00+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:04:00+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:04:00+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:04:00+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:04:00+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:04:40+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:04:40+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:04:40+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:04:40+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:04:40+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:04:40+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:04:40+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:04:40+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:04:40+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:04:40+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:04:40+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:04:48+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:04:48+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:04:48+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:04:48+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:04:48+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:04:48+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:04:48+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:04:48+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:04:48+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:04:48+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:04:48+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:17+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:05:17+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:05:17+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:05:17+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:17+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:17+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:17+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:17+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:17+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:17+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:17+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:17+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:23+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:05:23+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:23+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:05:24+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:05:24+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:24+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:24+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:24+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:24+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:24+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:24+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:24+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:33+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:05:33+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:05:33+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:05:33+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:33+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:33+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:33+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:33+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:33+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:34+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:34+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:05:34+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:07:43+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:07:43+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:07:43+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:07:43+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:07:43+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:07:43+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:07:43+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:07:43+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:07:43+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:07:43+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:07:43+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:07:43+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:07:49+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:07:49+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:07:49+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:07:49+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:07:49+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:07:49+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:07:49+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:07:49+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:08:27+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:08:27+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:08:27+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:08:27+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:08:27+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:08:27+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:08:27+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:08:27+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:08:27+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:08:38+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:08:38+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:08:38+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:08:38+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:08:38+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:08:38+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:08:38+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:08:38+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:08:38+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:08:38+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:08:46+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:08:46+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:08:46+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:08:46+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:08:46+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:08:46+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:08:46+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:08:46+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:08:46+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:08:46+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:08:46+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:08:46+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:09:17+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:09:17+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:09:17+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:09:17+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:09:17+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:09:17+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:09:17+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:09:17+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:09:17+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:09:17+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:11:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:11:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:11:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:11:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:11:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:11:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:11:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:11:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:11:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:11:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:11:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:11:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:09+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:13:09+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:13:09+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:13:09+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:09+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:09+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:09+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:09+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:09+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:09+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:09+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:09+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:13:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:13:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:13:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:13:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:13:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:13:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:13:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:14:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:14:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:14:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:14:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:14:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:14:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:14:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:14:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:14:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:14:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:14:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:14:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:15:23+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:15:23+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:15:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:15:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:15:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:15:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:15:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:15:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:15:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:15:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:15:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:16:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:16:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:16:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:16:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:16:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:16:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:16:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:16:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:16:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:16:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:16:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:16:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:16:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:16:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:16:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:16:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T21:16:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:16:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:16:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:16:49+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:16:49+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:16:49+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:16:49+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T21:16:49+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T22:08:26+08:00 ] ::1 /zky/index.php/Admin/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.015649s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000379s ]
+SQL: SELECT `isTeacher` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: SELECT `password` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SELECT `name` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SELECT `id` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000278s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000267s ]
+
+[ 2016-11-01T22:37:33+08:00 ] ::1 /zky/index.php/Admin/Inform/undefinedlang/zh-cn/zh-cn.js
+ERR: 非法操作:undefinedlang
+
+[ 2016-11-01T22:37:33+08:00 ] ::1 /zky/index.php/Admin/Inform/undefinedthemes/default/css/ueditor.css
+ERR: 非法操作:undefinedthemes
+
+[ 2016-11-01T22:37:42+08:00 ] ::1 /zky/index.php/Admin/Inform/undefinedlang/zh-cn/zh-cn.js
+ERR: 非法操作:undefinedlang
+
+[ 2016-11-01T22:37:42+08:00 ] ::1 /zky/index.php/Admin/Inform/undefinedthemes/default/css/ueditor.css
+ERR: 非法操作:undefinedthemes
+
+[ 2016-11-01T22:42:03+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T22:42:03+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T22:42:03+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T22:42:03+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T22:42:03+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T22:42:03+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T22:42:03+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T22:42:03+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T22:42:03+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T22:42:03+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T22:42:03+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T22:42:03+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T23:10:43+08:00 ] ::1 /zky/index.php/Admin/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.037254s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000467s ]
+SQL: SELECT `isTeacher` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000390s ]
+SQL: SELECT `password` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000415s ]
+SQL: SELECT `name` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000475s ]
+SQL: SELECT `id` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000433s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000410s ]
+
+[ 2016-11-01T23:49:43+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T23:49:43+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-01T23:49:43+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T23:49:43+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-01T23:49:43+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-01T23:49:43+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-01T23:49:43+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T23:49:43+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-01T23:49:43+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-01T23:49:43+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-01T23:49:43+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-01T23:49:43+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+

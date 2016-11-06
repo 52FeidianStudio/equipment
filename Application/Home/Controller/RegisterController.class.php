@@ -10,12 +10,18 @@
 			$username = $_POST['username'];
 			$password = $_POST['password'];
 			$repassword = $_POST['repassword'];
+			$name = $_POST['name'];
 			$code = $_POST['verify'];
 			$data1['username'] = $username;
 			$data1['isTeacher'] = 0;
 			$text = 0;
-			if($_SESSION['verify'] != md5($code)){
+			if($username == "" || $password = "" || $repassword = "" || $name = "" || $code = ""){
+				$text = "账号用户名密码验证码不能为空";
+				$this->ajaxReturn($text); 
+			}
+			if(!(self::check_verify($code))){
 				$text = "验证码错误！";
+				// $text = self::check_verify($code);
 			}else{
 				if($repassword == $password){
 					$result1 = $n -> where($data1) -> count();
@@ -24,6 +30,7 @@
 						$data['password'] = $password;
 						$data['isTeacher'] = 0;
 						$data['say'] = 0;
+						$data['name'] = $name;
 						$data['time'] = date("Y-m-d H:i:s");
 						$result = $n -> add($data);
 						if($result){
@@ -36,22 +43,16 @@
 						$text = "用户名已经存在！";
 					}
 				}else{
-					$text = "两侧输入的密码不一致！";
+					$text = "两次输入的密码不一致！";
 				}
 			}
 			$this->ajaxReturn($text); 
 		}
 			
-		public function checkName(){
-			$username = $_GET['username'];
-			$n = M('User');
-			$where['username'] = $username;
-			$count = $n -> where($where) -> count();
-			if($count){
-				echo '可以注册';
-			}else{
-				echo '用户名已经存在';
-			}
-		}
-	}
+		// 检测输入的验证码是否正确，$code为用户输入的验证码字符串
+    	function check_verify($code, $id = ''){
+        	$verify = new \Think\Verify();
+        	return $verify->check($code, $id);
+    	}
+    }
  ?>

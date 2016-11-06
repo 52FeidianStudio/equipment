@@ -15,21 +15,13 @@
             <table >
                 <div class='panel'>
                     <div id='p_body'>
-                        <tr>
-                            <td><span>写通知</span></td>
-                        </tr>
-                        <tr>
-                            <!-- 使用Ajax判断输入是否合法 -->
-                            <td><form action="__URL__/do_show" method="post" name="myForm"><span>通知名称：</span></td>
-                            <td><input type="text" name="title" value="" /></td>
-                        </tr>
-                        <tr>
-                            <td><span>通告内容:</span></td>
-                            <td class='con'><textarea name="content"></textarea></td>
-                        </tr>
-                        <tr>
-                            <td><div id="buttom" ><button type="submit"value="提交" />提交</button></div></form></td>
-                        </tr>
+                        <table>
+                            <tr>
+                                <td>
+                                    <a href="__URL__/add"><button>写通知</button></a>
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>

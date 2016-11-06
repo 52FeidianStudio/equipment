@@ -1,0 +1,3290 @@
+[ 2016-11-04T21:34:25+08:00 ] ::1 /zky/index.php/Home/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.039557s ]
+SQL: SELECT * FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000479s ]
+SQL: SELECT `password` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: SELECT `name` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SELECT `id` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: SELECT `say` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000265s ]
+
+[ 2016-11-04T21:39:40+08:00 ] ::1 /zky/index.php/Admin/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003875s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.015810s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000358s ]
+SQL: SELECT `isTeacher` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT `password` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: SELECT `name` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SELECT `id` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000255s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000274s ]
+
+[ 2016-11-04T21:39:43+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:39:44+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:39:44+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:39:44+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:39:44+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:39:44+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:39:44+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:39:44+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:39:44+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:39:44+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:39:44+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:39:44+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:40:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:40:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:40:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:40:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:40:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:40:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:40:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:40:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:46:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:46:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:46:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:46:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:46:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:46:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:46:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:46:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:46:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:46:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:46:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:46:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:50:02+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T21:50:05+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T21:50:06+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:50:07+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:50:07+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:50:07+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:50:07+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:50:07+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:50:07+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:50:07+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:50:07+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:50:07+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:56:16+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:56:16+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:56:16+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:56:16+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:56:16+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:56:16+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:56:16+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:56:16+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:56:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:56:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:56:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:56:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:56:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:56:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:56:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:56:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:56:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:56:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:56:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:56:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:56:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:56:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:56:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:56:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:56:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:56:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:56:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:58:27+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T21:58:28+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T21:58:30+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:58:30+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:58:30+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:58:30+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:58:30+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:58:30+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:58:30+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:58:30+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:58:30+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:58:30+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:58:30+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:59:00+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:59:00+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:59:00+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T21:59:00+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:59:00+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:59:00+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:59:00+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:59:00+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T21:59:11+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T21:59:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001696s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T21:59:14+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005920s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T21:59:14+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001655s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T21:59:14+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T21:59:15+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002092s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T21:59:15+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001989s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T21:59:15+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T21:59:15+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T21:59:16+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T21:59:19+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T21:59:19+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001911s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T21:59:19+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.005422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006729s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T21:59:20+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001835s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T21:59:20+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001776s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T21:59:20+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T21:59:20+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005499s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T21:59:21+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001774s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:01:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:01:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:01:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:01:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:01:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:01:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:01:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:01:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:01:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:01:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:01:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:01:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:01:20+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:01:20+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:01:21+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:01:21+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002075s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:01:21+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:01:21+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:01:22+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:01:22+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:08:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:08:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:08:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:08:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:08:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:08:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:08:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:08:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:08:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:08:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:10:19+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:20+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:21+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001493s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:21+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:25+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:25+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:25+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:25+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:10:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:10:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:10:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:10:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:10:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:10:27+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:10:27+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:10:27+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:10:27+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:10:27+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:10:27+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:10:28+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001766s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001226s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:30+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001675s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:30+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:30+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:30+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:30+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001691s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:31+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:31+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:31+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:31+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:44+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:10:44+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:10:44+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:10:44+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:10:44+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:10:44+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:10:44+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:10:44+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:10:44+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:10:44+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:10:44+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:10:57+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001466s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:58+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:58+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:58+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:59+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002118s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:59+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:59+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:59+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:10:59+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:11:00+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:11:00+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:11:00+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:11:00+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:11:00+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:11:00+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:11:00+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:11:00+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:11:00+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:11:00+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:11:40+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:11:41+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:11:41+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:11:41+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:11:41+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_show/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+ERR: 非法操作:do_show
+
+[ 2016-11-04T22:13:32+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:13:32+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:13:32+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:13:32+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:13:32+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:13:32+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:13:32+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:13:32+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:13:32+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:13:32+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:13:32+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:13:32+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:14:51+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.013387s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.034898s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000264s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('朴槿惠发表“国民谈话”再次致歉现场','&lt;p&gt;&lt;br class=&quot;Apple-interchange-newline&quot;/&gt;&lt;span style=&quot;color: rgb(102, 102, 102); font-family: &amp;quot;Microsoft Yahei&amp;quot;, 微软雅黑, SimSun, 宋体, &amp;quot;Arial Narrow&amp;quot;, serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;&quot;&gt;当地时间2016年11月4日，韩国，电视在直播总统朴槿惠讲话。韩国总统朴槿惠当天发表电视直播讲话，就好友崔顺实“幕后干政”事件再次表达立场。她表示，如果国民要求的话，为查明真相，将诚实配合检方调查。图片来源：视觉中国&lt;/span&gt;&lt;/p&gt;') [ RunTime:0.021995s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000192s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:14:52+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003775s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.017816s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.011493s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000257s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('朴槿惠发表“国民谈话”再次致歉现场','&lt;p&gt;&lt;br class=&quot;Apple-interchange-newline&quot;/&gt;&lt;span style=&quot;color: rgb(102, 102, 102); font-family: &amp;quot;Microsoft Yahei&amp;quot;, 微软雅黑, SimSun, 宋体, &amp;quot;Arial Narrow&amp;quot;, serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;&quot;&gt;当地时间2016年11月4日，韩国，电视在直播总统朴槿惠讲话。韩国总统朴槿惠当天发表电视直播讲话，就好友崔顺实“幕后干政”事件再次表达立场。她表示，如果国民要求的话，为查明真相，将诚实配合检方调查。图片来源：视觉中国&lt;/span&gt;&lt;/p&gt;') [ RunTime:0.000577s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000316s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:14:53+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.033206s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.011766s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000241s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('朴槿惠发表“国民谈话”再次致歉现场','&lt;p&gt;&lt;br class=&quot;Apple-interchange-newline&quot;/&gt;&lt;span style=&quot;color: rgb(102, 102, 102); font-family: &amp;quot;Microsoft Yahei&amp;quot;, 微软雅黑, SimSun, 宋体, &amp;quot;Arial Narrow&amp;quot;, serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;&quot;&gt;当地时间2016年11月4日，韩国，电视在直播总统朴槿惠讲话。韩国总统朴槿惠当天发表电视直播讲话，就好友崔顺实“幕后干政”事件再次表达立场。她表示，如果国民要求的话，为查明真相，将诚实配合检方调查。图片来源：视觉中国&lt;/span&gt;&lt;/p&gt;') [ RunTime:0.000323s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000199s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:14:53+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.009762s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.019533s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000251s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('朴槿惠发表“国民谈话”再次致歉现场','&lt;p&gt;&lt;br class=&quot;Apple-interchange-newline&quot;/&gt;&lt;span style=&quot;color: rgb(102, 102, 102); font-family: &amp;quot;Microsoft Yahei&amp;quot;, 微软雅黑, SimSun, 宋体, &amp;quot;Arial Narrow&amp;quot;, serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;&quot;&gt;当地时间2016年11月4日，韩国，电视在直播总统朴槿惠讲话。韩国总统朴槿惠当天发表电视直播讲话，就好友崔顺实“幕后干政”事件再次表达立场。她表示，如果国民要求的话，为查明真相，将诚实配合检方调查。图片来源：视觉中国&lt;/span&gt;&lt;/p&gt;') [ RunTime:0.000448s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000250s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:14:57+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:14:57+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:14:57+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:14:57+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:14:57+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:14:57+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:14:57+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:14:57+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:05+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:15:05+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:15:05+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:05+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:15:05+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:05+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:05+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:05+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:15:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:15:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:15:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:32+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:15:32+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:15:32+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:32+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:32+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:15:32+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:32+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:33+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:33+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:33+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:33+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:33+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:15:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:15:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:15:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:15:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:16:05+08:00 ] ::1 /zky/index.php/Admin/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.033799s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000629s ]
+SQL: SELECT `isTeacher` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.001815s ]
+SQL: SELECT `password` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000463s ]
+SQL: SELECT `name` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000289s ]
+SQL: SELECT `id` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000495s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000324s ]
+
+[ 2016-11-04T22:16:07+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:16:07+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:16:07+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:16:07+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:16:07+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:16:07+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:16:07+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:16:07+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:16:07+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:16:07+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:16:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:16:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:16:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:16:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:16:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:16:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:16:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:16:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:16:51+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:16:51+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:16:51+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:16:51+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:16:51+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:16:51+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:16:51+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:16:51+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:16:51+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:16:51+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:16:51+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:17:14+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.014256s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.012379s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000206s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('朴槿惠发表“国民谈话”再次致歉现场','&lt;p&gt;&lt;br class=&quot;Apple-interchange-newline&quot;/&gt;&lt;span style=&quot;color: rgb(102, 102, 102); font-family: &amp;quot;Microsoft Yahei&amp;quot;, 微软雅黑, SimSun, 宋体, &amp;quot;Arial Narrow&amp;quot;, serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;&quot;&gt;当地时间2016年11月4日，韩国，电视在直播总统朴槿惠讲话。韩国总统朴槿惠当天发表电视直播讲话，就好友崔顺实“幕后干政”事件再次表达立场。她表示，如果国民要求的话，为查明真相，将诚实配合检方调查。图片来源：视觉中国&lt;/span&gt;&lt;/p&gt;') [ RunTime:0.000423s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000272s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:17:22+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.020085s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.038985s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000243s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('朴槿惠发表“国民谈话”再次致歉现场','&lt;p&gt;&lt;br class=&quot;Apple-interchange-newline&quot;/&gt;&lt;span style=&quot;color: rgb(102, 102, 102); font-family: &amp;quot;Microsoft Yahei&amp;quot;, 微软雅黑, SimSun, 宋体, &amp;quot;Arial Narrow&amp;quot;, serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;&quot;&gt;当地时间2016年11月4日，韩国，电视在直播总统朴槿惠讲话。韩国总统朴槿惠当天发表电视直播讲话，就好友崔顺实“幕后干政”事件再次表达立场。她表示，如果国民要求的话，为查明真相，将诚实配合检方调查。图片来源：视觉中国&lt;/span&gt;&lt;/p&gt;') [ RunTime:0.000332s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000191s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:17:22+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.007377s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.007552s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000227s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('朴槿惠发表“国民谈话”再次致歉现场','&lt;p&gt;&lt;br class=&quot;Apple-interchange-newline&quot;/&gt;&lt;span style=&quot;color: rgb(102, 102, 102); font-family: &amp;quot;Microsoft Yahei&amp;quot;, 微软雅黑, SimSun, 宋体, &amp;quot;Arial Narrow&amp;quot;, serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;&quot;&gt;当地时间2016年11月4日，韩国，电视在直播总统朴槿惠讲话。韩国总统朴槿惠当天发表电视直播讲话，就好友崔顺实“幕后干政”事件再次表达立场。她表示，如果国民要求的话，为查明真相，将诚实配合检方调查。图片来源：视觉中国&lt;/span&gt;&lt;/p&gt;') [ RunTime:0.000280s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000166s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:17:23+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.012637s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.009701s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000216s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('朴槿惠发表“国民谈话”再次致歉现场','&lt;p&gt;&lt;br class=&quot;Apple-interchange-newline&quot;/&gt;&lt;span style=&quot;color: rgb(102, 102, 102); font-family: &amp;quot;Microsoft Yahei&amp;quot;, 微软雅黑, SimSun, 宋体, &amp;quot;Arial Narrow&amp;quot;, serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;&quot;&gt;当地时间2016年11月4日，韩国，电视在直播总统朴槿惠讲话。韩国总统朴槿惠当天发表电视直播讲话，就好友崔顺实“幕后干政”事件再次表达立场。她表示，如果国民要求的话，为查明真相，将诚实配合检方调查。图片来源：视觉中国&lt;/span&gt;&lt;/p&gt;') [ RunTime:0.000324s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000171s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:17:23+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003897s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.009377s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.006905s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000193s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('朴槿惠发表“国民谈话”再次致歉现场','&lt;p&gt;&lt;br class=&quot;Apple-interchange-newline&quot;/&gt;&lt;span style=&quot;color: rgb(102, 102, 102); font-family: &amp;quot;Microsoft Yahei&amp;quot;, 微软雅黑, SimSun, 宋体, &amp;quot;Arial Narrow&amp;quot;, serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;&quot;&gt;当地时间2016年11月4日，韩国，电视在直播总统朴槿惠讲话。韩国总统朴槿惠当天发表电视直播讲话，就好友崔顺实“幕后干政”事件再次表达立场。她表示，如果国民要求的话，为查明真相，将诚实配合检方调查。图片来源：视觉中国&lt;/span&gt;&lt;/p&gt;') [ RunTime:0.000290s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000196s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:17:23+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004432s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.009425s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.007466s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000243s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('朴槿惠发表“国民谈话”再次致歉现场','&lt;p&gt;&lt;br class=&quot;Apple-interchange-newline&quot;/&gt;&lt;span style=&quot;color: rgb(102, 102, 102); font-family: &amp;quot;Microsoft Yahei&amp;quot;, 微软雅黑, SimSun, 宋体, &amp;quot;Arial Narrow&amp;quot;, serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;&quot;&gt;当地时间2016年11月4日，韩国，电视在直播总统朴槿惠讲话。韩国总统朴槿惠当天发表电视直播讲话，就好友崔顺实“幕后干政”事件再次表达立场。她表示，如果国民要求的话，为查明真相，将诚实配合检方调查。图片来源：视觉中国&lt;/span&gt;&lt;/p&gt;') [ RunTime:0.000315s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000218s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:17:23+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.008556s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.007080s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000285s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('朴槿惠发表“国民谈话”再次致歉现场','&lt;p&gt;&lt;br class=&quot;Apple-interchange-newline&quot;/&gt;&lt;span style=&quot;color: rgb(102, 102, 102); font-family: &amp;quot;Microsoft Yahei&amp;quot;, 微软雅黑, SimSun, 宋体, &amp;quot;Arial Narrow&amp;quot;, serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;&quot;&gt;当地时间2016年11月4日，韩国，电视在直播总统朴槿惠讲话。韩国总统朴槿惠当天发表电视直播讲话，就好友崔顺实“幕后干政”事件再次表达立场。她表示，如果国民要求的话，为查明真相，将诚实配合检方调查。图片来源：视觉中国&lt;/span&gt;&lt;/p&gt;') [ RunTime:0.000330s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000223s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:17:23+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.009638s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.007618s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000222s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('朴槿惠发表“国民谈话”再次致歉现场','&lt;p&gt;&lt;br class=&quot;Apple-interchange-newline&quot;/&gt;&lt;span style=&quot;color: rgb(102, 102, 102); font-family: &amp;quot;Microsoft Yahei&amp;quot;, 微软雅黑, SimSun, 宋体, &amp;quot;Arial Narrow&amp;quot;, serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;&quot;&gt;当地时间2016年11月4日，韩国，电视在直播总统朴槿惠讲话。韩国总统朴槿惠当天发表电视直播讲话，就好友崔顺实“幕后干政”事件再次表达立场。她表示，如果国民要求的话，为查明真相，将诚实配合检方调查。图片来源：视觉中国&lt;/span&gt;&lt;/p&gt;') [ RunTime:0.000292s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000188s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:17:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001375s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.028552s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.012605s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000263s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('朴槿惠发表“国民谈话”再次致歉现场','&lt;p&gt;&lt;br class=&quot;Apple-interchange-newline&quot;/&gt;&lt;span style=&quot;color: rgb(102, 102, 102); font-family: &amp;quot;Microsoft Yahei&amp;quot;, 微软雅黑, SimSun, 宋体, &amp;quot;Arial Narrow&amp;quot;, serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;&quot;&gt;当地时间2016年11月4日，韩国，电视在直播总统朴槿惠讲话。韩国总统朴槿惠当天发表电视直播讲话，就好友崔顺实“幕后干政”事件再次表达立场。她表示，如果国民要求的话，为查明真相，将诚实配合检方调查。图片来源：视觉中国&lt;/span&gt;&lt;/p&gt;') [ RunTime:0.000589s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000327s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:17:39+08:00 ] ::1 /zky/index.php/Admin/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002073s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.039165s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000334s ]
+SQL: SELECT `isTeacher` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000270s ]
+SQL: SELECT `password` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000267s ]
+SQL: SELECT `name` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SELECT `id` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000267s ]
+
+[ 2016-11-04T22:17:42+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:17:42+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:17:42+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:17:42+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:17:42+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:17:42+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:17:42+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:17:42+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:17:42+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:17:42+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:17:42+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:17:42+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:20:39+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:20:39+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:20:39+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:20:39+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:20:39+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:20:39+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:20:39+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:20:39+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:20:39+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:20:39+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:20:39+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:20:39+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:20:52+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:20:52+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:20:52+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:20:52+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:20:52+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:20:52+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:20:52+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:20:52+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:22:16+08:00 ] ::1 /zky/index.php/Admin/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001560s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.018651s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000430s ]
+SQL: SELECT `isTeacher` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SELECT `password` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000263s ]
+SQL: SELECT `name` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000285s ]
+SQL: SELECT `id` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000310s ]
+
+[ 2016-11-04T22:22:20+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:22:20+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:22:20+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:22:20+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:22:20+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:22:20+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:22:20+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:22:20+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:22:42+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.013738s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.017603s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000302s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('agre ','&lt;p&gt;&lt;span style=&quot;color: rgb(102, 102, 102); font-family: &amp;quot;Microsoft Yahei&amp;quot;, 微软雅黑, SimSun, 宋体, &amp;quot;Arial Narrow&amp;quot;, serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;&quot;&gt;当地时间2016年11月4日，韩国，电视在直播总统朴槿惠讲话。韩国总统朴槿惠当天发表电视直播讲话，就好友崔顺实“幕后干政”事件再次表达立场。她表示，如果国民要求的话，为查明真相，将诚实配合检方调查。图片来源：视觉中国&lt;/span&gt;&lt;/p&gt;') [ RunTime:0.000539s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000234s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:22:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:22:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:22:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:22:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:22:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:22:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:22:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:22:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:22:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:22:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:22:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:22:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:22:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:22:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:22:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:22:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:22:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:22:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:22:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:22:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:23:16+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:23:16+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:23:16+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:23:16+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:23:16+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:23:16+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:23:16+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:23:16+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:23:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:23:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:23:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:23:17+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:23:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.015603s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.011573s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000279s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('agarg','&lt;p&gt;通告的内容agr &lt;br/&gt;&lt;/p&gt;') [ RunTime:0.001027s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000224s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:23:30+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.014947s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.009480s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000251s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('agarg','&lt;p&gt;通告的内容agr &lt;br/&gt;&lt;/p&gt;') [ RunTime:0.000270s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000187s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:23:30+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.011716s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.009358s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000217s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('agarg','&lt;p&gt;通告的内容agr &lt;br/&gt;&lt;/p&gt;') [ RunTime:0.000272s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000206s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:23:30+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.016351s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.010679s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000242s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('agarg','&lt;p&gt;通告的内容agr &lt;br/&gt;&lt;/p&gt;') [ RunTime:0.000317s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000269s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:23:30+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.010811s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.007769s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000231s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('agarg','&lt;p&gt;通告的内容agr &lt;br/&gt;&lt;/p&gt;') [ RunTime:0.000492s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000296s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:23:31+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.014428s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.009702s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000210s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('agarg','&lt;p&gt;通告的内容agr &lt;br/&gt;&lt;/p&gt;') [ RunTime:0.000501s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000310s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:23:31+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.007555s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.009559s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000302s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('agarg','&lt;p&gt;通告的内容agr &lt;br/&gt;&lt;/p&gt;') [ RunTime:0.000907s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000296s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:23:31+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.007791s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.008300s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000251s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('agarg','&lt;p&gt;通告的内容agr &lt;br/&gt;&lt;/p&gt;') [ RunTime:0.000299s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000202s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:26:39+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001761s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.012708s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.010126s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000231s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('GSGRHSERT','&lt;p&gt;通告的内容ERGHWTHWRTH&lt;/p&gt;') [ RunTime:0.000283s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000189s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:26:40+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.011800s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.009640s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000189s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('GSGRHSERT','&lt;p&gt;通告的内容ERGHWTHWRTH&lt;/p&gt;') [ RunTime:0.000344s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000275s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:26:40+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.007544s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.007834s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000257s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('GSGRHSERT','&lt;p&gt;通告的内容ERGHWTHWRTH&lt;/p&gt;') [ RunTime:0.000300s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000161s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:26:40+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.007680s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.007194s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000223s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('GSGRHSERT','&lt;p&gt;通告的内容ERGHWTHWRTH&lt;/p&gt;') [ RunTime:0.000266s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000182s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+
+[ 2016-11-04T22:26:46+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:26:46+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:26:46+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:26:46+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:26:46+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:26:46+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:26:46+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:26:46+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:26:46+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:26:46+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:26:47+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:26:47+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:26:49+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:26:49+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:26:49+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:26:49+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:26:49+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:26:49+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:26:49+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:26:49+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:26:49+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:26:49+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:26:49+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:26:49+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:28:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:28:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:28:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:28:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:28:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:28:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:28:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:28:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:28:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:28:18+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:30:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.012400s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.009094s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000210s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('习近平就《巴黎协定》正式生效致信潘基文','&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;原标题：习近平就气候变化《巴黎协定》正式生效致信联合国秘书长潘基文&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　新华社北京11月4日电 11月4日，国家主席习近平致信联合国秘书长潘基文，对气候变化《巴黎协定》正式生效表示祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平指出，在各方共同努力下，《巴黎协定》于11月4日正式生效，成为历史上批约生效最快的国际条约之一。中方对此表示衷心的祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，自2015年12月《巴黎协定》达成以来，国际社会致力于推动协定尽快生效。中国于今年4月22日《巴黎协定》开放签署首日签署协定，并于9月3日批准协定。作为主席国，中国推动二十国集团首次发表关于气候变化问题的主席声明，为推动签署《巴黎协定》提供政治支持。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，《巴黎协定》开启了全球合作应对气候变化新阶段。中国坚持创新、协调、绿色、开放、共享的发展理念，将大力推进绿色低碳循环发展，采取有力行动应对气候变化。中方对下阶段全球气候治理进程充满信心，愿同各方加强沟通合作，为构建合作共赢、公正合理的全球气候治理机制作出贡献。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;') [ RunTime:0.000372s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000172s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2016-11-04T22:31:07+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.106522s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.018671s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000380s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('习近平就《巴黎协定》正式生效致信潘基文','&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;原标题：习近平就气候变化《巴黎协定》正式生效致信联合国秘书长潘基文&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　新华社北京11月4日电 11月4日，国家主席习近平致信联合国秘书长潘基文，对气候变化《巴黎协定》正式生效表示祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平指出，在各方共同努力下，《巴黎协定》于11月4日正式生效，成为历史上批约生效最快的国际条约之一。中方对此表示衷心的祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，自2015年12月《巴黎协定》达成以来，国际社会致力于推动协定尽快生效。中国于今年4月22日《巴黎协定》开放签署首日签署协定，并于9月3日批准协定。作为主席国，中国推动二十国集团首次发表关于气候变化问题的主席声明，为推动签署《巴黎协定》提供政治支持。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，《巴黎协定》开启了全球合作应对气候变化新阶段。中国坚持创新、协调、绿色、开放、共享的发展理念，将大力推进绿色低碳循环发展，采取有力行动应对气候变化。中方对下阶段全球气候治理进程充满信心，愿同各方加强沟通合作，为构建合作共赢、公正合理的全球气候治理机制作出贡献。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;') [ RunTime:0.000616s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000340s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002134s ]
+
+[ 2016-11-04T22:31:07+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.009897s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.009074s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000265s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('习近平就《巴黎协定》正式生效致信潘基文','&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;原标题：习近平就气候变化《巴黎协定》正式生效致信联合国秘书长潘基文&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　新华社北京11月4日电 11月4日，国家主席习近平致信联合国秘书长潘基文，对气候变化《巴黎协定》正式生效表示祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平指出，在各方共同努力下，《巴黎协定》于11月4日正式生效，成为历史上批约生效最快的国际条约之一。中方对此表示衷心的祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，自2015年12月《巴黎协定》达成以来，国际社会致力于推动协定尽快生效。中国于今年4月22日《巴黎协定》开放签署首日签署协定，并于9月3日批准协定。作为主席国，中国推动二十国集团首次发表关于气候变化问题的主席声明，为推动签署《巴黎协定》提供政治支持。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，《巴黎协定》开启了全球合作应对气候变化新阶段。中国坚持创新、协调、绿色、开放、共享的发展理念，将大力推进绿色低碳循环发展，采取有力行动应对气候变化。中方对下阶段全球气候治理进程充满信心，愿同各方加强沟通合作，为构建合作共赢、公正合理的全球气候治理机制作出贡献。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;') [ RunTime:0.000321s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000192s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2016-11-04T22:31:07+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.018613s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.008213s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000208s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('习近平就《巴黎协定》正式生效致信潘基文','&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;原标题：习近平就气候变化《巴黎协定》正式生效致信联合国秘书长潘基文&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　新华社北京11月4日电 11月4日，国家主席习近平致信联合国秘书长潘基文，对气候变化《巴黎协定》正式生效表示祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平指出，在各方共同努力下，《巴黎协定》于11月4日正式生效，成为历史上批约生效最快的国际条约之一。中方对此表示衷心的祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，自2015年12月《巴黎协定》达成以来，国际社会致力于推动协定尽快生效。中国于今年4月22日《巴黎协定》开放签署首日签署协定，并于9月3日批准协定。作为主席国，中国推动二十国集团首次发表关于气候变化问题的主席声明，为推动签署《巴黎协定》提供政治支持。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，《巴黎协定》开启了全球合作应对气候变化新阶段。中国坚持创新、协调、绿色、开放、共享的发展理念，将大力推进绿色低碳循环发展，采取有力行动应对气候变化。中方对下阶段全球气候治理进程充满信心，愿同各方加强沟通合作，为构建合作共赢、公正合理的全球气候治理机制作出贡献。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;') [ RunTime:0.000309s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000167s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2016-11-04T22:31:07+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001372s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.006903s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.006972s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000204s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('习近平就《巴黎协定》正式生效致信潘基文','&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;原标题：习近平就气候变化《巴黎协定》正式生效致信联合国秘书长潘基文&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　新华社北京11月4日电 11月4日，国家主席习近平致信联合国秘书长潘基文，对气候变化《巴黎协定》正式生效表示祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平指出，在各方共同努力下，《巴黎协定》于11月4日正式生效，成为历史上批约生效最快的国际条约之一。中方对此表示衷心的祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，自2015年12月《巴黎协定》达成以来，国际社会致力于推动协定尽快生效。中国于今年4月22日《巴黎协定》开放签署首日签署协定，并于9月3日批准协定。作为主席国，中国推动二十国集团首次发表关于气候变化问题的主席声明，为推动签署《巴黎协定》提供政治支持。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，《巴黎协定》开启了全球合作应对气候变化新阶段。中国坚持创新、协调、绿色、开放、共享的发展理念，将大力推进绿色低碳循环发展，采取有力行动应对气候变化。中方对下阶段全球气候治理进程充满信心，愿同各方加强沟通合作，为构建合作共赢、公正合理的全球气候治理机制作出贡献。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;') [ RunTime:0.000325s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000172s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2016-11-04T22:31:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.012600s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.009831s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000284s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('习近平就《巴黎协定》正式生效致信潘基文','&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;原标题：习近平就气候变化《巴黎协定》正式生效致信联合国秘书长潘基文&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　新华社北京11月4日电 11月4日，国家主席习近平致信联合国秘书长潘基文，对气候变化《巴黎协定》正式生效表示祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平指出，在各方共同努力下，《巴黎协定》于11月4日正式生效，成为历史上批约生效最快的国际条约之一。中方对此表示衷心的祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，自2015年12月《巴黎协定》达成以来，国际社会致力于推动协定尽快生效。中国于今年4月22日《巴黎协定》开放签署首日签署协定，并于9月3日批准协定。作为主席国，中国推动二十国集团首次发表关于气候变化问题的主席声明，为推动签署《巴黎协定》提供政治支持。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，《巴黎协定》开启了全球合作应对气候变化新阶段。中国坚持创新、协调、绿色、开放、共享的发展理念，将大力推进绿色低碳循环发展，采取有力行动应对气候变化。中方对下阶段全球气候治理进程充满信心，愿同各方加强沟通合作，为构建合作共赢、公正合理的全球气候治理机制作出贡献。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;') [ RunTime:0.000382s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000162s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001804s ]
+
+[ 2016-11-04T22:31:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001193s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.007641s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.006880s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000235s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('习近平就《巴黎协定》正式生效致信潘基文','&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;原标题：习近平就气候变化《巴黎协定》正式生效致信联合国秘书长潘基文&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　新华社北京11月4日电 11月4日，国家主席习近平致信联合国秘书长潘基文，对气候变化《巴黎协定》正式生效表示祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平指出，在各方共同努力下，《巴黎协定》于11月4日正式生效，成为历史上批约生效最快的国际条约之一。中方对此表示衷心的祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，自2015年12月《巴黎协定》达成以来，国际社会致力于推动协定尽快生效。中国于今年4月22日《巴黎协定》开放签署首日签署协定，并于9月3日批准协定。作为主席国，中国推动二十国集团首次发表关于气候变化问题的主席声明，为推动签署《巴黎协定》提供政治支持。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，《巴黎协定》开启了全球合作应对气候变化新阶段。中国坚持创新、协调、绿色、开放、共享的发展理念，将大力推进绿色低碳循环发展，采取有力行动应对气候变化。中方对下阶段全球气候治理进程充满信心，愿同各方加强沟通合作，为构建合作共赢、公正合理的全球气候治理机制作出贡献。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;') [ RunTime:0.000359s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000191s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2016-11-04T22:31:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.008477s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.007802s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000191s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('习近平就《巴黎协定》正式生效致信潘基文','&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;原标题：习近平就气候变化《巴黎协定》正式生效致信联合国秘书长潘基文&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　新华社北京11月4日电 11月4日，国家主席习近平致信联合国秘书长潘基文，对气候变化《巴黎协定》正式生效表示祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平指出，在各方共同努力下，《巴黎协定》于11月4日正式生效，成为历史上批约生效最快的国际条约之一。中方对此表示衷心的祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，自2015年12月《巴黎协定》达成以来，国际社会致力于推动协定尽快生效。中国于今年4月22日《巴黎协定》开放签署首日签署协定，并于9月3日批准协定。作为主席国，中国推动二十国集团首次发表关于气候变化问题的主席声明，为推动签署《巴黎协定》提供政治支持。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，《巴黎协定》开启了全球合作应对气候变化新阶段。中国坚持创新、协调、绿色、开放、共享的发展理念，将大力推进绿色低碳循环发展，采取有力行动应对气候变化。中方对下阶段全球气候治理进程充满信心，愿同各方加强沟通合作，为构建合作共赢、公正合理的全球气候治理机制作出贡献。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;') [ RunTime:0.000349s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000191s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000874s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2016-11-04T22:32:25+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:32:25+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:32:25+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:32:25+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:32:25+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:32:25+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:32:25+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:32:25+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:32:25+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:32:25+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:32:25+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:32:25+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:33:28+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.012775s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.008926s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000245s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('习近平就《巴黎协定》正式生效致信潘基文','&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;原标题：习近平就气候变化《巴黎协定》正式生效致信联合国秘书长潘基文&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　新华社北京11月4日电 11月4日，国家主席习近平致信联合国秘书长潘基文，对气候变化《巴黎协定》正式生效表示祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平指出，在各方共同努力下，《巴黎协定》于11月4日正式生效，成为历史上批约生效最快的国际条约之一。中方对此表示衷心的祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，自2015年12月《巴黎协定》达成以来，国际社会致力于推动协定尽快生效。中国于今年4月22日《巴黎协定》开放签署首日签署协定，并于9月3日批准协定。作为主席国，中国推动二十国集团首次发表关于气候变化问题的主席声明，为推动签署《巴黎协定》提供政治支持。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，《巴黎协定》开启了全球合作应对气候变化新阶段。中国坚持创新、协调、绿色、开放、共享的发展理念，将大力推进绿色低碳循环发展，采取有力行动应对气候变化。中方对下阶段全球气候治理进程充满信心，愿同各方加强沟通合作，为构建合作共赢、公正合理的全球气候治理机制作出贡献。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;') [ RunTime:0.000433s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000269s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001200s ]
+
+[ 2016-11-04T22:34:06+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/$(%22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001208s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.012710s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.008863s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1   [ RunTime:0.000209s ]
+ERR: 1064:Erreur de syntaxe près de '" ) LIMIT 1' à la ligne 1
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = $(" ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('习近平就《巴黎协定》正式生效致信潘基文','&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;原标题：习近平就气候变化《巴黎协定》正式生效致信联合国秘书长潘基文&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　新华社北京11月4日电 11月4日，国家主席习近平致信联合国秘书长潘基文，对气候变化《巴黎协定》正式生效表示祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平指出，在各方共同努力下，《巴黎协定》于11月4日正式生效，成为历史上批约生效最快的国际条约之一。中方对此表示衷心的祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，自2015年12月《巴黎协定》达成以来，国际社会致力于推动协定尽快生效。中国于今年4月22日《巴黎协定》开放签署首日签署协定，并于9月3日批准协定。作为主席国，中国推动二十国集团首次发表关于气候变化问题的主席声明，为推动签署《巴黎协定》提供政治支持。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，《巴黎协定》开启了全球合作应对气候变化新阶段。中国坚持创新、协调、绿色、开放、共享的发展理念，将大力推进绿色低碳循环发展，采取有力行动应对气候变化。中方对下阶段全球气候治理进程充满信心，愿同各方加强沟通合作，为构建合作共赢、公正合理的全球气候治理机制作出贡献。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;') [ RunTime:0.000319s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" ) [ RunTime:0.000169s ]
+ERR: 1064:Erreur de syntaxe près de '" )' à la ligne 1
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = $(" )
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2016-11-04T22:34:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:34:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:34:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:34:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:34:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:34:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:34:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:34:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:34:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:34:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:34:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:34:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:34:37+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/link
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003579s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.018737s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.011304s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = link ) LIMIT 1   [ RunTime:0.000310s ]
+ERR: 1054:Champ 'link' inconnu dans where clause
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = link ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('习近平就气候变化《巴黎协定》正式生效致信联合国秘书长潘基文','&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;原标题：习近平就气候变化《巴黎协定》正式生效致信联合国秘书长潘基文&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　新华社北京11月4日电 11月4日，国家主席习近平致信联合国秘书长潘基文，对气候变化《巴黎协定》正式生效表示祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平指出，在各方共同努力下，《巴黎协定》于11月4日正式生效，成为历史上批约生效最快的国际条约之一。中方对此表示衷心的祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，自2015年12月《巴黎协定》达成以来，国际社会致力于推动协定尽快生效。中国于今年4月22日《巴黎协定》开放签署首日签署协定，并于9月3日批准协定。作为主席国，中国推动二十国集团首次发表关于气候变化问题的主席声明，为推动签署《巴黎协定》提供政治支持。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，《巴黎协定》开启了全球合作应对气候变化新阶段。中国坚持创新、协调、绿色、开放、共享的发展理念，将大力推进绿色低碳循环发展，采取有力行动应对气候变化。中方对下阶段全球气候治理进程充满信心，愿同各方加强沟通合作，为构建合作共赢、公正合理的全球气候治理机制作出贡献。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;') [ RunTime:0.000387s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = link ) [ RunTime:0.001041s ]
+ERR: 1054:Champ 'link' inconnu dans where clause
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = link )
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2016-11-04T22:48:06+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/link
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.017117s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.014392s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = link ) LIMIT 1   [ RunTime:0.000376s ]
+ERR: 1054:Champ 'link' inconnu dans where clause
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = link ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('习近平就气候变化《巴黎协定》正式生效致信联合国秘书长潘基文','&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;原标题：习近平就气候变化《巴黎协定》正式生效致信联合国秘书长潘基文&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　新华社北京11月4日电 11月4日，国家主席习近平致信联合国秘书长潘基文，对气候变化《巴黎协定》正式生效表示祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平指出，在各方共同努力下，《巴黎协定》于11月4日正式生效，成为历史上批约生效最快的国际条约之一。中方对此表示衷心的祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，自2015年12月《巴黎协定》达成以来，国际社会致力于推动协定尽快生效。中国于今年4月22日《巴黎协定》开放签署首日签署协定，并于9月3日批准协定。作为主席国，中国推动二十国集团首次发表关于气候变化问题的主席声明，为推动签署《巴黎协定》提供政治支持。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，《巴黎协定》开启了全球合作应对气候变化新阶段。中国坚持创新、协调、绿色、开放、共享的发展理念，将大力推进绿色低碳循环发展，采取有力行动应对气候变化。中方对下阶段全球气候治理进程充满信心，愿同各方加强沟通合作，为构建合作共赢、公正合理的全球气候治理机制作出贡献。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;') [ RunTime:0.000667s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = link ) [ RunTime:0.000342s ]
+ERR: 1054:Champ 'link' inconnu dans where clause
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = link )
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002094s ]
+
+[ 2016-11-04T22:48:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:48:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:48:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:48:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:48:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:48:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:48:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:48:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:48:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:48:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:48:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:48:24+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:48:47+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/link
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001857s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.020358s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.013240s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = link ) LIMIT 1   [ RunTime:0.000277s ]
+ERR: 1054:Champ 'link' inconnu dans where clause
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = link ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('习近平就气候变化《巴黎协定》正式生效致信联合国秘书长潘基文','&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; white-space: normal; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53;&quot;&gt;习近平就气候变化《巴黎协定》正式生效致信联合国秘书长潘基文&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; white-space: normal; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53;&quot;&gt;　　新华社北京11月4日电 11月4日，国家主席习近平致信联合国秘书长潘基文，对气候变化《巴黎协定》正式生效表示祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; white-space: normal; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53;&quot;&gt;　　习近平指出，在各方共同努力下，《巴黎协定》于11月4日正式生效，成为历史上批约生效最快的国际条约之一。中方对此表示衷心的祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; white-space: normal; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53;&quot;&gt;　　习近平强调，自2015年12月《巴黎协定》达成以来，国际社会致力于推动协定尽快生效。中国于今年4月22日《巴黎协定》开放签署首日签署协定，并于9月3日批准协定。作为主席国，中国推动二十国集团首次发表关于气候变化问题的主席声明，为推动签署《巴黎协定》提供政治支持。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; white-space: normal; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53;&quot;&gt;　　习近平强调，《巴黎协定》开启了全球合作应对气候变化新阶段。中国坚持创新、协调、绿色、开放、共享的发展理念，将大力推进绿色低碳循环发展，采取有力行动应对气候变化。中方对下阶段全球气候治理进程充满信心，愿同各方加强沟通合作，为构建合作共赢、公正合理的全球气候治理机制作出贡献。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;') [ RunTime:0.000372s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = link ) [ RunTime:0.000214s ]
+ERR: 1054:Champ 'link' inconnu dans where clause
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = link )
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001596s ]
+
+[ 2016-11-04T22:49:07+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/link
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.015823s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.011400s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = link ) LIMIT 1   [ RunTime:0.000244s ]
+ERR: 1054:Champ 'link' inconnu dans where clause
+ [ SQL语句 ] : SELECT `count` FROM `tp_equipment` WHERE ( id = link ) LIMIT 1  
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('习近平就气候变化《巴黎协定》正式生效致信联合国秘书长潘基文','&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; white-space: normal; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53;&quot;&gt;习近平就气候变化《巴黎协定》正式生效致信联合国秘书长潘基文&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; white-space: normal; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53;&quot;&gt;　　新华社北京11月4日电 11月4日，国家主席习近平致信联合国秘书长潘基文，对气候变化《巴黎协定》正式生效表示祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; white-space: normal; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53;&quot;&gt;　　习近平指出，在各方共同努力下，《巴黎协定》于11月4日正式生效，成为历史上批约生效最快的国际条约之一。中方对此表示衷心的祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; white-space: normal; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53;&quot;&gt;　　习近平强调，自2015年12月《巴黎协定》达成以来，国际社会致力于推动协定尽快生效。中国于今年4月22日《巴黎协定》开放签署首日签署协定，并于9月3日批准协定。作为主席国，中国推动二十国集团首次发表关于气候变化问题的主席声明，为推动签署《巴黎协定》提供政治支持。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; white-space: normal; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53;&quot;&gt;　　习近平强调，《巴黎协定》开启了全球合作应对气候变化新阶段。中国坚持创新、协调、绿色、开放、共享的发展理念，将大力推进绿色低碳循环发展，采取有力行动应对气候变化。中方对下阶段全球气候治理进程充满信心，愿同各方加强沟通合作，为构建合作共赢、公正合理的全球气候治理机制作出贡献。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;') [ RunTime:0.000358s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = link ) [ RunTime:0.000207s ]
+ERR: 1054:Champ 'link' inconnu dans where clause
+ [ SQL语句 ] : UPDATE `tp_equipment` SET `count`=1 WHERE ( id = link )
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2016-11-04T22:49:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:49:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:49:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:49:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:49:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:49:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:49:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:49:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:49:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:49:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:49:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:49:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:50:03+08:00 ] ::1 /zky/index.php/Admin/Equipment/add_management/id/function%20link()%20%7B%20[native%20code]%20%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.052537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052889s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2016-11-04T22:50:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:50:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:50:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:50:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:50:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:50:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:50:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:50:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:50:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:50:14+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:50:14+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:50:14+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:50:30+08:00 ] ::1 /zky/index.php/Admin/Equipment/add_management/id/36
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.012852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001040s ]
+
+[ 2016-11-04T22:53:11+08:00 ] ::1 /zky/index.php/Admin/Equipment/add_management/id/36
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002751s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-04T22:53:18+08:00 ] ::1 /zky/index.php/Admin/Regulation/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:53:18+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:53:18+08:00 ] ::1 /zky/index.php/Admin/Regulation/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:53:18+08:00 ] ::1 /zky/index.php/Admin/Regulation/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:53:18+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:53:18+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:53:18+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:53:18+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:53:18+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:53:18+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:53:18+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:53:18+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:53:19+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:53:19+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:53:19+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:53:19+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:53:19+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:53:19+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:53:19+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:53:19+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:53:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/add_management/id/function%20link()%20%7B%20[native%20code]%20%7D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003503s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005173s ]
+
+[ 2016-11-04T22:54:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:54:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:54:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:54:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:54:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:54:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:54:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:54:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:54:46+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:54:46+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:54:46+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:54:46+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:55:01+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/36
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002293s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.015829s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.009313s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = 36 ) LIMIT 1   [ RunTime:0.000340s ]
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('ajax中怎样显式传参数','&lt;p&gt;ajax中怎样显式传参数&lt;/p&gt;&lt;p&gt;ajax中怎样显式传参数&lt;/p&gt;&lt;p&gt;ajax中怎样显式传参数&lt;/p&gt;&lt;p&gt;ajax中怎样显式传参数&lt;/p&gt;&lt;p&gt;ajax中怎样显式传参数&lt;/p&gt;&lt;p&gt;ajax中怎样显式传参数&lt;/p&gt;&lt;p&gt;ajax中怎样显式传参数&lt;/p&gt;&lt;p&gt;ajax中怎样显式传参数&lt;/p&gt;') [ RunTime:0.000337s ]
+SQL: UPDATE `tp_equipment` SET `count`=2 WHERE ( id = 36 ) [ RunTime:0.018471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2016-11-04T22:55:01+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:55:01+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:55:01+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:55:01+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:55:01+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:55:01+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:55:01+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:55:01+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:55:01+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:55:01+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:55:01+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:55:01+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:56:04+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:56:04+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:56:04+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:56:04+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:56:04+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:56:04+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:56:04+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:56:04+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:56:04+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:56:04+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:56:04+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:56:04+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:56:25+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/36
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001265s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.013642s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.009514s ]
+
+[ 2016-11-04T22:58:06+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/36
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.014858s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.008923s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = 36 ) LIMIT 1   [ RunTime:0.000369s ]
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('ajax中怎样显式','&lt;p&gt;ajax中怎样显式传参数ajax中怎样显式传参数ajax中怎样显式传参数ajax中怎样显式传参数ajax中怎样显式传参数ajax中怎样显式传参数ajax中怎样显式传参数&lt;/p&gt;') [ RunTime:0.000392s ]
+SQL: UPDATE `tp_equipment` SET `count`=3 WHERE ( id = 36 ) [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2016-11-04T22:58:06+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:58:06+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:06+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:58:06+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:58:06+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:06+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:06+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:06+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:06+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:06+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:06+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:06+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:58:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:58:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:58:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:09+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:58:09+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:09+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:09+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:09+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:58:09+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:58:09+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:09+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:09+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:09+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:09+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:09+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/36
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001758s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.012590s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.010743s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = 36 ) LIMIT 1   [ RunTime:0.000334s ]
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('通告的内容','&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;通告的内容&lt;/p&gt;&lt;p&gt;通告的内容&lt;/p&gt;&lt;p&gt;通告的内容&lt;/p&gt;&lt;p&gt;通告的内容&lt;/p&gt;&lt;p&gt;通告的内容&lt;/p&gt;&lt;p&gt;通告的内容&lt;/p&gt;') [ RunTime:0.000433s ]
+SQL: UPDATE `tp_equipment` SET `count`=4 WHERE ( id = 36 ) [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2016-11-04T22:58:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:58:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:58:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:58:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:58:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:59:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:59:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:59:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:59:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:59:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:59:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:59:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:59:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:59:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:59:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:59:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:59:26+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:59:44+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:59:44+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:59:44+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:59:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:59:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:59:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:59:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:59:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:59:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:59:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:59:45+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:59:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/36
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002819s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.025826s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.009188s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = 36 ) LIMIT 1   [ RunTime:0.000350s ]
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('通告的内容通告的内容通告的内容','&lt;p&gt;通告的内容&lt;span style=&quot;color: rgb(0, 0, 0); font-family: sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none;&quot;&gt;通告的内容&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none;&quot;&gt;通告的内容&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none;&quot;&gt;通告的内容&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none;&quot;&gt;通告的内容&lt;/span&gt;&lt;/p&gt;') [ RunTime:0.000352s ]
+SQL: UPDATE `tp_equipment` SET `count`=5 WHERE ( id = 36 ) [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2016-11-04T22:59:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:59:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:59:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T22:59:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:59:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:59:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:59:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:59:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:59:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:59:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T22:59:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:00:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/36
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002626s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.025517s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.024384s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = 36 ) LIMIT 1   [ RunTime:0.000518s ]
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`) VALUES ('通告的内容','&lt;p&gt;通告的内容通告的内容通告的内容通告的内容通告的内容通告的内容通告的内容&lt;/p&gt;') [ RunTime:0.000624s ]
+SQL: UPDATE `tp_equipment` SET `count`=6 WHERE ( id = 36 ) [ RunTime:0.000801s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2016-11-04T23:00:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:00:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:00:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:00:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:00:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:00:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:00:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:00:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:00:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:00:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:00:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:00:28+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:00:28+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:00:28+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:00:28+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:00:28+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:00:28+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:00:28+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:00:28+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:00:28+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:00:28+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:00:28+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:00:28+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:04:14+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:04:14+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:04:14+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:04:14+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:04:14+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:04:14+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:04:14+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:04:14+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:04:14+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:04:15+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:04:15+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:04:41+08:00 ] ::1 /zky/index.php/Admin/Equipment/do_addmanagement/id/36
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005827s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_equipment` [ RunTime:0.016766s ]
+SQL: SHOW COLUMNS FROM `tp_equipmentmanage` [ RunTime:0.009186s ]
+SQL: SELECT `count` FROM `tp_equipment` WHERE ( id = 36 ) LIMIT 1   [ RunTime:0.000467s ]
+SQL: INSERT INTO `tp_equipmentmanage` (`title`,`content`,`equipmentid`) VALUES ('习近平就气候变化《巴黎协定》正式生效致信联合国秘书长潘基文','&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;原标题：习近平就气候变化《巴黎协定》正式生效致信联合国秘书长潘基文&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　新华社北京11月4日电 11月4日，国家主席习近平致信联合国秘书长潘基文，对气候变化《巴黎协定》正式生效表示祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平指出，在各方共同努力下，《巴黎协定》于11月4日正式生效，成为历史上批约生效最快的国际条约之一。中方对此表示衷心的祝贺。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，自2015年12月《巴黎协定》达成以来，国际社会致力于推动协定尽快生效。中国于今年4月22日《巴黎协定》开放签署首日签署协定，并于9月3日批准协定。作为主席国，中国推动二十国集团首次发表关于气候变化问题的主席声明，为推动签署《巴黎协定》提供政治支持。&lt;/p&gt;&lt;p style=&quot;margin-top: 15px; margin-bottom: 15px; padding: 0px; line-height: 2em; font-family: &amp;quot;Microsoft YaHei&amp;quot;, u5FAEu8F6Fu96C5u9ED1, Arial, SimSun, u5B8Bu4F53; white-space: normal;&quot;&gt;　　习近平强调，《巴黎协定》开启了全球合作应对气候变化新阶段。中国坚持创新、协调、绿色、开放、共享的发展理念，将大力推进绿色低碳循环发展，采取有力行动应对气候变化。中方对下阶段全球气候治理进程充满信心，愿同各方加强沟通合作，为构建合作共赢、公正合理的全球气候治理机制作出贡献。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;',36) [ RunTime:0.000328s ]
+SQL: UPDATE `tp_equipment` SET `count`=1 WHERE ( id = 36 ) [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2016-11-04T23:04:41+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:04:41+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:04:41+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:04:41+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:04:41+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:04:41+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:04:41+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:04:41+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:04:41+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:04:41+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:04:41+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:04:41+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:09:58+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:09:58+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:09:58+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:09:58+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:09:58+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:09:58+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:09:58+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:09:58+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:09:58+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:09:58+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:09:58+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:09:58+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:34+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:34+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:10:34+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:34+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:34+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:10:34+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:10:34+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:34+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:34+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:34+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:34+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:34+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:34+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:37+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:10:37+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:10:37+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:37+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:37+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:10:37+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:37+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:37+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:37+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:37+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:37+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:37+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:10:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:10:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:10:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:10:56+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:11:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:11:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:11:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:11:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:11:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:11:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:11:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:11:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:11:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:11:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:11:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:11:48+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:13:52+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:13:52+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:13:52+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:13:52+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:13:52+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:13:52+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:13:52+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:13:52+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:13:52+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:13:52+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:13:52+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:14:47+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:14:47+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:14:47+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:14:47+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:14:47+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:14:47+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:14:47+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:14:47+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:14:47+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:14:47+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:14:47+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:14:47+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:18:42+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:18:42+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:18:42+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:18:42+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:18:42+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-11-04T23:18:42+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:18:42+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:18:42+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-11-04T23:18:42+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+

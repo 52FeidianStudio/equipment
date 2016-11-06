@@ -84,16 +84,27 @@
 			$m = M("Equipment");
 			$n = M("Equipmentmanage");
 			$where = $_GET['id'];
-			$count = $m -> where("id = $where") -> getField("count");
-			$m -> where("id = $where") -> count = $count + 1;
-			$n -> create();
-			$result = $n -> add();
-			if($result){
-				$m -> save();
-				$this -> redirect("Equipment/equipment");
+			if($_POST['title'] == "" || $_POST['content'] == ""){
+				$id = 0;
 			}else{
-				$this -> error("添加详细信息失败！");
+				$count = $m -> where("id = $where") -> getField("count");
+				$m -> where("id = $where") -> count = $count + 1;
+				$n -> create();
+				$n -> equipmentid = $where;
+				$result = $n -> add();
+				if($result){
+					$id = $m -> save();
+				}else{
+					$id = 0;
+				}
 			}
+			if($id){
+	            $data = array(
+	                'code'=>'0',
+	                'id'=>$id
+	            );
+	            echo json_encode($data);
+        	}
 		}
 		public function add(){
 			$this -> display();

@@ -181,7 +181,7 @@
                                 <?php echo $k+1; ?>
                                 详细介绍</td>
                             <td>
-                                <?php echo $vo['management'][$k]['content']; ?>
+                                <?php echo htmlspecialchars_decode($vo['management'][$k]['content']); ?>
                             </td>
                         </tr>
                     <?php } ?>

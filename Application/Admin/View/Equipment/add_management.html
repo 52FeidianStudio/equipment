@@ -11,7 +11,7 @@
     <script type="text/javascript" src="Js/bootstrap.js"></script>
     <script type="text/javascript" src="Js/ckform.js"></script>
     <script type="text/javascript" src="Js/common.js"></script>
-
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/public.css" />
     <style type="text/css">
         body {
             font-size: 20px;
@@ -81,32 +81,58 @@
 </head>
 <body>
     <font color="#777777"><strong>用户名称：</strong></font>
-    <a href="__APP__/Admin/Message/studenttdetail"><{$Think.session.username}></a>
-    <table>
-        <div class = "panel">
-            <thead>
-            </thead>
-            <div id = 'p_body'>
-                <form action="__URL__/do_addmanagement/id/<{$data}>" method = "post">
-                    <tr>
-                        <td>添加详细信息</td>
-                        <td><input type="text" name = "equipmentid" value = "<{$data}>" hidden></td>
-                    </tr>
-                    <tr>
-                        <td>特点概述</td>
-                        <td><input type="text" name = "title"></td>
-                    </tr>
-                    <tr>
-                        <td>特点详述</td>
-                        <td><input type="text" name = "content"></td>
-                    </tr>
-                    <tr>
-                      <td><button type = "submit" value = "提交">提交</button></td>
-                      <td><button type = "reset" value = "清空">清空</button></td>
-                    </tr>
-                </form>
+    <a href="__APP__/Admin/Message/studenttdetail"><{$Think.session.username}></a> <br><br>
+                    添加详细信息
+                    <input type="text" name = "equipmentid" value = "<{$data}>" id = "equipmentid" hidden />
+                    概　述：<input type="text" name="title" id = "titlename" value="" width="200px" />
+                <!-- 初始化内容 -->
+                <script id='container' name='content' type="text/plain" style="height:500px;width:1300px">通告的内容</script>
+              
+                    <button id="getContent">获取内容</button>
+                    <button id="saveContent">保存</button>
+                
+                
+                <script src="__ROOT__/Public/Js/jquery-3.1.1.min.js"></script>
+                <!--配置文件-->
+                <script type="text/javascript" src="__PUBLIC__/Ueditor/ueditor.config.js"></script>
+                <!--编译器源码文件-->
+                <script type="text/javascript" src="__PUBLIC__/Ueditor/ueditor.all.js"></script>
+                <!--实例化编译器-->
+                <script type="text/javascript">
+                    $(function(){
+                        var ue = UE.getEditor('container');
+                        $('#getContent').click(function(){
+                            var html = ue.getContent();
+                            alert(html);
+                        });
+
+                        $('#saveContent').click(function(){
+                            var html = ue.getContent();
+                            var link = $("#equipmentid").val();
+                            var resulturl = '__URL__/do_addmanagement/id/'+ link;
+                            alert(resulturl);
+                            var param = {
+                                title: $("#titlename").val(),
+                                content: html
+                            };
+                            $.ajax({
+                                url: resulturl,
+                                type: 'POST',
+                                dataType: 'json',
+                                data: param,
+                                success: function(data){
+                                    console.log(data);
+                                    window.location.href="__APP__/Admin/Equipment/equipment";
+                                },
+                                error: function(xhr){
+                                    console.log(xhr);
+                                }
+                            });
+                        });
+                    });
+                </script>
+
             </div>
         </div>
-    </table>
 </body>
 </html>

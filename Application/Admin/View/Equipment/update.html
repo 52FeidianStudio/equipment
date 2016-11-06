@@ -91,12 +91,13 @@
                 <thead>
                 </thead>
 		
-				<form action="__URL__/do_update" method = "post">
+				<form action="__URL__/do_update" method = "post" enctype="multipart/form-data">
 					<input type="text" name = "id" value = "<{$vo.id}>" hidden>
 	                <div id='p_body'>
 	                    <tr>
-	                        <td><a href="__PUBLIC__<{$vo.imagicaddress}>" target = "_blank"><img src="__PUBLIC__<{$vo.imagicaddress}>" class = "pic"/></a></td>
-	                    </tr>
+    	                   <td><a href="__PUBLIC__<{$vo.imagicaddress}>" target = "_blank"><img src="__PUBLIC__<{$vo.imagicaddress}>" class = "pic"/></a></td>
+                          <td><button type = "file">更换照片</button></td>
+                      </tr>
                       <tr>
                         <td>仪器分类</td>
                         <td><!-- 选择一个下拉表 -->

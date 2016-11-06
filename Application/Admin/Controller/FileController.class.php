@@ -16,7 +16,7 @@
         	$Page->setConfig('next','下一页');
         	$Page->setConfig('prev','上一页');
       	  	$show = $Page -> show();//返回分页信息
-      		$arr = $n -> limit($Page->firstRow.','.$Page->listRows) -> order("id") -> select();
+      		$arr = $n -> limit($Page->firstRow.','.$Page->listRows) -> order("id desc") -> select();
         	$this -> assign("data",$arr);
         	$this -> assign('show',$show);
         	$this -> display();
@@ -47,7 +47,7 @@
 			$last = $Me -> add();
 
 			if($last){
-				$this -> redirect('File/doucument','','3','上传成功'); // 进行重定向操作，返回到主页
+				$this -> redirect('File/doucument','','0','上传成功'); // 进行重定向操作，返回到主页
 			}else{
 				$this -> error("上传失败！");
 			}
@@ -58,8 +58,8 @@
 			$address = $n -> where("id = $where") -> getField("address");
 			$result = $n -> where("id = $where") -> delete();
 			if($result){
-				//用js写一个事件，直接实现交互的效果
-				unlink($address);
+				$lalala = "./Uploads".substr($address,1);
+				unlink($lalala);
 				$this -> redirect('File/doucument','','0','删除成功');
 			}else{
 				$this -> error("删除失败");

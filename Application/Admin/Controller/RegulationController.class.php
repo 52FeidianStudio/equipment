@@ -15,7 +15,7 @@
         	$Page->setConfig('next','下一页');
         	$Page->setConfig('prev','上一页');
       	  	$show = $Page -> show();//返回分页信息
-      		$arr = $n -> limit($Page->firstRow.','.$Page->listRows) -> order("id") -> select();
+      		$arr = $n -> limit($Page->firstRow.','.$Page->listRows) -> order("id desc") -> select();
         	$this -> assign("data",$arr);
         	$this -> assign('show',$show);
 			$this -> display();
@@ -56,7 +56,8 @@
 			$where = $_GET['id'];
 			$result = $n -> where("id = $where") -> delete();
 			if($result){
-				//用js写一个事件，直接实现交互的效果
+				$lalala = "./Uploads".substr($address,1);
+				unlink($lalala);
 				$this -> redirect('Regulation/regulation','','0','删除成功');
 			}else{
 				$this -> error("删除失败");

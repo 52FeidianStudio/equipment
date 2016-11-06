@@ -162,7 +162,7 @@
 					-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
 					-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
 				}
-			#l_txtName,#r_txtName{height:27px;
+			#l_txtName,#r_txtName,#ra_txtName{height:27px;
 					width:180px;
 					border:none;}
 			#l_txtPwd,#r_txtPwd,#re_txtPwd,#c_txtPwd{height:27px;
@@ -212,7 +212,6 @@
 			}
 			#main{
 				background: white;
-				height: 650px;
 			}
 			#main h2{
 				clear: both;

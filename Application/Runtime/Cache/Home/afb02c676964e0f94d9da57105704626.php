@@ -78,7 +78,9 @@
 	            后台登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="a_closeBtn">×</a>
 	        </div>
 	        <form>
-		        <span id="suggest1">&nbsp;</span>
+		        <div class="row">
+		            <span id="suggest1">&nbsp;</span>
+		        </div>
 		        <div class="row">
 		            用户名: 
 		            	<span >
@@ -146,7 +148,7 @@
 				<p class="footer_p">通讯地址：华中农业大学主楼东附楼二楼</p>
 				<p class="footer_p">邮政编码：430070</p>
 				<hr />
-				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="/zky/index.php/Admin/Index/admin">管理</a></p>
+				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="#" id='admin' >管理</a></p>
 			</div>
 		</div>
 	</body>

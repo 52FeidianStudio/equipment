@@ -37,15 +37,15 @@
 			}
 			function f2(){
 				$.post("__APP__/Home/Register/do_register", {
-					username:$("#l_txtName").val(),
-					password:$("#l_txtPwd").val(),
+					username:$("#r_txtName").val(),
+					password:$("#r_txtPwd").val(),
 					repassword:$("#re_txtPwd").val(),
-					verify:$("c_txtPwd").val()
+					name:$("#ra_txtName").val(),
+					verify:$("#c_txtPwd").val()
 				},function(text){
 					if(text=="pass"){
 						window.location.href="__APP__/Home/Index/main";
 					}else{
-						alert(text);
 						$("#suggest2").html(text);
 					}
 				});
@@ -73,7 +73,9 @@
 	            登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="l_closeBtn">×</a>
 	        </div>
 	        <form>
-		        <span id="suggest"> &nbsp;</span>
+		        <div class="row">
+		            <span id="suggest1">&nbsp;</span>
+		        </div>
 		        <div class="row">
 		            用户名: 
 		            	<span >
@@ -128,8 +130,13 @@
 	           <span id="suggest2"> &nbsp;</span>
 	        </div>
 	        <div class="row">
-	            用&nbsp;&nbsp;户&nbsp;&nbsp;名: <span >
+	            账　　号: <span >
 	                <input type="text" class="inputBox" id="r_txtName" placeholder="账号/邮箱" />
+	            </span>
+	        </div>
+	        <div class="row">
+	            用&nbsp;&nbsp;户&nbsp;&nbsp;名: <span >
+	                <input type="text" class="inputBox" id="ra_txtName" placeholder="姓名" />
 	            </span>
 	        </div>
 	        <div class="row">

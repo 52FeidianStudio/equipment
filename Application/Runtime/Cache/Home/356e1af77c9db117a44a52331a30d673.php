@@ -36,6 +36,18 @@
 					}
 				});
 			}
+			function f3(){
+				$.post("/zky/index.php/Admin/Login/do_login", {
+					username:$("#a_txtName").val(),
+					password:$("#a_txtPwd").val()
+				},function(text){
+					if(text=="pass"){
+						window.location.href="/zky/index.php/Admin/Index/admin";
+					}else{
+						$("#suggest1").html(text);
+					}
+				});
+			}
 		</script>
 	</head>
 	<body>
@@ -60,6 +72,36 @@
     </div>
 		
 		<!-- 结束登陆弹出窗口 -->
+
+		<!-- 管理登录 -->
+		<div id="AdminBox">
+	        <div class="row1">
+	            后台登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="a_closeBtn">×</a>
+	        </div>
+	        <form>
+	        	<div class="row">
+		            <span id="suggest1">&nbsp;</span>
+		        </div>
+		        
+		        <div class="row">
+		            用户名: 
+		            	<span >
+		                	<input class="inputBox" type="text" id="a_txtName" placeholder="管理员账号" />
+		            	</span>
+		        </div>
+		        <div class="row">
+		            密&nbsp;&nbsp;&nbsp;&nbsp;码:
+		            <span >
+		                <input class="inputBox" type="password" id="a_txtPwd" placeholder="密码" />
+		           	</span>
+		        </div>
+		        <div class="row">
+		            	<a href="#" id="a_loginbtn" onclick="f3();">登录</a>
+	        	</div>
+	        </form>
+	    </div>
+		<!-- 结束管理登录 -->
+
 		<div id='header'>
 			<div class="contain" >
 				<img src="/zky/Public/Pic/top.jpg" alt="" style="width:100%;" />
@@ -116,7 +158,7 @@
 				<p class="footer_p">通讯地址：华中农业大学主楼东附楼二楼</p>
 				<p class="footer_p">邮政编码：430070</p>
 				<hr />
-				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="/zky/index.php/Admin/Index/admin">管理</a></p>
+				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="#" id='admin' >管理</a></p>
 			</div>
 		</div>
 	</body>
