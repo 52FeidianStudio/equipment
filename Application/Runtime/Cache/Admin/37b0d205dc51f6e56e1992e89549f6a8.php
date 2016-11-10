@@ -116,49 +116,43 @@
                             <td><input type="file" name = "file"></td>
                         </tr>
                         <tr>
-                            <td>仪器编号：</td>
+                            <td>仪器序号：</td>
                             <td><input type="text" name = "eid"> </td>
                         </tr>
                         <tr>
-                            <td>仪器中文名称：</td>
-                            <td><input type="text" name = "ecname"></td>
+                            <td>资产编号：</td>
+                            <td><input type="text" name = "eoutid"></td>
                         </tr>
                         <tr>
-                            <td>仪器英文名称：</td>
-                            <td><input type="text" name = "eename"></td>
+                            <td>仪器名称：</td>
+                            <td><input type="text" name = "ecname"></td>
                         </tr>
                         <tr>
                             <td>仪器型号：</td>
                             <td><input type="text" name = "etype"></td>
                         </tr>
                         <tr>
-                            <td>仪器生产厂家中文名称：</td>
-                            <td><input type="text" name = "ecmanufactor"></td>
-                        </tr>
-                        <tr>
-                            <td>仪器生产厂家英文名称：</td>
-                            <td><input type="text" name = "eemanufactor"></td>
-                        </tr>
-                        <tr>
-                            <td>仪器出厂年月：</td>
-                            <td><input type="text" name = "eoutdate"></td>
-                        </tr>
-                        <tr>
-                            <td>仪器出厂编号：</td>
-                            <td><input type="text" name = "eoutid"></td>
-                        </tr>
-                        <tr>
-                            <td>仪器购买时间：</td>
-                            <td><input type="text" name = "ebuydate"></td>
-                        </tr>
-                        <tr>
-                            <td>仪器价格：</td>
+                            <td>单价：</td>
                             <td><input type="text" name = "eprice"></td>
                         </tr>
                         <tr>
-                            <td>仪器放置地点：</td>
+                            <td>现状：</td>
+                            <td><input type="text" name = "now"></td>
+                        </tr>
+                        <tr>
+                            <td>领用单位：</td>
+                            <td><input type="text" name = "eblong"></td>
+                        </tr>
+                        <tr>
+                            <td>存放地：</td>
                             <td><input type="text" name = "elocation"></td>
                         </tr>
+                        
+                        <tr>
+                            <td>供应商：</td>
+                            <td><input type="text" name = "ecmanufactor"></td>
+                        </tr>
+                        
                         <tr>
                             <td>仪器简介</td>
                             <td><input type="text" name = "introduction"></td>

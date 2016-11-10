@@ -1,7 +1,7 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html>
 	<head>
-		<title>仪器介绍</title>
+		<title>讨论区</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta http-equiv="Content-Language" content="zh-CN" />
 		<meta name="Author" content="网页作者" /> 
@@ -9,10 +9,9 @@
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
 		<link rel="stylesheet" href="/zky/Public/Css/public.css" />
-		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/equipiment.css" />
-		<script type="text/javascript" src="/zky/Public/Js/jquery-1.8.3.min.js"></script>
+		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/do_see.css" />
+		<script type="text/javascript" src="/zky/Public/Js/jquery-3.1.1.min.js"></script>
 		<script src="/zky/Public/Js/public.js"></script>
-		<script src="/zky/Public/Js/equipment.js"></script>
 		<script>
 			var arr=new Array();
         	arr[0]="/zky/Public/Pic/top.jpg";
@@ -30,7 +29,7 @@
 					password:$("#l_txtPwd").val()
 				},function(text){
 					if(text=="pass"){
-						window.location.href="/zky/index.php/Home/Equipment/showclass";
+						window.location.href="/zky/index.php/Home/Message/do_see";
 					}else{
 						$("#suggest").html(text);
 					}
@@ -52,7 +51,7 @@
 	</head>
 	<body>
 		<!-- 这里是登录弹出窗口 -->
-		<div id="LoginBox">
+		 <div id="LoginBox">
         <div class="row1">
             登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="l_closeBtn">×</a>
         </div>
@@ -126,40 +125,20 @@
 		<div id='main'>
 			<div class="contain">
 				<div id="main_navi">
-						<a href="/zky/index.php/Home/Index/main">首页</a><span><span>--->仪器介绍</span> </span><br />
+						&nbsp;<a href="/zky/index.php/Home/Index/main">首页</a><span>---></span><a href="/zky/index.php/Home/Message/conmunication">讨论区</a><span>--->查看详情</span>
+							
 				</div>
-				<!-- <div id='sl_na'>
-					<div id='inclu'>
-					<a href="/zky/index.php/Home/Equipment/showclass/id/1" >质谱仪器</a>
-					<a href="/zky/index.php/Home/Equipment/showclass/id/2" >色谱仪器</a>
-					<a href="/zky/index.php/Home/Equipment/showclass/id/3" >光谱仪器</a>
-					<a href="/zky/index.php/Home/Equipment/showclass/id/4" >生化分离分析仪器</a>
-					<a href="/zky/index.php/Home/Equipment/showclass/id/5" >显微镜及图像仪</a>
-					<a href="/zky/index.php/Home/Equipment/showclass/id/6" >品质分析仪器</a>
-					<a href="/zky/index.php/Home/Equipment/showclass/id/7" >其他</a>
+				<div id="show">
+					<h2>问题梗概：<?php echo ($find['title']); ?></h2>
+							<h3>已经有<?php echo ($count); ?>人关注　　　<?php echo ($find['user']['name']); ?>于<?php echo ($find['date']); ?>发布</h3>
+							<p>详细内容：<?php echo ($find['content']); ?></p>
+							<?php if(($user) == "0"): ?><p><a href="/zky/index.php/Home/Message/add_answer/id/<?php echo ($find['id']); ?>">回复</a></p><br />
+								<?php else: ?> 
+									<?php if(($user) == ""): ?><p><span class='hint'>您还没有登录，登录之后才可以添加回复</span></p><br />
+										<?php else: ?> <span class='hint'>您已经被管理员禁言</span><br /><?php endif; endif; ?>
+						<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p><?php echo ($vo["user"]["name"]); ?>：<?php echo ($vo["content"]); ?>　　　　<span id="time">回复时间：<?php echo ($vo["date"]); ?></span></p><?php endforeach; endif; else: echo "" ;endif; ?>
+						<?php echo ($show); ?>
 				</div>
-				</div>
-				 <div id="slide" >
-				      <ul >
-				          <li><img src="/zky/Public/Pic/top.jpg"  alt="" /></li>
-				          <li><img src="/zky/Public/Pic/top.jpg" alt="" /></li>
-				          <li><img src="/zky/Public/Pic/Login.png" alt="" /></li>
-				          <li><img src="/zky/Public/Pic/phone.jpg" alt="" /></li>
-				          <li><img src="/zky/Public/Pic/aite.jpg" alt="" /></li>
-				          <li><img src="/zky/Public/Pic/top.jpg" alt="" /></li>
-				          <li><img src="/zky/Public/Pic/phone.jpg" alt="" /></li>
-				      </ul>
-    			</div> -->
-    			<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><table>
-						<a href="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" target = "_blank"><img src="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" class = "pic" width = "200" height = "200"/> <br><br></a>
-						仪器编号：<?php echo ($vo["eid"]); ?> <br><br>
-						名称：<?php echo ($vo["ecname"]); ?><br><br>
-						型号：<?php echo ($vo["etype"]); ?><br><br>
-						仪器放置地点：<?php echo ($vo["elocation"]); ?><br><br>
-						<a href="/zky/index.php/Home/Equipment/showitems/id/<?php echo ($vo["id"]); ?>">详细信息</a>
-						<hr>
-	                </table><?php endforeach; endif; else: echo "" ;endif; ?>
-                <?php echo ($show); ?>
 			</div>
 		</div>
 		<div id='footer'>

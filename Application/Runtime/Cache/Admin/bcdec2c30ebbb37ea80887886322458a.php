@@ -116,46 +116,43 @@
                         <td>仪器编号：</td>
                         <td><?php echo ($vo["eid"]); ?></td>
                     </tr>
+                    
                     <tr>
-                        <td>仪器中文名称：</td>
-                        <td><?php echo ($vo["ecname"]); ?></td>
-                    </tr>
-                    <tr>
-                        <td>仪器英文名称：</td>
-                        <td><?php echo ($vo["eename"]); ?></td>
-                    </tr>
-                    <tr>
-                        <td>仪器型号：</td>
-                        <td><?php echo ($vo["etype"]); ?></td>
-                    </tr>
-                    <tr>
-                        <td>仪器生产厂家中文名称：</td>
-                        <td><?php echo ($vo["ecmanufactor"]); ?></td>
-                    </tr>
-                    <tr>
-                        <td>仪器生产厂家英文名称：</td>
-                        <td><?php echo ($vo["eemanufactor"]); ?></td>
-                    </tr>
-                    <tr>
-                        <td>仪器出厂年月：</td>
-                        <td><?php echo ($vo["eoutdate"]); ?></td>
-                    </tr>
-                    <tr>
-                        <td>仪器出厂编号：</td>
+                        <td>资产编号：</td>
                         <td><?php echo ($vo["eoutid"]); ?></td>
                     </tr>
                     <tr>
-                        <td>仪器购买时间：</td>
-                        <td><?php echo ($vo["ebuydate"]); ?></td>
+                        <td>名称：</td>
+                        <td><?php echo ($vo["ecname"]); ?></td>
                     </tr>
                     <tr>
-                        <td>仪器价格：</td>
+                        <td>型号：</td>
+                        <td><?php echo ($vo["etype"]); ?></td>
+                    </tr>
+                    <tr>
+                        <td>单价：</td>
                         <td><?php echo ($vo["eprice"]); ?></td>
                     </tr>
                     <tr>
-                        <td>仪器放置地点：</td>
+                        <td>现状：</td>
+                        <td><?php echo ($vo["now"]); ?></td>
+                    </tr>
+
+                    <tr>
+                        <td>领用单位：</td>
+                        <td><?php echo ($vo["eblong"]); ?></td>
+                    </tr>
+
+                    <tr>
+                        <td>存放地：</td>
                         <td><?php echo ($vo["elocation"]); ?></td>
                     </tr>
+                    
+                    <tr>
+                        <td>供应商：</td>
+                        <td><?php echo ($vo["ecmanufactor"]); ?></td>
+                    </tr>
+                   
                     <tr>
                         <td>仪器简介</td>
                         <td><?php echo ($vo["introduction"]); ?></td>

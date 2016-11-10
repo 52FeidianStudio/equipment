@@ -3,10 +3,10 @@
 	use Think\Controller;
 	class FileController extends Controller{
 		public function _initialize(){
-          if(!isset($_SESSION['username']) || $_SESSION['username'] == ''){
-          	$this -> redirect("Login/index");
+          if(!isset($_SESSION['username']) || $_SESSION['username'] == '' || $_SESSION['isTeacher'] == 0){
+            $this -> redirect("__APP__/Home/Index/main");
           }
-      	}
+        }
       	//由原来的index改为doucument
 		public function doucument(){
 			$n = M('File');

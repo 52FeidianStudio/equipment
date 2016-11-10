@@ -3,10 +3,10 @@
 	use Think\Controller;
 	class EquipmentController extends Controller{
 		public function _initialize(){
-          if(!isset($_SESSION['username']) || $_SESSION['username'] == ''){
-          	$this -> redirect("Login/index");
+          if(!isset($_SESSION['username']) || $_SESSION['username'] == '' || $_SESSION['isTeacher'] == 0){
+            $this -> redirect("__APP__/Home/Index/main");
           }
-      	}
+        }
 		public function equipment(){
 			$n = D('Equipment');
 			$count = $n -> count();

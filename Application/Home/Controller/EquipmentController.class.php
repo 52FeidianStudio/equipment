@@ -12,7 +12,7 @@
 			$class = $_GET['id'];
 			$n = D('Equipment');
 			$count = $n -> count();
-			$Page = new\Think\Page($count,1);// 每页显示的记录数
+			$Page = new\Think\Page($count,10);// 每页显示的记录数
         	$Page->setConfig('header','个仪器');
         	$Page->setConfig('next','下一个');
         	$Page->setConfig('prev','上一个');

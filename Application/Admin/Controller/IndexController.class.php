@@ -5,7 +5,7 @@
     class IndexController extends Controller {
         public function _initialize(){
           if(!isset($_SESSION['username']) || $_SESSION['username'] == '' || $_SESSION['isTeacher'] == 0){
-            $this -> redirect("Login/index");
+            $this -> redirect("__APP__/Home/Index/main");
           }
         }
         public function index(){

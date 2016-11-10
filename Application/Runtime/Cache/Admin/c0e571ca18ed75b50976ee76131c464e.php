@@ -96,12 +96,12 @@
 	                <div id='p_body'>
 	                    <tr>
     	                   <td><a href="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" target = "_blank"><img src="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" class = "pic"/></a></td>
-                          <td><button type = "file">更换照片</button></td>
+                          
                       </tr>
                       <tr>
-                        <td>仪器分类</td>
-                        <td><!-- 选择一个下拉表 -->
-                            <select name="class">
+                            <td>仪器分类</td>
+                            <td><!-- 选择一个下拉表 -->
+                                <select name="class">
                                     <option value= 1>质谱仪器</option>
                                     <option value= 2>色谱仪器</option>
                                     <option value= 3>光谱仪器</option>
@@ -109,57 +109,55 @@
                                     <option value= 5>显微镜及图像仪</option>
                                     <option value= 6>品质分析仪器</option>
                                     <option value= 7>其他</option>
-                            </select>
-                        </td>
-                      </tr>
-	                    <tr>
-	                        <td>仪器编号：</td>
-	                        <td><input type="text" name = "eid" value = "<?php echo ($vo["eid"]); ?>"></td>
-	                    </tr>
-	                    <tr>
-	                        <td>仪器中文名称：</td>
-	                        <td><input type="text" name = "ecname" value = "<?php echo ($vo["ecname"]); ?>"></td>
-	                    </tr>
-	                    <tr>
-	                        <td>仪器英文名称：</td>
-	                        <td><input type="text" name = "eename" value = "<?php echo ($vo["eename"]); ?>"></td>
-	                    </tr>
-	                    <tr>
-	                        <td>仪器型号：</td>
-	                        <td><input type="text" name = "etype" value = "<?php echo ($vo["etype"]); ?>"></td>
-	                    </tr>
-	                    <tr>
-	                        <td>仪器生产厂家中文名称：</td>
-	                        <td><input type="text" name = "ecmanufactor" value = "<?php echo ($vo["ecmanufactor"]); ?>"></td>
-	                    </tr>
-	                    <tr>
-	                        <td>仪器生产厂家英文名称：</td>
-	                        <td><input type="text" name = "eemanufactor" value = "<?php echo ($vo["eemanufactor"]); ?>"></td>
-	                    </tr>
-	                    <tr>
-	                        <td>仪器出厂年月：</td>
-	                        <td><input type="text" name = "eoutdate" value = "<?php echo ($vo["eoutdate"]); ?>"></td>
-	                    </tr>
-	                    <tr>
-	                        <td>仪器出厂编号：</td>
-	                        <td><input type="text" name = "eoutid" value = "<?php echo ($vo["eoutid"]); ?>"></td>
-	                    </tr>
-	                    <tr>
-	                        <td>仪器购买时间：</td>
-	                        <td><input type="text" name = "ebuydate" value = "<?php echo ($vo["ebuydate"]); ?>"></td>
-	                    </tr>
-	                    <tr>
-	                        <td>仪器价格：</td>
-	                        <td><input type="text" name = "eprice" value = "<?php echo ($vo["eprice"]); ?>"></td>
-	                    </tr>
-	                    <tr>
-	                        <td>仪器放置地点：</td>
-	                        <td><input type="text" name = "elocation" value = "<?php echo ($vo["elocation"]); ?>"></td>
-	                    </tr>
-                      <tr>
-                        <td>仪器简介</td>
-                        <td><input type="text" name = "introduction" value = "<?php echo ($vo["introduction"]); ?>"></td>
-                      </tr>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>仪器图片：</td>
+                            <td><input type="file" name = "file"></td>
+                        </tr>
+                        <tr>
+                            <td>仪器序号：</td>
+                            <td><input type="text" name = "eid"  value = "<?php echo ($vo["eid"]); ?>"> </td>
+                        </tr>
+                        <tr>
+                            <td>资产编号：</td>
+                            <td><input type="text" name = "eoutid"  value = "<?php echo ($vo["eoutid"]); ?>"></td>
+                        </tr>
+                        <tr>
+                            <td>仪器名称：</td>
+                            <td><input type="text" name = "ecname"  value = "<?php echo ($vo["ecname"]); ?>"></td>
+                        </tr>
+                        <tr>
+                            <td>仪器型号：</td>
+                            <td><input type="text" name = "etype"  value = "<?php echo ($vo["etype"]); ?>"></td>
+                        </tr>
+                        <tr>
+                            <td>单价：</td>
+                            <td><input type="text" name = "eprice"  value = "<?php echo ($vo["eprice"]); ?>"></td>
+                        </tr>
+                        <tr>
+                            <td>现状：</td>
+                            <td><input type="text" name = "now"  value = "<?php echo ($vo["now"]); ?>"></td>
+                        </tr>
+                        <tr>
+                            <td>领用单位：</td>
+                            <td><input type="text" name = "eblong"  value = "<?php echo ($vo["eblong"]); ?>"></td>
+                        </tr>
+                        <tr>
+                            <td>存放地：</td>
+                            <td><input type="text" name = "elocation"  value = "<?php echo ($vo["elocation"]); ?>"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>供应商：</td>
+                            <td><input type="text" name = "ecmanufactor"  value = "<?php echo ($vo["ecmanufactor"]); ?>"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>仪器简介</td>
+                            <td><input type="text" name = "introduction"  value = "<?php echo ($vo["introduction"]); ?>"></td>
+                        </tr>
 	                    <tr>
 	                        <td><button type = "submit">提交</button></td>
 	                        <td><button type = "reset">重置</button></td>
