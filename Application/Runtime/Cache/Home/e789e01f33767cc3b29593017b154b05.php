@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
 <html>
 	<head>
 		<title>仪器介绍</title>
@@ -8,41 +8,41 @@
 		<meta name="Copyright" content="网站版权" /> 
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
-		<link rel="stylesheet" href="__PUBLIC__/Css/public.css" />
-		<link rel="stylesheet" type='text/css' href="__PUBLIC__/Css/equipiment.css" />
-		<script type="text/javascript" src="__PUBLIC__/Js/jquery-1.8.3.min.js"></script>
-		<script src="__PUBLIC__/Js/public.js"></script>
-		<script src="__PUBLIC__/Js/equipment.js"></script>
+		<link rel="stylesheet" href="/zky/Public/Css/public.css" />
+		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/equipiment.css" />
+		<script type="text/javascript" src="/zky/Public/Js/jquery-1.8.3.min.js"></script>
+		<script src="/zky/Public/Js/public.js"></script>
+		<script src="/zky/Public/Js/equipment.js"></script>
 		<script>
 			var arr=new Array();
-        	arr[0]="__PUBLIC__/Pic/top.jpg";
-       	    arr[1]="__PUBLIC__/Pic/lab.jpg";
-        	arr[2]="__PUBLIC__/Pic/Login.png";
-        	arr[3]="__PUBLIC__/Pic/phone.jpg";
-        	arr[4]="__PUBLIC__/Pic/aite.jpg";
-        	arr[5]="__PUBLIC__/Pic/top.jpg";
-        	arr[6]="__PUBLIC__/Pic/top.jpg";
+        	arr[0]="/zky/Public/Pic/top.jpg";
+       	    arr[1]="/zky/Public/Pic/lab.jpg";
+        	arr[2]="/zky/Public/Pic/Login.png";
+        	arr[3]="/zky/Public/Pic/phone.jpg";
+        	arr[4]="/zky/Public/Pic/aite.jpg";
+        	arr[5]="/zky/Public/Pic/top.jpg";
+        	arr[6]="/zky/Public/Pic/top.jpg";
    			// 问题不在于ajax，而是点击按钮之后事件没有被触发
 			// 登录按钮ajax操作
 			function f1(){
-				$.post("__APP__/Home/Login/do_login", {
+				$.post("/zky/index.php/Home/Login/do_login", {
 					username:$("#l_txtName").val(),
 					password:$("#l_txtPwd").val()
 				},function(text){
 					if(text=="pass"){
-						window.location.href="__APP__/Home/Equipment/showclass";
+						window.location.href="/zky/index.php/Home/Equipment/showclass";
 					}else{
 						$("#suggest").html(text);
 					}
 				});
 			}
 			function f3(){
-				$.post("__APP__/Admin/Login/do_login", {
+				$.post("/zky/index.php/Admin/Login/do_login", {
 					username:$("#a_txtName").val(),
 					password:$("#a_txtPwd").val()
 				},function(text){
 					if(text=="pass"){
-						window.location.href="__APP__/Admin/Index/admin";
+						window.location.href="/zky/index.php/Admin/Index/admin";
 					}else{
 						$("#suggest1").html(text);
 					}
@@ -103,44 +103,45 @@
 
 		<div id='header'>
 			<div class="contain" >
-				<img src="__PUBLIC__/Pic/top.jpg" alt="" style="width:100%;" />
+				<img src="/zky/Public/Pic/top.jpg" alt="" style="width:100%;" />
 			</div>
 		</div>
 		<div id='navi'>
 			<div class="contain">
-				<a href="__APP__/Home/Index/main" class="navi_a">首页</a>
-				<a href="__APP__/Home/Inform/news" class="navi_a">新闻通知</a>
-				<a href="__APP__/Home/Equipment/equipment" class="navi_a">仪器介绍</a>
-				<a href="__APP__/Home/Regulation/regulation" class="navi_a">规章制度</a>
-				<a href="__APP__/Home/File/document" class="navi_a">文档下载</a>
-				<a href="__APP__/Home/Message/conmunication" class="navi_a">讨论区</a>
-				<a href="__APP__/Home/Index/about_us" class="navi_a">关于我们</a>
+				<a href="/zky/index.php/Home/Index/main" class="navi_a">首页</a>
+				<a href="/zky/index.php/Home/Inform/news" class="navi_a">新闻通知</a>
+				<a href="/zky/index.php/Home/Equipment/equipment" class="navi_a">仪器介绍</a>
+				<a href="/zky/index.php/Home/Regulation/regulation" class="navi_a">规章制度</a>
+				<a href="/zky/index.php/Home/File/document" class="navi_a">文档下载</a>
+				<a href="/zky/index.php/Home/Message/conmunication" class="navi_a">讨论区</a>
+				<a href="/zky/index.php/Home/Index/about_us" class="navi_a">关于我们</a>
 				<div id='na_log'>
 					<span>欢迎</span>
-					<eq name="Think.session.username" value=""><span><a href="#" id='login'>登录</a></span>
-					<else />	<SPAN><{$Think.session.username}></SPAN>
-						<a href="__APP__/Home/Login/login_out" style=''>退出</a>
-					</eq>
+					<?php if(($_SESSION['username']) == ""): ?><span><a href="#" id='login'>登录</a></span>
+					<?php else: ?>	<SPAN><?php echo (session('username')); ?></SPAN>
+						<a href="/zky/index.php/Home/Login/login_out" style=''>退出</a><?php endif; ?>
 				</div>
 			</div>
 		</div>
 		<div id='main'>
 			<div class="contain">
 				<div id="main_navi">
-						<a href="__APP__/Home/Index/main">首页</a><span><span>--->仪器介绍</span> </span><br />
+						<a href="/zky/index.php/Home/Index/main">首页</a><span><span>--->仪器介绍</span> </span><br />
 				</div>
-    			<volist name = "data" id = "vo">
-	    			<table>
-						<a href="__ROOT__/Uploads<{$vo.imagicaddress}>" target = "_blank"><img src="__ROOT__/Uploads<{$vo.imagicaddress}>" class = "pic" width = "200" height = "200"/> <br><br></a>
-						仪器编号：<{$vo.eid}> <br><br>
-						名称：<{$vo.ecname}><br><br>
-						型号：<{$vo.etype}><br><br>
-						仪器放置地点：<{$vo.elocation}><br><br>
-						<a href="__URL__/showitems/id/<{$vo.id}>">详细信息</a>
+				<?php if(($count) == "0"): ?><span>没有搜索到任何符合条件的仪器！</span> 
+					<?php else: ?>
+						<span>共有<?php echo ($count); ?>个符合条件的仪器</span> <br><br>
+						<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><table>
+						<a href="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" target = "_blank"><img src="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" class = "pic" width = "200" height = "200"/> <br><br></a>
+						仪器编号：<?php echo ($vo["eid"]); ?> <br><br>
+						名称：<?php echo ($vo["ecname"]); ?><br><br>
+						型号：<?php echo ($vo["etype"]); ?><br><br>
+						仪器放置地点：<?php echo ($vo["elocation"]); ?><br><br>
+						<a href="/zky/index.php/Home/Equipment/showitems/id/<?php echo ($vo["id"]); ?>">详细信息</a>
 						<hr>
-	                </table>
-                </volist>
-                <{$show}>
+	                </table><?php endforeach; endif; else: echo "" ;endif; ?>
+                <?php echo ($show); endif; ?>
+    			
 			</div>
 		</div>
 		<div id='footer'>

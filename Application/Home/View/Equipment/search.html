@@ -129,7 +129,11 @@
 				<div id="main_navi">
 						<a href="__APP__/Home/Index/main">首页</a><span><span>--->仪器介绍</span> </span><br />
 				</div>
-    			<volist name = "data" id = "vo">
+				<eq name="count" value="0">
+					<span>没有搜索到任何符合条件的仪器！</span> 
+					<else />
+						<span>共有<{$count}>个符合条件的仪器</span> <br><br>
+						<volist name = "data" id = "vo">
 	    			<table>
 						<a href="__ROOT__/Uploads<{$vo.imagicaddress}>" target = "_blank"><img src="__ROOT__/Uploads<{$vo.imagicaddress}>" class = "pic" width = "200" height = "200"/> <br><br></a>
 						仪器编号：<{$vo.eid}> <br><br>
@@ -141,6 +145,8 @@
 	                </table>
                 </volist>
                 <{$show}>
+				</eq>
+    			
 			</div>
 		</div>
 		<div id='footer'>

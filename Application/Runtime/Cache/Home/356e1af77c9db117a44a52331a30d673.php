@@ -129,6 +129,12 @@
 				<div id="main_navi">
 						<a href="/zky/index.php/Home/Index/main">首页</a><span><span>--->仪器介绍</span> </span><br />
 				</div>
+				<div id="main_navi">
+					<form action="/zky/index.php/Home/Equipment/search" method = "post">
+						<input type="text" name="search" placeholder="输入关键字进行查询" > 
+						<button type = "submit">搜索</button>
+					</form>
+				</div>
 				<div id='sl_na'>
 					<div id='inclu'>
 						<a href="/zky/index.php/Home/Equipment/showclass/id/1" >质谱仪器</a>

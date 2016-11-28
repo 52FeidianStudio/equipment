@@ -36,5 +36,18 @@
 			$arr = $n -> relation(true) -> select();
 			var_dump($arr);
 		}
+
+		// 进行关键字的查询
+		public function search(){
+			$n = M("Equipment");
+			$search = $_POST['search'];
+			// 进行模糊查询，可以包含所有的选项
+			$data['ecname'] = array('like',array('%'.$search.'%'));
+			$arr = $n -> where($data) -> select();
+			$count = $n -> where($data) -> count();
+			$this -> assign("data",$arr);
+			$this -> assign("count",$count);
+			$this -> display();
+		}
 	}
 ?>
