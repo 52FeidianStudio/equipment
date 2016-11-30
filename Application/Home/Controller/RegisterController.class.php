@@ -15,13 +15,13 @@
 			$data1['username'] = $username;
 			$data1['isTeacher'] = 0;
 			$text = 0;
-			if($username == "" || $password = "" || $repassword = "" || $name = "" || $code = ""){
+			if($username == "" || $password == "" || $repassword == "" || $name == "" || $code == ""){
 				$text = "账号用户名密码验证码不能为空";
 				$this->ajaxReturn($text); 
 			}
 			if(!(self::check_verify($code))){
 				$text = "验证码错误！";
-				// $text = self::check_verify($code);
+				$this->ajaxReturn($text); 
 			}else{
 				if($repassword == $password){
 					$result1 = $n -> where($data1) -> count();

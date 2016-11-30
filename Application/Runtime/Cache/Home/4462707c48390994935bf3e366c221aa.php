@@ -122,47 +122,47 @@
 		<!-- 结束管理登录 -->
 		<!-- 这里是注册弹出窗口 -->
 		<div id="registerBox">
-        <div class="row1">
-            注册<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="r_closeBtn">×</a>
-        </div>
-        <form>
-	        <div class="row">
-	           <span id="suggest2"> &nbsp;</span>
+	        <div class="row1">
+	            注册<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="r_closeBtn">×</a>
 	        </div>
-	        <div class="row">
-	            账　　号: <span >
-	                <input type="text" class="inputBox" id="r_txtName" placeholder="账号/邮箱" />
-	            </span>
-	        </div>
-	        <div class="row">
-	            用&nbsp;&nbsp;户&nbsp;&nbsp;名: <span >
-	                <input type="text" class="inputBox" id="ra_txtName" placeholder="姓名" />
-	            </span>
-	        </div>
-	        <div class="row">
-	            密　　码: <span >
-	                <input type="password" class="inputBox" id="r_txtPwd" placeholder="密码" />
-	            </span>
-	        </div>
-	        <div class="row">
-	            确认密码: <span >
-	                <input type="password" class="inputBox" id="re_txtPwd" placeholder="确认密码" />
-	            </span>
-	        </div>
-	        <div class="row">
-	            验&nbsp;&nbsp;证&nbsp;&nbsp;码: <span >
-	                <input type="text" class="inputBox" id="c_txtPwd" placeholder="验证码" />
-	                <img src="/zky/index.php/Home/Public/code" onclick = 'this.src = this.src+"?"+Math.random'/>
-	            </span>
-        	</div>
-        </form>
-        <div class="row">
-            
-        </div>
-        <div class="row">
-            <a href="#" id="r_loginbtn" onclick="f2();">注册</a>
-        </div>
-    </div>
+	        <form>
+		        <div class="row">
+		           <span id="suggest2"> &nbsp;</span>
+		        </div>
+		        <div class="row">
+		            账　　号: <span >
+		                <input type="text" class="inputBox" id="r_txtName" placeholder="账号/邮箱" />
+		            </span>
+		        </div>
+		        <div class="row">
+		            用&nbsp;&nbsp;户&nbsp;&nbsp;名: <span >
+		                <input type="text" class="inputBox" id="ra_txtName" placeholder="姓名" />
+		            </span>
+		        </div>
+		        <div class="row">
+		            密　　码: <span >
+		                <input type="password" class="inputBox" id="r_txtPwd" placeholder="密码" />
+		            </span>
+		        </div>
+		        <div class="row">
+		            确认密码: <span >
+		                <input type="password" class="inputBox" id="re_txtPwd" placeholder="确认密码" />
+		            </span>
+		        </div>
+		        <div class="row">
+		            验&nbsp;&nbsp;证&nbsp;&nbsp;码: <span >
+		                <input type="text" class="inputBox" id="c_txtPwd" placeholder="验证码" />
+		                <img src="/zky/index.php/Home/Public/code" onclick = 'this.src = this.src+"?"+Math.random'/>
+		            </span>
+	        	</div>
+		        <div class="row">
+		            
+		        </div>
+		        <div class="row">
+		            <a href="#" id="r_loginbtn" onclick="f2();">注册</a>
+		        </div>
+		    </form>
+    	</div>
     <!-- 结束注册窗口 -->
 		<div id='header'>
 			<div class="contain" >

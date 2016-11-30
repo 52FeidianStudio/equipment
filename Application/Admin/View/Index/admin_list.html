@@ -7,42 +7,68 @@
 </head>
 <body>
      <table>
+        <caption>当前登录管理员</caption>
+         <tr></tr>
+        <tr></tr>
         <div class='panel'>
             <div id='p_body'>
-                <volist name = "data" id = "vo">
-                    <tr>
-                        <td><{$Think.session.name}></td>
-                        <td><{$Think.session.username}></td>
-                        <td><a href="__APP__/Admin/Message/studenttail/id/<{$vo.id}>"><button>详细信息</button></a></td>
-                        <td><a href="__URL__/pass_update"><button>修改密码</button></a></td>
-                    </tr>
-                
+                <tr>
+                    <td><{$Think.session.name}> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <{$Think.session.username}> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="__APP__/Admin/Message/studenttail/id/<{$vo.id}>">详细信息</a>  &nbsp;&nbsp;&nbsp;&nbsp;   
+                    <a href="__URL__/pass_update">修改密码</a></td>
+                </tr>
             </div>
         </div>
     </table>
     <table>
-        <div class='panel'>
-            <div id='p_body'>
+                <caption>所有管理员用户信息</caption>
+                <tr></tr>
+                <tr></tr>
+        <!-- <div class='panel'> -->
+            <!-- <div id='p_body'> -->
                     <tr>
-                        <td>工号</td>
-                        <td>用户名</td>
-                        <td></td>
+                        <th>工号</th>
+                        <th>用户名</th>
                     </tr>
-            </div>
-        </div>
-    </table>
-    <table>
-        <div class='panel'>
-            <div id='p_body'>
                 <volist name = "data" id = "vo">
                     <tr>
-                        <td><{$vo.username}></td>
-                        <td><{$vo.name}></td>
-                        <td><a href="__APP__/Admin/Message/studenttail/id/<{$vo.id}>"><button>详细信息</button></a></td>
+                        <td><{$vo.username}> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<{$vo.name}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="__APP__/Admin/Message/studenttail/id/<{$vo.id}>">详细信息</a>
+                        <eq name="Think.session.name" value="2015317200402">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="__URL__/unaddAdmin/id/<{$vo.id}>">撤销管理员</a>
+                        </eq>
+                        <eq name="Think.session.name" value="">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="__URL__/unaddAdmin/id/<{$vo.id}>">撤销管理员</a>
+                        </eq>
+                        </td>
                     </tr>
                 </volist>
-            </div>
-        </div>
+            <!-- </div> -->
+        <!-- </div> -->
+    </table>
+        <table>
+                <caption>所有普通用户信息</caption>
+                <tr></tr>
+                <tr></tr>
+                    <tr>
+                        <th>工号</th>
+                        <th>用户名</th>
+                    </tr>
+                <volist name = "data1" id = "vo">
+                    <tr>
+                        <td><{$vo.username}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<{$vo.name}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="__APP__/Admin/Message/studenttail/id/<{$vo.id}>">详细信息</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <eq name="Think.session.name" value="2015317200402">
+                            <a href="__URL__/addAdmin/id/<{$vo.id}>">添加为管理员</a>
+                        </eq>
+                        <eq name="Think.session.name" value="">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="__URL__/unaddAdmin/id/<{$vo.id}>">撤销管理员</a>
+                        </eq>
+                        </td>
+                    </tr>
+                </volist>
+            <!-- </div> -->
+        <!-- </div> -->
     </table>
 </body>
 </html>

@@ -128,28 +128,6 @@
 				<div id="main_navi">
 						<a href="/zky/index.php/Home/Index/main">首页</a><span><span>--->仪器介绍</span> </span><br />
 				</div>
-				<!-- <div id='sl_na'>
-					<div id='inclu'>
-					<a href="/zky/index.php/Home/Equipment/showclass/id/1" >质谱仪器</a>
-					<a href="/zky/index.php/Home/Equipment/showclass/id/2" >色谱仪器</a>
-					<a href="/zky/index.php/Home/Equipment/showclass/id/3" >光谱仪器</a>
-					<a href="/zky/index.php/Home/Equipment/showclass/id/4" >生化分离分析仪器</a>
-					<a href="/zky/index.php/Home/Equipment/showclass/id/5" >显微镜及图像仪</a>
-					<a href="/zky/index.php/Home/Equipment/showclass/id/6" >品质分析仪器</a>
-					<a href="/zky/index.php/Home/Equipment/showclass/id/7" >其他</a>
-				</div>
-				</div>
-				 <div id="slide" >
-				      <ul >
-				          <li><img src="/zky/Public/Pic/top.jpg"  alt="" /></li>
-				          <li><img src="/zky/Public/Pic/top.jpg" alt="" /></li>
-				          <li><img src="/zky/Public/Pic/Login.png" alt="" /></li>
-				          <li><img src="/zky/Public/Pic/phone.jpg" alt="" /></li>
-				          <li><img src="/zky/Public/Pic/aite.jpg" alt="" /></li>
-				          <li><img src="/zky/Public/Pic/top.jpg" alt="" /></li>
-				          <li><img src="/zky/Public/Pic/phone.jpg" alt="" /></li>
-				      </ul>
-    			</div> -->
     			<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><table>
 						<a href="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" target = "_blank"><img src="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" class = "pic" width = "200" height = "200"/> <br><br></a>
 						仪器编号：<?php echo ($vo["eid"]); ?> <br><br>

@@ -36,11 +36,11 @@
                 		    <tr>
                 		        <td>
                                     <a href="__URL__/showitems/id/<{$vo.id}>">
-                                    <span><{$vo.title}></span>
+                                    <span><{$vo.title}>             <{$vo.date}>                <a href="__URL__/do_delete/id/<{$vo.id}>"><button>删除</button></a></span>
                                     </a>
-                                </td>
-                                <td><span><{$vo.date}></span></td>
-                                <td><a href="__URL__/do_delete/id/<{$vo.id}>"><button>删除</button></a></td>
+                                <!-- </td>
+                                <td> --><!-- <span></span> --><!-- </td>
+                                <td> --></td>
                             </tr>
                         </volist>
                     </div>

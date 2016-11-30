@@ -35,11 +35,11 @@
                         <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                 		        <td>
                                     <a href="/zky/index.php/Admin/Inform/showitems/id/<?php echo ($vo["id"]); ?>">
-                                    <span><?php echo ($vo["title"]); ?></span>
+                                    <span><?php echo ($vo["title"]); ?>             <?php echo ($vo["date"]); ?>                <a href="/zky/index.php/Admin/Inform/do_delete/id/<?php echo ($vo["id"]); ?>"><button>删除</button></a></span>
                                     </a>
-                                </td>
-                                <td><span><?php echo ($vo["date"]); ?></span></td>
-                                <td><a href="/zky/index.php/Admin/Inform/do_delete/id/<?php echo ($vo["id"]); ?>"><button>删除</button></a></td>
+                                <!-- </td>
+                                <td> --><!-- <span></span> --><!-- </td>
+                                <td> --></td>
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                     </div>
                 </div>

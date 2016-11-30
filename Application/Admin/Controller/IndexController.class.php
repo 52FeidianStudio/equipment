@@ -18,9 +18,29 @@
         public function admin(){
         	$this->display();
         }
+        public function addAdmin(){
+            $where = $_GET['id'];
+            $n = M("User");
+            $n -> isTeacher = 1;
+            $result = $n -> where("id = $where") -> save();
+            if($result){
+                $this -> redirect("Index/admin_list");
+            }
+        }
+        public function unaddAdmin(){
+            $where = $_GET['id'];
+            $n = M("User");
+            $n -> isTeacher = 0;
+            $result = $n -> where("id = $where") -> save();
+            if($result){
+                $this -> redirect("Index/admin_list");
+            }
+        }
         public function admin_list(){
             $n = M("User");
             $arr = $n -> where("isTeacher = 1") -> select();
+            $arr2 = $n -> where("isTeacher = 0") -> select();
+            $this -> assign("data1",$arr2);
             $this -> assign("data",$arr);
             $this -> display();
         }
