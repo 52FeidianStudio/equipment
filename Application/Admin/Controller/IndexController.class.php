@@ -71,4 +71,45 @@
                 }
             }
         }
+
+        /*方法功能：展示页面中的链接*/
+        public function index_link(){
+            $n = M("Link");
+            $arr0 = $n->where("class = 0")->select();
+            $arr1 = $n->where("class = 1")->select();
+            $arr2 = $n->where("class = 2")->select();
+            $arr3 = $n->where("class = 3")->select();
+            $this -> assign("data0",$arr0);
+            $this -> assign("data1",$arr1);
+            $this -> assign("data2",$arr2);
+            $this -> assign("data3",$arr3);
+            $this -> display();
+        }
+        /*方法功能：添加链接*/
+        public function addlinks(){
+            $n = M("Link");
+            $data['class'] = $_POST['condition'];
+            $data['name']= $_POST['name'];
+            $data['address'] = $_POST['address'];
+            if($data['name'] == "" || $data['address'] == ""){
+                $this -> error("没有给出详细的信息！");
+            }
+            $result = $n->add($data);
+            if($result){
+                $this -> redirect("Index/index_link");
+            }else{
+                $this -> error("添加失败！");
+            }
+        }
+        /*方法功能：删除链接*/
+        public function delete_links(){
+            $where = $_GET['id'];
+            $n = M("Link");
+            $result = $n -> where("id = $where")->delete();
+            if($result){
+                $this -> redirect("Index/index_link");
+            }else{
+                $this -> error("删除失败！");
+            }
+        }
 }

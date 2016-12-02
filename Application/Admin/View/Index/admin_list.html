@@ -33,13 +33,14 @@
                     </tr>
                 <volist name = "data" id = "vo">
                     <tr>
-                        <td><{$vo.username}> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<{$vo.name}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="__APP__/Admin/Message/studenttail/id/<{$vo.id}>">详细信息</a>
+                        <th><{$vo.username}></th>
+                        <th><{$vo.name}></th>
+                        <th><a href="__APP__/Admin/Message/studenttail/id/<{$vo.id}>">详细信息</a></th>
                         <eq name="Think.session.name" value="2015317200402">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="__URL__/unaddAdmin/id/<{$vo.id}>">撤销管理员</a>
+                            <th><a href="__URL__/unaddAdmin/id/<{$vo.id}>">撤销管理员</a></th>
                         </eq>
                         <eq name="Think.session.name" value="">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="__URL__/unaddAdmin/id/<{$vo.id}>">撤销管理员</a>
+                            <th><a href="__URL__/unaddAdmin/id/<{$vo.id}>">撤销管理员</a></th>
                         </eq>
                         </td>
                     </tr>
@@ -55,14 +56,19 @@
                         <th>工号</th>
                         <th>用户名</th>
                     </tr>
+                    <tr>
+                        
+                    </tr>
                 <volist name = "data1" id = "vo">
                     <tr>
-                        <td><{$vo.username}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<{$vo.name}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="__APP__/Admin/Message/studenttail/id/<{$vo.id}>">详细信息</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <th><{$vo.username}></th>
+                        <th><{$vo.name}></th>
+                        <th><a href="__APP__/Admin/Message/studenttail/id/<{$vo.id}>">详细信息</a></th>
                         <eq name="Think.session.name" value="2015317200402">
-                            <a href="__URL__/addAdmin/id/<{$vo.id}>">添加为管理员</a>
+                            <th><a href="__URL__/addAdmin/id/<{$vo.id}>">添加为管理员</a></th>
                         </eq>
                         <eq name="Think.session.name" value="">
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="__URL__/unaddAdmin/id/<{$vo.id}>">撤销管理员</a>
+                          <th><a href="__URL__/unaddAdmin/id/<{$vo.id}>">撤销管理员</a></th>
                         </eq>
                         </td>
                     </tr>

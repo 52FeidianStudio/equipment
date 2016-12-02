@@ -12,7 +12,7 @@
             text-decoration: none;
         }
         #sl_na{
-            height: 40px;
+            height: 60px;
             width: 100%;
             background:;
             margin-top: 3px;
@@ -22,16 +22,19 @@
         #inclu{
             margin: 0 auto;
             width: 890px;
+
         }
         #inclu a:link,#inclu a:hover,#inclu a:visited{
             margin-right: 5px;
-            display: block;
-            width: 120px;
+
+            display: block;margin:auto 5px auto 0;
+            width: 80px;
+            height: 60px;
             color: #566F89;
             font-size: 15px;
             cursor:pointer;
             float: left;
-            line-height: 40px;
+            line-height: 30px;
             text-align: center;
             border-radius: 3px;
 
@@ -44,8 +47,54 @@
             -khtml-opacity: 0.3;  
             opacity: 0.3;  
         }
-        
-        #slide {
+        #search{
+            text-align: center;
+            line-height: 30px;
+            font-size: 12px;
+        }
+        #eqlist{
+            height: 720px;
+            margin-top: 5px;
+            box-shadow: 0px 0px 5px #c1c1c1;
+            border-radius: 5px;
+        }
+        #eqlist .eqsl{
+            height: 200px;
+            width: 295px;
+            margin-top: 25px;
+            margin-left: 17px;
+            float: left;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+        td a:link,td a:hover,td a:visited{
+            text-indent: 60px;
+            text-decoration: none;
+            font-size: 21px;
+            line-height: 25px;
+            width: 100%;
+            color: #65666D;
+            width: 100%;
+            border-bottom: 1px dashed #eaeaea;
+            margin-top: 5px;
+
+        }
+        td a:hover{
+            color: orange;
+        }
+        #page{
+            height: 20px;
+            clear: both;
+            line-height: 45px;
+            float: right;
+            margin-right: 16px;
+        }
+        td img{
+            width: 140px;
+            height: 120px;
+            display: block;
+        }
+        /* #slide {
             z-index: 0;
             width: 800px;
             height: 400px;
@@ -72,5 +121,5 @@
         #slide ul li img{
             width:800px;
             height: 100%;
-        }
+        } */
         

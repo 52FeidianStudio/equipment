@@ -4,7 +4,7 @@
 				border: 0;
 			}
 			body  {
-			background: #fff;
+			background: #f2f2f2;
 			margin: 0; /* 最好将 body 元素的边距和填充设置为 0 以覆盖不同的浏览器默认值 */
 			padding: 0;
 			text-align: left; /* 在 IE 5* 浏览器中，这会将容器居中。文本随后将在 #container 选择器中设置为默认左对齐 */
@@ -15,6 +15,10 @@
 				margin: 0 auto;
 				width: 960px;
 				font-family: sans-serif;
+			}
+			#main .contain{
+				background: #fff;
+				height: 650px;
 			}
 			#navi{
 				width: 100%;
@@ -103,7 +107,7 @@
 				}
 			#LoginBox,#registerBox,#AdminBox
 				{
-					width: 400px;
+					width: 420px;
 					z-index: 5;
 					background: #f3f3f3;
 					border: 1px solid #fff;
@@ -145,7 +149,7 @@
 					padding:1px 3px 6px 3px;
 					border-radius:5px;
 					margin-left:5px; */
-					width: 188px;
+					width: 160px;
 					padding: 15px 25px;
 					
 					font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -162,10 +166,10 @@
 					-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
 					-webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,0.50);
 				}
-			#l_txtName,#r_txtName,#ra_txtName{height:27px;
+			#l_txtName,#r_txtName{height:27px;
 					width:180px;
 					border:none;}
-			#l_txtPwd,#r_txtPwd,#re_txtPwd,#c_txtPwd{height:27px;
+			#l_txtPwd,#r_txtPwd{height:27px;
 					width:180px;
 					border:none;}
 			.inputBox:hover{
@@ -211,7 +215,7 @@
 				width:100%;
 			}
 			#main{
-				background: white;
+				height: 700px;
 			}
 			#main h2{
 				clear: both;
@@ -233,10 +237,34 @@
 			#main_navi a:hover{
 				color:orange;
 			}
+			#page{
+				float: right;
+				margin-right: 25px;
+				height: 20px;
+				
+			}
+			#page a:link,#page a:hover,#page a:visited{
+				color: #65666D;	
+				text-decoration: none;
+				display: inline;
+				float: none;
+			}
+			#page a:hover{
+				color: orange;
+			}
+			#cf{
+				height: 170px;
+				width: 100%;
+			}
 			#footer{
-				height: 100px;
+				position: fixed;
+				bottom: -1px;
+				left: auto;
+				width: 100%;
+				height: 55px;
 				clear: both;
 				color: #566F89;
+				z-index: 20;
 			}
 			#footer .contain{
 				border-radius: 3px;

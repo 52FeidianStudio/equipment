@@ -4,6 +4,11 @@
     <title></title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/public.css" />
+    <style type="text/css">
+        .hahaha{
+            *
+        }
+    </style>
 </head>
 <body>
 
@@ -11,27 +16,83 @@
         <strong>管理员：<{$Think.session.username}></strong></font>
     </div>
     <div class="row">
+        <div id="buttom" align="center">
+            <form action="__URL__/addlinks" method="post">
+                名称： <input type="type" name="name"> <br><br>
+                地址： <input type="type" name="address">  <br><br>
+                <input type="radio" name="condition" value="0" checked/>实验预约系统
+                <input type="radio" name="condition" value="1"/>学院内链接
+                <input type="radio" name="condition" value="2"/>校内链接
+                <input type="radio" name="condition" value="3"/>校外链接　<br><br>
+                <button style="text-align: right">添加</button>
+            </form>
+        </div>
+        <br><br><br>
         <div class='panel'>
-        <table >
+        <table class = "hahaha">
+            <div id='p_body'>
+                <volist name = "data0" id = "vo">
+                    <tr>
+                        <th><h3>实验仪器预约系统</h3></th>
+                    </tr>
+                    <tr>
+                        <th><{$vo.name}>></th>
+                        <th><{$vo.address}></th>
+                        <th> <a href="__URL__/delete_links/id/<{$vo.id}>">删除</a></th>
+                    </tr>
+                </volist>
+            </div>
+        </table>
+        <br><br>
+        <table class = "hahaha">
+            <div id='p_body'>
+                    <tr>
+                        <th><h2>相关链接</h2></th>
+                    </tr>
+                    <tr>
+                        <th><h3>学院内链接</h3></th>
+                    </tr>
+                <volist name = "data1" id = "vo">
+                    <tr>
+                        <th><{$vo.name}></th>
+                        <th><{$vo.address}></th>
+                        <th> <a href="__URL__/delete_links/id/<{$vo.id}>">删除</a></th>
+                    </tr>
+                </volist>
+            </div>
+        </table>
+        <br><br>
+        <table class = "hahaha">
             <div id='p_body'>
                 <tr>
-                    <td ><span>复仇者联盟</span></td>
-                    <td><span>www.ahfoia.com</span></td>
-                    <td> <button type="submit">删除</button></a></td>
-                    <td> <button type="submit">修改</button></a></td>
+                    <th><h3>校内链接</h3></th>
                 </tr>
-    		    <tr>
-                    <td ><span>北大教授讲座 </span></td>
-                    <td><span>www.ahfoia.com</span></td>
-                    <td> <button type="submit">删除</button></a></td>
-                    <td> <button type="submit">修改</button></a></td>
+                <volist name = "data2" id = "vo">
+                    <tr>
+                        <th><{$vo.name}></th>
+                        <th><{$vo.address}></th>
+                        <th> <a href="__URL__/delete_links/id/<{$vo.id}>">删除</a></th>
+                    </tr>
+                </volist>
+            </div>
+        </table>
+        <br><br>
+        <table class = "hahaha">
+            <div id='p_body'>
+                <tr>
+                    <th><h3>校外链接</h3></th>
                 </tr>
+                <volist name = "data3" id = "vo">
+                    <tr>
+                        <th><{$vo.name}></th>
+                        <th><{$vo.address}></th>
+                        <th> <a href="__URL__/delete_links/id/<{$vo.id}>">删除</a></th>
+                    </tr>
+                </volist>
             </div>
         </table>
     </div>
-        <div id="buttom" >
-            <a href=""><button>添加</button></a>
-        </div>
+        
 
     </div>  
 </body>

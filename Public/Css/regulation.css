@@ -1,0 +1,25 @@
+tr td{
+	text-indent: 20px;
+	text-decoration: none;
+	font-size: 21px;
+	line-height: 25px;
+	color: #65666D;
+}
+
+tr td a:link,tr td a:hover,tr td a:visited{
+	text-indent: 20px;
+	text-decoration: none;
+	display: block;
+	height: 35px;
+	font-size: 21px;
+	line-height: 25px;
+	width: 100%;
+	color: #65666D;
+	display: block;
+	width: 100%;
+	border-bottom: 1px dashed #eaeaea;
+	margin-top: 5px;
+}
+tr td a:hover{
+	color: orange;
+}

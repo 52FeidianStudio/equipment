@@ -53,23 +53,28 @@
 	<body>
 		<!-- 这里是登录弹出窗口 -->
 		<div id="LoginBox">
-        <div class="row1">
-            登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="l_closeBtn">×</a>
-        </div>
-        <div class="row">
-            用户名: <span class="inputBox">
-                <input type="text" id="l_txtName" placeholder="账号/邮箱" />
-            </span><a href="javascript:void(0)" title="提示" class="warning" id="l_warn">*</a>
-        </div>
-        <div class="row">
-            密&nbsp;&nbsp;&nbsp;&nbsp;码: <span class="inputBox">
-                <input type="text" id="l_txtPwd" placeholder="密码" />
-            </span><a href="javascript:void(0)" title="提示" class="warning" id="l_warn2">*</a>
-        </div>
-        <div class="row">
-            	<a href="#" id="l_loginbtn" onclick="f1();">登录</a>
-    	</div>
-    </div>
+	        <div class="row1">
+	            登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="l_closeBtn">×</a>
+	        </div>
+	        <form>
+		        <span id="suggest"> &nbsp;</span>
+		        <div class="row">
+		            用户名: 
+		            	<span >
+		                	<input class="inputBox" type="text" id="l_txtName" placeholder="账号" />
+		            	</span>
+		        </div>
+		        <div class="row">
+		            密&nbsp;&nbsp;&nbsp;&nbsp;码:
+		            <span >
+		                <input class="inputBox" type="password" id="l_txtPwd" placeholder="密码" />
+		           	</span>
+		        </div>
+		        <div class="row">
+		            	<a href="#" id="l_loginbtn" onclick="f1();">登录</a>
+	        	</div>
+	        </form>
+	    </div>
 		
 		<!-- 结束登陆弹出窗口 -->
 
@@ -126,18 +131,46 @@
 		<div id='main'>
 			<div class="contain">
 				<div id="main_navi">
-						<a href="/zky/index.php/Home/Index/main">首页</a><span><span>--->仪器介绍</span> </span><br />
+						<a href="/zky/index.php/Home/Index/main">首页</a><span>---> </span><a href="/zky/index.php/Home/Equipment/equipment"> 仪器介绍</a> <span> ---><?php echo ($class1); ?> </span><br />
 				</div>
-    			<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><table>
-						<a href="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" target = "_blank"><img src="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" class = "pic" width = "200" height = "200"/> <br><br></a>
-						仪器编号：<?php echo ($vo["eid"]); ?> <br><br>
-						名称：<?php echo ($vo["ecname"]); ?><br><br>
-						型号：<?php echo ($vo["etype"]); ?><br><br>
-						仪器放置地点：<?php echo ($vo["elocation"]); ?><br><br>
-						<a href="/zky/index.php/Home/Equipment/showitems/id/<?php echo ($vo["id"]); ?>">详细信息</a>
-						<hr>
-	                </table><?php endforeach; endif; else: echo "" ;endif; ?>
-                <?php echo ($show); ?>
+                <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="eqsl">
+						<table >
+							<tr><br />
+								<td><a href="/zky/index.php/Home/Equipment/showitems/id/<?php echo ($vo["id"]); ?>"><?php echo ($vo["ecname"]); ?></a></td>
+							</tr>
+							<tr>
+								<table>
+									<tr> <td><img src="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" alt="无图片" /></td>
+										 <td>
+										 	<table>
+										 		<tr> 
+										 			<th class = "lalala">设备编号：</th>   
+										 			<td class = "hahaha"><?php echo ($vo["eid"]); ?></td>  
+										 		</tr>
+												<tr> 
+													<th class = "lalala">存放地点：</th>   
+													<td class = "hahaha"><?php echo ($vo["elocation"]); ?></td> 
+												</tr>
+												<tr> 
+													<th class = "lalala">所属单位：</th>   
+													<td class = "hahaha"><?php echo ($vo["eblong"]); ?></td> 
+												</tr>
+												<tr>
+											    	<th class = "lalala">状　　态：</th>   
+											    	<td class = "hahaha"><?php echo ($vo["now"]); ?></td> 
+											    </tr>
+											</table>
+										 </td> 
+									</tr>
+									
+								</table>	
+							</tr>
+							<tr>
+								<td style="text-indent: 20px;font-size: 15px;"><?php echo ($vo["introduction"]); ?></td>
+							</tr>
+						</table>
+					</div><?php endforeach; endif; else: echo "" ;endif; ?>
+				<div id="page"><?php echo ($show); ?></div>
 			</div>
 		</div>
 		<div id='footer'>

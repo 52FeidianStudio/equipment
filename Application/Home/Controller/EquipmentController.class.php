@@ -4,12 +4,21 @@
 	class EquipmentController extends Controller{
 		public function equipment(){
 			$n = M('Equipment');
-			$arr = $n -> select();
-			$this -> assign('data',$arr);
-			$this -> display();
+			$count = $n -> count();
+			$Page = new\Think\Page($count,9);// 每页显示的记录数
+        	$Page->setConfig('header','个仪器');
+        	$Page->setConfig('next','下一页');
+        	$Page->setConfig('prev','上一页');
+      	  	$show = $Page -> show();//返回分页信息
+      		$arr = $n -> limit($Page->firstRow.','.$Page->listRows) -> select();
+        	$this -> assign("data",$arr);
+        	$this -> assign('show',$show);
+        	$this -> display();
 		}
 		public function showclass(){
 			$class = $_GET['id'];
+			$m = M("class");
+			$class1 = $m -> where("id=$class")->getField("name");
 			$n = D('Equipment');
 			$count = $n -> count();
 			$Page = new\Think\Page($count,10);// 每页显示的记录数
@@ -19,6 +28,7 @@
       	  	$show = $Page -> show();//返回分页信息
       		$arr = $n -> limit($Page->firstRow.','.$Page->listRows) -> where("class = $class") -> select();
         	$this -> assign("data",$arr);
+        	$this -> assign("class1",$class1);
         	$this -> assign('show',$show);
         	$this -> display();
 		}
@@ -40,9 +50,18 @@
 		// 进行关键字的查询
 		public function search(){
 			$n = M("Equipment");
-			$search = $_POST['search'];
-			// 进行模糊查询，可以包含所有的选项
-			$data['ecname'] = array('like',array('%'.$search.'%'));
+			$search = $_POST['search1'];
+			$condition = $_POST['condition'];
+			if($condition == '1'){
+				// 进行模糊查询，可以包含所有的选项
+				$data['ecname'] = array('like','%'.$search.'%');
+				$data['eid'] = $search;
+				$data['_logic'] = 'or';
+			}else if($condition == '2'){
+				$data['ecname'] = array('like','%'.$search.'%');
+			}else{
+				$data['eid'] = $search;
+			}
 			$arr = $n -> where($data) -> select();
 			$count = $n -> where($data) -> count();
 			$this -> assign("data",$arr);

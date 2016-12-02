@@ -94,14 +94,6 @@
     <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><table>
             <div class="panel">
                 <thead>
-                <!-- <div id='p_header'>
-                <tr>
-                                    <th>序号</th>
-                        <th>链接名称</th>
-                        <th>上传日期</th>
-                        <th>管理菜单</th>
-                    </tr>
-                </div> -->
                 </thead>
                 <div id='p_body'>
                     <tr>
@@ -110,7 +102,7 @@
                         <td><a href="/zky/index.php/Admin/Equipment/add_management/id/<?php echo ($vo["id"]); ?>"><button>添加介绍</button></a></td>
                     </tr>
                     <tr>
-                        <td><a href="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" target = "_blank"><img src="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" class = "pic"/></a></td>
+                        <td><a href="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" target = "_blank"><img src="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" class = "pic" alt="无图片"/></a></td>
                     </tr>
                     <tr>
                         <td>仪器编号：</td>

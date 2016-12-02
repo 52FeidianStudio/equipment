@@ -29,7 +29,7 @@
 					password:$("#l_txtPwd").val()
 				},function(text){
 					if(text=="pass"){
-						window.location.href="/zky/index.php/Home/Message/add_message";
+						window.location.href="/zky/index.php/Home/Message/add_answer";
 					}else{
 						$("#suggest").html(text);
 					}
@@ -84,17 +84,13 @@
 		<div id='main'>
 			<div class="contain">
 				<div id="main_navi">
-						<a href="/zky/index.php/Home/Index/main">首页</a>---><a href="/zky/index.php/Home/Message/conmunication">讨论区</a>--->发布留言<br />
-						<?php if(($user) == "0"): ?><form action="/zky/index.php/Home/Message/do_addmessage" method = "post" id = "myForm">
-									留言主题：<input type="text" name = "title"> <br><br>
-									<!-- 此处应该限制一下输入文本框的长度 -->
-									<textarea name="content" id = "content"></textarea><br /><br />
-							        <input type="submit" name="submit" value="发布">
-							        <input type="reset" value = "取消">
-							        <!-- 添加一个事件，当点击其时，弹出对话框，是否放弃发布留言？是，关闭新打开的标签页，否，回到本界面 -->
-							    </form>
+						<a href="/zky/index.php/Home/Index/main">首页</a>---><a href="/zky/index.php/Home/Message/conmunication">讨论区</a>---> <a href="/zky/index.php/Home/Message/do_see"><?php echo ($data["title"]); ?></a> --> 回复 <br />
+						<?php if(($user) == "0"): ?><form action="/zky/index.php/Home/Message/do_addanswer/id/<?php echo ($data["id"]); ?>/address/<?php echo ($address); ?>" method = "post" id = "myForm">
+										<textarea name="content" id = "content"></textarea><br /><br />
+								        <input type="submit" name="submit" value="提交">
+								    </form>
 								<?php else: ?> 
-									<?php if(($user) == ""): ?><p><span>您还没有登录，登录后可添加留言</span></p><br />
+									<?php if(($user) == ""): ?><p><span>您还没有登录，登录之后才可以发表留言</span></p><br />
 										<?php else: ?><span>您已经被管理员禁言</span><br /><?php endif; endif; ?>
 				</div>
 			</div>

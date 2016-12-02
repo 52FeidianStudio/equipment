@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="/zky/Public/Css/public.css" />
 		<script type="text/javascript" src="/zky/Public/Js/jquery-1.8.3.min.js"></script>
 		<script src="/zky/Public/Js/public.js"></script>
-		<script>
+<script>
 			var arr=new Array();
         	arr[0]="/zky/Public/Pic/top.jpg";
        	    arr[1]="/zky/Public/Pic/lab.jpg";
@@ -58,7 +58,7 @@
 					if(text=="pass"){
 						window.location.href="/zky/index.php/Admin/Index/admin";
 					}else{
-						$("#suggest1").html(text);
+						$("#suggest").html(text);
 					}
 				});
 			}
@@ -73,9 +73,7 @@
 	            登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="l_closeBtn">×</a>
 	        </div>
 	        <form>
-		        <div class="row">
-		            <span id="suggest1">&nbsp;</span>
-		        </div>
+		        <span id="suggest"> &nbsp;</span>
 		        <div class="row">
 		            用户名: 
 		            	<span >
@@ -101,7 +99,7 @@
 	            后台登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="a_closeBtn">×</a>
 	        </div>
 	        <form>
-		        <span id="suggest1">&nbsp;</span>
+		        <span id="suggest"> &nbsp;</span>
 		        <div class="row">
 		            用户名: 
 		            	<span >
@@ -119,9 +117,7 @@
 	        	</div>
 	        </form>
 	    </div>
-		<!-- 结束管理登录 -->
-		<!-- 这里是注册弹出窗口 -->
-		<div id="registerBox">
+    <div id="registerBox">
 	        <div class="row1">
 	            注册<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="r_closeBtn">×</a>
 	        </div>
@@ -195,25 +191,19 @@
 				<div id='left'>
 					<div id='book'>
 						<h1>　仪器预约系统</h1>
-						<a href="@!@!"　>单击进入预约系统</a>
+							<?php if(is_array($data0)): $i = 0; $__LIST__ = $data0;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><a href="<?php echo ($vo["address"]); ?>"　><?php echo ($vo["name"]); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
 						<!-- <br />
 						<span>注意：只有本校学生才能预约</span>
 											</div> -->
 						<hr />
 						<div id='relational_a'>
-						<h2>　相关链接</h2>
-						<h4>学院内链接：</h4>
-						<a href="http://cpst.hzau.edu.cn/" target="_blank" class="left_a">华中农业大学植物科学技术学院</a>
-						<h4>校内链接：</h4>
-						<a href="http://www.hzau.edu.cn/2014/ch/"target="_blank" class="left_a">华中农业大学</a>
-						<a href="#" class="left_a">华中农业大学大型仪器设备管理系统</a>
-						<a href="http://lib.hzau.edu.cn/"target="_blank" class="left_a">华中农业大学图书馆</a>
-						<h4>校外链接：</h4>
-						<a href="http://www.dxy.cn/bbs/index.html"target="_blank" class="left_a">丁香园论坛</a>
-						<a href="http://muchong.com/bbs/"target="_blank" class="left_a">小木虫论坛</a>
-						<a href="http://www.gfjl.org/forum.php?fromuid=10080"target="_blank" class="left_a">计量论坛</a>
-						<a href="http://www.instrument.com.cn/"target="_blank" class="left_a">仪器信息网</a>
-						<h4></h4>
+							<h2>　相关链接</h2>
+								<h4>学院内链接：</h4>
+									<?php if(is_array($data1)): $i = 0; $__LIST__ = $data1;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><a href="<?php echo ($vo["address"]); ?>"　><?php echo ($vo["name"]); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
+								<h4>校内链接：</h4>
+									<?php if(is_array($data2)): $i = 0; $__LIST__ = $data2;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><a href="<?php echo ($vo["address"]); ?>"　><?php echo ($vo["name"]); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
+								<h4>校外链接：</h4>
+									<?php if(is_array($data3)): $i = 0; $__LIST__ = $data3;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><a href="<?php echo ($vo["address"]); ?>"　><?php echo ($vo["name"]); ?></a><?php endforeach; endif; else: echo "" ;endif; ?>
 						</div>
 					</div>
 				
@@ -234,6 +224,7 @@
 				</div></div>
 		</div>
 	</div>	
+	    <div id="cf"></div>
 		<div id='footer'>
 			<div class="contain">
 				<p class="footer_p">通讯地址：华中农业大学主楼东附楼二楼</p>

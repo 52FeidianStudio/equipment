@@ -24,3 +24,6 @@ SQL: SELECT `name` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [
 SQL: SELECT `id` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000241s ]
 SQL: SELECT `username` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000281s ]
 
+[ 2016-12-01T11:28:17+08:00 ] ::1 /zky/index.php/Home/Index/mian
+ERR: 非法操作:mian
+

@@ -58,26 +58,30 @@
 	<body>
 		<!-- 这里是登录弹出窗口 -->
 		<div id="LoginBox">
-        <div class="row1">
-            登录<a href="javascript:dataid(0)" title="关闭窗口" class="close_btn" id="l_closeBtn">×</a>
-        </div>
-        <div class="row">
-            用户名: <span class="inputBox">
-                <input type="text" id="l_txtName" placeholder="账号/邮箱" />
-            </span><a href="javascript:dataid(0)" title="提示" class="warning" id="l_warn">*</a>
-        </div>
-        <div class="row">
-            密&nbsp;&nbsp;&nbsp;&nbsp;码: <span class="inputBox">
-                <input type="text" id="l_txtPwd" placeholder="密码" />
-            </span><a href="javascript:dataid(0)" title="提示" class="warning" id="l_warn2">*</a>
-        </div>
-        <div class="row">
-            	<a href="#" id="l_loginbtn" onclick="f1();">登录</a>
-    	</div>
-    </div>
+	        <div class="row1">
+	            登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="l_closeBtn">×</a>
+	        </div>
+	        <form>
+		        <span id="suggest"> &nbsp;</span>
+		        <div class="row">
+		            用户名: 
+		            	<span >
+		                	<input class="inputBox" type="text" id="l_txtName" placeholder="账号" />
+		            	</span>
+		        </div>
+		        <div class="row">
+		            密&nbsp;&nbsp;&nbsp;&nbsp;码:
+		            <span >
+		                <input class="inputBox" type="password" id="l_txtPwd" placeholder="密码" />
+		           	</span>
+		        </div>
+		        <div class="row">
+		            	<a href="#" id="l_loginbtn" onclick="f1();">登录</a>
+	        	</div>
+	        </form>
+	    </div>
 		
 		<!-- 结束登陆弹出窗口 -->
-
 		<!-- 管理登录 -->
 		<div id="AdminBox">
 	        <div class="row1">

@@ -14,7 +14,7 @@
 		    }else if($password==""){
 		        $text="你还没有输入密码！";
 		    }else{
-		        $count = $n -> where("username = $username") -> find();
+		        $count = $n -> where("username=$username") -> find();
 		        if($count){
 		        	$result1 = $n -> where("username = $username") -> getField('password');
 		        	if($result1 == $password){

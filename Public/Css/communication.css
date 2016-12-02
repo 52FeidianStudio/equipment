@@ -14,7 +14,6 @@
 #show p{
 	text-indent: 20px;
 	height: 40px;
-	line-height: 40px;
 	display: block;
 	width: 100%;
 	border-bottom: 1px solid #eaeaea;
@@ -32,9 +31,17 @@
 		float: right;
 		text-decoration: none;
 		color: #65666D;
-		margin-right: 15px;
+		margin-right: 20px;
+		margin-top: 1px;
 	
 }
 #show a:hover{
 	color: orange;
+}
+#add_me{
+	text-indent: 20px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	color: #65666D;
 }

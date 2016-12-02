@@ -24,6 +24,13 @@
 	margin-right: 20px;
 
 }
+#dtl{
+	display: block;
+	float: right;
+	height: 20px;
+	font-size: 16px;
+	line-height: 20px;
+}
 #show a:link,#show a:hover,#show a:visited{
 		
 		text-align: center;

@@ -12,18 +12,9 @@
 		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/equipiment.css" />
 		<script type="text/javascript" src="/zky/Public/Js/jquery-1.8.3.min.js"></script>
 		<script src="/zky/Public/Js/public.js"></script>
-		<script src="/zky/Public/Js/equipment.js"></script>
+		<!-- <script src="/zky/Public/Js/equipment.js"></script> -->
 		<script>
 			var arr=new Array();
-        	arr[0]="/zky/Public/Pic/top.jpg";
-       	    arr[1]="/zky/Public/Pic/lab.jpg";
-        	arr[2]="/zky/Public/Pic/Login.png";
-        	arr[3]="/zky/Public/Pic/phone.jpg";
-        	arr[4]="/zky/Public/Pic/aite.jpg";
-        	arr[5]="/zky/Public/Pic/top.jpg";
-        	arr[6]="/zky/Public/Pic/top.jpg";
-   			// 问题不在于ajax，而是点击按钮之后事件没有被触发
-			// 登录按钮ajax操作
 			function f1(){
 				$.post("/zky/index.php/Home/Login/do_login", {
 					username:$("#l_txtName").val(),
@@ -49,27 +40,40 @@
 				});
 			}
 		</script>
+		<style type="text/css">
+			.lalala{
+				font-size: 15px;
+			}
+			.hahaha{
+				font-size: 10px;
+			}
+		</style>
 	</head>
 	<body>
 	<!-- 这里是登录弹出窗口 -->
-	<div id="LoginBox">
-        <div class="row1">
-            登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="l_closeBtn">×</a>
-        </div>
-        <div class="row">
-            用户名: <span class="inputBox">
-                <input type="text" id="l_txtName" placeholder="账号/邮箱" />
-            </span><a href="javascript:void(0)" title="提示" class="warning" id="l_warn">*</a>
-        </div>
-        <div class="row">
-            密&nbsp;&nbsp;&nbsp;&nbsp;码: <span class="inputBox">
-                <input type="text" id="l_txtPwd" placeholder="密码" />
-            </span><a href="javascript:void(0)" title="提示" class="warning" id="l_warn2">*</a>
-        </div>
-        <div class="row">
-            	<a href="#" id="l_loginbtn" onclick="f1();">登录</a>
-    	</div>
-    </div>
+		<div id="LoginBox">
+	        <div class="row1">
+	            登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="l_closeBtn">×</a>
+	        </div>
+	        <form>
+		        <span id="suggest"> &nbsp;</span>
+		        <div class="row">
+		            用户名: 
+		            	<span >
+		                	<input class="inputBox" type="text" id="l_txtName" placeholder="账号" />
+		            	</span>
+		        </div>
+		        <div class="row">
+		            密&nbsp;&nbsp;&nbsp;&nbsp;码:
+		            <span >
+		                <input class="inputBox" type="password" id="l_txtPwd" placeholder="密码" />
+		           	</span>
+		        </div>
+		        <div class="row">
+		            	<a href="#" id="l_loginbtn" onclick="f1();">登录</a>
+	        	</div>
+	        </form>
+	    </div>
 		
 		<!-- 结束登陆弹出窗口 -->
 
@@ -124,41 +128,75 @@
 				</div>
 			</div>
 		</div>
-		<div id='main'>
-			<div class="contain">
+		<div id='main' style="height:815px; ">
+			<div class="contain" style="height:815px; ">
 				<div id="main_navi">
 						<a href="/zky/index.php/Home/Index/main">首页</a><span><span>--->仪器介绍</span> </span><br />
 				</div>
-				<div id="main_navi">
-					<form action="/zky/index.php/Home/Equipment/search" method = "post">
-						<input type="text" name="search" placeholder="输入关键字进行查询" > 
-						<button type = "submit">搜索</button>
-					</form>
-				</div>
+				
 				<div id='sl_na'>
 					<div id='inclu'>
 						<a href="/zky/index.php/Home/Equipment/showclass/id/1" >质谱仪器</a>
 						<a href="/zky/index.php/Home/Equipment/showclass/id/2" >色谱仪器</a>
 						<a href="/zky/index.php/Home/Equipment/showclass/id/3" >光谱仪器</a>
-						<a href="/zky/index.php/Home/Equipment/showclass/id/4" >生化分离分析仪器</a>
-						<a href="/zky/index.php/Home/Equipment/showclass/id/5" >显微镜及图像仪</a>
-						<a href="/zky/index.php/Home/Equipment/showclass/id/6" >品质分析仪器</a>
+						<a href="/zky/index.php/Home/Equipment/showclass/id/4" >生化分离<br />分析仪器</a>
+						<a href="/zky/index.php/Home/Equipment/showclass/id/5" >显微镜<br />及图像仪</a>
+						<a href="/zky/index.php/Home/Equipment/showclass/id/6" >品质<br />分析仪器</a>
 						<a href="/zky/index.php/Home/Equipment/showclass/id/7" >其他</a>
+						
+						<form action="/zky/index.php/Home/Equipment/search" id="search" method="post">
+							<input type="text" style="obrde:r1px solid black;border-radius:3px;" name="search1"/>
+							<button type="submit">搜索</button><br />
+							<input type="radio" name="condition" value="1" checked/>所有　
+							<input type="radio" name="condition" value="2"/>设备名称　
+							<input type="radio" name="condition" value="3"/>设备编号　
+						</form>
 					</div>
 				</div>
-				 <div id="slide" >
-				      <ul >
-				          <li><img src="/zky/Public/Pic/top.jpg"  alt="" /></li>
-				          <li><img src="/zky/Public/Pic/top.jpg" alt="" /></li>
-				          <li><img src="/zky/Public/Pic/Login.png" alt="" /></li>
-				          <li><img src="/zky/Public/Pic/phone.jpg" alt="" /></li>
-				          <li><img src="/zky/Public/Pic/aite.jpg" alt="" /></li>
-				          <li><img src="/zky/Public/Pic/top.jpg" alt="" /></li>
-				          <li><img src="/zky/Public/Pic/phone.jpg" alt="" /></li>
-				      </ul>
-    			</div>
+				<div id="eqlist">
+					<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="eqsl">
+							<table >
+								<tr><br />
+									<td><a href="/zky/index.php/Home/Equipment/showitems/id/<?php echo ($vo["id"]); ?>"><?php echo ($vo["ecname"]); ?></a></td>
+								</tr>
+								<tr>
+									<table>
+										<tr> <td><img src="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" alt="无图片" /></td>
+											 <td>
+											 	<table>
+											 		<tr> 
+											 			<th class = "lalala">设备编号：</th>   
+											 			<td class = "hahaha"><?php echo ($vo["eid"]); ?></td>  
+											 		</tr>
+													<tr> 
+														<th class = "lalala">存放地点：</th>   
+														<td class = "hahaha"><?php echo ($vo["elocation"]); ?></td> 
+													</tr>
+													<tr> 
+														<th class = "lalala">所属单位：</th>   
+														<td class = "hahaha"><?php echo ($vo["eblong"]); ?></td> 
+													</tr>
+													<tr>
+												    	<th class = "lalala">状　　态：</th>   
+												    	<td class = "hahaha"><?php echo ($vo["now"]); ?></td> 
+												    </tr>
+												</table>
+											 </td> 
+										</tr>
+										
+									</table>	
+								</tr>
+								<tr>
+									<td style="text-indent: 20px;font-size: 15px;"><?php echo ($vo["introduction"]); ?></td>
+								</tr>
+							</table>
+						</div><?php endforeach; endif; else: echo "" ;endif; ?>
+
+					<div id="page"><?php echo ($show); ?></div>
+				</div>
 			</div>
 		</div>
+		<div id="cf" style="height:57px; "></div>
 		<div id='footer'>
 			<div class="contain">
 				<p class="footer_p">通讯地址：华中农业大学主楼东附楼二楼</p>
