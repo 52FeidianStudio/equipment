@@ -9,52 +9,37 @@
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
 		<link rel="stylesheet" href="__PUBLIC__/Css/public.css" />
-		<link rel="stylesheet" type='text/css' href="__PUBLIC__/Css/equipiment.css" />
+		<link rel="stylesheet" type='text/css' href="__PUBLIC__/Css/showitems.css" />
 		<script type="text/javascript" src="__PUBLIC__/Js/jquery-1.8.3.min.js"></script>
 		<script src="__PUBLIC__/Js/public.js"></script>
 		<script src="__PUBLIC__/Js/equipment.js"></script>
 		<script>
-			var arr=new Array();
-        	arr[0]="__PUBLIC__/Pic/top.jpg";
-       	    arr[1]="__PUBLIC__/Pic/lab.jpg";
-        	arr[2]="__PUBLIC__/Pic/Login.png";
-        	arr[3]="__PUBLIC__/Pic/phone.jpg";
-        	arr[4]="__PUBLIC__/Pic/aite.jpg";
-        	arr[5]="__PUBLIC__/Pic/top.jpg";
-        	arr[6]="__PUBLIC__/Pic/top.jpg";
-   			// 问题不在于ajax，而是点击按钮之后事件没有被触发
-			// 登录按钮ajax操作
 			function f1(){
 				$.post("__APP__/Home/Login/do_login", {
 					username:$("#l_txtName").val(),
 					password:$("#l_txtPwd").val()
 				},function(text){
 					if(text=="pass"){
-						window.location.href="__APP__/Home/Equipment/showitems";
+						window.location.href="__APP__/Home/Inform/news";
 					}else{
 						$("#suggest").html(text);
 					}
 				});
 			}
-			function f3(){
-				$.post("__APP__/Admin/Login/do_login", {
-					username:$("#a_txtName").val(),
-					password:$("#a_txtPwd").val()
-				},function(text){
-					if(text=="pass"){
-						window.location.href="__APP__/Admin/Index/admin";
-					}else{
-						$("#suggest1").html(text);
-					}
-				});
+			function f2(){
+			$.post("__APP__/Admin/Login/do_login", {
+				username:$("#a_txtName").val(),
+				password:$("#a_txtPwd").val()
+			},function(text){
+				if(text=="pass"){
+					window.location.href="__APP__/Admin/Index/admin";
+				}else{
+					$("#suggest").html(text);
+				}
+			});
 			}
 		</script>
 	</head>
-	<style type="text/css">
-		td{
-			width: 5%;
-		}
-	</style>
 	<body>
 		<!-- 这里是登录弹出窗口 -->
 		<div id="LoginBox">
@@ -88,9 +73,7 @@
 	            后台登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="a_closeBtn">×</a>
 	        </div>
 	        <form>
-		        <div class="row">
-		            <span id="suggest1">&nbsp;</span>
-		        </div>
+		        <span id="suggest"> &nbsp;</span>
 		        <div class="row">
 		            用户名: 
 		            	<span >
@@ -104,12 +87,11 @@
 		           	</span>
 		        </div>
 		        <div class="row">
-		            	<a href="#" id="a_loginbtn" onclick="f3();">登录</a>
+		            	<a href="#" id="a_loginbtn" onclick="f2();">登录</a>
 	        	</div>
 	        </form>
 	    </div>
-		<!-- 结束管理登录 -->
-
+	     <!-- 结束管理登录窗口 -->
 		<div id='header'>
 			<div class="contain" >
 				<img src="__PUBLIC__/Pic/top.jpg" alt="" style="width:100%;" />
@@ -138,85 +120,87 @@
 				<div id="main_navi">
 						<a href="__APP__/Home/Index/main">首页</a><span><span>--->仪器介绍</span> </span><br />
 				</div>
-	    			<table>
-						<a href="__ROOT__/Uploads<{$data.imagicaddress}>" target = "_blank"><img src="__ROOT__/Uploads<{$data.imagicaddress}>" class = "pic" width = "200" height = "200"/> </a>
+				<div id="eqListShow">
+	    			<table >
+						<!-- <a href="__ROOT__/Uploads<{$data.imagicaddress}>" target = "_blank"> -->
+						<img src="__ROOT__/Uploads<{$data.imagicaddress}>"  id = "pic" /> <!-- </a> -->
 						<tr>
-							<td>
+							<th>
 								编号：
-							</td>
+							</th>
 							<td>
 								<{$data.eid}>
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<th>
 								资产编号：
-							</td>
+							</th>
 							<td>
 								<{$data.eoutid}>
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<th>
 								名称：
-							</td>
+							</th>
 							<td>
 								<{$data.ecname}>
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<th>
 								型号：
-							</td>
+							</th>
 							<td>
 								<{$data.etype}>
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<th>
 								单价：
-							</td>
+							</th>
 							<td>
 								<{$data.eprice}>
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<th>
 								现状：
-							</td>
+							</th>
 							<td>
 								<{$data.now}>
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<th>
 								领用单位：
-							</td>
+							</th>
 							<td>
 								<{$data.eblong}>
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<th>
 								存放地：
-							</td>
+							</th>
 							<td>
 								<{$data.elocation}>
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<th>
 								供应商：
-							</td>
+							</th>
 							<td>
 								<{$data.ecmanufactor}>
 							</td>
 						</tr>
 						
 						<tr>
-							<td>
+							<th>
 								简介
-							</td>
+							</th>
 							<td>
 								<{$data.introduction}>
 							</td>
@@ -226,11 +210,11 @@
 	                        for($k = 0; $k < $data['count'];$k++){
 	                    </PHP>
 	                        <tr>
-	                            <td>特点
+	                            <th>特点
 	                                <PHP>
 	                                    echo $k+1;
 	                                </PHP>
-	                            </td>
+	                            </th>
 	                            <td>
 	                                <PHP>
 	                                    echo $data['management'][$k]['title'];
@@ -239,11 +223,11 @@
 	                        </tr>
 	                        <hr>
 	                        <tr>
-	                            <td>特点
+	                            <th>特点
 	                                <PHP>
 	                                    echo $k+1;
 	                                </PHP>
-	                                详细介绍</td>
+	                                详细介绍</th>
 	                            <td>
 	                                <PHP>
 	                                    echo $data['management'][$k]['content'];
@@ -255,6 +239,7 @@
 	                        }
 	                    </PHP>
 	                </table>
+	                </div>
 			</div>
 		</div>
 		<div id='footer'>

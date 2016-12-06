@@ -9,11 +9,12 @@
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
 		<link rel="stylesheet" href="/zky/Public/Css/public.css" />
-		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/equipiment.css" />
+		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/showclass.css" />
 		<script type="text/javascript" src="/zky/Public/Js/jquery-1.8.3.min.js"></script>
 		<script src="/zky/Public/Js/public.js"></script>
 		<script src="/zky/Public/Js/equipment.js"></script>
 		<script>
+		<!-- <script src="/zky/Public/Js/equipment.js"></script> -->
 			var arr=new Array();
         	arr[0]="/zky/Public/Pic/top.jpg";
        	    arr[1]="/zky/Public/Pic/lab.jpg";
@@ -128,48 +129,59 @@
 				</div>
 			</div>
 		</div>
-		<div id='main'>
-			<div class="contain">
+		<div id='main' style="height:915px; ">
+			<div class="contain" style="height:915px; ">
 				<div id="main_navi">
 						<a href="/zky/index.php/Home/Index/main">首页</a><span>---> </span><a href="/zky/index.php/Home/Equipment/equipment"> 仪器介绍</a> <span> ---><?php echo ($class1); ?> </span><br />
+
 				</div>
-                <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="eqsl">
-						<table >
-							<tr><br />
-								<td><a href="/zky/index.php/Home/Equipment/showitems/id/<?php echo ($vo["id"]); ?>"><?php echo ($vo["ecname"]); ?></a></td>
-							</tr>
-							<tr>
-								<table>
-									<tr> <td><img src="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" alt="无图片" /></td>
-										 <td>
-										 	<table>
-										 		<tr> 
-										 			<th class = "lalala">设备编号：</th>   
-										 			<td class = "hahaha"><?php echo ($vo["eid"]); ?></td>  
-										 		</tr>
-												<tr> 
-													<th class = "lalala">存放地点：</th>   
-													<td class = "hahaha"><?php echo ($vo["elocation"]); ?></td> 
-												</tr>
-												<tr> 
-													<th class = "lalala">所属单位：</th>   
-													<td class = "hahaha"><?php echo ($vo["eblong"]); ?></td> 
-												</tr>
-												<tr>
-											    	<th class = "lalala">状　　态：</th>   
-											    	<td class = "hahaha"><?php echo ($vo["now"]); ?></td> 
-											    </tr>
-											</table>
-										 </td> 
-									</tr>
-									
-								</table>	
-							</tr>
-							<tr>
-								<td style="text-indent: 20px;font-size: 15px;"><?php echo ($vo["introduction"]); ?></td>
-							</tr>
-						</table>
-					</div><?php endforeach; endif; else: echo "" ;endif; ?>
+				<div>
+				<form action="/zky/index.php/Home/Equipment/search" id="search" method="post">
+							<input type="text" style="border:1px solid black;border-radius:3px;" name="search1"/>
+							<button type="submit">搜索</button><br />
+							<input type="radio" name="condition" value="1" checked/>所有　
+							<input type="radio" name="condition" value="2"/>设备名称　
+							<input type="radio" name="condition" value="3"/>设备编号　
+				</form>
+				</div>
+				<div id="eqlist">
+	                <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="eqsl">
+							<table >
+								<tr>
+									<td><a href="/zky/index.php/Home/Equipment/showitems/id/<?php echo ($vo["id"]); ?>"><?php echo ($vo["ecname"]); ?></a></td>
+								</tr>
+							</table>
+							<table>
+								<tr> <td><img src="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" alt="无图片" /></td>
+									 <td>
+									 	<table id="showr">
+									 		<tr> 
+									 			<th class = "lalala">设备编号：</th>   
+									 			<td class = "hahaha"><?php echo ($vo["eid"]); ?></td>  
+									 		</tr>
+											<tr> 
+												<th class = "lalala">存放地点：</th>   
+												<td class = "hahaha"><?php echo ($vo["elocation"]); ?></td> 
+											</tr>
+											<tr> 
+												<th class = "lalala">所属单位：</th>   
+												<td class = "hahaha"><?php echo ($vo["eblong"]); ?></td> 
+											</tr>
+											<tr>
+										    	<th class = "lalala">状　　态：</th>   
+										    	<td class = "hahaha"><?php echo ($vo["now"]); ?></td> 
+										    </tr>
+										</table>
+									 </td> 
+								</tr>
+							</table>	
+							<table style="text-overflow :ellipsis;height: 12px;width: 250px;margin: 0 auto 0 auto;">	
+								<tr>
+									<td style="text-indent: 20px;font-size: 10px;"><?php echo ($vo["introduction"]); ?></td>
+								</tr>
+							</table>
+						</div><?php endforeach; endif; else: echo "" ;endif; ?>
+				</div>
 				<div id="page"><?php echo ($show); ?></div>
 			</div>
 		</div>

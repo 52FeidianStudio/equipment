@@ -1,0 +1,926 @@
+[ 2016-12-04T01:41:36+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T01:41:36+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:41:36+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:41:36+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T01:41:36+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:41:36+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:41:36+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T01:41:36+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:41:36+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:41:36+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:41:36+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:41:36+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:41:37+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T01:41:37+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:41:37+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T01:41:37+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:41:37+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T01:41:37+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:41:37+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:41:37+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:41:37+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:41:37+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:41:37+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:41:38+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:50:29+08:00 ] ::1 /zky/index.php/Admin/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002479s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007357s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.019557s ]
+SQL: SELECT `isTeacher` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000293s ]
+SQL: SELECT `password` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000195s ]
+SQL: SELECT `name` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000168s ]
+SQL: SELECT `id` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000164s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000302s ]
+
+[ 2016-12-04T01:56:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T01:56:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T01:56:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:56:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:56:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:56:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:56:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:56:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T01:56:29+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:57:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T01:57:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T01:57:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T01:57:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:57:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:57:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:57:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:57:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:57:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:57:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:57:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T01:57:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:06:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:06:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:06:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:06:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:06:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:06:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:06:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:06:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:06:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:06:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:06:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:06:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:12+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:48:12+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:12+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:12+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:12+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:48:12+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:12+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:12+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:48:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:13+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:20+08:00 ] ::1 /zky/index.php/Admin/Regulation/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:48:21+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:21+08:00 ] ::1 /zky/index.php/Admin/Regulation/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:48:21+08:00 ] ::1 /zky/index.php/Admin/Regulation/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:48:21+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:21+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:21+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:21+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:21+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:21+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:21+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:21+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:24+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:48:24+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:24+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:48:24+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:24+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:24+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:24+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:48:24+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:24+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:24+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:24+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:24+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:37+08:00 ] ::1 /zky/index.php/Admin/Message/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:37+08:00 ] ::1 /zky/index.php/Admin/Message/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:48:37+08:00 ] ::1 /zky/index.php/Admin/Message/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:37+08:00 ] ::1 /zky/index.php/Admin/Message/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:37+08:00 ] ::1 /zky/index.php/Admin/Message/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:48:37+08:00 ] ::1 /zky/index.php/Admin/Message/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:37+08:00 ] ::1 /zky/index.php/Admin/Message/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:37+08:00 ] ::1 /zky/index.php/Admin/Message/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:48:37+08:00 ] ::1 /zky/index.php/Admin/Message/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:37+08:00 ] ::1 /zky/index.php/Admin/Message/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:37+08:00 ] ::1 /zky/index.php/Admin/Message/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:37+08:00 ] ::1 /zky/index.php/Admin/Message/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:52+08:00 ] ::1 /zky/index.php/Admin/Message/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:48:52+08:00 ] ::1 /zky/index.php/Admin/Message/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:52+08:00 ] ::1 /zky/index.php/Admin/Message/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:52+08:00 ] ::1 /zky/index.php/Admin/Message/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:48:52+08:00 ] ::1 /zky/index.php/Admin/Message/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:52+08:00 ] ::1 /zky/index.php/Admin/Message/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:52+08:00 ] ::1 /zky/index.php/Admin/Message/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:48:52+08:00 ] ::1 /zky/index.php/Admin/Message/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:52+08:00 ] ::1 /zky/index.php/Admin/Message/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:52+08:00 ] ::1 /zky/index.php/Admin/Message/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:52+08:00 ] ::1 /zky/index.php/Admin/Message/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:52+08:00 ] ::1 /zky/index.php/Admin/Message/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:59+08:00 ] ::1 /zky/index.php/Admin/Regulation/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:48:59+08:00 ] ::1 /zky/index.php/Admin/Regulation/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:48:59+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:59+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:59+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:59+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:59+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:59+08:00 ] ::1 /zky/index.php/Admin/Regulation/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:48:59+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:59+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:59+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:48:59+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:49:05+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:49:05+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:49:05+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:49:05+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:49:05+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:49:05+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:49:05+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:49:05+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:49:05+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:49:05+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:49:05+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:49:05+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:50:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:50:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:50:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:50:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:50:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:50:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:50:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:50:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:50:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:50:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:50:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:50:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:51:05+08:00 ] ::1 /zky/index.php/Admin/Regulation/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:51:05+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:51:05+08:00 ] ::1 /zky/index.php/Admin/Regulation/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:51:05+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:51:05+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:51:05+08:00 ] ::1 /zky/index.php/Admin/Regulation/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T02:51:05+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:51:05+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:51:05+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:51:05+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:51:05+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T02:54:57+08:00 ] ::1 /zky/index.php/Admin/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002038s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006955s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000378s ]
+SQL: SELECT `isTeacher` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000293s ]
+SQL: SELECT `password` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: SELECT `name` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000565s ]
+SQL: SELECT `id` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.001741s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000381s ]
+
+[ 2016-12-04T03:01:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:01:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:01:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:01:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:01:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:01:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:01:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:01:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:01:54+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:01:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:01:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:01:55+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:02:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:02:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:02:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:02:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:02:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:02:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:02:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:02:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:02:08+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:02:35+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:02:35+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:02:35+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:02:35+08:00 ] ::1 /zky/index.php/Admin/Equipment/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:02:35+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:02:35+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:02:35+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:02:35+08:00 ] ::1 /zky/index.php/Admin/Equipment/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:15:07+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:15:07+08:00 ] ::1 /zky/index.php/Admin/Regulation/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:15:07+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:15:07+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:15:07+08:00 ] ::1 /zky/index.php/Admin/Regulation/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:15:07+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:15:07+08:00 ] ::1 /zky/index.php/Admin/Regulation/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:15:07+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:15:07+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:15:07+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:15:07+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:15:07+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:18+08:00 ] ::1 /zky/index.php/Admin/Regulation/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:30:18+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:18+08:00 ] ::1 /zky/index.php/Admin/Regulation/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:30:18+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:18+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:18+08:00 ] ::1 /zky/index.php/Admin/Regulation/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:30:18+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:18+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:18+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:19+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:19+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:19+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:24+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:24+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:24+08:00 ] ::1 /zky/index.php/Admin/Regulation/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:30:24+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:24+08:00 ] ::1 /zky/index.php/Admin/Regulation/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:30:24+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:24+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:24+08:00 ] ::1 /zky/index.php/Admin/Regulation/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:30:24+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:24+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:24+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:24+08:00 ] ::1 /zky/index.php/Admin/Regulation/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:28+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:30:28+08:00 ] ::1 /zky/index.php/Admin/File/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:30:28+08:00 ] ::1 /zky/index.php/Admin/File/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:30:28+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:28+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:28+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:28+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:28+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:28+08:00 ] ::1 /zky/index.php/Admin/File/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:28+08:00 ] ::1 /zky/index.php/Admin/File/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:28+08:00 ] ::1 /zky/index.php/Admin/File/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:28+08:00 ] ::1 /zky/index.php/Admin/File/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:31+08:00 ] ::1 /zky/index.php/Admin/Message/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:30:31+08:00 ] ::1 /zky/index.php/Admin/Message/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:30:31+08:00 ] ::1 /zky/index.php/Admin/Message/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:31+08:00 ] ::1 /zky/index.php/Admin/Message/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:31+08:00 ] ::1 /zky/index.php/Admin/Message/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:31+08:00 ] ::1 /zky/index.php/Admin/Message/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:31+08:00 ] ::1 /zky/index.php/Admin/Message/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:31+08:00 ] ::1 /zky/index.php/Admin/Message/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:30:31+08:00 ] ::1 /zky/index.php/Admin/Message/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:31+08:00 ] ::1 /zky/index.php/Admin/Message/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:31+08:00 ] ::1 /zky/index.php/Admin/Message/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:31+08:00 ] ::1 /zky/index.php/Admin/Message/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:32+08:00 ] ::1 /zky/index.php/Admin/Message/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:30:32+08:00 ] ::1 /zky/index.php/Admin/Message/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:32+08:00 ] ::1 /zky/index.php/Admin/Message/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:30:32+08:00 ] ::1 /zky/index.php/Admin/Message/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:30:32+08:00 ] ::1 /zky/index.php/Admin/Message/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:32+08:00 ] ::1 /zky/index.php/Admin/Message/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:32+08:00 ] ::1 /zky/index.php/Admin/Message/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:32+08:00 ] ::1 /zky/index.php/Admin/Message/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:32+08:00 ] ::1 /zky/index.php/Admin/Message/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:32+08:00 ] ::1 /zky/index.php/Admin/Message/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:32+08:00 ] ::1 /zky/index.php/Admin/Message/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:32+08:00 ] ::1 /zky/index.php/Admin/Message/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:34+08:00 ] ::1 /zky/index.php/Admin/Message/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:30:34+08:00 ] ::1 /zky/index.php/Admin/Message/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:30:34+08:00 ] ::1 /zky/index.php/Admin/Message/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:34+08:00 ] ::1 /zky/index.php/Admin/Message/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:30:34+08:00 ] ::1 /zky/index.php/Admin/Message/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:34+08:00 ] ::1 /zky/index.php/Admin/Message/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:34+08:00 ] ::1 /zky/index.php/Admin/Message/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:34+08:00 ] ::1 /zky/index.php/Admin/Message/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:34+08:00 ] ::1 /zky/index.php/Admin/Message/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:34+08:00 ] ::1 /zky/index.php/Admin/Message/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:34+08:00 ] ::1 /zky/index.php/Admin/Message/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:34+08:00 ] ::1 /zky/index.php/Admin/Message/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:37+08:00 ] ::1 /zky/index.php/Admin/Message/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:37+08:00 ] ::1 /zky/index.php/Admin/Message/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:37+08:00 ] ::1 /zky/index.php/Admin/Message/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:37+08:00 ] ::1 /zky/index.php/Admin/Message/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:30:37+08:00 ] ::1 /zky/index.php/Admin/Message/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:30:37+08:00 ] ::1 /zky/index.php/Admin/Message/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:37+08:00 ] ::1 /zky/index.php/Admin/Message/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:30:37+08:00 ] ::1 /zky/index.php/Admin/Message/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:37+08:00 ] ::1 /zky/index.php/Admin/Message/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:37+08:00 ] ::1 /zky/index.php/Admin/Message/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:37+08:00 ] ::1 /zky/index.php/Admin/Message/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:37+08:00 ] ::1 /zky/index.php/Admin/Message/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:38+08:00 ] ::1 /zky/index.php/Admin/Message/Css/bootstrap.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:30:38+08:00 ] ::1 /zky/index.php/Admin/Message/Js/jquery2.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:38+08:00 ] ::1 /zky/index.php/Admin/Message/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:38+08:00 ] ::1 /zky/index.php/Admin/Message/Css/bootstrap-responsive.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:30:38+08:00 ] ::1 /zky/index.php/Admin/Message/Js/common.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:38+08:00 ] ::1 /zky/index.php/Admin/Message/Css/style.css
+ERR: 非法操作:css
+
+[ 2016-12-04T03:30:38+08:00 ] ::1 /zky/index.php/Admin/Message/Js/jquery2.sorted.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:38+08:00 ] ::1 /zky/index.php/Admin/Message/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:38+08:00 ] ::1 /zky/index.php/Admin/Message/Js/bootstrap.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:38+08:00 ] ::1 /zky/index.php/Admin/Message/Js/ckform.js
+ERR: 非法操作:js
+
+[ 2016-12-04T03:30:38+08:00 ] ::1 /zky/index.php/Admin/Message/Js/common.js
+ERR: 非法操作:js
+

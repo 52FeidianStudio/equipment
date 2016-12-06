@@ -29,7 +29,6 @@
 			}else{
 				$id  = $n -> add(); //写入数据库，并且返回result的值进行判断
 			}
-			// $this -> redirect('Inform/news','','0','页面跳转中'); // 进行重定向操作，返回到主页
 			if($id){
 	            $data = array(
 	                'code'=>'0',

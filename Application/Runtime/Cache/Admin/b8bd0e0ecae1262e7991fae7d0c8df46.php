@@ -42,7 +42,9 @@
 			</div>
 			<div class="div3">
 				<li><a class="a" href="javascript:/zky/index.php/Admin/Index/admin;"
-					onClick="openurl('/zky/index.php/Admin/Index/index_link');">首页链接</a></li>
+					onClick="openurl('/zky/index.php/Admin/Index/index_link');">链接</a></li>
+				<li><a class="a" href="javascript:/zky/index.php/Admin/Index/admin;"
+					onClick="openurl('/zky/index.php/Admin/Index/index_admin');">主页面</a></li>
 			</div>
 			<div class="div2">
 				<div class="div4"></div>

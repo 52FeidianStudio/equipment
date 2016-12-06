@@ -83,6 +83,9 @@
             $this -> assign("data1",$arr1);
             $this -> assign("data2",$arr2);
             $this -> assign("data3",$arr3);
+
+            $m = M("Maincontent");
+            $arr = $m -> where("id = 1") -> getField("content");
             $this -> display();
         }
         /*方法功能：添加链接*/
@@ -110,6 +113,30 @@
                 $this -> redirect("Index/index_link");
             }else{
                 $this -> error("删除失败！");
+            }
+        }
+        /*方法功能：显示主页面的信息*/
+        public function index_admin(){
+            $n = M("Maincontent");
+            $m = $n->where("id = 1")->getField("content");
+            $this -> assign("data",$m);
+            $this -> display();
+        }
+        /*方法功能：更改主页面中的内容*/
+        public function do_show(){
+            $n = M('Maincontent');
+            $n -> Create();  //创建数据对象
+            if($_POST['content'] == ""){
+                $id = 0;
+            }else{
+                $id = $n -> where("id = 1") -> data($_POST) -> save(); //写入数据库，并且返回result的值进行判断
+            }
+            if($id){
+                $data = array(
+                    'code'=>'0',
+                    'id'=>$id
+                );
+                echo json_encode($data);
             }
         }
 }

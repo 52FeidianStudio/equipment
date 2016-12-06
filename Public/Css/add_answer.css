@@ -1,0 +1,20 @@
+#show h2 {
+	text-align: center;
+}
+#content{
+	border: 1px solid black;
+	display: block;
+	height: 200px;
+	width: 90%;
+	margin-left: 5%;
+	border-radius: 5px;
+	margin-top: 50px;
+}
+#show input{
+	float: right;
+	margin-right: 25px;
+	height: 30px;
+	width: 60px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 5px #c1c1c1;
+}

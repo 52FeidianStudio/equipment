@@ -1,0 +1,29 @@
+.table tr td{
+	width: 100%;
+	margin-top: 5px;
+	float: left;
+}
+.title a:link,.title a:hover,.title a:visited{
+	text-decoration: none;
+	color: #2a8ba7;
+}
+.row a:link,.row a:hover,.row a:visited{
+	display: block;
+	width: 75px;
+	float: left;
+	margin-left:20px;
+	text-decoration: none;
+	color: #2a8ba7;
+}
+.row button{
+    display: block;
+    width: 75px;
+    height: 25px;
+    float: right;
+    margin-right: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+.row a:hover,.title a:hover{
+	color: orange;
+}

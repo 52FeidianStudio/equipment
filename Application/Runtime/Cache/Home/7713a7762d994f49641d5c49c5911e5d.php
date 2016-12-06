@@ -9,52 +9,37 @@
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
 		<link rel="stylesheet" href="/zky/Public/Css/public.css" />
-		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/equipiment.css" />
+		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/showitems.css" />
 		<script type="text/javascript" src="/zky/Public/Js/jquery-1.8.3.min.js"></script>
 		<script src="/zky/Public/Js/public.js"></script>
 		<script src="/zky/Public/Js/equipment.js"></script>
 		<script>
-			var arr=new Array();
-        	arr[0]="/zky/Public/Pic/top.jpg";
-       	    arr[1]="/zky/Public/Pic/lab.jpg";
-        	arr[2]="/zky/Public/Pic/Login.png";
-        	arr[3]="/zky/Public/Pic/phone.jpg";
-        	arr[4]="/zky/Public/Pic/aite.jpg";
-        	arr[5]="/zky/Public/Pic/top.jpg";
-        	arr[6]="/zky/Public/Pic/top.jpg";
-   			// 问题不在于ajax，而是点击按钮之后事件没有被触发
-			// 登录按钮ajax操作
 			function f1(){
 				$.post("/zky/index.php/Home/Login/do_login", {
 					username:$("#l_txtName").val(),
 					password:$("#l_txtPwd").val()
 				},function(text){
 					if(text=="pass"){
-						window.location.href="/zky/index.php/Home/Equipment/showitems";
+						window.location.href="/zky/index.php/Home/Inform/news";
 					}else{
 						$("#suggest").html(text);
 					}
 				});
 			}
-			function f3(){
-				$.post("/zky/index.php/Admin/Login/do_login", {
-					username:$("#a_txtName").val(),
-					password:$("#a_txtPwd").val()
-				},function(text){
-					if(text=="pass"){
-						window.location.href="/zky/index.php/Admin/Index/admin";
-					}else{
-						$("#suggest1").html(text);
-					}
-				});
+			function f2(){
+			$.post("/zky/index.php/Admin/Login/do_login", {
+				username:$("#a_txtName").val(),
+				password:$("#a_txtPwd").val()
+			},function(text){
+				if(text=="pass"){
+					window.location.href="/zky/index.php/Admin/Index/admin";
+				}else{
+					$("#suggest").html(text);
+				}
+			});
 			}
 		</script>
 	</head>
-	<style type="text/css">
-		td{
-			width: 5%;
-		}
-	</style>
 	<body>
 		<!-- 这里是登录弹出窗口 -->
 		<div id="LoginBox">
@@ -88,9 +73,7 @@
 	            后台登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="a_closeBtn">×</a>
 	        </div>
 	        <form>
-		        <div class="row">
-		            <span id="suggest1">&nbsp;</span>
-		        </div>
+		        <span id="suggest"> &nbsp;</span>
 		        <div class="row">
 		            用户名: 
 		            	<span >
@@ -104,12 +87,11 @@
 		           	</span>
 		        </div>
 		        <div class="row">
-		            	<a href="#" id="a_loginbtn" onclick="f3();">登录</a>
+		            	<a href="#" id="a_loginbtn" onclick="f2();">登录</a>
 	        	</div>
 	        </form>
 	    </div>
-		<!-- 结束管理登录 -->
-
+	     <!-- 结束管理登录窗口 -->
 		<div id='header'>
 			<div class="contain" >
 				<img src="/zky/Public/Pic/top.jpg" alt="" style="width:100%;" />
@@ -137,85 +119,87 @@
 				<div id="main_navi">
 						<a href="/zky/index.php/Home/Index/main">首页</a><span><span>--->仪器介绍</span> </span><br />
 				</div>
-	    			<table>
-						<a href="/zky/Uploads<?php echo ($data["imagicaddress"]); ?>" target = "_blank"><img src="/zky/Uploads<?php echo ($data["imagicaddress"]); ?>" class = "pic" width = "200" height = "200"/> </a>
+				<div id="eqListShow">
+	    			<table >
+						<!-- <a href="/zky/Uploads<?php echo ($data["imagicaddress"]); ?>" target = "_blank"> -->
+						<img src="/zky/Uploads<?php echo ($data["imagicaddress"]); ?>"  id = "pic" /> <!-- </a> -->
 						<tr>
-							<td>
+							<th>
 								编号：
-							</td>
+							</th>
 							<td>
 								<?php echo ($data["eid"]); ?>
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<th>
 								资产编号：
-							</td>
+							</th>
 							<td>
 								<?php echo ($data["eoutid"]); ?>
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<th>
 								名称：
-							</td>
+							</th>
 							<td>
 								<?php echo ($data["ecname"]); ?>
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<th>
 								型号：
-							</td>
+							</th>
 							<td>
 								<?php echo ($data["etype"]); ?>
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<th>
 								单价：
-							</td>
+							</th>
 							<td>
 								<?php echo ($data["eprice"]); ?>
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<th>
 								现状：
-							</td>
+							</th>
 							<td>
 								<?php echo ($data["now"]); ?>
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<th>
 								领用单位：
-							</td>
+							</th>
 							<td>
 								<?php echo ($data["eblong"]); ?>
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<th>
 								存放地：
-							</td>
+							</th>
 							<td>
 								<?php echo ($data["elocation"]); ?>
 							</td>
 						</tr>
 						<tr>
-							<td>
+							<th>
 								供应商：
-							</td>
+							</th>
 							<td>
 								<?php echo ($data["ecmanufactor"]); ?>
 							</td>
 						</tr>
 						
 						<tr>
-							<td>
+							<th>
 								简介
-							</td>
+							</th>
 							<td>
 								<?php echo ($data["introduction"]); ?>
 							</td>
@@ -223,18 +207,18 @@
 						<hr>
 						<?php for($k = 0; $k < $data['count'];$k++){ ?>
 	                        <tr>
-	                            <td>特点
+	                            <th>特点
 	                                <?php echo $k+1; ?>
-	                            </td>
+	                            </th>
 	                            <td>
 	                                <?php echo $data['management'][$k]['title']; ?>
 	                            </td>
 	                        </tr>
 	                        <hr>
 	                        <tr>
-	                            <td>特点
+	                            <th>特点
 	                                <?php echo $k+1; ?>
-	                                详细介绍</td>
+	                                详细介绍</th>
 	                            <td>
 	                                <?php echo $data['management'][$k]['content']; ?>
 	                            </td>
@@ -242,6 +226,7 @@
 	                        <hr>
 	                    <?php } ?>
 	                </table>
+	                </div>
 			</div>
 		</div>
 		<div id='footer'>

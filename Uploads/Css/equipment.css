@@ -1,0 +1,64 @@
+.table tr{
+	width: 90%;
+
+}
+.table tr td{
+	width: 45%;	
+	margin-left: 20px;
+	margin-top: 13px;
+	float: left;
+
+}
+.title a:link,.title a:hover,.title a:visited{
+	text-decoration: none;
+	color: #2a8ba7;
+}
+.row a:link,.row a:hover,.row a:visited{
+	display: block;
+	width: 75px;
+	float: right;
+	margin-left:20px;
+	text-decoration: none;
+	color: #2a8ba7;
+}
+.row button{
+    display: block;
+    width: 75px;
+    height: 25px;
+    float: right;
+    margin-right: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+.row a:hover,.title a:hover{
+	color: orange;
+}
+.add{
+    margin:10px 3px; 
+    border-radius: 5px;
+    width: 95%;
+    text-align: center;
+    margin-top: 15px;
+    border: solid 2px #2a8ba7;
+}
+.add button{
+	display: block;
+    width: 75px;
+    height: 25px;
+    margin: 0 auto 0 auto;
+    border-radius: 4px;
+    text-align: center;
+}
+.add a{
+	text-decoration: none;
+	color: #2a8ba7;
+}
+form {
+	display: block;
+	width: 350px;
+	margin: 0 auto 0 auto;
+}
+#sear{
+	display: inline;
+    margin: 0 0;
+}

@@ -4,47 +4,35 @@
     <title>新闻</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/public.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/news.css" />
 </head>
 <body>
     <div class="contant">
-    <div class="row1">
-            <font color="#777777"><strong>用户名称：</strong></font>
-            <a href="__APP__/Admin/Index/studentdetail"><{$Think.session.username}></a>
-    </div>
-    <div class="row">
-            <table >
-                <div class='panel'>
-                    <div id='p_body'>
-                        <table>
-                            <tr>
-                                <td>
-                                    <a href="__URL__/add"><button>写通知</button></a>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-            </div>
-            </table>
+        <div class="title">
+                <font color="#777777"><strong>用户名称：</strong></font>
+                <a href="__APP__/Admin/Index/studentdetail"><{$Think.session.username}></a>
         </div>
         <div class="row">
-            <table >
-                <div class='panel'>
-                    
-                    <div id='p_body'>
+                <table class="table">
+                    <tr>
+                        <td>
+                            <button><a href="__URL__/add">写通知</a></button>
+                        </td>
+                    </tr>
+                </table>
+        </div>
+        <div class="row">
+            <table class="table">
                         <volist name = "data" id = "vo">
                 		    <tr>
-                		        <td>
-                                    <a href="__URL__/showitems/id/<{$vo.id}>">
-                                    <span><{$vo.title}>             <{$vo.date}>                <a href="__URL__/do_delete/id/<{$vo.id}>"><button>删除</button></a></span>
-                                    </a>
-                                <!-- </td>
-                                <td> --><!-- <span></span> --><!-- </td>
-                                <td> --></td>
+                                <td>
+                                    <a href="__URL__/showitems/id/<{$vo.id}>"> <{$vo.title}>  <{$vo.date}></a>
+                                </td>
+                		        <th>
+                                    <button><a href="__URL__/do_delete/id/<{$vo.id}>">删除</a></button>
+                                </th>
                             </tr>
                         </volist>
-                    </div>
-                </div>
             </table>
         </div>
     </div>

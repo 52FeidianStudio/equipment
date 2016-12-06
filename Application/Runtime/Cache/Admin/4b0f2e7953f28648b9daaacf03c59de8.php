@@ -66,7 +66,6 @@
                         <!-- 
                                 <div id="buttom" ><button type="submit"value="提交" />提交</button></div>
                              -->
-                            </form>
                         </div>
                     </div>
                 </div>

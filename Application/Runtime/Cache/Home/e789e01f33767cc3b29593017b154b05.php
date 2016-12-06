@@ -14,39 +14,29 @@
 		<script src="/zky/Public/Js/public.js"></script>
 		<script src="/zky/Public/Js/equipment.js"></script>
 		<script>
-			var arr=new Array();
-        	arr[0]="/zky/Public/Pic/top.jpg";
-       	    arr[1]="/zky/Public/Pic/lab.jpg";
-        	arr[2]="/zky/Public/Pic/Login.png";
-        	arr[3]="/zky/Public/Pic/phone.jpg";
-        	arr[4]="/zky/Public/Pic/aite.jpg";
-        	arr[5]="/zky/Public/Pic/top.jpg";
-        	arr[6]="/zky/Public/Pic/top.jpg";
-   			// 问题不在于ajax，而是点击按钮之后事件没有被触发
-			// 登录按钮ajax操作
 			function f1(){
 				$.post("/zky/index.php/Home/Login/do_login", {
 					username:$("#l_txtName").val(),
 					password:$("#l_txtPwd").val()
 				},function(text){
 					if(text=="pass"){
-						window.location.href="/zky/index.php/Home/Equipment/showclass";
+						window.location.href="/zky/index.php/Home/Inform/news";
 					}else{
 						$("#suggest").html(text);
 					}
 				});
 			}
-			function f3(){
-				$.post("/zky/index.php/Admin/Login/do_login", {
-					username:$("#a_txtName").val(),
-					password:$("#a_txtPwd").val()
-				},function(text){
-					if(text=="pass"){
-						window.location.href="/zky/index.php/Admin/Index/admin";
-					}else{
-						$("#suggest1").html(text);
-					}
-				});
+			function f2(){
+			$.post("/zky/index.php/Admin/Login/do_login", {
+				username:$("#a_txtName").val(),
+				password:$("#a_txtPwd").val()
+			},function(text){
+				if(text=="pass"){
+					window.location.href="/zky/index.php/Admin/Index/admin";
+				}else{
+					$("#suggest").html(text);
+				}
+			});
 			}
 		</script>
 	</head>
@@ -77,16 +67,13 @@
 	    </div>
 		
 		<!-- 结束登陆弹出窗口 -->
-
 		<!-- 管理登录 -->
 		<div id="AdminBox">
 	        <div class="row1">
 	            后台登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="a_closeBtn">×</a>
 	        </div>
 	        <form>
-		        <div class="row">
-		            <span id="suggest1">&nbsp;</span>
-		        </div>
+		        <span id="suggest"> &nbsp;</span>
 		        <div class="row">
 		            用户名: 
 		            	<span >
@@ -100,11 +87,11 @@
 		           	</span>
 		        </div>
 		        <div class="row">
-		            	<a href="#" id="a_loginbtn" onclick="f3();">登录</a>
+		            	<a href="#" id="a_loginbtn" onclick="f2();">登录</a>
 	        	</div>
 	        </form>
 	    </div>
-		<!-- 结束管理登录 -->
+	     <!-- 结束管理登录窗口 -->
 
 		<div id='header'>
 			<div class="contain" >
@@ -133,57 +120,57 @@
 				<div id="main_navi">
 						<a href="/zky/index.php/Home/Index/main">首页</a><span><span>--->仪器介绍</span> </span><br />
 				</div>
-				<?php if(($count) == "0"): ?><span>没有搜索到任何符合条件的仪器！</span> 
-					<?php else: ?>
-						<span>共有<?php echo ($count); ?>个符合条件的仪器</span> <br><br>
-						 <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="eqsl">
+					<div id="eqlist">
+					<div id="page">共有<?php echo ($count); ?>个仪器</div>
+					<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="eqsl">
 							<table >
-								<tr><br />
+								<tr>
 									<td><a href="/zky/index.php/Home/Equipment/showitems/id/<?php echo ($vo["id"]); ?>"><?php echo ($vo["ecname"]); ?></a></td>
 								</tr>
-								<tr>
-									<table>
-										<tr> <td><img src="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" alt="无图片" /></td>
-											 <td>
-											 	<table>
-											 		<tr> 
-											 			<th class = "lalala">设备编号：</th>   
-											 			<td class = "hahaha"><?php echo ($vo["eid"]); ?></td>  
-											 		</tr>
-													<tr> 
-														<th class = "lalala">存放地点：</th>   
-														<td class = "hahaha"><?php echo ($vo["elocation"]); ?></td> 
-													</tr>
-													<tr> 
-														<th class = "lalala">所属单位：</th>   
-														<td class = "hahaha"><?php echo ($vo["eblong"]); ?></td> 
-													</tr>
-													<tr>
-												    	<th class = "lalala">状　　态：</th>   
-												    	<td class = "hahaha"><?php echo ($vo["now"]); ?></td> 
-												    </tr>
-												</table>
-											 </td> 
-										</tr>
-										
-									</table>	
+							</table>
+							<table>
+								<tr> 
+									<td><img src="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" alt="无图片" /></td>
+									 <td>
+									 	<table id="showr">
+									 		<tr> 
+									 			<th class = "lalala">设备编号：</th>   
+									 			<td class = "hahaha"><?php echo ($vo["eid"]); ?></td>  
+									 		</tr>
+											<tr> 
+												<th class = "lalala">存放地点：</th>   
+												<td class = "hahaha"><?php echo ($vo["elocation"]); ?></td> 
+											</tr>
+											<tr> 
+												<th class = "lalala">所属单位：</th>   
+												<td class = "hahaha"><?php echo ($vo["eblong"]); ?></td> 
+											</tr>
+											<tr>
+										    	<th class = "lalala">状　　态：</th>   
+										    	<td class = "hahaha"><?php echo ($vo["now"]); ?></td> 
+										    </tr>
+										</table>
+									 </td> 
 								</tr>
+								
+							</table>	
+							<table style="height: 12px;width: 250px;margin: 0 auto 0 auto;">	
 								<tr>
-									<td style="text-indent: 20px;font-size: 15px;"><?php echo ($vo["introduction"]); ?></td>
+									<td style="text-indent: 20px;font-size: 10px;text-overflow :ellipsis;"><?php echo ($vo["introduction"]); ?></td>
 								</tr>
 							</table>
 						</div><?php endforeach; endif; else: echo "" ;endif; ?>
-             			<div id="page"><?php echo ($show); ?></div><?php endif; ?>
-    			
+					<div id="page"><?php echo ($show); ?></div>
+				</div>
 			</div>
 		</div>
 		<div id='footer'>
-			<div class="contain">
-				<p class="footer_p">通讯地址：华中农业大学主楼东附楼二楼</p>
-				<p class="footer_p">邮政编码：430070</p>
-				<hr />
-				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="#" id='admin' >管理</a></p>
-			</div>
+		<div class="contain">
+			<p class="footer_p">通讯地址：华中农业大学主楼东附楼二楼</p>
+			<p class="footer_p">邮政编码：430070</p>
+			<hr />
+			<p class="footer_p">@xxxxxxxxxxxxxx  <a href="#" id='admin' >管理</a></p>
 		</div>
+	</div>
 	</body>
 </html>

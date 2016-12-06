@@ -1,6 +1,0 @@
-[ 2016-11-18T19:06:26+08:00 ] ::1 /zky/index.php/Home/Equipment/search
-ERR: 非法操作:search
-
-[ 2016-11-18T19:16:38+08:00 ] ::1 /zky/index.php/Home/Equipment/search
-ERR: Think\Controller:assgin方法不存在！
-

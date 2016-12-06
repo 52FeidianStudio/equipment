@@ -8,57 +8,89 @@
 		<meta name="Copyright" content="网站版权" /> 
 		<meta name="keywords" content="网站关键字" />
 		<meta name="description" content="网站描述" />
-		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/main.css" />
+		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/add_answer.css" />
 		<link rel="stylesheet" href="/zky/Public/Css/public.css" />
 		<script type="text/javascript" src="/zky/Public/Js/jquery-3.1.1.min.js"></script>
 		<script src="/zky/Public/Js/public.js"></script>
 		<script>
-			var arr=new Array();
-        	arr[0]="/zky/Public/Pic/top.jpg";
-       	    arr[1]="/zky/Public/Pic/lab.jpg";
-        	arr[2]="/zky/Public/Pic/Login.png";
-        	arr[3]="/zky/Public/Pic/phone.jpg";
-        	arr[4]="/zky/Public/Pic/aite.jpg";
-        	arr[5]="/zky/Public/Pic/top.jpg";
-        	arr[6]="/zky/Public/Pic/top.jpg";
-   			// 问题不在于ajax，而是点击按钮之后事件没有被触发
-			// 登录按钮ajax操作
 			function f1(){
 				$.post("/zky/index.php/Home/Login/do_login", {
 					username:$("#l_txtName").val(),
 					password:$("#l_txtPwd").val()
 				},function(text){
 					if(text=="pass"){
-						window.location.href="/zky/index.php/Home/Message/add_answer";
+						window.location.href="/zky/index.php/Home/Inform/news";
 					}else{
 						$("#suggest").html(text);
 					}
 				});
 			}
+			function f2(){
+			$.post("/zky/index.php/Admin/Login/do_login", {
+				username:$("#a_txtName").val(),
+				password:$("#a_txtPwd").val()
+			},function(text){
+				if(text=="pass"){
+					window.location.href="/zky/index.php/Admin/Index/admin";
+				}else{
+					$("#suggest").html(text);
+				}
+			});
+			}
 		</script>
 	</head>
 	<body>
 		<!-- 这里是登录弹出窗口 -->
-		 <div id="LoginBox">
-        <div class="row1">
-            登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="l_closeBtn">×</a>
-        </div>
-        <div class="row">
-            用户名: <span class="inputBox">
-                <input type="text" id="l_txtName" placeholder="账号/邮箱" />
-            </span><a href="javascript:void(0)" title="提示" class="warning" id="l_warn">*</a>
-        </div>
-        <div class="row">
-            密&nbsp;&nbsp;&nbsp;&nbsp;码: <span class="inputBox">
-                <input type="text" id="l_txtPwd" placeholder="密码" />
-            </span><a href="javascript:void(0)" title="提示" class="warning" id="l_warn2">*</a>
-        </div>
-        <div class="row">
-            	<a href="#" id="l_loginbtn" onclick="f1();">登录</a>
-    	</div>
-    </div>
+		<div id="LoginBox">
+	        <div class="row1">
+	            登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="l_closeBtn">×</a>
+	        </div>
+	        <form>
+		        <span id="suggest"> &nbsp;</span>
+		        <div class="row">
+		            用户名: 
+		            	<span >
+		                	<input class="inputBox" type="text" id="l_txtName" placeholder="账号" />
+		            	</span>
+		        </div>
+		        <div class="row">
+		            密&nbsp;&nbsp;&nbsp;&nbsp;码:
+		            <span >
+		                <input class="inputBox" type="password" id="l_txtPwd" placeholder="密码" />
+		           	</span>
+		        </div>
+		        <div class="row">
+		            	<a href="#" id="l_loginbtn" onclick="f1();">登录</a>
+	        	</div>
+	        </form>
+	    </div>
 		
 		<!-- 结束登陆弹出窗口 -->
+		<!-- 管理登录 -->
+		<div id="AdminBox">
+	        <div class="row1">
+	            后台登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="a_closeBtn">×</a>
+	        </div>
+	        <form>
+		        <span id="suggest"> &nbsp;</span>
+		        <div class="row">
+		            用户名: 
+		            	<span >
+		                	<input class="inputBox" type="text" id="a_txtName" placeholder="管理员账号" />
+		            	</span>
+		        </div>
+		        <div class="row">
+		            密&nbsp;&nbsp;&nbsp;&nbsp;码:
+		            <span >
+		                <input class="inputBox" type="password" id="a_txtPwd" placeholder="密码" />
+		           	</span>
+		        </div>
+		        <div class="row">
+		            	<a href="#" id="a_loginbtn" onclick="f2();">登录</a>
+	        	</div>
+	        </form>
+	    </div>
+	     <!-- 结束管理登录窗口 -->
 		<div id='header'>
 			<div class="contain" >
 				<img src="/zky/Public/Pic/top.jpg" alt="" style="width:100%;" />
@@ -84,24 +116,27 @@
 		<div id='main'>
 			<div class="contain">
 				<div id="main_navi">
-						<a href="/zky/index.php/Home/Index/main">首页</a>---><a href="/zky/index.php/Home/Message/conmunication">讨论区</a>---> <a href="/zky/index.php/Home/Message/do_see"><?php echo ($data["title"]); ?></a> --> 回复 <br />
-						<?php if(($user) == "0"): ?><form action="/zky/index.php/Home/Message/do_addanswer/id/<?php echo ($data["id"]); ?>/address/<?php echo ($address); ?>" method = "post" id = "myForm">
+						<a href="/zky/index.php/Home/Index/main">首页</a><span>---></span><a href="/zky/index.php/Home/Message/conmunication">讨论区</a><span>---></span> <a href="/zky/index.php/Home/Message/do_see"><?php echo ($data["title"]); ?></a> <span>--> 回复</span> <br />
+						
+				</div>
+				<div id="show">
+					<?php if(($user) == "0"): ?><form action="/zky/index.php/Home/Message/do_addanswer/id/<?php echo ($data["id"]); ?>/address/<?php echo ($address); ?>" method = "post" id = "myForm">
 										<textarea name="content" id = "content"></textarea><br /><br />
 								        <input type="submit" name="submit" value="提交">
 								    </form>
 								<?php else: ?> 
-									<?php if(($user) == ""): ?><p><span>您还没有登录，登录之后才可以发表留言</span></p><br />
+									<?php if(($user) == ""): ?><p><span>您还没有登录，登录之后才可以回复</span></p><br />
 										<?php else: ?><span>您已经被管理员禁言</span><br /><?php endif; endif; ?>
 				</div>
 			</div>
 		</div>
-		<div id='footer'>
-			<div class="contain">
-				<p class="footer_p">通讯地址：华中农业大学主楼东附楼二楼</p>
-				<p class="footer_p">邮政编码：430070</p>
-				<hr />
-				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="/zky/index.php/Admin/Index/admin">管理</a></p>
-			</div>
+		<<div id='footer'>
+		<div class="contain">
+			<p class="footer_p">通讯地址：华中农业大学主楼东附楼二楼</p>
+			<p class="footer_p">邮政编码：430070</p>
+			<hr />
+			<p class="footer_p">@xxxxxxxxxxxxxx  <a href="#" id='admin' >管理</a></p>
 		</div>
+	</div>
 	</body>
 </html>

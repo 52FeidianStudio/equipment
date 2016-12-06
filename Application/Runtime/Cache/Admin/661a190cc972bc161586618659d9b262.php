@@ -25,8 +25,6 @@
                 <caption>所有管理员用户信息</caption>
                 <tr></tr>
                 <tr></tr>
-        <!-- <div class='panel'> -->
-            <!-- <div id='p_body'> -->
                     <tr>
                         <th>工号</th>
                         <th>用户名</th>

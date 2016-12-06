@@ -4,8 +4,8 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function main(){
-    	$m = M('User');
-    	$arr = $m->select();
+    	$m = M('Maincontent');
+    	$arr = $m-> where("id=1")->getField("content");
         /*方法功能：展示页面中的链接*/
         $n = M("Link");
         $arr0 = $n->where("class = 0")->select();

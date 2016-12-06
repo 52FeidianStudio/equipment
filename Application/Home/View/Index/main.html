@@ -12,15 +12,15 @@
 		<link rel="stylesheet" href="__PUBLIC__/Css/public.css" />
 		<script type="text/javascript" src="__PUBLIC__/Js/jquery-1.8.3.min.js"></script>
 		<script src="__PUBLIC__/Js/public.js"></script>
-<script>
+		<script>
 			var arr=new Array();
-        	arr[0]="__PUBLIC__/Pic/top.jpg";
-       	    arr[1]="__PUBLIC__/Pic/lab.jpg";
-        	arr[2]="__PUBLIC__/Pic/Login.png";
-        	arr[3]="__PUBLIC__/Pic/phone.jpg";
-        	arr[4]="__PUBLIC__/Pic/aite.jpg";
-        	arr[5]="__PUBLIC__/Pic/top.jpg";
-        	arr[6]="__PUBLIC__/Pic/top.jpg";
+        	arr[0]="__PUBLIC__/Pic/11.jpg";
+       	    arr[1]="__PUBLIC__/Pic/22.jpg";
+        	arr[2]="__PUBLIC__/Pic/33.jpg";
+        	arr[3]="__PUBLIC__/Pic/44.jpg";
+        	arr[4]="__PUBLIC__/Pic/55.png";
+        	arr[5]="__PUBLIC__/Pic/66.jpg";
+        	// arr[6]="__PUBLIC__/Pic/top.jpg";
    			// 问题不在于ajax，而是点击按钮之后事件没有被触发
 			// 登录按钮ajax操作
 			function f1(){
@@ -35,7 +35,21 @@
 					}
 				});
 			}
+			
 			function f2(){
+				$.post("__APP__/Admin/Login/do_login", {
+					username:$("#a_txtName").val(),
+					password:$("#a_txtPwd").val()
+				},function(text){
+					if(text=="pass"){
+						window.location.href="__APP__/Admin/Index/admin";
+					}else{
+						$("#suggest").html(text);
+					}
+				});
+			}
+
+			function f3(){
 				$.post("__APP__/Home/Register/do_register", {
 					username:$("#r_txtName").val(),
 					password:$("#r_txtPwd").val(),
@@ -47,18 +61,6 @@
 						window.location.href="__APP__/Home/Index/main";
 					}else{
 						$("#suggest2").html(text);
-					}
-				});
-			}
-			function f3(){
-				$.post("__APP__/Admin/Login/do_login", {
-					username:$("#a_txtName").val(),
-					password:$("#a_txtPwd").val()
-				},function(text){
-					if(text=="pass"){
-						window.location.href="__APP__/Admin/Index/admin";
-					}else{
-						$("#suggest").html(text);
 					}
 				});
 			}
@@ -113,10 +115,12 @@
 		           	</span>
 		        </div>
 		        <div class="row">
-		            	<a href="#" id="a_loginbtn" onclick="f3();">登录</a>
+		            	<a href="#" id="a_loginbtn" onclick="f2();">登录</a>
 	        	</div>
 	        </form>
 	    </div>
+	     <!-- 结束管理登录窗口 -->
+	      <!-- 注册窗口 -->
     <div id="registerBox">
 	        <div class="row1">
 	            注册<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="r_closeBtn">×</a>
@@ -155,7 +159,7 @@
 		            
 		        </div>
 		        <div class="row">
-		            <a href="#" id="r_loginbtn" onclick="f2();">注册</a>
+		            <a href="#" id="r_loginbtn" onclick="f3();">注册</a>
 		        </div>
 		    </form>
     	</div>
@@ -194,7 +198,7 @@
 					<div id='book'>
 						<h1>　仪器预约系统</h1>
 							<volist name = "data0" id = "vo">
-								<a href="<{$vo.address}>"　><{$vo.name}></a>
+								<h4><a href="<{$vo.address}>"　><{$vo.name}></a></h4>
 							</volist>
 						<!-- <br />
 						<span>注意：只有本校学生才能预约</span>
@@ -220,28 +224,20 @@
 			</div>
 			<div id='right'>
 					<div id='js'>
-						<img src="__PUBLIC__/Pic/aite.jpg" style="width:100%;height:100%;" alt="" id="obj" />
+						<img src="__PUBLIC__/Pic/11.jpg" style="width:100%;height:100%;" alt="" id="obj" />
 					</div>
 				<div id='r_message'>
-					<p>
-						随着学院建设的发展，植物科学技术学院大中型仪器设备的数量和档次都得到大幅度提高，总价值接近一千万元人民币，目前价值十万元人民币以上的仪器设备数量为15台。大型仪器主要有超高效液相质谱联用仪、气相色谱质谱联用仪、液相色谱仪、气相色谱仪和凝胶成像仪等。公平平台的宗旨是进一步改善学院贵重仪器设备的管理和维护、提高仪器设备利用率、促进开放共享，以更好地为学科建设、科学研究和人才培养服务。</p>
-						<br />
-						<p>
-						公共实验平台管理的仪器设备的使用、维护和维修进行统一管理和安排。公共平台的大型贵重仪器实行专管公用，提前预约制度，面向学院学校和社会开放服务，本学院服务优先。公共实验平台的硬件环境和软件条件的建设正在逐步开展和完善中，平台网站、平台技术团队也将随平台建设工作的开展一同发展和完善。
-					</p><br />
-					
-					
-				</div></div>
+					<{$data}>
+				</div>
 		</div>
 	</div>	
-	    <div id="cf"></div>
-		<div id='footer'>
-			<div class="contain">
-				<p class="footer_p">通讯地址：华中农业大学主楼东附楼二楼</p>
-				<p class="footer_p">邮政编码：430070</p>
-				<hr />
-				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="#" id='admin' >管理</a></p>
-			</div>
+	<div id='footer'>
+		<div class="contain">
+			<p class="footer_p">通讯地址：华中农业大学主楼东附楼二楼</p>
+			<p class="footer_p">邮政编码：430070</p>
+			<hr />
+			<p class="footer_p">@xxxxxxxxxxxxxx  <a href="#" id='admin' >管理</a></p>
 		</div>
+	</div>
 	</body>
 </html>

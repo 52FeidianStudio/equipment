@@ -15,7 +15,7 @@
         	$Page->setConfig('next','下一页');
         	$Page->setConfig('prev','上一页');
       	  	$show = $Page -> show();
-      		$arr = $n -> limit($Page->firstRow.','.$Page->listRows) -> order("id") -> relation(true) -> select();
+      		$arr = $n -> limit($Page->firstRow.','.$Page->listRows) -> order("id") -> relation(true) -> where($data) -> select();
         	$this -> assign("data",$arr);
         	$this -> assign('show',$show);
         	$this -> display();
@@ -108,6 +108,38 @@
 		}
 		public function add(){
 			$this -> display();
+		}
+		public function search(){
+			$n = D("Equipment");
+			$search = $_POST['search1'];
+			$condition = $_POST['condition'];
+			if($condition == '1'){
+				// 进行模糊查询，可以包含所有的选项
+				$data['ecname'] = array('like','%'.$search.'%');
+				$data['eid'] = $search;
+				$data['_logic'] = 'or';
+			}else if($condition == '2'){
+				$data['ecname'] = array('like','%'.$search.'%');
+			}else{
+				$data['eid'] = $search;
+			}
+			// var_dump(U(ACTION_NAME));
+			// $count = $n -> where($data) -> count();
+			// $Page = new\Think\Page($count,1);// 每页显示的记录数
+   //      	$Page->setConfig('next','下一页');
+   //      	$Page->setConfig('prev','上一页');
+   //      	$arr = $n -> limit($Page->firstRow.','.$Page->listRows) -> where($data) -> select();
+   //      	var_dump($Page);
+			// exit();
+   //    	  	$show = $Page -> show();//返回分页信息
+   //      	$this -> assign("data",$arr);
+   //      	$this -> assign("count",$count);
+   //      	$this -> assign('show',$show);
+			$count = $n -> where($data) -> count();
+			$arr = $n -> where($data) -> select();
+			$this -> assign("data",$arr);
+        	$this -> assign("count",$count);
+        	$this -> display();
 		}
 	}
 ?>

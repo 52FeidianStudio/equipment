@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/public.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/equipment.css" />
+</head>
+<body>
+    <div class="title">
+        <font color="#777777"><strong>用户名称：</strong></font>
+        <a href="__APP__/Admin/Message/studenttdetail"><{$Think.session.username}></a>
+    </div>
+    <div class="add">
+        
+    </div>
+    <div class="row">
+        <div>共有<{$count}>个仪器</div>
+        <volist name = "data" id = "vo">
+            <table>
+                <tr>
+                    <td><a href="__URL__/update/id/<{$vo.id}>"><button>修改</button></a></td>
+                    <td><a href="__URL__/delete/id/<{$vo.id}>"><button>删除</button></a></td>
+                    <th><a href="__URL__/add_management/id/<{$vo.id}>"><button>添加介绍</button></a></th>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td><a href="__PUBLIC__<{$vo.imagicaddress}>" target = "_blank"><img src="__PUBLIC__<{$vo.imagicaddress}>" class = "pic" alt="无图片"/></a></td>
+                </tr>
+                <tr>
+                    <td>仪器编号：</td>
+                    <td><{$vo.eid}></td>
+                </tr>
+                
+                <tr>
+                    <td>资产编号：</td>
+                    <td><{$vo.eoutid}></td>
+                </tr>
+                <tr>
+                    <td>名称：</td>
+                    <td><{$vo.ecname}></td>
+                </tr>
+                <tr>
+                    <td>型号：</td>
+                    <td><{$vo.etype}></td>
+                </tr>
+                <tr>
+                    <td>单价：</td>
+                    <td><{$vo.eprice}></td>
+                </tr>
+                <tr>
+                    <td>现状：</td>
+                    <td><{$vo.now}></td>
+                </tr>
+
+                <tr>
+                    <td>领用单位：</td>
+                    <td><{$vo.eblong}></td>
+                </tr>
+
+                <tr>
+                    <td>存放地：</td>
+                    <td><{$vo.elocation}></td>
+                </tr>
+                
+                <tr>
+                    <td>供应商：</td>
+                    <td><{$vo.ecmanufactor}></td>
+                </tr>
+               
+                <tr>
+                    <td>仪器简介</td>
+                    <td><{$vo.introduction}></td>
+                </tr>
+                <PHP>
+                    for($k = 0; $k < $vo['count'];$k++){
+                </PHP>
+                    <tr>
+                        <td>仪器特点
+                            <PHP>
+                                echo $k+1;
+                            </PHP>
+                        </td>
+                        <td>
+                            <PHP>
+                                echo $vo['management'][$k]['title'];
+                            </PHP>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>特点
+                            <PHP>
+                                echo $k+1;
+                            </PHP>
+                            详细介绍</td>
+                        <td>
+                            <PHP>
+                                echo htmlspecialchars_decode($vo['management'][$k]['content']);
+                            </PHP>
+                        </td>
+                    </tr>
+                <PHP>
+                    }
+                </PHP>
+            </table>
+        </volist>
+    <div id="page"><{$show}></div>
+    </div>
+</body>
+</html>

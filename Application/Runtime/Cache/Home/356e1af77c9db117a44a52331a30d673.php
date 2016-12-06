@@ -12,45 +12,35 @@
 		<link rel="stylesheet" type='text/css' href="/zky/Public/Css/equipiment.css" />
 		<script type="text/javascript" src="/zky/Public/Js/jquery-1.8.3.min.js"></script>
 		<script src="/zky/Public/Js/public.js"></script>
-		<!-- <script src="/zky/Public/Js/equipment.js"></script> -->
 		<script>
-			var arr=new Array();
 			function f1(){
 				$.post("/zky/index.php/Home/Login/do_login", {
 					username:$("#l_txtName").val(),
 					password:$("#l_txtPwd").val()
 				},function(text){
 					if(text=="pass"){
-						window.location.href="/zky/index.php/Home/Equipment/equipment";
+						window.location.href="/zky/index.php/Home/Inform/news";
 					}else{
 						$("#suggest").html(text);
 					}
 				});
 			}
-			function f3(){
-				$.post("/zky/index.php/Admin/Login/do_login", {
-					username:$("#a_txtName").val(),
-					password:$("#a_txtPwd").val()
-				},function(text){
-					if(text=="pass"){
-						window.location.href="/zky/index.php/Admin/Index/admin";
-					}else{
-						$("#suggest1").html(text);
-					}
-				});
+			function f2(){
+			$.post("/zky/index.php/Admin/Login/do_login", {
+				username:$("#a_txtName").val(),
+				password:$("#a_txtPwd").val()
+			},function(text){
+				if(text=="pass"){
+					window.location.href="/zky/index.php/Admin/Index/admin";
+				}else{
+					$("#suggest").html(text);
+				}
+			});
 			}
 		</script>
-		<style type="text/css">
-			.lalala{
-				font-size: 15px;
-			}
-			.hahaha{
-				font-size: 10px;
-			}
-		</style>
 	</head>
 	<body>
-	<!-- 这里是登录弹出窗口 -->
+		<!-- 这里是登录弹出窗口 -->
 		<div id="LoginBox">
 	        <div class="row1">
 	            登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="l_closeBtn">×</a>
@@ -76,17 +66,13 @@
 	    </div>
 		
 		<!-- 结束登陆弹出窗口 -->
-
 		<!-- 管理登录 -->
 		<div id="AdminBox">
 	        <div class="row1">
 	            后台登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="a_closeBtn">×</a>
 	        </div>
 	        <form>
-	        	<div class="row">
-		            <span id="suggest1">&nbsp;</span>
-		        </div>
-		        
+		        <span id="suggest"> &nbsp;</span>
 		        <div class="row">
 		            用户名: 
 		            	<span >
@@ -100,11 +86,11 @@
 		           	</span>
 		        </div>
 		        <div class="row">
-		            	<a href="#" id="a_loginbtn" onclick="f3();">登录</a>
+		            	<a href="#" id="a_loginbtn" onclick="f2();">登录</a>
 	        	</div>
 	        </form>
 	    </div>
-		<!-- 结束管理登录 -->
+	     <!-- 结束管理登录窗口 -->
 
 		<div id='header'>
 			<div class="contain" >
@@ -128,21 +114,21 @@
 				</div>
 			</div>
 		</div>
-		<div id='main' style="height:815px; ">
-			<div class="contain" style="height:815px; ">
+		<div id='main' style="height:885px; ">
+			<div class="contain" style="height:885px; ">
 				<div id="main_navi">
 						<a href="/zky/index.php/Home/Index/main">首页</a><span><span>--->仪器介绍</span> </span><br />
 				</div>
 				
 				<div id='sl_na'>
 					<div id='inclu'>
-						<a href="/zky/index.php/Home/Equipment/showclass/id/1" >质谱仪器</a>
-						<a href="/zky/index.php/Home/Equipment/showclass/id/2" >色谱仪器</a>
-						<a href="/zky/index.php/Home/Equipment/showclass/id/3" >光谱仪器</a>
+						<a href="/zky/index.php/Home/Equipment/showclass/id/1" ><p >质谱仪器</p></a>
+						<a href="/zky/index.php/Home/Equipment/showclass/id/2" ><p>色谱仪器</p></a>
+						<a href="/zky/index.php/Home/Equipment/showclass/id/3" ><p>光谱仪器</p></a>
 						<a href="/zky/index.php/Home/Equipment/showclass/id/4" >生化分离<br />分析仪器</a>
 						<a href="/zky/index.php/Home/Equipment/showclass/id/5" >显微镜<br />及图像仪</a>
 						<a href="/zky/index.php/Home/Equipment/showclass/id/6" >品质<br />分析仪器</a>
-						<a href="/zky/index.php/Home/Equipment/showclass/id/7" >其他</a>
+						<a href="/zky/index.php/Home/Equipment/showclass/id/7" ><p>其他</p></a>
 						
 						<form action="/zky/index.php/Home/Equipment/search" id="search" method="post">
 							<input type="text" style="obrde:r1px solid black;border-radius:3px;" name="search1"/>
@@ -154,40 +140,42 @@
 					</div>
 				</div>
 				<div id="eqlist">
+					<div id="page">共有<?php echo ($count); ?>个仪器</div>
 					<?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="eqsl">
 							<table >
-								<tr><br />
+								<tr>
 									<td><a href="/zky/index.php/Home/Equipment/showitems/id/<?php echo ($vo["id"]); ?>"><?php echo ($vo["ecname"]); ?></a></td>
 								</tr>
-								<tr>
-									<table>
-										<tr> <td><img src="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" alt="无图片" /></td>
-											 <td>
-											 	<table>
-											 		<tr> 
-											 			<th class = "lalala">设备编号：</th>   
-											 			<td class = "hahaha"><?php echo ($vo["eid"]); ?></td>  
-											 		</tr>
-													<tr> 
-														<th class = "lalala">存放地点：</th>   
-														<td class = "hahaha"><?php echo ($vo["elocation"]); ?></td> 
-													</tr>
-													<tr> 
-														<th class = "lalala">所属单位：</th>   
-														<td class = "hahaha"><?php echo ($vo["eblong"]); ?></td> 
-													</tr>
-													<tr>
-												    	<th class = "lalala">状　　态：</th>   
-												    	<td class = "hahaha"><?php echo ($vo["now"]); ?></td> 
-												    </tr>
-												</table>
-											 </td> 
-										</tr>
-										
-									</table>	
+							</table>
+							<table>
+								<tr> 
+									<td><img src="/zky/Uploads<?php echo ($vo["imagicaddress"]); ?>" alt="无图片" /></td>
+									 <td>
+									 	<table id="showr">
+									 		<tr> 
+									 			<th class = "lalala">设备编号：</th>   
+									 			<td class = "hahaha"><?php echo ($vo["eid"]); ?></td>  
+									 		</tr>
+											<tr> 
+												<th class = "lalala">存放地点：</th>   
+												<td class = "hahaha"><?php echo ($vo["elocation"]); ?></td> 
+											</tr>
+											<tr> 
+												<th class = "lalala">所属单位：</th>   
+												<td class = "hahaha"><?php echo ($vo["eblong"]); ?></td> 
+											</tr>
+											<tr>
+										    	<th class = "lalala">状　　态：</th>   
+										    	<td class = "hahaha"><?php echo ($vo["now"]); ?></td> 
+										    </tr>
+										</table>
+									 </td> 
 								</tr>
+								
+							</table>	
+							<table style="text-overflow :ellipsis;height: 12px;width: 250px;margin: 0 auto 0 auto;">	
 								<tr>
-									<td style="text-indent: 20px;font-size: 15px;"><?php echo ($vo["introduction"]); ?></td>
+									<td style="text-indent: 20px;font-size: 10px;"><?php echo ($vo["introduction"]); ?></td>
 								</tr>
 							</table>
 						</div><?php endforeach; endif; else: echo "" ;endif; ?>
@@ -196,7 +184,6 @@
 				</div>
 			</div>
 		</div>
-		<div id="cf" style="height:57px; "></div>
 		<div id='footer'>
 			<div class="contain">
 				<p class="footer_p">通讯地址：华中农业大学主楼东附楼二楼</p>
