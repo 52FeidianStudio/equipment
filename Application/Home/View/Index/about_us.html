@@ -119,21 +119,18 @@
 				<div id="main_navi">
 						&nbsp;<a href="__APP__/Home/Index/main">首页</a><span>--->关于我们</span>
 				</div>
-				<h1>　联系我们：</h1>
 				<ul id='show'>
 						<h2>　植科院公共平台目前的组织管理结构如下</h2>
-						<li><img src="__PUBLIC__/pic/na.png" alt="" />　<span class="na">平台主任  张椿雨</span></li>
-						<li><img src="__PUBLIC__/pic/job.png" alt="" />　<span class="inf">职责</span></li>
-						<br />
-						<li><img src="__PUBLIC__/pic/na.png" alt="" />　<span class="na">平台副主任 王学奎</span> </li>
-						<li><img src="__PUBLIC__/pic/job.png" alt="" />　<span class="inf">职责</span></li>
-						<br />
-						<li><img src="__PUBLIC__/pic/na.png" alt="" />　<span class="na">平台管理办公室主任 李凤凤</span></li>
-						<li><img src="__PUBLIC__/pic/job.png" alt="" />　<span class="inf">职责：仪器设备使用和维护，维持平台顺利运行和发展，提高平台技术水平</span></li>
-						<br /><br /><br />
-						<li class='add'><img src="__PUBLIC__/pic/address.png" alt="" />　联系地址:华中农业大学主楼东附楼二楼</li>
-						<li class='add'><img src="__PUBLIC__/pic/person.png" alt="" />　联系人：李凤凤</li>
-						<li class='add'><img src="__PUBLIC__/pic/zip_code.png" alt="" />　邮编：430070</li>
+						<volist name = "data0" id = "vo">
+							<li><img src="__PUBLIC__/pic/na.png" alt="" />　<span class="na"><{$vo.position}>  <{$vo.name}></span></li>
+							<li><img src="__PUBLIC__/pic/job.png" alt="" />　<span class="inf"><{$vo.responsibility}>	<{$vo.responsible}></span></li>
+							<br /><br /><br /><br />
+						</volist>
+						<volist name = "data1" id = "vo">
+							<li class='add'><img src="__PUBLIC__/pic/address.png" alt="" />　<{$vo.adress}>:<{$vo.addressname}></li>
+							<li class='add'><img src="__PUBLIC__/pic/person.png" alt="" />　<{$vo.people}>：<{$vo.peoplename}></li>
+							<li class='add'><img src="__PUBLIC__/pic/zip_code.png" alt="" />　<{$vo.post}>：<{$vo.postid}></li>
+						</volist>
 				</ul>
 			</div>
 		</div>

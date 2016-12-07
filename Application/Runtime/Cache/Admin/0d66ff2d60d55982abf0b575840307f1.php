@@ -16,7 +16,7 @@
                 <table class="table">
                     <tr>
                         <td>
-                            <button><a href="/zky/index.php/Admin/Inform/add">写通知</a></button>
+                            <a href="/zky/index.php/Admin/Inform/add"><button>写通知</button></a>
                         </td>
                     </tr>
                 </table>

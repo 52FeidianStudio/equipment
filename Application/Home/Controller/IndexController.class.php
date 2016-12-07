@@ -21,6 +21,12 @@ class IndexController extends Controller {
     }
 
     public function about_us(){
-    	$this -> display();
+        $n = M("Person");
+        $m = M("Others");
+        $arr0 = $n -> select();
+        $arr1 = $m -> select();
+        $this -> assign("data0",$arr0);
+        $this -> assign("data1",$arr1);
+        $this -> display();
     }
 }

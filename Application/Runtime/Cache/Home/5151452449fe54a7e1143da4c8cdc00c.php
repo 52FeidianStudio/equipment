@@ -121,7 +121,7 @@
 					</div>
 					<h2>最新消息</h2>
 					<div id="list">
-						<h3><?php echo ($data["title"]); ?></h3>
+						<h3><center><?php echo ($data["title"]); ?></center></h3>
 						<br /><br />
 						<p><?php echo ($data["content"]); ?></p>
 						<br />

@@ -118,21 +118,14 @@
 				<div id="main_navi">
 						&nbsp;<a href="/zky/index.php/Home/Index/main">首页</a><span>--->关于我们</span>
 				</div>
-				<h1>　联系我们：</h1>
 				<ul id='show'>
 						<h2>　植科院公共平台目前的组织管理结构如下</h2>
-						<li><img src="/zky/Public/pic/na.png" alt="" />　<span class="na">平台主任  张椿雨</span></li>
-						<li><img src="/zky/Public/pic/job.png" alt="" />　<span class="inf">职责</span></li>
-						<br />
-						<li><img src="/zky/Public/pic/na.png" alt="" />　<span class="na">平台副主任 王学奎</span> </li>
-						<li><img src="/zky/Public/pic/job.png" alt="" />　<span class="inf">职责</span></li>
-						<br />
-						<li><img src="/zky/Public/pic/na.png" alt="" />　<span class="na">平台管理办公室主任 李凤凤</span></li>
-						<li><img src="/zky/Public/pic/job.png" alt="" />　<span class="inf">职责：仪器设备使用和维护，维持平台顺利运行和发展，提高平台技术水平</span></li>
-						<br /><br /><br />
-						<li class='add'><img src="/zky/Public/pic/address.png" alt="" />　联系地址:华中农业大学主楼东附楼二楼</li>
-						<li class='add'><img src="/zky/Public/pic/person.png" alt="" />　联系人：李凤凤</li>
-						<li class='add'><img src="/zky/Public/pic/zip_code.png" alt="" />　邮编：430070</li>
+						<?php if(is_array($data0)): $i = 0; $__LIST__ = $data0;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><img src="/zky/Public/pic/na.png" alt="" />　<span class="na"><?php echo ($vo["position"]); ?>  <?php echo ($vo["name"]); ?></span></li>
+							<li><img src="/zky/Public/pic/job.png" alt="" />　<span class="inf"><?php echo ($vo["responsibility"]); ?>	<?php echo ($vo["responsible"]); ?></span></li>
+							<br /><br /><br /><br /><?php endforeach; endif; else: echo "" ;endif; ?>
+						<?php if(is_array($data1)): $i = 0; $__LIST__ = $data1;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class='add'><img src="/zky/Public/pic/address.png" alt="" />　<?php echo ($vo["adress"]); ?>:<?php echo ($vo["addressname"]); ?></li>
+							<li class='add'><img src="/zky/Public/pic/person.png" alt="" />　<?php echo ($vo["people"]); ?>：<?php echo ($vo["peoplename"]); ?></li>
+							<li class='add'><img src="/zky/Public/pic/zip_code.png" alt="" />　<?php echo ($vo["post"]); ?>：<?php echo ($vo["postid"]); ?></li><?php endforeach; endif; else: echo "" ;endif; ?>
 				</ul>
 			</div>
 		</div>
