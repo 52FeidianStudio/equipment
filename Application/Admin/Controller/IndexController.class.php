@@ -52,22 +52,18 @@
             $pass = $_POST['password'];
             $repass = $_POST['repassword'];
             if($pass != $repass){
-                $abc = "两次输入的密码不一致";
-                return $abc;
+                $this -> error("两次输入的密码不一致！");
             }
             if($_SESSION["password"] == $pass){
-                $abc = "您没有更改密码";
-                return $abc;
+                $this -> error("没有更改密码！");
             }else{
                 $n = M("User");
-                $n -> password = $pass;
-                $result = $n -> where($where)-> save();
+                // $n -> password = $pass;
+                $result = $n -> where("id = $where")-> data($_POST) -> save();
                 if($result){
-                    $abc = "更改成功！";
-                    return $abc;
+                    $this -> redirect("Index/admin_list");
                 }else{
-                    $abc = "更改失败！";
-                    return $abc;
+                    $this -> error("更改失败！");
                 }
             }
         }

@@ -38,6 +38,7 @@
 			$n = D('Equipment');
 			$arr = $n -> where("id = $where") -> relation(true) -> find();
 			$arr['management'][0]['content'] = htmlspecialchars_decode($arr['management'][0]['content']);
+			$this -> assign("where",$where);
 			$this -> assign("data",$arr);
 			$this -> display();
 		}

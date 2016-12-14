@@ -1,0 +1,38 @@
+table{
+    margin:10px 3px; 
+    width: 95%;
+    border: 2px solid #2a8ba7;
+    border-radius: 5px;
+}
+table a:link,table a:hover,table a:visited{
+    display: block;
+    float: left;
+    margin-left:20px;
+    text-decoration: none;
+    color: #2a8ba7;
+}
+table a:hover{
+    color: orange;
+}
+tr{
+width: 100%;
+}
+#contant{
+width: 70%;
+}
+td{
+padding: 10px;
+}
+td button,#buttom button{
+display: block;
+width: 75px;
+margin-right: 20px;
+border-radius: 4px;
+height: 25px;
+float: right;
+text-align: center;
+}
+.title a{
+text-decoration: none;
+color: #2a8ba7;
+}

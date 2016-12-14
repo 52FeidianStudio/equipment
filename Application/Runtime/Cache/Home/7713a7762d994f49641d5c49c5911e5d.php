@@ -26,18 +26,7 @@
 					}
 				});
 			}
-			function f2(){
-			$.post("/zky/index.php/Admin/Login/do_login", {
-				username:$("#a_txtName").val(),
-				password:$("#a_txtPwd").val()
-			},function(text){
-				if(text=="pass"){
-					window.location.href="/zky/index.php/Admin/Index/admin";
-				}else{
-					$("#suggest").html(text);
-				}
-			});
-			}
+			
 		</script>
 	</head>
 	<body>
@@ -49,13 +38,13 @@
 	        <form>
 		        <span id="suggest"> &nbsp;</span>
 		        <div class="row">
-		            用户名: 
+		            账号: 
 		            	<span >
 		                	<input class="inputBox" type="text" id="l_txtName" placeholder="账号" />
 		            	</span>
 		        </div>
 		        <div class="row">
-		            密&nbsp;&nbsp;&nbsp;&nbsp;码:
+		            密码:
 		            <span >
 		                <input class="inputBox" type="password" id="l_txtPwd" placeholder="密码" />
 		           	</span>
@@ -67,31 +56,7 @@
 	    </div>
 		
 		<!-- 结束登陆弹出窗口 -->
-		<!-- 管理登录 -->
-		<div id="AdminBox">
-	        <div class="row1">
-	            后台登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="a_closeBtn">×</a>
-	        </div>
-	        <form>
-		        <span id="suggest"> &nbsp;</span>
-		        <div class="row">
-		            用户名: 
-		            	<span >
-		                	<input class="inputBox" type="text" id="a_txtName" placeholder="管理员账号" />
-		            	</span>
-		        </div>
-		        <div class="row">
-		            密&nbsp;&nbsp;&nbsp;&nbsp;码:
-		            <span >
-		                <input class="inputBox" type="password" id="a_txtPwd" placeholder="密码" />
-		           	</span>
-		        </div>
-		        <div class="row">
-		            	<a href="#" id="a_loginbtn" onclick="f2();">登录</a>
-	        	</div>
-	        </form>
-	    </div>
-	     <!-- 结束管理登录窗口 -->
+	
 		<div id='header'>
 			<div class="contain" >
 				<img src="/zky/Public/Pic/top.jpg" alt="" style="width:100%;" />
@@ -117,7 +82,14 @@
 		<div id='main'>
 			<div class="contain">
 				<div id="main_navi">
-						<a href="/zky/index.php/Home/Index/main">首页</a><span><span>--->仪器介绍</span> </span><br />
+						<a href="/zky/index.php/Home/Index/main">首页</a><span>---></span> <a href="/zky/index.php/Home/Equipment/equipment">仪器介绍</a>  <span>---></span>
+							<?php if(($where) == "1"): ?><span>质谱仪器</span><?php endif; ?>
+							<?php if(($where) == "2"): ?><span>色谱仪器</span><?php endif; ?>
+							<?php if(($where) == "3"): ?><span>光谱仪器</span><?php endif; ?>
+							<?php if(($where) == "4"): ?><span>生化分离分析仪器</span><?php endif; ?>
+							<?php if(($where) == "5"): ?><span>显微镜及图像仪</span><?php endif; ?>
+							<?php if(($where) == "6"): ?><span>品质分析仪器</span><?php endif; ?>
+							<?php if(($where) == "7"): ?><span>其他</span><?php endif; ?><br />
 				</div>
 				<div id="eqListShow">
 	    			<table >
@@ -229,13 +201,6 @@
 	                </div>
 			</div>
 		</div>
-		<div id='footer'>
-			<div class="contain">
-				<p class="footer_p">通讯地址：华中农业大学主楼东附楼二楼</p>
-				<p class="footer_p">邮政编码：430070</p>
-				<hr />
-				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="#" id='admin' >管理</a></p>
-			</div>
-		</div>
+		
 	</body>
 </html>

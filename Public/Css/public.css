@@ -272,6 +272,7 @@
 				font-family: ;
 				font-size: 13px; ;
 				color:#004080;
+				text-align: center;
 			}
 			#footer a:link,#footer a:hover,#footer a:visited{
 				text-decoration: none;

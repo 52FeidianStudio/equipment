@@ -1,0 +1,98 @@
+[ 2016-12-13T22:24:18+08:00 ] ::1 /zky/index.php/Admin/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.023342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027409s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.018687s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.001737s ]
+SQL: SELECT `isTeacher` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.001005s ]
+SQL: SELECT `password` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT `name` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000911s ]
+SQL: SELECT `id` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000876s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.001962s ]
+
+[ 2016-12-13T22:24:19+08:00 ] ::1 /zky/index.php/Admin/Login/do_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007101s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.018970s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000832s ]
+SQL: SELECT `isTeacher` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000734s ]
+SQL: SELECT `password` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000836s ]
+SQL: SELECT `name` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000695s ]
+SQL: SELECT `id` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.002037s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( username = 2015317200402 ) LIMIT 1   [ RunTime:0.000890s ]
+
+[ 2016-12-13T22:24:46+08:00 ] ::1 /zky/index.php/Admin/Index/do_show
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004438s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_maincontent` [ RunTime:0.017315s ]
+SQL: UPDATE `tp_maincontent` SET `content`='<p><span style=\"font-size: 14px;\">随着学院建设的发展，植物科学技术学院大中型仪器设备的数量和档次都得到大幅度提高，总价值接近一千万元人民币，目前价值十万元人民币以上的仪器设备数量为15台。大型仪器主要有超高效液相质谱联用仪、气相色谱质谱联用仪、液相色谱仪、气相色谱仪和凝胶成像仪等。</span></p><p><span style=\"font-size: 14px;\">公平平台的宗旨是进一步改善学院贵重仪器设备的管理和维护、提高仪器设备利用率、促进开放共享，以更好地为学科建设、科学研究和人才培养服务。公共实验平台管理的仪器设备的使用、维护和维修进行统一管理和安排。公共平台的大型贵重仪器实行专管公用，提前预约制度，面向学院学校和社会开放服务，本学院服务优先。公共实验平台的硬件环境和软件条件的建设正在逐步开展和完善中，平台网站、平台技术团队也将随平台建设工作的开展一同发展和完善。<br/></span><br/><br/></p>' WHERE ( id = 1 ) [ RunTime:0.177186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003256s ]
+
+[ 2016-12-13T22:25:13+08:00 ] ::1 /zky/index.php/Admin/Index/do_show
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006418s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_maincontent` [ RunTime:0.023632s ]
+SQL: UPDATE `tp_maincontent` SET `content`='<p><span style=\"font-size: 14px;\">随着学院建设的发展，植物科学技术学院大中型仪器设备的数量和档次都得到大幅度提高，总价值接近一千万元人民币，目前价值十万元人民币以上的仪器设备数量为15台。大型仪器主要有超高效液相质谱联用仪、气相色谱质谱联用仪、液相色谱仪、气相色谱仪和凝胶成像仪等。</span></p><p><span style=\"font-size: 14px;\">公平平台的宗旨是进一步改善学院贵重仪器设备的管理和维护、提高仪器设备利用率、促进开放共享，以更好地为学科建设、科学研究和人才培养服务。公共实验平台管理的仪器设备的使用、维护和维修进行统一管理和安排。公共平台的大型贵重仪器实行专管公用，提前预约制度，面向学院学校和社会开放服务，本学院服务优先。公共实验平台的硬件环境和软件条件的建设正在逐步开展和完善中，平台网站、平台技术团队也将随平台建设工作的开展一同发展和完善。<br/></span><br/><br/></p>' WHERE ( id = 1 ) [ RunTime:0.001164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005193s ]
+
+[ 2016-12-13T22:25:19+08:00 ] ::1 /zky/index.php/Admin/Index/do_show
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004665s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_maincontent` [ RunTime:0.022159s ]
+SQL: UPDATE `tp_maincontent` SET `content`='<p><span style=\"font-size: 14px;\">随着学院建设的发展，植物科学技术学院大中型仪器设备的数量和档次都得到大幅度提高，总价值接近一千万元人民币，目前价值十万元人民币以上的仪器设备数量为15台。大型仪器主要有超高效液相质谱联用仪、气相色谱质谱联用仪、液相色谱仪、气相色谱仪和凝胶成像仪等。</span></p><p><span style=\"font-size: 14px;\">公平平台的宗旨是进一步改善学院贵重仪器设备的管理和维护、提高仪器设备利用率、促进开放共享，以更好地为学科建设、科学研究和人才培养服务。公共实验平台管理的仪器设备的使用、维护和维修进行统一管理和安排。公共平台的大型贵重仪器实行专管公用，提前预约制度，面向学院学校和社会开放服务，本学院服务优先。公共实验平台的硬件环境和软件条件的建设正在逐步开展和完善中，平台网站、平台技术团队也将随平台建设工作的开展一同发展和完善。<br/></span><br/><br/></p>' WHERE ( id = 1 ) [ RunTime:0.001080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004708s ]
+
+[ 2016-12-13T22:25:24+08:00 ] ::1 /zky/index.php/Admin/Index/do_show
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008779s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_maincontent` [ RunTime:0.021799s ]
+SQL: UPDATE `tp_maincontent` SET `content`='<p><span style=\"font-size: 14px;\">随着学院建设的发展，植物科学技术学院大中型仪器设备的数量和档次都得到大幅度提高，总价值接近一千万元人民币，目前价值十万元人民币以上的仪器设备数量为15台。大型仪器主要有超高效液相质谱联用仪、气相色谱质谱联用仪、液相色谱仪、气相色谱仪和凝胶成像仪等。</span></p><p><span style=\"font-size: 14px;\">公平平台的宗旨是进一步改善学院贵重仪器设备的管理和维护、提高仪器设备利用率、促进开放共享，以更好地为学科建设、科学研究和人才培养服务。公共实验平台管理的仪器设备的使用、维护和维修进行统一管理和安排。公共平台的大型贵重仪器实行专管公用，提前预约制度，面向学院学校和社会开放服务，本学院服务优先。公共实验平台的硬件环境和软件条件的建设正在逐步开展和完善中，平台网站、平台技术团队也将随平台建设工作的开展一同发展和完善。<br/></span><br/>在</p>' WHERE ( id = 1 ) [ RunTime:0.001630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004142s ]
+
+[ 2016-12-13T22:27:15+08:00 ] ::1 /zky/index.php/Admin/Index/do_show
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.008568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010568s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_maincontent` [ RunTime:0.019475s ]
+SQL: UPDATE `tp_maincontent` SET `content`='<p><span style=\"font-size: 14px;\">随着学院建设的发展，植物科学技术学院大中型仪器设备的数量和档次都得到大幅度提高，总价值接近一千万元人民币，目前价值十万元人民币以上的仪器设备数量为15台。大型仪器主要有超高效液相质谱联用仪、气相色谱质谱联用仪、液相色谱仪、气相色谱仪和凝胶成像仪等。</span></p><p><span style=\"font-size: 14px;\">公平平台的宗旨是进一步改善学院贵重仪器设备的管理和维护、提高仪器设备利用率、促进开放共享，以更好地为学科建设、科学研究和人才培养服务。公共实验平台管理的仪器设备的使用、维护和维修进行统一管理和安排。公共平台的大型贵重仪器实行专管公用，提前预约制度，面向学院学校和社会开放服务，本学院服务优先。公共实验平台的硬件环境和软件条件的建设正在逐步开展和完善中，平台网站、平台技术团队也将随平台建设工作的开展一同发展和完善。<br/></span><br/><br/></p>' WHERE ( id = 1 ) [ RunTime:0.001585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.006681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007454s ]
+
+[ 2016-12-13T22:27:33+08:00 ] ::1 /zky/index.php/Admin/Index/do_show
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005452s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\zky\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_maincontent` [ RunTime:0.016378s ]
+SQL: UPDATE `tp_maincontent` SET `content`='<p><span style=\"font-size: 14px;\">随着学院建设的发展，植物科学技术学院大中型仪器设备的数量和档次都得到大幅度提高，总价值接近一千万元人民币，目前价值十万元人民币以上的仪器设备数量为15台。大型仪器主要有超高效液相质谱联用仪、气相色谱质谱联用仪、液相色谱仪、气相色谱仪和凝胶成像仪等。</span></p><p><span style=\"font-size: 14px;\">公平平台的宗旨是进一步改善学院贵重仪器设备的管理和维护、提高仪器设备利用率、促进开放共享，以更好地为学科建设、科学研究和人才培养服务。公共实验平台管理的仪器设备的使用、维护和维修进行统一管理和安排。公共平台的大型贵重仪器实行专管公用，提前预约制度，面向学院学校和社会开放服务，本学院服务优先。公共实验平台的硬件环境和软件条件的建设正在逐步开展和完善中，平台网站、平台技术团队也将随平台建设工作的开展一同发展和完善。<br/></span><br/><span style=\"font-family: 宋体, SimSun;\"></span><br/></p>' WHERE ( id = 1 ) [ RunTime:0.001396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003907s ]
+
+[ 2016-12-13T22:50:40+08:00 ] ::1 /zky/index.php/Home/Equipment/showitems/id/1
+ERR: XML标签语法错误 : name = "where" value = 1
+
+[ 2016-12-13T23:00:23+08:00 ] ::1 /zky/index.php/Home/Equipment/showitems/id/1
+ERR: XML标签语法错误 : name = "where" value = 2"
+

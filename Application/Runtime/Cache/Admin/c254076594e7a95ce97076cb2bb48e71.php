@@ -41,7 +41,7 @@
                         data: param,
                         success: function(data){
                             console.log(data);
-                            window.location.href="/zky/index.php/Admin/Index/admin";
+                            window.location.href="/zky/index.php/Admin/Index/index_admin";
                         },
                         error: function(xhr){
                             console.log(xhr);

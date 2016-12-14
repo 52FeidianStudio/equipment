@@ -93,8 +93,14 @@
                         <td><{$Think.session.username}></td>
                     </tr>
                     <tr>
+                        <td>                     
+                            <form action="__URL__/dopass_update" method = "post">
+                            <input type="type" name="id" value = "<{$Think.session.id}>" hidden>
+                        </td>
                         <td>请输入更改之后的密码：</td>
-                        <td><form action="__URL__/dopass_update" method = "post"><input type="text" name = "password"></td>
+                        <td>
+                            <input type="text" name = "password">
+                        </td>
                     </tr>
                     <tr>
                         <td>请重新输入密码：</td>

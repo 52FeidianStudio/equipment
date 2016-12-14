@@ -4,17 +4,19 @@
     <title></title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/public.css" />
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/conmmunication.css" />
 </head>
-<body>
+<body> 
+    <div class="title"><font><caption>当前登录管理员</caption></font></div>
      <table>
-        <caption>当前登录管理员</caption>
+       
          <tr></tr>
         <tr></tr>
         <div class='panel'>
             <div id='p_body'>
                 <tr>
-                    <td><{$Think.session.name}> &nbsp;&nbsp;&nbsp;&nbsp;
-                    <{$Think.session.username}> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <td>&nbsp;&nbsp;&nbsp;&nbsp;<{$Think.session.name}> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <{$Think.session.username}> 
                     <a href="__APP__/Admin/Message/studenttail/id/<{$vo.id}>">详细信息</a>  &nbsp;&nbsp;&nbsp;&nbsp;   
                     <a href="__URL__/pass_update">修改密码</a></td>
                 </tr>
@@ -22,29 +24,23 @@
         </div>
     </table>
     <table>
-                <caption>所有管理员用户信息</caption>
-                <tr></tr>
-                <tr></tr>
-                    <tr>
-                        <th>工号</th>
-                        <th>用户名</th>
-                    </tr>
-                <volist name = "data" id = "vo">
-                    <tr>
-                        <th><{$vo.username}></th>
-                        <th><{$vo.name}></th>
-                        <th><a href="__APP__/Admin/Message/studenttail/id/<{$vo.id}>">详细信息</a></th>
-                        <eq name="Think.session.name" value="2015317200402">
-                            <th><a href="__URL__/unaddAdmin/id/<{$vo.id}>">撤销管理员</a></th>
-                        </eq>
-                        <eq name="Think.session.name" value="">
-                            <th><a href="__URL__/unaddAdmin/id/<{$vo.id}>">撤销管理员</a></th>
-                        </eq>
-                        </td>
-                    </tr>
-                </volist>
-            <!-- </div> -->
-        <!-- </div> -->
+        <caption>所有管理员用户信息</caption>
+        <tr></tr>
+        <tr></tr>
+            <tr>
+                <th>工号</th>
+                <th>用户名</th>
+            </tr>
+        <volist name = "data" id = "vo">
+            <tr>
+                <th><{$vo.username}></th>
+                <th><{$vo.name}></th>
+                <th><a href="__APP__/Admin/Message/studenttail/id/<{$vo.id}>">详细信息</a></th>
+                <neq name="vo.id" value="Think.session.">
+                    <th><a href="__URL__/unaddAdmin/id/<{$vo.id}>">撤销管理员</a></th>
+                </eq>
+            </tr>
+        </volist>
     </table>
         <table>
                 <caption>所有普通用户信息</caption>

@@ -20,6 +20,9 @@
         	arr[3]="/zky/Public/Pic/44.jpg";
         	arr[4]="/zky/Public/Pic/55.png";
         	arr[5]="/zky/Public/Pic/66.jpg";
+        	arr[6]="/zky/Public/Pic/77.jpg";
+        	arr[7]="/zky/Public/Pic/88.jpg";
+        	arr[8]="/zky/Public/Pic/99.jpg";
         	// arr[6]="/zky/Public/Pic/top.jpg";
    			// 问题不在于ajax，而是点击按钮之后事件没有被触发
 			// 登录按钮ajax操作
@@ -77,13 +80,13 @@
 	        <form>
 		        <span id="suggest"> &nbsp;</span>
 		        <div class="row">
-		            用户名: 
+		            账号: 
 		            	<span >
 		                	<input class="inputBox" type="text" id="l_txtName" placeholder="账号" />
 		            	</span>
 		        </div>
 		        <div class="row">
-		            密&nbsp;&nbsp;&nbsp;&nbsp;码:
+		            密码:
 		            <span >
 		                <input class="inputBox" type="password" id="l_txtPwd" placeholder="密码" />
 		           	</span>
@@ -103,13 +106,13 @@
 	        <form>
 		        <span id="suggest"> &nbsp;</span>
 		        <div class="row">
-		            用户名: 
+		            账号: 
 		            	<span >
 		                	<input class="inputBox" type="text" id="a_txtName" placeholder="管理员账号" />
 		            	</span>
 		        </div>
 		        <div class="row">
-		            密&nbsp;&nbsp;&nbsp;&nbsp;码:
+		            密码:
 		            <span >
 		                <input class="inputBox" type="password" id="a_txtPwd" placeholder="密码" />
 		           	</span>
@@ -194,7 +197,7 @@
 			<div class="contain">
 				<div id='left'>
 					<div id='book'>
-						<h1>　仪器预约系统</h1>
+						<h2>　仪器预约系统</h2>
 							<?php if(is_array($data0)): $i = 0; $__LIST__ = $data0;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><h4><a href="<?php echo ($vo["address"]); ?>"　><?php echo ($vo["name"]); ?></a></h4><?php endforeach; endif; else: echo "" ;endif; ?>
 						<!-- <br />
 						<span>注意：只有本校学生才能预约</span>
@@ -226,7 +229,8 @@
 			<p class="footer_p">通讯地址：华中农业大学主楼东附楼二楼</p>
 			<p class="footer_p">邮政编码：430070</p>
 			<hr />
-			<p class="footer_p">@xxxxxxxxxxxxxx  <a href="#" id='admin' >管理</a></p>
+			<p class="footer_p"> @技术支持： 华中农业大学<a href="http://www.52feidian.com/index.html"> 沸点工作室</a> 
+						<a href="#" id='admin' >管理</a></p>
 		</div>
 	</div>
 	</body>

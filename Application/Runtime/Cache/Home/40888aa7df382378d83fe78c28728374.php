@@ -4,10 +4,6 @@
 		<title>关于我们</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta http-equiv="Content-Language" content="zh-CN" />
-		<meta name="Author" content="网页作者" /> 
-		<meta name="Copyright" content="网站版权" /> 
-		<meta name="keywords" content="网站关键字" />
-		<meta name="description" content="网站描述" />
 		<link rel="stylesheet" href="/zky/Public/Css/public.css" />
 		<link rel="stylesheet" href="/zky/Public/Css/about_us.css" />
 		<script type="text/javascript" src="/zky/Public/Js/jquery-3.1.1.min.js"></script>
@@ -25,18 +21,7 @@
 					}
 				});
 			}
-			function f2(){
-			$.post("/zky/index.php/Admin/Login/do_login", {
-				username:$("#a_txtName").val(),
-				password:$("#a_txtPwd").val()
-			},function(text){
-				if(text=="pass"){
-					window.location.href="/zky/index.php/Admin/Index/admin";
-				}else{
-					$("#suggest").html(text);
-				}
-			});
-			}
+			
 		</script>
 	</head>
 	<body>
@@ -48,13 +33,13 @@
 	        <form>
 		        <span id="suggest"> &nbsp;</span>
 		        <div class="row">
-		            用户名: 
+		            账号: 
 		            	<span >
 		                	<input class="inputBox" type="text" id="l_txtName" placeholder="账号" />
 		            	</span>
 		        </div>
 		        <div class="row">
-		            密&nbsp;&nbsp;&nbsp;&nbsp;码:
+		            密码:
 		            <span >
 		                <input class="inputBox" type="password" id="l_txtPwd" placeholder="密码" />
 		           	</span>
@@ -66,31 +51,7 @@
 	    </div>
 		
 		<!-- 结束登陆弹出窗口 -->
-		<!-- 管理登录 -->
-		<div id="AdminBox">
-	        <div class="row1">
-	            后台登录<a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="a_closeBtn">×</a>
-	        </div>
-	        <form>
-		        <span id="suggest"> &nbsp;</span>
-		        <div class="row">
-		            用户名: 
-		            	<span >
-		                	<input class="inputBox" type="text" id="a_txtName" placeholder="管理员账号" />
-		            	</span>
-		        </div>
-		        <div class="row">
-		            密&nbsp;&nbsp;&nbsp;&nbsp;码:
-		            <span >
-		                <input class="inputBox" type="password" id="a_txtPwd" placeholder="密码" />
-		           	</span>
-		        </div>
-		        <div class="row">
-		            	<a href="#" id="a_loginbtn" onclick="f2();">登录</a>
-	        	</div>
-	        </form>
-	    </div>
-	     <!-- 结束管理登录窗口 -->
+		
 		<div id='header'>
 			<div class="contain" >
 				<img src="/zky/Public/Pic/top.jpg" alt="" style="width:100%;" />
@@ -122,20 +83,13 @@
 						<h2>　植科院公共平台目前的组织管理结构如下</h2>
 						<?php if(is_array($data0)): $i = 0; $__LIST__ = $data0;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><img src="/zky/Public/pic/na.png" alt="" />　<span class="na"><?php echo ($vo["position"]); ?>  <?php echo ($vo["name"]); ?></span></li>
 							<li><img src="/zky/Public/pic/job.png" alt="" />　<span class="inf"><?php echo ($vo["responsibility"]); ?>	<?php echo ($vo["responsible"]); ?></span></li>
-							<br /><br /><br /><br /><?php endforeach; endif; else: echo "" ;endif; ?>
+							<br /><br/><?php endforeach; endif; else: echo "" ;endif; ?><br>
 						<?php if(is_array($data1)): $i = 0; $__LIST__ = $data1;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class='add'><img src="/zky/Public/pic/address.png" alt="" />　<?php echo ($vo["adress"]); ?>:<?php echo ($vo["addressname"]); ?></li>
 							<li class='add'><img src="/zky/Public/pic/person.png" alt="" />　<?php echo ($vo["people"]); ?>：<?php echo ($vo["peoplename"]); ?></li>
 							<li class='add'><img src="/zky/Public/pic/zip_code.png" alt="" />　<?php echo ($vo["post"]); ?>：<?php echo ($vo["postid"]); ?></li><?php endforeach; endif; else: echo "" ;endif; ?>
 				</ul>
 			</div>
 		</div>
-		<div id='footer'>
-			<div class="contain">
-				<p class="footer_p">通讯地址：华中农业大学主楼东附楼二楼</p>
-				<p class="footer_p">邮政编码：430070</p>
-				<hr />
-				<p class="footer_p">@xxxxxxxxxxxxxx  <a href="#" id='admin' >管理</a></p>
-			</div>
-		</div>
+		
 	</body>
 </html>
